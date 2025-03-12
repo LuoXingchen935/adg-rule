@@ -1,4 +1,4 @@
-# Update time: 2025-03-12 09:19:29
+# Update time: 2025-03-12 16:23:32
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -54,14 +54,12 @@
 ||fpb*.51edu.com^
 ||static*.365inews.com^
 ||ysdm*.ys137.com.cn^
-||ac*.pingguolv.com^
 ||107.167.22.*.gif
 ||38.33.15.*.gif
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||tupian888.*.bcebos.com^
 ||gcw*.2liang.cn^
 ||impservice*.yodao.com^
-||ac*.faxingchina.com^
 ||fpb1.chinacar.
 ||ax.*.ifeng.com^
 ||121.204.246.*.gif
@@ -186,7 +184,6 @@ analytics-*.aasaam.com
 ||adservice.google.
 ||counter*.stat.ovh^
 |load.sst.
-||mssdk*.tiktokw.us^
 ||ads.livetv*.me^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
@@ -194,8 +191,6 @@ analytics-*.aasaam.com
 ||prebid-*.rubiconproject.com^
 ||sgtm.fashionunited.
 ||partner.superbahisaffiliates*.com^
-||mon-*.lemon8-app.us^
-||mon-*.lemon8-app.com^
 ||v.tzbox*.xyz^
 ||telemetry*.transcend.io^
 ||cnt.vivatube.
@@ -207,7 +202,6 @@ analytics-*.aasaam.com
 ||gonews*.net^
 ||real*traf.ru^
 ||wa.gmx.
-||analytics*.clickdimensions.com^
 ||pxl-*.ozone.ru^
 ||cnt.yeptube.
 ||putrr*.com^
@@ -244,7 +238,6 @@ analytics-*.aasaam.com
 ||tracking*.euroads.fi^
 ||a*.smlog.co.kr^
 ||track.zalando.
-||mcs-*.tiktok.com^
 ||seller-log-collector.shopee.
 ||advert*.livesportmedia.eu^
 ||subnewss*.net^
@@ -253,7 +246,6 @@ analytics-*.aasaam.com
 ||medialand.
 ||track.*.roku.com^
 ||rusrestbest.
-||mssdk*.tiktokv.us^
 ||v.newsportal*.ru^
 ||get-me-wow.
 ||ubt.tracking.shopee.
@@ -261,7 +253,6 @@ analytics-*.aasaam.com
 ||videoclik.
 ||poshalim.
 ||pixel-*.rubiconproject.com^
-||mcs-*.lemon8-app.com^
 ||track.tiara.
 ||stlog*-local.kakao.com^
 ||orbit*.lun.ua^
@@ -272,7 +263,6 @@ analytics-*.aasaam.com
 ||letssex.
 ||sonar*.xy.fbcdn.net^
 ||cl*.k5a.io^
-||mcs-*.lemon8-app.us^
 ||analytics.ahrefs.
 ||s*.adduplex.com^
 ||collector-*.tvsquared.com^
@@ -285,8 +275,6 @@ analytics-*.aasaam.com
 ||broredir*s.site^
 ||admulti.
 ||report.*.gbqofs.io^
-||mssdk*.tiktok.com^
-||mssdk*.tiktokv.eu^
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
@@ -306,7 +294,6 @@ analytics-*.aasaam.com
 ||23.109.82.
 ||u*.takru.com^
 ||www.fuze-sea*.xyz^
-||browser-intake-*-datadoghq.com^
 ||metrics*.fitanalytics.com^
 ||edgetrksvc.ebay.
 ||eclog*-*.cafe24.com^
@@ -335,7 +322,6 @@ analytics-*.aasaam.com
 ||log*.zijieapi.com^
 ||icq-window.
 ||icqwindow.
-||mssdk*.capcutapi.com^
 ||cnt.winporn.
 ||t*.zcvh.net^
 ||ulog*.kwai-pro.com^
@@ -376,7 +362,6 @@ analytics-*.aasaam.com
 ||stat.tiara.
 ||rotator.
 ||pixel-*.convertagain.net^
-||analytics*.prezly.com^
 ||collector.xhamster*.
 ||collector*.ex.co^
 ||poptraf.
@@ -391,6 +376,7 @@ analytics-*.aasaam.com
 ||w*.*skwai.com^
 ||analytics-*-nfl.yinzcam.com^
 ||host*.carl-ras.dk^
+||mssdk*.tiktokw.us^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||ads*.dfiles.ru^
 ||log*-normal-*.tiktokv.us^
@@ -405,7 +391,10 @@ analytics-*.aasaam.com
 ||datacollect*.abtasty.com^
 ||zazgiyoh*.world^
 ||collector-*.us.tvsquared.com^
+||mon-*.lemon8-app.us^
+||mon-*.lemon8-app.com^
 ||zazgbqg*.xyz^
+||browser-intake-*-datadoghq.com^
 ||log*-misc-lf.amemv.com^
 ||v*.denakop.com^
 ||ads*.zijieapi.com^
@@ -419,6 +408,7 @@ analytics-*.aasaam.com
 ||n*adserv.com^
 ||apple.com-*.live^
 ||zbc6hy*.live^
+||analytics*.clickdimensions.com^
 ||bi-eventtracker-*.amazonaws.com^
 ||mon*-*.tiktokv.us^
 ||batchlogging*-noneu.truecaller.com^
@@ -443,6 +433,7 @@ analytics-*.aasaam.com
 ||events-api*.outfit7.com^
 ||mon-*.tiktokv.com^
 ||display-ad-*.kgslb.com^
+||ac*.pingguolv.com^
 ||acr-*-prd.samsungcloud.tv^
 ||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
@@ -456,6 +447,7 @@ analytics-*.aasaam.com
 ||ads*-normal*.zijieapi.com^
 ||beacons*.gvt3.com^
 ||js.*2023*.xyz^
+||ac*.faxingchina.com^
 ||flurry.agentportal.*.yahoodns.net^
 ||ads.*.kugou.com^
 ||api-*.bidmachine.io^
@@ -468,6 +460,7 @@ analytics-*.aasaam.com
 ||log*.byteoversea.com^
 ||ad.*.xiaomi.com^
 ||mon*-misc-lf.fqnovel.com^
+||mssdk*.capcutapi.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
 ||player-feedback*.glomex.*^
@@ -483,6 +476,7 @@ analytics-*.aasaam.com
 ||prod.*.analytics.console.aws.a2z.com^
 ||api*.amplitude.com^
 ||app-analytics-*.snapchat.com^
+||mcs-*.tiktok.com^
 ||bjkedv*.xyz^
 ||matomo.*.vn^
 ||p26.gejulm*.com^
@@ -491,6 +485,7 @@ analytics-*.aasaam.com
 ||appanalysis*.banggood.com^
 ||device-metrics-*.amazon.com^
 ||maas-*.phunware.com^
+||mssdk*.tiktokv.us^
 ||hstats*.hepsiburada.com^
 ||zabdybod*.club^
 ||ads*.depositfiles.com^
@@ -510,6 +505,7 @@ analytics-*.aasaam.com
 ||163487*.qmgmw.com^
 ||geoloc*.geostats.ovh^
 ||tblog-*.kgslb.com^
+||mcs-*.lemon8-app.com^
 ||zahrvfbd*.xyz^
 ||log-*.zadn.vn^
 ||zcchyr*.xyz^
@@ -521,6 +517,7 @@ analytics-*.aasaam.com
 ||logger-*.dailymotion.com^
 ||adsfilebssdlbig.*.kugou.com^
 ||mautic.*.vn^
+||mcs-*.lemon8-app.us^
 ||aj1*.xyz^
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
@@ -538,12 +535,15 @@ analytics-*.aasaam.com
 ||thezbpe5*.xyz^
 ||eum*.instana.io^
 ||fads*s.com^
+||mssdk*.tiktok.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||log*-normal-lq.toutiaoapi.com^
 ||quangcao-*.epicdn.me^
 ||aem-collector-*.kgslb.com^
+||mssdk*.tiktokv.eu^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
+||analytics*.prezly.com^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||flurry.agentportal-*.yahoodns.net^
@@ -553,11 +553,26 @@ analytics-*.aasaam.com
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
 @@||adobeid-*.services.adobe.com^
-||142.91.159.
 ||fapnado.*.php|
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
+||matt.mercadolibre.
+||sta.extreme-down.
+%2Fopen.aspx%3F
+||stats.zone-annuaire.
+||df.infra.sz.shopee.
+%2Frw%2Fbeacon_
+||centent.streamp1ay.
+||onetrust.
+||142.91.159.
+||sta.zone-telechargement.
+||acookie.*.gif?
+||sta.wawacity.
+||analytics.ticketmaster.
+||cintent.streanplay.
+%2Fevent.gif%3F
+||df.infra.shopee.
 ||adx.
 ||adx-
 ||adsfs.
@@ -623,6 +638,7 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
+@@||tongji.*kuwo.cn^
 ||icast.
 ||gg.
 ||union.
@@ -635,22 +651,6 @@ advertisers.js|
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-@@||tongji.*kuwo.cn^
-||matt.mercadolibre.
-||sta.extreme-down.
-%2Fopen.aspx%3F
-||stats.zone-annuaire.
-||df.infra.sz.shopee.
-%2Frw%2Fbeacon_
-||centent.streamp1ay.
-||onetrust.
-||sta.zone-telechargement.
-||acookie.*.gif?
-||sta.wawacity.
-||analytics.ticketmaster.
-||cintent.streanplay.
-%2Fevent.gif%3F
-||df.infra.shopee.
 <p><pre>
 <title>
 <html>
