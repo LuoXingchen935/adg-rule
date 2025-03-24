@@ -1,4 +1,4 @@
-# Update time: 2025-03-24 16:24:03
+# Update time: 2025-03-25 00:23:48
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -85,6 +85,7 @@
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||widgets.*.webengage.com^
+||chat*-ce.chatdealer.jp^
 ||pixel*.production-public.tubi.io^
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
@@ -124,6 +125,7 @@ analytics-*.aasaam.com
 ||pxl-*.ozone.ru^
 ||mon*-*.tiktokv.us^
 ||cnt.yeptube.
+||iptracker-lb-*.amazonaws.com^
 ||putrr*.com^
 ||cpng.lol.^
 ||alishop*.ru^
@@ -240,6 +242,7 @@ analytics-*.aasaam.com
 ||staging-*.ispot.tv^
 ||s*.skencituer.com^
 ||underclick.
+||imp-*.jampp.com^
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
 ||mobileanalytics.*.amazonaws.com^
@@ -256,6 +259,8 @@ analytics-*.aasaam.com
 ||1024wanzhai.
 ||under-click.
 ||mon*-*.tiktokv.com^
+||log-*.epicdn.me^
+||metric*.rediff.com^
 ||tnc*.zijieapi.com^
 ||tracker.twenga.
 ||cdn*.swaxis.com^
@@ -272,6 +277,7 @@ analytics-*.aasaam.com
 ||ulog*.kwai-pro.com^
 ||collector.hamsterix.
 ||log*.vietnamplus.vn^
+||hn-ping*.hashnode.com^
 ||mcdp-*.outbrain.com^
 ||sensorsdata*.read.duokan.com^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
@@ -284,6 +290,7 @@ analytics-*.aasaam.com
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||maas-*.phunware.com^
 ||rotaban.
+||hstats*.hepsiburada.com^
 ||mcs.*.tiktokv.com^
 ||cnt.proporn.
 ||popuptraf.
@@ -294,6 +301,7 @@ analytics-*.aasaam.com
 ||ssp*.rtb.beeline.ru^
 ||stats*.videonow.ru^
 ||pixel.archive.
+||log-*.zadn.vn^
 ||reachableads-av.*.amazonaws.com^
 ||ad*.thisisgame.com^
 ||collect-v*.51.la^
@@ -512,8 +520,6 @@ advertisers.js|
 ||bi-eventtracker-*.amazonaws.com^
 ||batchlogging*-noneu.truecaller.com^
 ||apple-*.le.com^
-||imp-*.jampp.com^
-||iptracker-lb-*.amazonaws.com^
 ||ts-p2p*pull*com^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
@@ -528,15 +534,14 @@ advertisers.js|
 ||prod.*.publishers.advertising.a2z.com^
 ||c*hit.zerkalo.io^
 ||events-api*.outfit7.com^
+||client.rum.*.amazonaws.com^
 ||display-ad-*.kgslb.com^
 ||acr-*-prd.samsungcloud.tv^
 ||collector-*.px-client.net^
 ||ej1*.online^
-||log-*.epicdn.me^
 ||mistat.*.xiaomi.com^
 ||stat.*.v-56.com^
 ||adcounter*.uptolike.ru^
-||metric*.rediff.com^
 ||ad*.ettoday.net^
 ||ads*-normal*.zijieapi.com^
 ||xy-*pcdn.msstatic.com^
@@ -557,7 +562,6 @@ advertisers.js|
 ||hotapi*.tiktokv.us^
 ||log*-misc-lq.amemv.com^
 ||stats*.credit-cooperatif.coop^
-||hn-ping*.hashnode.com^
 ||ulog*.*^
 ||prod.*.analytics.console.aws.a2z.com^
 ||api*.amplitude.com^
@@ -568,7 +572,6 @@ advertisers.js|
 ||ad.kisstvshow.*^
 ||appanalysis*.banggood.com^
 ||device-metrics-*.amazon.com^
-||hstats*.hepsiburada.com^
 ||zabdybod*.club^
 ||ads*.depositfiles.com^
 ||ads*.depositfiles.org^
@@ -587,7 +590,6 @@ advertisers.js|
 ||geoloc*.geostats.ovh^
 ||tblog-*.kgslb.com^
 ||zahrvfbd*.xyz^
-||log-*.zadn.vn^
 ||p2pup*.gamedl.qq.com^
 ||qn-*pcdn.cdn.msstatic.com^
 ||zcchyr*.xyz^
@@ -599,8 +601,6 @@ advertisers.js|
 ||adsfilebssdlbig.*.kugou.com^
 ||aj1*.xyz^
 ||analytics*.carambo.la^
-||chat*-ce.chatdealer.jp^
-||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
@@ -626,6 +626,18 @@ advertisers.js|
 ||flurry.agentportal-*.yahoodns.net^
 ||host*.rigbyandpeller.com^
 ||analytics.*.sky.com^
+||ads*.opensubtitles.org^
+||gamenguide.com*adbk
+rgmechanicsgames.com*VPN.exe
+||util-*.simply-hentai.com^
+@@||adobeid-*.services.adobe.com^
+||centent.streamp1ay.
+||142.91.159.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+||cintent.streanplay.
+Banner468x60
 ||icast.
 ||gg.
 ||union.
@@ -638,16 +650,16 @@ advertisers.js|
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||stats.zone-annuaire.
 ||matt.mercadolibre.
-||sta.zone-telechargement.
-||sta.wawacity.
 ||sta.extreme-down.
 %2Fopen.aspx%3F
+||stats.zone-annuaire.
 ||df.infra.sz.shopee.
 %2Frw%2Fbeacon_
 ||onetrust.
+||sta.zone-telechargement.
 ||acookie.*.gif?
+||sta.wawacity.
 ||analytics.ticketmaster.
 %2Fevent.gif%3F
 ||df.infra.shopee.
@@ -656,15 +668,4 @@ advertisers.js|
 <html>
 <head>
 <body>
-||ads*.opensubtitles.org^
-||gamenguide.com*adbk
-rgmechanicsgames.com*VPN.exe
-@@||adobeid-*.services.adobe.com^
-||centent.streamp1ay.
-||142.91.159.
-||fapnado.*.php|
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-||cintent.streanplay.
-Banner468x60
 @@||tongji.*kuwo.cn^
