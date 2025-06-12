@@ -1,4 +1,4 @@
-# Update time: 2025-06-12 16:26:14
+# Update time: 2025-06-13 00:24:22
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -87,6 +87,7 @@
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||widgets.*.webengage.com^
+||chat*-ce.chatdealer.jp^
 ||adx.
 ||adx-
 ||adsfs.
@@ -260,6 +261,8 @@ analytics-*.aasaam.com
 ||prebid-*.rubiconproject.com^
 ||sgtm.fashionunited.
 ||partner.superbahisaffiliates*.com^
+||mon-*.lemon8-app.us^
+||mon-*.lemon8-app.com^
 ||v.tzbox*.xyz^
 ||telemetry*.transcend.io^
 ||cnt.vivatube.
@@ -409,6 +412,7 @@ analytics-*.aasaam.com
 ||icq-window.
 ||icqwindow.
 ||st-n.ads*-adnow.com^
+||mssdk*.capcutapi.com^
 ||cnt.winporn.
 ||t*.zcvh.net^
 ||ulog*.kwai-pro.com^
@@ -450,7 +454,6 @@ analytics-*.aasaam.com
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||stat.tiara.
-||quangcao-*.epicdn.me^
 ||rotator.
 ||pixel-*.convertagain.net^
 ||analytics*.prezly.com^
@@ -484,8 +487,6 @@ analytics-*.aasaam.com
 ||datacollect*.abtasty.com^
 ||zazgiyoh*.world^
 ||collector-*.us.tvsquared.com^
-||mon-*.lemon8-app.us^
-||mon-*.lemon8-app.com^
 ||zazgbqg*.xyz^
 ||log*-misc-lf.amemv.com^
 ||collector-*.px-cdn.net^
@@ -555,7 +556,6 @@ analytics-*.aasaam.com
 ||ad.*.xiaomi.com^
 ||beacon-*.helpscout.net^
 ||mon*-misc-lf.fqnovel.com^
-||mssdk*.capcutapi.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
 ||player-feedback*.glomex.*^
@@ -621,7 +621,6 @@ analytics-*.aasaam.com
 ||aj1*.xyz^
 ||discovery-ios-*.ertelecom.ru^
 ||analytics*.carambo.la^
-||chat*-ce.chatdealer.jp^
 ||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
@@ -642,6 +641,7 @@ analytics-*.aasaam.com
 ||fads*s.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||log*-normal-lq.toutiaoapi.com^
+||quangcao-*.epicdn.me^
 ||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
@@ -654,7 +654,6 @@ analytics-*.aasaam.com
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
 ||centent.streamp1ay.
-||142.91.159.
 ||fapnado.*.php|
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
@@ -676,22 +675,26 @@ Banner468x60
 ||adsame.
 ||matt.mercadolibre.
 ||sta.extreme-down.
-%2Fopen.aspx%3F
 ||stats.zone-annuaire.
 ||df.infra.sz.shopee.
-%2Frw%2Fbeacon_
+||centent.streamp1ay.
 ||onetrust.
+||142.91.159.
 ||sta.zone-telechargement.
 ||acookie.*.gif?
 ||sta.wawacity.
 ||analytics.ticketmaster.
-%2Fevent.gif%3F
+||cintent.streanplay.
 ||df.infra.shopee.
-||stw.extreme-down.
-||mr.allegro.
 page_view_count
 <p><pre>
 <title>
 <html>
 <head>
 <body>
+%2Fopen.aspx%3F
+||stw.extreme-down.
+%2Frw%2Fbeacon_
+||mr.allegro.
+%2Fevent.gif%3F
+||df.infra.shopee.
