@@ -1,4 +1,4 @@
-# Update time: 2025-08-09 16:24:30
+# Update time: 2025-08-10 00:23:16
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -89,6 +89,7 @@
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||widgets.*.webengage.com^
+||chat*-ce.chatdealer.jp^
 ||da.hornbach.*^
 ||appsflyer*.*^
 ||brucelead*.com^
@@ -452,6 +453,7 @@ analytics-*.aasaam.com
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||stat.tiara.
+||quangcao-*.epicdn.me^
 ||rotator.
 ||pixel-*.convertagain.net^
 ||analytics*.prezly.com^
@@ -541,6 +543,7 @@ analytics-*.aasaam.com
 ||mcs-*.lemon8-app.us^
 ||aj1*.xyz^
 ||discovery-ios-*.ertelecom.ru^
+||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
 ||log-*.previewnetworks.com^
@@ -644,27 +647,21 @@ analytics-*.aasaam.com
 ||js.*2023*.live^
 ||logger-*.dailymotion.com^
 ||analytics*.carambo.la^
-||chat*-ce.chatdealer.jp^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||hw-p2p*pull*com^
 ||gtlpa*.com^
 ||ali-p2p*pull*com^
 ||log*-normal-lq.toutiaoapi.com^
-||quangcao-*.epicdn.me^
 ||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
 ||ads*.opensubtitles.org^
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
-||util-*.simply-hentai.com^
-||centent.streamp1ay.
-||142.91.159.
 ||fapnado.*.php|
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 ||admi2fib4exit^
-||cintent.streanplay.
 Banner468x60
 ||matt.mercadolibre.
 ||sta.extreme-down.
@@ -672,11 +669,14 @@ Banner468x60
 ||stats.zone-annuaire.
 ||df.infra.sz.shopee.
 %2Frw%2Fbeacon_
+||centent.streamp1ay.
 ||onetrust.
+||142.91.159.
 ||sta.zone-telechargement.
 ||acookie.*.gif?
 ||sta.wawacity.
 ||analytics.ticketmaster.
+||cintent.streanplay.
 %2Fevent.gif%3F
 ||df.infra.shopee.
 @@||tongji.*kuwo.cn^
@@ -692,12 +692,12 @@ Banner468x60
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||stw.extreme-down.
+||mr.allegro.
+||ub.galaxus.
 <p><pre>
 <title>
 <html>
 <head>
 <body>
-||stw.extreme-down.
-||mr.allegro.
-||ub.galaxus.
 page_view_count
