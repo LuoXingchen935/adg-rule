@@ -1,4 +1,4 @@
-# Update time: 2025-08-24 00:20:12
+# Update time: 2025-08-24 09:42:34
 # Repo URL: https://github.com/fordes123/adg-rule
 
 127.0.0.1 app-lon06.marketo.com
@@ -4776,7 +4776,6 @@
 127.0.0.1 cw.addthis.com
 127.0.0.1 adfuture.cn
 127.0.0.1 serve.popads.net
-127.0.0.1 adups.com
 127.0.0.1 tagged-by.rubiconproject.net.akadns.net
 127.0.0.1 ad13.adfarm1.adition.com
 127.0.0.1 tr.iadsdk.apple.com
@@ -15595,6 +15594,7 @@
 127.0.0.1 *.am15.net
 127.0.0.1 *.dmrtb.com
 127.0.0.1 *.gdt.qq.com
+127.0.0.1 *.duomeng.org
 127.0.0.1 *.adpro.cn
 127.0.0.1 *.tatagou.com.cn
 127.0.0.1 *.exdynsrv.com
