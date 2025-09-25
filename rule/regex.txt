@@ -1,4 +1,4 @@
-# Update time: 2025-09-25 16:24:45
+# Update time: 2025-09-26 00:23:02
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -63,6 +63,7 @@
 ||tw-726620180914.*.run.app^
 ||38.33.15.*.gif
 ||zhizhizhizhi.oss-*.aliyuncs.com^
+||adi*.cnool.net^
 ||tupian888.*.bcebos.com^
 ||gcw*.2liang.cn^
 ||impservice*.yodao.com^
@@ -78,7 +79,6 @@
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
-||widgets.*.webengage.com^
 ||da.hornbach.*^
 ||cloudservice*.kingsoft-office-service.com^
 ||dm-*.toutiao.com^
@@ -140,7 +140,6 @@
 ||clientlog*.music.163.com^
 ||omgmta*.*^
 ||tuiguang.*^
-||adi*.cnool.net^
 ||jshosting.*^
 ||adserver.*^
 ||24log.*^
@@ -398,16 +397,6 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||poptraf.
 ||v*.sitecounter.site^
-||ads*.opensubtitles.org^
-||gamenguide.com*adbk
-rgmechanicsgames.com*VPN.exe
-||util-*.simply-hentai.com^
-||142.91.159.
-||fapnado.*.php|
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-||admi2fib4exit^
-Banner468x60
 ||adx.
 ||adx-
 ||adsfs.
@@ -473,7 +462,6 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-@@||tongji.*kuwo.cn^
 ||host*.nti.nl^
 ||ping*.qq.com^
 ||cj1*.online^
@@ -672,6 +660,25 @@ advertisers.js|
 ||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
+||widgets.*.webengage.com^
+||ads*.opensubtitles.org^
+||gamenguide.com*adbk
+rgmechanicsgames.com*VPN.exe
+||util-*.simply-hentai.com^
+||142.91.159.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+||admi2fib4exit^
+Banner468x60
+<p><pre>
+<title>
+<html>
+<head>
+<body>
+||stw.extreme-down.
+||mr.allegro.
+||ub.galaxus.
 ||matt.mercadolibre.
 ||sta.extreme-down.
 %2Fopen.aspx%3F
@@ -687,15 +694,7 @@ advertisers.js|
 ||cintent.streanplay.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-<p><pre>
-<title>
-<html>
-<head>
-<body>
-||stw.extreme-down.
-||mr.allegro.
-||ub.galaxus.
-page_view_count
+@@||tongji.*kuwo.cn^
 ||icast.
 ||gg.
 ||union.
@@ -708,3 +707,4 @@ page_view_count
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+page_view_count
