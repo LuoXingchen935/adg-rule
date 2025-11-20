@@ -1,4 +1,4 @@
-# Update time: 2025-11-20 00:26:53
+# Update time: 2025-11-20 09:26:18
 # Repo URL: https://github.com/fordes123/adg-rule
 
 amazon.*#@#div[id^="dp-ads-"]
@@ -4994,6 +4994,7 @@ albert.cz##div[class^="sc-"] > div[data-testid="item-wrapper-no-width-class"]:ha
 ||media.kasperskydaily.com/wp-content/uploads/sites/*/protect-your-smartphone-V1-sidebar-*.png
 sportpari.by##.cms-modules > div.page__item:has(a[href="https://sportpari.by/application/android"])
 navitime.com###appli-japan-travel
+bbcgoodfood.com##.zephr-banner-wrapper
 deepl.com##.lmt_targetToolbar__appPromotion_container
 kurashiru.com###footer_app
 flipboard.com#$?#.app > div > div.modal-overlay:has(> section > div.mobile-gate) { display: none!important; }
@@ -5206,6 +5207,7 @@ z-library.*##.desktop-banner-container:has(> .a-message > div[data-name="desktop
 wiki.mbalib.com###down-app-pop
 wear.jp##section[class]:has(> div[class*="image_links"] > div.contents a[href^="https://app.adjust.com/"])
 duckduckgo.com##div[class^="mobile-homepage_atbBadge"]
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_apps
 sride.jp##.p-cv
 m.digi24.ro#%#//scriptlet('remove-class', 'smartbanner-visible', 'body')
 edh.tw###vip-banner
@@ -5775,6 +5777,7 @@ skiddle.com##a[href^="https://bnc.lt/m/"] > img
 wear.jp#%#//scriptlet('trusted-set-session-storage-item', 'status_of_app_redirect_half_modal_on_coordinate_list', '{"displayed":true}')
 scoopzapp.com#?#.fixed:has(> div[class]:only-child > div[class] > div:only-child > span:only-child:contains(Open app))
 amazon.co.jp###kcpApp_feature_div
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_ext
 wondershare.com##.d-lg-none
 v.ifeng.com##header[class^="header-"]
 hitosara.com##.app_area
@@ -6539,6 +6542,7 @@ ameblo.jp#?##app aside[class^="_"]:has(> a[href^="https://auth.user.ameba.jp/sig
 mydramalist.com#%#//scriptlet('remove-class', 'smartbanner-active', 'body')
 obi.ru#$#.obi-android div.off-canvas-outer > #Main-Content { padding-top: 85px !important; }
 ||gc-img.net/img/parts/banner_comment.png
+fishingjapan.jp##.common__adv_full
 wdr.de,t.pia.jp##.js_smartbanner
 docomo.ne.jp##.mydocomo-app-area
 newegg.com##.our-apps
@@ -7499,6 +7503,7 @@ m.perfectgirls.net##.banner-wrapper-static
 @@://www.googleadservices.com^|
 ##.amp_ad
 profile.ru###test_mob_ad
+bbcgoodfood.com##.masthead-piano-promo-banner
 kobe-np.co.jp###articleList > div[id^="ad"][style^="height:"]
 mamastar.jp###square
 m.windowscentral.com##.netshelter-ad
@@ -8201,7 +8206,6 @@ pure-t.ru,m.mangafox.la,gifporntube.com,homemoviestube.com##.mobile-banner
 telegraph.co.uk##div[class^="mobileAdvertInStream"]
 dizilla40.com##.fixed.bottom-16.w-full
 nikkan-gendai.com#$#footer > div.copy { padding-bottom: 40px !important; }
-h1g.jp##div[style*="width:336px; height:280px"]
 winfuture.de###articleBody > .summary_box ~ div:not(#ab_comments_button) > iframe
 amp-meduza-io.cdn.ampproject.org##.Adv--bordered
 m.facebook.com##div[data-status-bar-color] > div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"][style*="display: none !important;"]:not([data-actual-height="26"]) + div[data-mcomponent="MContainer"]:not([data-actual-height="2"]):not([data-actual-height="1"]) + div[data-mcomponent="MContainer"]:not([data-actual-height="2"]) + div[data-mcomponent="MContainer"]:not([data-actual-height="2"])
@@ -8244,7 +8248,6 @@ baseball.yahoo.co.jp,soccer.yahoo.co.jp,sports.yahoo.co.jp##.sn-videoEmbed__cred
 yamareco.com##div[style^="position: fixed; bottom: 0; width: 100%; height: 50px; z-index: 9999"]
 financial-field.com###glia-custom-container
 ||korewaeroi.com/fukugan_sp_3x4_rec.html
-||staticaws.365scores.com/AdsConfig/
 m.drtuber.com#%#//scriptlet("abort-on-property-read", "mobileAdvPop")
 toyokeizai.net##.bc_banner
 hoiclue.jp##.ad-SP
@@ -8664,7 +8667,6 @@ web.goout.jp###secondary > div.bx-ad:first-child
 deccanherald.com#?##topbar > .hide-desktop + div[class] > div[class]:only-child:has(> div[class] > span:contains(/^ADVERTISEMENT$/))
 ||graph.facebook.com^$app=com.erudite.ecdict
 vandal.elespanol.com#$#.articulo_wrapper { padding-top: 50px!important; }
-edh.tw##.close-corner
 r7.com###adsMobileFixed
 indiatimes.com,timesofindia.com##div[class^="ATF_container_min_height"]
 realty.ya.ru##.SearchResultsTopAdWithFixedHeight
@@ -8806,7 +8808,6 @@ m.hclips.com##.container > .section--normal[style^="margin-top:"] > .section__pa
 cyberdaily.au##.tabletSkinBlock
 101kofemashina.ru##a[href="https://ru.jura.com/ru"] > img
 amp.vip.de,rtl.de##amp-iframe[src^="https://video-library.showheroes.com/spot/"]
-||baidu.com/newspage/api/getmobads?
 tarzanweb.jp##.bnr
 m.sovsport.ru##.fonbet_match_centre
 gazeta.ru##div[id^="block_pad_id"]
@@ -9092,7 +9093,6 @@ komaki2.jp#%#//scriptlet('abort-current-inline-script', 'jmp', 'Math')
 lepoint.fr#$#body .menu-top_mobile { top: 50px !important; }
 ||a.adtng.com/get/$xmlhttprequest,redirect=noopvast-2.0,important,domain=mydaddy.cc
 manager-magazin.de##amp-layout[width="300"][height="266"]
-||baidu.com/po/api/configure/show.jsonp
 mobil.ruhrnachrichten.de###ivwblock > img[src*="vgwort.de"]
 indiansexstories2.net,issstories.xyz###mhead
 news18.com#?#.article_main > div[class^="jsx-"][style*="min-height:"] > .OUTBRAIN:upward(1)
@@ -9116,7 +9116,6 @@ tube8.com,youporn.com##.paid-tabs-information
 ||graph.facebook.com^$app=com.msmobile.hb
 finance.yahoo.co.jp#?#div[aria-live="polite"] > ul > li > div > div#MMON:upward(2)
 glavred.net##div[style^="height: 360px"]:has(> .bnr-block__ad)
-itmedia.co.jp###SpvLink
 game8.jp##.ad-skyflag-wrapper
 oantagonista.uol.com.br#$#@media (max-width: 800px) { body #div-gpt-leaderboard ~ #page { margin-top: 160px !important; } }
 mi-mollet.com###MM_SP_PerfectView
@@ -9513,7 +9512,6 @@ drochka.vip#?#.thumbs_list > div.th:has(> script[src^="https://a.realsrv.com/"])
 sippo.asahi.com##.u-mb48.foot
 topwar.ru##.banner_yandex
 ||graph.facebook.com^$app=com.conjoinix.smartparent
-president.jp##.area-billboard
 ||graph.facebook.com^$app=com.droid27.transparentclockweather
 forbes.ru##.JkVE-
 msn.com##iframe[id^="_mN_dy_"]
@@ -9916,7 +9914,6 @@ otakuma.net###affiliate-list
 www-livemint-com.cdn.ampproject.org,livemint.com$$div[class="adHolder"]
 @@||video.fyber.com^$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
 ||m.tubemate.net/c.jsp
-chinese.engadget.com###module-engadget-deeplink-top-ad
 bgr.in#@#.add-box
 newshub.co.nz##.Billboard
 news-sky-com.cdn.ampproject.org##.sdc-site-au
@@ -10108,7 +10105,6 @@ m.quoka.de##.qbanner
 41havadis.com##.mobile-ads
 xgroovy.com,xxxshake.com,jizzberry.com##.in.is_mobile
 nan-net.com##.bbs_box[style="height:70px;"]
-||i-mobile.co.jp^$third-party
 apkmirror.com#$#html > body { padding-top: 0 !important; }
 gadgetsnow.com#%#//scriptlet('hide-in-shadow-dom', 'amp-fx-flying-carpet[height="300px"], amp-iframe[src^="https://timesofindia.indiatimes.com/affiliate_new.cms?"]')
 gamer.ne.jp##.adArticleBottom_sp
@@ -11217,7 +11213,6 @@ iphoneitalia.com##.ad_300x250_mob_top
 freehentaistream.com##.mbanner-wrapper
 trans.info#?#.page-layout-wrapper > div.container > div.text-center:has(> ins[class^="staticpubads"])
 ||mradx.net^$app=bodyfast.zero.fastingtracker.weightloss
-ddd-smart.net##.ds-5__wrapper
 connect-living.de#$#.body--mobile { padding-top: 4.375rem !important; }
 womane.ru###slidebox_container
 spektrum.de##aside[style="margin-top:-2.25rem;"]
@@ -11630,7 +11625,6 @@ sciencealert.com##.ad_div
 minkch.com##div[style^="text-align:left;min-height:250px;min-width:300px;"]
 youjizz.com###underPlayerPr
 thenewsminute.com##amp-iframe#prebid-user-sync
-hotokami.jp###gam-anchor-header
 poder360.com.br##.box-banner-footer
 wired.jp##.ld__ad-top
 ||graph.facebook.com^$app=com.skype.raider
@@ -12226,7 +12220,6 @@ navitime.co.jp###kyujin-banner-offer-container
 voyeurhit.*##.video-page__wrapper > div:not([class^="video"])
 bellesa.co##div[class^="Column-sc"] > div[class^="MediaQuery__Query-sc"]:has(> div[class^="Structure-sc"] > div[class^="Display__RatioOuter"] > div[class^="Display__RatioInner-sc"]:empty)
 fashion-press.net##.mobile_only_ad
-okinilove.com###fixed_footer
 sp.mbga.jp#?#.iListNitem > li.header:contains(ピックアップ)
 oricon.co.jp##.block-recommend-list-kjbox
 rakuten-card.co.jp##div[id^="rdn-adspot"]
@@ -12645,7 +12638,6 @@ gismeteo.kz,gismeteo.pl,gismeteo.by,gismeteo.ru##.section-rss > div.feed
 okwave.jp##.ad_qa_detail_bottom
 medicalnote.jp#?#.c-glo-section > div[id^="sp-disease-advertisement-"]:upward(1)
 okbizcs.okwave.jp##.box_ad_rectangle_detail
-||gamerch.com/s3-assets/js/system/gcad/
 news.ntv.co.jp#?#.module-wrapper > div.contentsWrapper:has(> div.title-card-wrapper > div.OB-REACT-WRAPPER)
 ||rakuten-sec.co.jp/web/images/banners/ads_mobile_un-limit/
 pcmag.com##.article_ads
@@ -12955,7 +12947,6 @@ beemtube.com##.sponsored-below-player
 ||fc2.com/video/js_smartphone_new/out/
 prohockeyrumors.com,hoopsrumors.com,profootballrumors.com,mlbtraderumors.com###gweinifooterAdSpace
 pornzona.com##.mobile-header
-nan-net.com##iframe[id^="bottomad"]
 onedio.com###sponsored
 tube8.com##div[class]:has(> ins.adsbytrafficjunky)
 aawweb.beauty,colourxh.site,xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*###player-sponsor-link
@@ -13377,7 +13368,6 @@ jisin.jp##.zoom_2
 blocktrends.com.br##.popup-rolagem
 skyscanner.*##div[class^="UnpricedBrandInline_link__"]
 ||graph.facebook.com^$app=com.code.bluegeny.myhomeview
-plicy.net##.adGamepageHeaderBase
 sleazyneasy.com##.nav-mobile
 mainichikirei.jp##aside[style="width:100%; padding:10px 0; background:#f3f3f3;"]
 momoniji.com#?##content-bottom > #mobile_text-11:upward(1)
@@ -13595,7 +13585,6 @@ h2ch.com###ad_300x250_source
 motherless.com###advertisement-above-footer
 bunshun.jp#?#aside[role="complementary"] > .block > .block-header > span.title:contains(/^SPECIAL$/)
 kurashinista.jp###sp_column_header_ad
-peing.net##div[id^="ad-container"]
 litlib.net###gnzdfoot
 windowsfaq.net##main > .mt-2[style="height:360px!important;"]
 iko-yo.net##main > div.box:has(> div[id^="div-gpt-sp"])
@@ -14009,7 +13998,6 @@ kobe-np.co.jp##div[id^="knsp-"]
 5chan.jp##.adnextile
 drive2.ru###l-content > div.l-main.js-main > div.g-column-wide > div.cpc-card
 @@||cmp.inmobi.com^$domain=the-express.com
-nan-net.com###middleadv-nex
 mz.de###ad-top-banner-mobile
 faroutmagazine.co.uk##.flying-carpet
 wsj.com##p > #deloitte_column > [data-module-zone="deloitte_insights"] > .deloitte-insights
@@ -15098,7 +15086,6 @@ kumapon.jp###side-kp-bnr-area1
 sportingnews.com##.zephr-feature_video-player
 navitime.co.jp##div[style$="margin: 30px 0; height: 250px;"]
 lovegreen.net##.da_gpt_area_banner
-av01.media##.grid > div.group:has(> div.relative > div.top-2)
 blog.2nt.com###main > div.content:nth-child(2):has(> div.entry_body > div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"])
 kodate-ru.com,sumu-log.com#?##sidebar1 h4.widgettitle:contains(スポンサードリンク)
 suzukikenichi.com###side > div > .widget-wrap > .textwidget > .al-c > a[target="_blank"] > img
@@ -15175,6 +15162,7 @@ arukikata.co.jp##.ad_top300
 @@||shukatsubbs.com^$generichide
 2chav.com##.sideber > div.widget_custom_html
 urutike.com##section[id^="xeory_banner_manager-"]
+||eow.alc.co.jp/content/js/popup_control.js
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp|~rakuten.ne.jp
 ejje.weblio.jp##.mainBlock:has(> div[id$="RecommendAdId"])
 ||moshimo.com^$third-party
@@ -16008,6 +15996,7 @@ comedydouga.com#?#.entry-letterbody > blockquote.gazou:has(> p > a[rel="noopener
 crossbike-navi.com##.divAD_L
 w-higa.com##.ad-bottom-main
 @@||cdn.logly.co.jp^$image,domain=mens-ex.jp
+h1g.jp##div[style*="width:336px; height:280px"]
 ||app.monetrack.com^$third-party
 genic-web.com##li[class^="list-article-"][class$="-advertisement"]
 jorudan.co.jp##div[id^="Ads_google_"]
@@ -17539,6 +17528,7 @@ tekoki-fuzoku-joho.com#?#.article-single-content > div > div:has(> div[style] > 
 knb.ne.jp##.s-banner-top
 togetter.com#$#.clearfix.contents { min-height: auto !important; }
 purelovers.com#?#.k_leftColumnCommon > .k_mt-6:has(.k_text:contains(AD))
+itmedia.co.jp###SpvLink
 nanj-world.blog.jp##.adnw-2ad
 ||pampi.jp/images/common/banner.jpg$third-party
 shico.xyz#%#//scriptlet('abort-on-property-read', 'fanza_link')
@@ -18099,6 +18089,7 @@ kahoku.news##div[style^="min-width:728px; min-height:90px"]
 nishinippon.co.jp#?#.p-content > #external-feed > .p-grid__item:has(> .p-content-header > .c-heading-h2--pr > .c-heading-h2--pr__inner > .c-heading-h2__text > span:contains([PR]))
 /?Rfunccode=*&nextfunc=$document,to=cn|com|top
 ooiotakara.com###sok_side
+president.jp##.area-billboard
 ejje.weblio.jp###learning-level-table-wrap > #leadBtnWrp
 stds.jp,tsuruniha.com,bukidobi.com,sagi-site.com,xn--icktho51ho02a0dc.com,korewaeroi.com,switchsoku.com,sabatech.jp##.widgetSticky
 kyouryu.info##.ads_relation_title
@@ -18253,7 +18244,6 @@ search.yahoo.co.jp##.main > div[class^="SS_SS__"]:first-child
 city.owariasahi.lg.jp#?#.top_banner5_wrap:contains(広告欄)
 yomiuri.co.jp##div[id^="dfp_"]
 hamlife.jp###main-contents > article.post-box.dnm
-hotokami.jp##div[data-controller="article"] > .md\:rounded-lg > .mt-1.mb-4.py-1.bg-white
 kabu-sokuhou.com###ResSearchBato
 ||gakufu.gakki.me/banner/banner_guitar_feat_oda_big_
 ||dlsite.com/img/nijiyome/sp/bn_*_300_250_
@@ -19098,6 +19088,7 @@ rebosoku.com##.sidebody-r
 minna-antenna.com##.adup
 trilltrill.jp##.sideBar-GAM
 ://icloud-*.cn/$document
+||i-mobile.co.jp^$third-party
 ibarakinews.jp##.textad_box
 @@||rakuten-static.com/*_468x60.$image,domain=rakuten.co.jp
 jbpress.ismedia.jp##.ad-article-bottom-rectangle
@@ -19932,6 +19923,7 @@ khp.jp##mobile\:mobile div:last-of-type > center
 lionmaru.blog#?#.entry-content > p + h2:contains(【PR】)
 news-postseven.com##.adSec02
 theriver.jp##.related-posts
+hotokami.jp##.article-sns-box__wrapper + div.mt-1.mb-4.py-1.rounded
 bs-tvtokyo.co.jp,tv-tokyo.co.jp##.tbcms_ad-block
 phileweb.com###fourm_video_pc
 eromanga-sora.com###enhancedtextwidget-5
@@ -22484,6 +22476,7 @@ figsoku.net#%#//scriptlet('abort-current-inline-script', 'document.createElement
 ||blogimg.jp/lucky2507/imgs/*/*.png$domain=koko-de-lunch.blog.jp
 umatoku.hochi.co.jp##.ad.w-rec[style="text-align:center;margin:45px auto 40px;width:720px;"]
 mag.app-liv.jp##.bnr-inarticle
+okinilove.com###fixed_footer
 7narabe.net,sakeblog.net,yotsumeyui.com##.ebody:has(#ninja-blog-inactive)
 dev-dev.net##div[style="width:100%;height:90px;"]
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=playai.nu,important
@@ -23188,6 +23181,7 @@ rdlp.jp###bnrLp
 2-d.jp#?#div[align="center"] > center > table[border="1"]:has(> tbody > tr > td > p > iframe[src^="http://rcm-jp.amazon.co.jp"])
 komaki2.jp##.partner_banner
 yomuno.jp##.banner_box_horizontal
+||gamerch.com/s3-assets/js/system/gcad/
 urapic.com##.relate_dl ~ h3.midashi
 @@||j-baseball.club^$generichide
 blog47.fc2.com##div[class^="plugin"][class$="_outline"]:has(> div > div.plugin-freearea[style="text-align:left"] > a[href^="https://al.dmm.com"][target="_blank"] > img)
@@ -23693,6 +23687,7 @@ lv73.net##div[id^="ad-blocker-"]
 as-web.jp##.contentWrapper aside.banner
 yaruo18book.com#?#.menu_title3:contains(スポンサーリンク)
 kanajo.com,erosexmanga.com##a[href^="https://pcmax.jp"]
+hotokami.jp##div[id^="gam-anchor"]
 free-erobooks.*##.open
 itaeromanga.com###enhancedtextwidget-2
 blog.livedoor.jp###linksbody > div[align="left"]:has(> a[href^="https://www.amazon.co.jp"][target="_blank"])
@@ -23733,6 +23728,7 @@ chikakb.ldblog.jp###side_l > aside > div.sidetitlebody:first-child
 music-mdata.com,livewalker.com,music-school.net,egakkiya.com,studioasp.com##.ad-sense-display
 kidsna.com##.side-menu__sponsord
 /brand/detail/m*.html?zenid=$document,to=cfd|fun|shop|space|top|xyz
+nan-net.com##iframe[id^="bottomad"]
 ||bbspink.com/_gichin/js/ads.js
 buzzap.jp##.grid-crectangle
 photo-ac.com##.w-100.my-3.bg-light[style="min-height: 306px;"]
@@ -24459,6 +24455,7 @@ kodate-ru.com,sumu-lab.com,sumu-log.com##.respnsvad
 anicobin.ldblog.jp##.top-article-ad
 otakamu.com##div[id^="custom_html-"]:has(> div.textwidget > div.amazon-links)
 hime.me,konyoku.net##table[width="451"] > tbody > tr > td[height^="6"]:has(td > a[target="_blank"]:is([href="happy/happy.html"], [href*="e-nls.com"], [href^="https://mttag.com"]))
+plicy.net##.adGamepageHeaderBase
 getuploader.com###banner_eye_catch
 uwagakisimasuka.blog.fc2.com##.xentrybody > a[href^="https://www.amazon.co.jp/exec/"] > img
 news.golfdigest.co.jp,sirabee.com,idou.me##.side_banner
@@ -24780,6 +24777,7 @@ nan-net.com##div[style="border-bottom:1px solid #555;padding:20px 20px;"]
 2ch.logpo.jp##.Jungle
 ||benricho.org/2017js/mobile_ad-bottom_ad.js
 akibablog.blog.jp##div[style^="top:0px;position:fixed;z-index:0;left:50%;"]
+peing.net##div[id^="ad-container"]
 ||blogranking.fc2.com/ad/ads_
 gamenv.net,webcommu.net,twimaru.com##.aicp
 .com/ETGate/accountData?redirectToken=$document
@@ -25452,6 +25450,7 @@ gift-for-loved-one.tokyo##.entry-content > div.widget_text
 huffingtonpost.jp##.right-rail-sticky__native-ad-container
 nantuka.blog119.fc2.com##.right_outline:has(> div[class][style*="display: none !important;"]:first-child + table[style*="display: none !important;"] + hr:last-child)
 5app-ch.com##.widget_custom_html.single-top
+nan-net.com###middleadv-nex
 ||rise.enhance.co.jp/adu.js
 cookpad.com#@#.banner_header
 eleking.net###tuibi
@@ -27720,6 +27719,7 @@ barryblogs.com##.ad-single-top
 ||hh010.com/static/image/fff/
 ||sass.hk/plus/mytag_js.php?aid=
 ||suibianlu.com/zb_users/theme/tx_fzy/script/zhao.js
+||baidu.com/newspage/api/getmobads?
 myday.com.tw##.myday_ad_950
 1kkk.com,dm5.com##.yddiv
 anoneko.com,dmhy.org,ye1213.com##div[id$="_ad"] > a:first-child > img
@@ -28055,6 +28055,7 @@ mobile01.com#$#body { overflow: visible!important; }
 qq.com##div[class^=ad-type-]
 cocomanga.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "NativeAd", "noopFunc")
 6.cn##.min-ad-box
+||baidu.com/po/api/configure/show.jsonp
 ||xindingwealth.com/js/39.
 2345.com##.search-right-swiper-news
 @@||hkjc.com/bannerad/
@@ -28882,6 +28883,7 @@ firefoxchina.cn###advBlock
 bilinovel.com#@#.adv-box
 @@||getitfree.cn/wp-content/plugins/adunblocker/public/js/banner_ads_*.js
 biqgg.com##a[onclick="guangtui();"]
+chinese.engadget.com###module-engadget-deeplink-top-ad
 @@/image/share_$domain=pan.baidu.com
 .com/topjs/
 ||airav.cc/AirADPic/
@@ -34617,6 +34619,7 @@ ichunqiu.com###portal_block_157
 /webAdvert.php?ad_name=
 ||3bmmmesj.life/skin/js/dny.
 ||ifengimg.com^*300x600
+@@||tvbanywherena.com^$generichide
 /500ad/*
 ||cnblogs.com/group/T2
 /tj/tongji.js?v=$third-party
@@ -35597,6 +35600,7 @@ plus28.com##a[href*="/?Extend="]
 ||bmp1.ali213.net/js/
 ||neets.cc/assets/js/dup.js
 xiuren.org###menur
+edh.tw##.close-corner
 ithome.com##.rds
 jjwxc.net##[id^="adp_"]
 ||16sucai.com/ads/
@@ -42535,7 +42539,6 @@ txbiz.tv-tokyo.co.jp###HomeAds-5
 latestcracked.com#$#.onp-sl-signin-locker { display: none!important; }
 165.22.246.130#%#//scriptlet('adjust-setInterval', '/wpsafe|wait|timer/', '*', '0.001')
 regioactive.de##.sitebody > div.inner > div#slider
-||eow.alc.co.jp/content/js/popup_control.js
 opennet.ru##div[style="background-color: #E9EAD6; width:100%; height: 61px;"]
 tamilprint51.online#$##content > #message { display: block !important; }
 spiritfit.ru#%#//scriptlet('set-session-storage-item', 'bn_promocode', '1')
@@ -44101,7 +44104,6 @@ getmodsapk.com#%#//scriptlet('adjust-setInterval', 'download', '*', '0.02')
 ||mjk-r.net/common/sample/smart01/img/bnr_
 buhgalteria.ru###article-post > div.text:has(> div.mobileimg > a[href="https://www.buhgalteria.ru/godovoy-otchet/"])
 jptorrent.org#%#//scriptlet('adjust-setTimeout', 'updateinfo', '1000', '0.02')
-adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_apps
 notizie.tiscali.it#?#div[style="width:100%"] > div[class]:has(a[href^="https://casa.tiscali.it/promo/"])
 portal.librus.pl#?#.article-list .row > .article__container:has(> .article__link > .article__image-container > .article__content-inner > .article__sponsored)
 petco.com###signIn_Citrus_ad
@@ -44571,7 +44573,6 @@ scdkey.com##body > div.main > ul.bg
 oberlo.in##section[aria-label="Register Today"]
 x.com,twitter.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
 afisha.ru##div[style^="width: 100%; height: 120px;"]
-adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_ext
 nowymarketing.pl#$#.article-articleBody > .blured[style="filter: blur(3px);"] { filter: none!important; }
 auto.ru##.Modal:has(> div.Modal__container > div.Modal__content_wrapper div[class^="HelpSelectCarForm-"])
 antiwar.com##.sidebar > section[id^="text-"]:has(> div.textwidget > p.small > a[href="https://www.antiwar.com/advertise/"])
@@ -46182,6 +46183,7 @@ app-liv.jp##.p-pr-carousel
 imgtorrnt.in#$##clkk { display: block!important; }
 caixinglobal.com#$#body { overflow: visible !important; }
 ||player.cnevids.com/*/video$removeparam=autoplay,domain=vanityfair.com
+ddd-smart.net##.ds-5__wrapper
 jovenesweb.com#%#//scriptlet('remove-class', 'no-select', 'div')
 estadao.com.br##.assine-bottom-banner-component
 instamod.net#%#//scriptlet('adjust-setInterval', 'Download', '*', '0.02')
@@ -48952,7 +48954,6 @@ ccleaner.com###bannerModule
 getthot.com#%#//scriptlet('trusted-click-element', 'a[href^="http"].skip-btn', '', '1000')
 gamewith.jp##.gdb-advertisement-in-article
 ||nallihanhaber.com/wp-content/uploads/2020/09/nallihansondakika-min.gif
-fishingjapan.jp##.common__adv_full
 g2.com##.product-head__sponsored-ad
 investing.com#$#.relative ~ div[class^="fixed bottom-0 z-50"] { display: none !important; }
 adshrink.it#?#.stackable .red.floating.message > p > .adversal:upward(2)
@@ -49414,6 +49415,760 @@ jetleech.net###linkform > center > a[href="http://facebook.com/groups/jetleech/"
 musikersuche.musicstore.de#?#.image-container:has(> div[class^="werbeanzeige-"])
 tistory.com#%#//scriptlet('set-constant', 'mouseClickRight', 'noopFunc')
 1tv.ru##.header-promo-place
+### WindowsSpyBlocker - Hosts spy rules
+### More info: https://github.com/crazy-max/WindowsSpyBlocker
+### License: MIT
+### Donate: https://github.com/sponsors/crazy-max ; https://www.paypal.me/crazyws
+### Updated: 2022-05-16T13:25:00Z02:12
+:: cds20005.stn.llnw.net
+:: cds1287.lon.llnw.net
+:: cds422.lcy.llnw.net
+:: hk2sch130021618.wns.windows.com
+:: nw-umwatson.events.data.microsoft.com
+:: oca.telemetry.microsoft.com
+:: redir.metaservices.microsoft.com
+:: bn4sch101123110.wns.windows.com
+:: hk2sch130021264.wns.windows.com
+:: watson.live.com
+:: hk2sch130021646.wns.windows.com
+:: cds20424.lcy.llnw.net
+:: umwatsonc.events.data.microsoft.com
+:: cds812.lon.llnw.net
+:: hk2sch130020936.wns.windows.com
+:: sqm.df.telemetry.microsoft.com
+:: hk2sch130020961.wns.windows.com
+:: ceuswatcab02.blob.core.windows.net
+:: vortex.data.microsoft.com
+:: cds483.lcy.llnw.net
+:: c.msn.com
+:: settingsfd-geo.trafficmanager.net
+:: cds484.lcy.llnw.net
+:: hk2sch130021017.wns.windows.com
+:: settings-win-ppe.data.microsoft.com
+:: hk2sch130021142.wns.windows.com
+:: bn3sch020010650.wns.windows.com
+:: xblgdvrassets3010.blob.core.windows.net
+:: cds1327.lon.llnw.net
+:: cds20485.lcy.llnw.net
+:: compatexchange1.trafficmanager.net
+:: hk2sch130021928.wns.windows.com
+:: ca.telemetry.microsoft.com
+:: cds21309.lon.llnw.net
+:: cds836.lon.llnw.net
+:: hk2sch130020851.wns.windows.com
+:: cds421.lcy.llnw.net
+:: hk2sch130020854.wns.windows.com
+:: cds20452.lcy.llnw.net
+:: cds20450.lcy.llnw.net
+:: corp.sts.microsoft.com
+:: hk2sch130021433.wns.windows.com
+:: bn3sch020022328.wns.windows.com
+:: settings-sandbox.data.microsoft.com
+:: hk2sch130022049.wns.windows.com
+:: cds21225.lon.llnw.net
+:: cds20440.lcy.llnw.net
+:: spyneteurope.microsoft.akadns.net
+:: v10.vortex-win.data.microsoft.com
+:: cds20435.lcy.llnw.net
+:: cds458.lcy.llnw.net
+:: api.cortana.ai
+:: bn3sch020010631.wns.windows.com
+:: cds310.lcy.llnw.net
+:: hk2sch130020958.wns.windows.com
+:: hk2sch130020924.wns.windows.com
+:: test.activity.windows.com
+:: hk2sch130021249.wns.windows.com
+:: cache.datamart.windows.com
+:: cds840.lon.llnw.net
+:: bn4sch101122312.wns.windows.com
+:: watson.telemetry.microsoft.com
+:: db5.settings.data.microsoft.com.akadns.net
+:: cds20411.lcy.llnw.net
+:: cds21258.lon.llnw.net
+:: hk2sch130021246.wns.windows.com
+:: cds30027.stn.llnw.net
+:: bn4sch101120911.wns.windows.com
+:: cds1204.lon.llnw.net
+:: watson.microsoft.com
+:: bs.serving-sys.com
+:: cds299.lcy.llnw.net
+:: bn4sch101121223.wns.windows.com
+:: browser.pipe.aria.microsoft.com
+:: cds20425.lcy.llnw.net
+:: nexusrules.officeapps.live.com
+:: hk2sch130021731.wns.windows.com
+:: cds468.lcy.llnw.net
+:: cs1.wpc.v0cdn.net
+:: teredo.ipv6.microsoft.com
+:: cds1285.lon.llnw.net
+:: cds21249.lon.llnw.net
+:: tele.trafficmanager.net
+:: settings.data.glbdns2.microsoft.com
+:: cds54.ory.llnw.net
+:: h1.msn.com
+:: preview.msn.com
+:: v20.vortex-win.data.microsoft.com
+:: view.atdmt.com
+:: cds493.lcy.llnw.net
+:: umwatsonc.telemetry.microsoft.us
+:: hk2sch130021334.wns.windows.com
+:: hk2sch130021035.wns.windows.com
+:: cds868.lon.llnw.net
+:: v10-win.vortex.data.microsoft.com.akadns.net
+:: db5.vortex.data.microsoft.com.akadns.net
+:: bn4sch101121714.wns.windows.com
+:: bn3sch020010560.wns.windows.com
+:: hk2sch130020940.wns.windows.com
+:: a.ads2.msads.net
+:: a.ads2.msn.com
+:: bn4sch101121908.wns.windows.com
+:: geo.settings.data.microsoft.com.akadns.net
+:: cds21207.lon.llnw.net
+:: cds1289.lon.llnw.net
+:: hk2sch130021958.wns.windows.com
+:: cds405.lcy.llnw.net
+:: hk2sch130020732.wns.windows.com
+:: diagnostics.support.microsoft.com
+:: hk2sch130021927.wns.windows.com
+:: spynetalt.microsoft.com
+:: adnxs.com
+:: cds27.ory.llnw.net
+:: bn3sch020011727.wns.windows.com
+:: hk2sch130021029.wns.windows.com
+:: cds21238.lon.llnw.net
+:: cds20495.lcy.llnw.net
+:: hk2sch130020824.wns.windows.com
+:: hk2sch130021833.wns.windows.com
+:: cds447.lcy.llnw.net
+:: spynet2.microsoft.com
+:: sqm.telemetry.microsoft.com
+:: cds1265.lon.llnw.net
+:: hk2sch130021260.wns.windows.com
+:: hk2sch130021830.wns.windows.com
+:: bn4sch101120913.wns.windows.com
+:: cds20445.lcy.llnw.net
+:: hk2sch130022041.wns.windows.com
+:: bn3sch020010635.wns.windows.com
+:: bn4sch101121709.wns.windows.com
+:: bn3sch020010629.wns.windows.com
+:: bn4sch101121118.wns.windows.com
+:: cds1228.lon.llnw.net
+:: cy2.vortex.data.microsoft.com.akadns.net
+:: aka-cdn-ns.adtech.de
+:: bn3sch020010558.wns.windows.com
+:: hk2sch130021554.wns.windows.com
+:: cds20404.lcy.llnw.net
+:: cds21261.lon.llnw.net
+:: insideruser.trafficmanager.net
+:: hk2sch130021450.wns.windows.com
+:: hk2sch130021634.wns.windows.com
+:: hk2sch130022035.wns.windows.com
+:: msntest.serving-sys.com
+:: cds38.ory.llnw.net
+:: cds1203.lon.llnw.net
+:: hk2sch130020723.wns.windows.com
+:: cds20475.lcy.llnw.net
+:: bn2-ris-prod-atm.trafficmanager.net
+:: cds494.lcy.llnw.net
+:: hk2sch130020729.wns.windows.com
+:: hk2sch130020726.wns.windows.com
+:: bn3sch020022335.wns.windows.com
+:: cds407.fra.llnw.net
+:: cds406.lcy.llnw.net
+:: hk2sch130021432.wns.windows.com
+:: corpext.msitadfs.glbdns2.microsoft.com
+:: bn2-ris-ap-prod-atm.trafficmanager.net
+:: cds416.lcy.llnw.net
+:: cds843.lon.llnw.net
+:: ads.msn.com
+:: hk2sch130021652.wns.windows.com
+:: cds20461.lcy.llnw.net
+:: cds20469.lcy.llnw.net
+:: ssw.live.com
+:: api.edgeoffer.microsoft.com
+:: cds21313.lon.llnw.net
+:: hk2sch130021518.wns.windows.com
+:: hk2sch130021527.wns.windows.com
+:: kmwatsonc.events.data.microsoft.com
+:: watson.ppe.telemetry.microsoft.com
+:: bn4sch101122421.wns.windows.com
+:: cds857.lon.llnw.net
+:: sg2p.wns.windows.com
+:: services.wes.df.telemetry.microsoft.com
+:: cds1244.lon.llnw.net
+:: presence.teams.live.com
+:: b.rad.msn.com
+:: hk2sch130021851.wns.windows.com
+:: cds426.lcy.llnw.net
+:: a.rad.msn.com
+:: cds21321.lon.llnw.net
+:: win1710.ipv6.microsoft.com
+:: rad.msn.com
+:: bn3sch020010636.wns.windows.com
+:: cds21281.lon.llnw.net
+:: cds21278.lon.llnw.net
+:: hk2wns1b.wns.windows.com
+:: weus2watcab02.blob.core.windows.net
+:: g.msn.com
+:: hk2sch130021726.wns.windows.com
+:: hk2sch130021153.wns.windows.com
+:: hk2.wns.windows.com
+:: hk2sch130021754.wns.windows.com
+:: cds20417.lcy.llnw.net
+:: cds21293.lon.llnw.net
+:: hk2sch130021435.wns.windows.com
+:: hk2sch130021723.wns.windows.com
+:: cds21205.lon.llnw.net
+:: romeccs.microsoft.com
+:: ads1.msads.net
+:: lb1.www.ms.akadns.net
+:: 1oavsblobprodcus350.blob.core.windows.net
+:: bn4sch101120818.wns.windows.com
+:: ac3.msn.com
+:: ieonlinews.trafficmanager.net
+:: live.rads.msn.com
+:: sqm.telemetry.microsoft.com.nsatc.net
+:: mobile.pipe.aria.microsoft.com
+:: cds20431.lcy.llnw.net
+:: adnexus.net
+:: ceuswatcab01.blob.core.windows.net
+:: cds20443.lcy.llnw.net
+:: hk2sch130021638.wns.windows.com
+:: bn4sch101121109.wns.windows.com
+### Updated: 2021-09-26T20:42:00Z02:12
+:: hk2sch130021322.wns.windows.com
+:: cds10.stn.llnw.net
+:: cds20482.lcy.llnw.net
+:: hk2sch130021842.wns.windows.com
+:: cds425.lcy.llnw.net
+:: bingads.microsoft.com
+:: hk2sch130021523.wns.windows.com
+:: cds832.lon.llnw.net
+:: bn4sch101123202.wns.windows.com
+:: hk2sch130021526.wns.windows.com
+:: cds21244.lon.llnw.net
+:: bn3sch020020322.wns.windows.com
+:: cdn.atdmt.com
+:: cds1269.lon.llnw.net
+:: umwatson.events.data.microsoft.com
+:: cds21229.lon.llnw.net
+:: web.vortex.data.microsoft.com
+:: h2.msn.com
+:: hk2sch130021544.wns.windows.com
+:: cds1257.lon.llnw.net
+:: telecommand.telemetry.microsoft.com
+:: hk2sch130022135.wns.windows.com
+:: eaus2watcab02.blob.core.windows.net
+:: bn2wns1.wns.windows.com
+:: bn3sch020022361.wns.windows.com
+:: cds21256.lon.llnw.net
+:: cds1307.lon.llnw.net
+:: cds20415.lcy.llnw.net
+:: wes.df.telemetry.microsoft.com
+:: ztd.dds.microsoft.com
+:: hk2sch130021654.wns.windows.com
+:: hk2sch130021323.wns.windows.com
+:: hk2sch130021657.wns.windows.com
+:: hk2sch130021329.wns.windows.com
+:: ec.atdmt.com
+:: cds815.lon.llnw.net
+:: hk2sch130021829.wns.windows.com
+### WindowsSpyBlocker - Hosts IPv6 spy rules
+:: cds177.dus.llnw.net
+:: ads1.msn.com
+:: cds20457.lcy.llnw.net
+:: flex.msn.com
+:: hk2sch130020721.wns.windows.com
+:: modern.watson.data.microsoft.com.akadns.net
+:: secure.flashtalking.com
+:: win10.ipv6.microsoft.com
+:: 37bvsblobprodcus311.blob.core.windows.net
+:: secure.adnxs.com
+:: hk2sch130021730.wns.windows.com
+:: survey.watson.microsoft.com
+:: db5.settings-win.data.microsoft.com.akadns.net
+:: hk2.settings.data.microsoft.com.akadns.net
+:: eaus2watcab01.blob.core.windows.net
+:: cds308.lcy.llnw.net
+:: b.ads1.msn.com
+:: cds459.lcy.llnw.net
+:: cds1273.lon.llnw.net
+:: db3aqu.atdmt.com
+:: rad.live.com
+:: nexus.officeapps.live.com
+:: ieonlinews.microsoft.com
+:: telemetry.microsoft.com
+:: bn4sch101121407.wns.windows.com
+:: bn3sch020020749.wns.windows.com
+:: alpha.telemetry.microsoft.com
+:: cds489.lcy.llnw.net
+:: aidps.atdmt.com
+:: geo.settings-win.data.microsoft.com.akadns.net
+:: vortex-sandbox.data.microsoft.com
+:: win8.ipv6.microsoft.com
+:: reports.wes.df.telemetry.microsoft.com
+:: par02p.wns.windows.com
+:: df.telemetry.microsoft.com
+:: hk2wns1.wns.windows.com
+:: telemetry.appex.bing.net
+:: cds1325.lon.llnw.net
+:: hk2sch130021437.wns.windows.com
+:: hk2sch130021727.wns.windows.com
+:: telemetry.remoteapp.windowsazure.com
+:: db5-eap.settings-win.data.microsoft.com.akadns.net
+:: cds21233.lon.llnw.net
+:: bn4sch101122310.wns.windows.com
+:: schemas.microsoft.akadns.net
+:: cds1219.lon.llnw.net
+:: hk2sch130021360.wns.windows.com
+:: geo.vortex.data.microsoft.com.akadns.net
+:: cds1310.lon.llnw.net
+:: hk2sch130021440.wns.windows.com
+:: onecollector.cloudapp.aria.akadns.net
+:: msedge.net
+:: c.atdmt.com
+:: bn3sch020012850.wns.windows.com
+:: cds471.lcy.llnw.net
+:: cds869.lon.llnw.net
+:: oca.telemetry.microsoft.us
+:: pre.footprintpredict.com
+:: bn4sch101121618.wns.windows.com
+:: cds461.lcy.llnw.net
+:: b.ads2.msads.net
+:: vortex.data.glbdns2.microsoft.com
+:: a.ads1.msn.com
+:: azwancan.trafficmanager.net
+:: kmwatson.events.data.microsoft.com
+:: bn3sch020010618.wns.windows.com
+:: hk2sch130020843.wns.windows.com
+:: uks.b.prd.ags.trafficmanager.net
+:: bn4sch101121704.wns.windows.com
+:: weus2watcab01.blob.core.windows.net
+:: bn4sch102110124.wns.windows.com
+:: cds46.ory.llnw.net
+:: cds1293.lon.llnw.net
+:: cds21257.lon.llnw.net
+:: hk2sch130021929.wns.windows.com
+:: hk2sch130021840.wns.windows.com
+:: cds20416.lcy.llnw.net
+:: bn4sch101122117.wns.windows.com
+:: asimov-win.settings.data.microsoft.com.akadns.net
+:: hk2sch130020855.wns.windows.com
+:: hk2sch130021852.wns.windows.com
+:: m.adnxs.com
+:: bn4sch101123108.wns.windows.com
+:: hk2sch130021137.wns.windows.com
+:: cds1.stn.llnw.net
+:: bn4sch101120814.wns.windows.com
+:: cds1209.lon.llnw.net
+:: cds21267.lon.llnw.net
+:: hk2sch130020956.wns.windows.com
+:: telemetry.urs.microsoft.com
+:: blobcollector.events.data.trafficmanager.net
+:: bn4sch101121019.wns.windows.com
+:: cds469.lcy.llnw.net
+:: hk2sch130021217.wns.windows.com
+:: cds818.lon.llnw.net
+### WindowsSpyBlocker - Hosts extra rules
+:: onedriveclucprodbn20029.blob.core.windows.net
+:: i-sn2-cor001.api.p001.1drv.com
+:: pstrgqp01.blob.core.windows.net
+:: europe.cp.wd.microsoft.com
+:: onedriveclucproddm20007.blob.core.windows.net
+:: t-ring.msedge.net
+:: ars.smartscreen.microsoft.com
+:: iteactive-pra.msedge.net
+:: i-sn2-cor002.api.p001.1drv.com
+:: storage.live.com
+:: a-0003.a-msedge.net
+:: reactiveassistanceinstance.cognitiveservices.azure.com
+:: finance.services.appex.bing.com
+:: outlook-ca-emeawest2.office365.com
+:: edgetipscdn.microsoft.com
+### WindowsSpyBlocker - Hosts IPv6 extra rules
+:: oneocsp.microsoft.com
+:: global.sam.msn.com
+:: studytree2.blob.core.windows.net
+:: b-ring.msedge.net
+:: k-ring.msedge.net
+:: r20swj13mr.microsoft.com
+:: login.windows.net
+:: onedriveclucprodbn20016.blob.core.windows.net
+:: search.msn.com
+:: next-services.apps.microsoft.com
+:: onedriveclucproddm20016.blob.core.windows.net
+:: api.bing.com
+:: licensingphone.md.mp.microsoft.com
+:: feedback.windows.com
+:: oneclient.sfx.ms
+:: i-am3p-cor002.api.p001.1drv.com
+:: i-sn3p-cor002.api.p001.1drv.com
+:: wscont1.apps.microsoft.com
+:: onedriveclucproddm20020.blob.core.windows.net
+:: onedriveclucprodbn20038.blob.core.windows.net
+:: onedriveclucprodbn20042.blob.core.windows.net
+:: static.2mdn.net
+:: img.stb.s-msn.com
+:: client-office365-tas.msedge.net
+:: azsc-euw.config.skype.com
+:: azpglspamprwduateus2.blob.core.windows.net
+:: onedriveclucprodbn20007.blob.core.windows.net
+:: share.microsoft.com
+:: sn3301-c.1drv.com
+:: onedriveclucproddm20029.blob.core.windows.net
+:: answers.microsoft.com
+:: onedriveclucprodbn20003.blob.core.windows.net
+:: ne-we.cp.wd.microsoft.com
+:: mediaredirect.microsoft.com
+:: i-am3p-cor005.api.p001.1drv.com
+:: ipv4.login.live.com
+:: foodanddrink.tile.appex.bing.com
+:: ch3301-g.1drv.com
+:: ch3302-e.1drv.com
+:: edge.activity.windows.com
+:: onedriveclucproddm20024.blob.core.windows.net
+:: onedriveclucprodbn20021.blob.core.windows.net
+:: onedriveclucproddm20012.blob.core.windows.net
+:: onedriveclucproddm20047.blob.core.windows.net
+:: a-0001.a-msedge.net
+:: v10.events.data.microsoft.com
+:: i-am3p-cor004.api.p001.1drv.com
+:: www.msftconnecttest.com
+:: staging.to-do.officeppe.com
+:: a-0005.a-msedge.net
+:: login.live.com
+:: s.gateway.messenger.live.com
+:: onedriveclucproddm20025.blob.core.windows.net
+:: licensing.mp.microsoft.com
+:: nav.smartscreen.microsoft.com
+:: msedge.api.cdp.microsoft.com
+:: api.msn.com
+:: query.prod.cms.rt.microsoft.com
+:: server6.pipe.aria.microsoft.com
+:: onedriveclucprodbn20037.blob.core.windows.net
+:: xml.login.live.com
+:: onedriveclucprodbn20025.blob.core.windows.net
+:: optanon.blob.core.windows.net
+:: onedriveclucprodbn20030.blob.core.windows.net
+:: a-0002.a-msedge.net
+:: inference.location.live.net
+:: a-0006.a-msedge.net
+:: da.xboxservices.com
+:: graph.microsoft.com
+:: i-am3p-cor001.api.p001.1drv.com
+:: device.auth.xboxlive.com
+:: onedriveclucprodbn20002.blob.core.windows.net
+:: onedriveclucproddm20021.blob.core.windows.net
+:: urs.smartscreen.microsoft.com
+:: ocos-office365-s2s.msedge.net
+:: api.cdp.microsoft.com
+:: i-bl6p-cor001.api.p001.1drv.com
+:: www.telecommandsvc.microsoft.com
+:: www.windowssearch.com
+:: us.vortex-win.data.microsoft.com
+:: time.windows.com
+:: version.hybrid.api.here.com
+:: a-0012.a-msedge.net
+:: www.msedge.net
+:: onedriveclucproddm20028.blob.core.windows.net
+:: continuum.dds.microsoft.com
+:: statics.teams.cdn.office.net
+:: onedriveclucproddm20019.blob.core.windows.net
+:: eu.vortex-win.data.microsoft.com
+:: config.edge.skype.com
+:: onedriveclucprodbn20028.blob.core.windows.net
+:: onedriveclucprodbn20050.blob.core.windows.net
+:: us-v20.events.data.microsoft.com
+:: mucp.api.account.microsoft.com
+:: ic3.events.data.microsoft.com
+:: roaming.officeapps.live.com
+:: hel01r3.msedge.net
+:: activation-v2.sls.microsoft.com
+:: onedriveclucproddm20017.blob.core.windows.net
+:: v10c.events.data.microsoft.com
+:: settings-win.data.microsoft.com
+:: checkappexec.microsoft.com
+:: win10-trt.msedge.net
+:: tfl.nel.measure.office.net
+:: t0.ssl.ak.tiles.virtualearth.net
+:: kiwi.blob.core.windows.net
+:: onedriveclucprodbn20013.blob.core.windows.net
+:: arc.msn.com
+:: df.csa.teams.live.com
+:: i-ch1-cor001.api.p001.1drv.com
+:: dev.virtualearth.net
+:: go.microsoft.com
+:: i-bl6p-cor002.api.p001.1drv.com
+:: urs.microsoft.com
+:: onedriveclucprodbn20026.blob.core.windows.net
+:: s2s.config.skype.com
+:: vortex-win-sandbox.data.microsoft.com
+:: feedback.microsoft-hohm.com
+:: pipe.skype.com
+:: bl3301-a.1drv.com
+:: rcr.blob.core.windows.net
+:: neu.notifications.skype.com
+:: onedriveclucprodbn20011.blob.core.windows.net
+:: purchase.mp.microsoft.com
+:: wscont.apps.microsoft.com.edgesuite.net
+:: mobile.events.data.microsoft.com
+:: onedriveclucproddm20002.blob.core.windows.net
+:: onedriveclucproddm20043.blob.core.windows.net
+:: onedriveclucproddm20004.blob.core.windows.net
+:: fr-fr.appex-rf.msn.com
+:: metadata.templates.cdn.office.net
+:: troubleshooting.microsoft.com
+:: uhf.microsoft.com
+:: windows.policies.live.net
+:: outlook.office.com
+:: packages.dmd.metaservices.microsoft.com
+:: c.bing.com
+:: i1.services.social.microsoft.com
+:: outlook.office365.com
+:: skyapi.live.net
+:: msportal.blob.core.windows.net
+:: wpcdn.blob.core.windows.net
+:: bl3301-g.1drv.com
+:: wscont.apps.microsoft.com
+:: am3pap004.storage.live.com
+:: clients.config.office.net
+:: onedriveclucproddm20049.blob.core.windows.net
+:: isgemail.blob.core.windows.net
+:: t.urs.microsoft.com
+:: c1.microsoft.com
+:: onedriveclucproddm20003.blob.core.windows.net
+:: odc.officeapps.live.com
+:: sn3301-g.1drv.com
+:: dmd.metaservices.microsoft.com
+:: blob.weather.microsoft.com
+:: by3301-a.1drv.com
+:: az361816.vo.msecnd.net
+:: bingforbusiness.com
+:: ch3302-c.1drv.com
+:: i-db3p-cor002.api.p001.1drv.com
+:: sfdataservice.microsoft.com
+:: store-images.microsoft.com
+:: choice.microsoft.com.nsatc.net
+:: outlook-emeawest2.office365.com
+:: eu.vortex.data.microsoft.com
+:: otf.msn.com
+:: a-0004.a-msedge.net
+:: onedriveclucproddm20026.blob.core.windows.net
+:: onedriveclucprodbn20019.blob.core.windows.net
+:: onedriveclucprodbn20043.blob.core.windows.net
+:: onedriveclucprodbn20027.blob.core.windows.net
+:: t0.ssl.ak.dynamic.tiles.virtualearth.net
+:: smartscreen-prod.microsoft.com
+:: choice.microsoft.com
+:: ecn.dev.virtualearth.net
+:: pti.store.microsoft.com
+:: server7.pipe.aria.microsoft.com
+:: onedriveclucproddm20042.blob.core.windows.net
+:: i-am3p-cor003.api.p001.1drv.com
+:: onedriveclucproddm20050.blob.core.windows.net
+:: api.onedrive.com
+:: mrodevicemgr.officeapps.live.com
+:: onedriveclucprodbn20012.blob.core.windows.net
+:: onedriveclucprodbn20020.blob.core.windows.net
+:: s0.2mdn.net
+:: onedriveclucprodbn20004.blob.core.windows.net
+:: officehomeblobs.blob.core.windows.net
+:: onedriveclucproddm20011.blob.core.windows.net
+:: i-by3p-cor001.api.p001.1drv.com
+:: decsitefinitycdn.blob.core.windows.net
+:: browser.events.data.microsoft.com
+:: onedriveclucprodbn20005.blob.core.windows.net
+:: i-db3p-cor005.api.p001.1drv.com
+:: onedriveclucproddm20040.blob.core.windows.net
+:: bn2b-cor004.api.p001.1drv.com
+:: browser.events.data.msn.com
+:: stor3.msedge.net
+:: i-by3p-cor002.api.p001.1drv.com
+:: i-bn3p-cor001.api.p001.1drv.com
+:: wdcpalt.microsoft.com
+:: autologon.microsoftazuread-sso.com
+:: onedriveclubproddm20041.blob.core.windows.net
+:: onedriveclucproddm20018.blob.core.windows.net
+:: c-0001.dc-msedge.net
+:: mscrl.microsoft.com
+:: settings.data.microsoft.com
+:: appex-rf.msn.com
+:: onedriveclucprodbn20018.blob.core.windows.net
+:: evoke-windowsservices-tas.msedge.net
+:: onedriveclucproddm20009.blob.core.windows.net
+:: iecvlist.microsoft.com
+:: validation-v2.sls.microsoft.com
+:: onedriveclucprodbn20040.blob.core.windows.net
+:: roaming-eu.officeapps.live.com
+:: service.weather.microsoft.com
+:: sn3301-e.1drv.com
+:: ris.api.iris.microsoft.com
+:: insideruser.microsoft.com
+:: i-db3p-cor004.api.p001.1drv.com
+:: onedriveclucproddm20027.blob.core.windows.net
+:: onedriveclucprodbn20001.blob.core.windows.net
+:: teams.events.data.microsoft.com
+:: msftncsi.com
+:: i-db3p-cor003.api.p001.1drv.com
+:: onedriveclucproddm20014.blob.core.windows.net
+:: bn2b-cor002.api.p001.1drv.com
+:: dmd.metaservices.microsoft.com.akadns.net
+:: thestreamstaging.blob.core.windows.net
+:: ne.cp.wd.microsoft.com
+:: wallet.microsoft.com
+:: i-db3p-cor001.api.p001.1drv.com
+:: config.teams.microsoft.com
+:: cy2.settings.data.microsoft.com.akadns.net
+:: outlook-1.cdn.office.net
+:: edge.microsoft.com
+:: onedriveclucprodbn20036.blob.core.windows.net
+:: onedriveclucprodbn20044.blob.core.windows.net
+:: m.hotmail.com
+:: db3pap004.storage.live.com
+:: login.microsoftonline.com
+:: a.config.skype.com
+:: developerportalprod.blob.core.windows.net
+:: onedriveclucproddm20048.blob.core.windows.net
+:: staging.to-do.microsoft.com
+:: outlookmobile-office365-tas.msedge.net
+:: onedriveclucprodbn20045.blob.core.windows.net
+:: storecatalogrevocation.storequality.microsoft.com
+:: outlook.live.com
+:: maps.windows.com
+:: az512334.vo.msecnd.net
+:: ui.skype.com
+:: onedriveclucprodbn20010.blob.core.windows.net
+:: az725175.vo.msecnd.net
+:: onedriveclucproddm20013.blob.core.windows.net
+:: onedriveclucprodbn20022.blob.core.windows.net
+:: substrate.office.com
+:: assuritystorage.blob.core.windows.net
+:: apps.skype.com
+:: us-v10.events.data.microsoft.com
+:: a-0009.a-msedge.net
+:: ch1-cor002.api.p001.1drv.com
+:: onedriveclucprodbn20048.blob.core.windows.net
+:: tile-service.weather.microsoft.com
+:: cdn.onenote.net
+:: onedriveclucprodbn20049.blob.core.windows.net
+:: onedriveclucprodbn20009.blob.core.windows.net
+:: onedriveclucprodbn20041.blob.core.windows.net
+:: onedriveclucproddm20044.blob.core.windows.net
+:: ntp.msn.com
+:: g.live.com
+:: bn2b-cor001.api.p001.1drv.com
+:: storesdk.dsx.mp.microsoft.com
+:: onedriveclucprodbn20014.blob.core.windows.net
+:: crl.microsoft.com
+:: w.apprep.smartscreen.microsoft.com
+:: onedriveclucproddm20001.blob.core.windows.net
+:: fp.msedge.net
+:: onedriveclucproddm20005.blob.core.windows.net
+:: onedriveclucprodbn20006.blob.core.windows.net
+:: events.data.microsoft.com
+:: login.msa.msidentity.com
+:: ch3301-c.1drv.com
+:: vortex-win.data.microsoft.com
+:: support.microsoft.com
+:: a-ring.msedge.net
+:: onedriveclucproddm20036.blob.core.windows.net
+:: europe.smartscreen-prod.microsoft.com
+:: i-ch1-cor002.api.p001.1drv.com
+:: rom30r3a.msedge.net
+:: bl3301-c.1drv.com
+:: a-0011.a-msedge.net
+:: bn3p-cor001.api.p001.1drv.com
+:: x.urs.microsoft.com
+:: insiderservice.microsoft.com
+:: www.xboxab.com
+:: cs.dds.microsoft.com
+:: exo.nel.measure.office.net
+:: onedriveclucproddm20006.blob.core.windows.net
+:: cbecloud.com
+:: by3301-c.1drv.com
+:: wscont2.apps.microsoft.com
+:: teams.live.com
+:: v20.events.data.microsoft.com
+:: a-0007.a-msedge.net
+:: blobs.officehome.msocdn.com
+:: co2.sls.microsoft.com
+:: settings-ssl.xboxlive.com
+:: tk2.plt.msn.com
+:: a-0008.a-msedge.net
+:: b.config.skype.com
+:: onedriveclucproddm20030.blob.core.windows.net
+:: uci.cdn.office.net
+:: g.bing.com
+:: onedriveclubprodbn20051.blob.core.windows.net
+:: nleditor.osi.office.net
+:: onedrive.live.com
+:: onedriveclucprodbn20017.blob.core.windows.net
+:: onedriveclucproddm20008.blob.core.windows.net
+:: activity.windows.com
+:: img-prod-cms-rt-microsoft-com.akamaized.net
+:: msgapi.teams.live.com
+:: logincdn.msauth.net
+:: onedriveclucproddm20039.blob.core.windows.net
+:: a-msedge.net
+:: onedriveclucproddm20045.blob.core.windows.net
+:: msagfx.live.com
+:: assets.msn.com
+:: automatedirstrprdeus.blob.core.windows.net
+:: img-s-msn-com.akamaized.net
+:: fs.microsoft.com
+:: wdcp.microsoft.com
+:: onedriveclucproddm20037.blob.core.windows.net
+:: officeclient.microsoft.com
+:: www.msftncsi.com
+:: storeedgefd.dsx.mp.microsoft.com
+:: store-images.s-microsoft.com
+:: am3pap002.storage.live.com
+:: validation.sls.microsoft.com
+:: windows.msn.com
+:: hubstordev3sstor1.blob.core.windows.net
+:: activation.sls.microsoft.com
+:: dns.msftncsi.com
+:: register.cdpcs.microsoft.com
+:: a-0003.dc-msedge.net
+:: onedriveclucprodbn20046.blob.core.windows.net
+:: onedriveclucprodbn20047.blob.core.windows.net
+:: onedriveclucproddm20046.blob.core.windows.net
+:: a-0001.dc-msedge.net
+:: manage.devcenter.microsoft.com
+:: cdn.content.prod.cms.msn.com
+:: onedriveclucprodbn20023.blob.core.windows.net
+:: auth.gfx.ms
+:: onedriveclucproddm20022.blob.core.windows.net
+:: self.events.data.microsoft.com
+:: client-s.gateway.messenger.live.com
+:: eu-v20.events.data.microsoft.com
+:: i-bn3p-cor090.api.p001.1drv.com
+:: onedriveclucprodbn20024.blob.core.windows.net
+:: by3301-e.1drv.com
+:: onedriveclucproddm20023.blob.core.windows.net
+:: arc.msn.com.nsatc.net
+:: clientconfig.passport.net
+:: ch1-cor001.api.p001.1drv.com
+:: onedriveclucproddm20015.blob.core.windows.net
+:: dlassets-ssl.xboxlive.com
+:: onedriveclucprodbn20008.blob.core.windows.net
+:: a-0010.a-msedge.net
+:: officecdn.microsoft.com.edgesuite.net
+:: location-inference-westus.cloudapp.net
+:: videomd.blob.core.windows.net
+:: ch3301-e.1drv.com
+:: statics.teams.cdn.live.net
+:: officecdn.microsoft.com
+:: login.msa.akadns6.net
+:: onedriveclucproddm20038.blob.core.windows.net
+:: onedriveclucprodbn20039.blob.core.windows.net
+:: to-do.microsoft.com
+:: eu-v10.events.data.microsoft.com
+:: feedback.search.microsoft.com
+:: ecs.office.com
+:: candycrushsoda.king.com
+:: i-sn3p-cor001.api.p001.1drv.com
+:: bn2b-cor003.api.p001.1drv.com
 lesen.amazon.de##ion-toast
 @@||gamesqa.ru/wp-content/themes/gamesqa/advertising.js
 vi.nl#@#[class*="cookie-"]
@@ -64997,7 +65752,6 @@ donanimhaber.com##.abonelik
 ao.com###aoMessageHolder
 sadnescity.it,baydoner.com##body > .alert-dismissible[role="alert"]
 oferta.efortuna.pl#$#.feg-cookie-banner { display: none !important; }
-##.gliaplayer-container
 milsped.com,accounts.kaleido.ai,unscreen.com,remove.bg##.banner
 academyfx.ru#$#body { overflow: visible !important; }
 bussgeldkatalog.org###slidein
@@ -65068,6 +65822,7 @@ shoppingcidadesp.com.br,razoesparaacreditar.com###oPrivallyApp
 v3.account.samsung.com#$?#body > .MuiDrawer-root:has(>.MuiModal-backdrop[style^="opacity: 1; transition: opacity 225ms cubic-bezier"] ~ .MuiPaper-root[style^="transform: none; transition: transform 225ms cubic-bezier"]) { display: none !important; }
 javarevisited.blogspot.com#?#.sidebar > div.widget > div.widget-content > form.gumroad-follow-form-embed:upward(div.widget)
 steplerapp.com##.cookie-popup__body
+southpark.*,southparkstudios.*,cbssports.com,cbs.com#%#//scriptlet('trusted-click-element', '#ketch-banner-button-secondary')
 zabkagroup.com#?#.popup:has(> div.popup-inner div.cookies-footer)
 ccoo.es#$#.snigel-cmp-framework { display: none !important; }
 clarins.ru##.homepage-newsletter-section
@@ -83283,7 +84038,6 @@ prada.com#%#//scriptlet('remove-class', 'stopScrollPrada', 'html.stopScrollPrada
 wetterring.at##div[class^="app-message"]
 kramerguitars.com,mesaboogie.com,maestroelectronics.com,epiphone.com,lgseeds.com.ua,krungsricard.com#$##cookieModal { display: none !important; }
 ||7pisem.com^$third-party
-boyfriendtv.com#%#//scriptlet('prevent-addEventListener', 'click', 'interstitial')
 conradconnect.com#@##cookie-consent
 pprx.team##.dbtfy-cookie_box
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=noopjs,domain=texture-packs.com|xdarom.com
@@ -83707,7 +84461,6 @@ divanpastaneleri.com.tr#%#//scriptlet('trusted-click-element', 'button.tr-cookie
 classic.set.or.th,settrade.com###pdpa-policy
 searchenginejournal.com##.sej-subscribe-form
 cleveroad.com##.bd_l0
-cbssports.com,cbs.com#%#//scriptlet('trusted-click-element', '#ketch-banner-button-secondary')
 @@||cdn.cookiehub.eu/c2/*.$domain=ro.kruk.eu
 metropoles.com##div[class^="CookieConcent"]
 ###bandeauCookies
@@ -91436,853 +92189,256 @@ bo3.gg##.c-modal-cookie
 hotcourses.ru#$##cookiePopUpId { display: none !important; }
 joyn.de#%#(()=>{let t,e=!1;const o=new MutationObserver(((e,o)=>{const c=t?.querySelector('cmp-button[variant="primary"]');c&&(c.click(),o.disconnect())})),c={apply:(c,n,a)=>{const r=Reflect.apply(c,n,a);return!e&&n.matches("cmp-dialog")&&(e=!0,t=r),o.observe(r,{subtree:!0,childList:!0}),r}};window.Element.prototype.attachShadow=new Proxy(window.Element.prototype.attachShadow,c)})();
 algonquincollege.com###fancybox-container-1
-### WindowsSpyBlocker - Hosts spy rules
-### More info: https://github.com/crazy-max/WindowsSpyBlocker
-### License: MIT
-### Donate: https://github.com/sponsors/crazy-max ; https://www.paypal.me/crazyws
-### Updated: 2022-05-16T13:25:00Z02:12
-#
-::1  localhost
-:: cds20005.stn.llnw.net
-:: cds1287.lon.llnw.net
-:: cds422.lcy.llnw.net
-:: hk2sch130021618.wns.windows.com
-:: nw-umwatson.events.data.microsoft.com
-:: oca.telemetry.microsoft.com
-:: redir.metaservices.microsoft.com
-:: bn4sch101123110.wns.windows.com
-:: hk2sch130021264.wns.windows.com
-:: watson.live.com
-:: hk2sch130021646.wns.windows.com
-:: cds20424.lcy.llnw.net
-:: umwatsonc.events.data.microsoft.com
-:: cds812.lon.llnw.net
-:: hk2sch130020936.wns.windows.com
-:: sqm.df.telemetry.microsoft.com
-:: hk2sch130020961.wns.windows.com
-:: ceuswatcab02.blob.core.windows.net
-:: vortex.data.microsoft.com
-:: cds483.lcy.llnw.net
-:: c.msn.com
-:: settingsfd-geo.trafficmanager.net
-:: cds484.lcy.llnw.net
-:: hk2sch130021017.wns.windows.com
-:: settings-win-ppe.data.microsoft.com
-:: hk2sch130021142.wns.windows.com
-:: bn3sch020010650.wns.windows.com
-:: xblgdvrassets3010.blob.core.windows.net
-:: cds1327.lon.llnw.net
-:: cds20485.lcy.llnw.net
-:: compatexchange1.trafficmanager.net
-:: hk2sch130021928.wns.windows.com
-:: ca.telemetry.microsoft.com
-:: cds21309.lon.llnw.net
-:: cds836.lon.llnw.net
-:: hk2sch130020851.wns.windows.com
-:: cds421.lcy.llnw.net
-:: hk2sch130020854.wns.windows.com
-:: cds20452.lcy.llnw.net
-:: cds20450.lcy.llnw.net
-:: corp.sts.microsoft.com
-:: hk2sch130021433.wns.windows.com
-:: bn3sch020022328.wns.windows.com
-:: settings-sandbox.data.microsoft.com
-:: hk2sch130022049.wns.windows.com
-:: cds21225.lon.llnw.net
-:: cds20440.lcy.llnw.net
-:: spyneteurope.microsoft.akadns.net
-:: v10.vortex-win.data.microsoft.com
-:: cds20435.lcy.llnw.net
-:: cds458.lcy.llnw.net
-:: api.cortana.ai
-:: bn3sch020010631.wns.windows.com
-:: cds310.lcy.llnw.net
-:: hk2sch130020958.wns.windows.com
-:: hk2sch130020924.wns.windows.com
-:: test.activity.windows.com
-:: hk2sch130021249.wns.windows.com
-:: cache.datamart.windows.com
-:: cds840.lon.llnw.net
-:: bn4sch101122312.wns.windows.com
-:: watson.telemetry.microsoft.com
-:: db5.settings.data.microsoft.com.akadns.net
-:: cds20411.lcy.llnw.net
-:: cds21258.lon.llnw.net
-:: hk2sch130021246.wns.windows.com
-:: cds30027.stn.llnw.net
-:: bn4sch101120911.wns.windows.com
-:: cds1204.lon.llnw.net
-:: watson.microsoft.com
-:: bs.serving-sys.com
-:: cds299.lcy.llnw.net
-:: bn4sch101121223.wns.windows.com
-:: browser.pipe.aria.microsoft.com
-:: cds20425.lcy.llnw.net
-:: nexusrules.officeapps.live.com
-:: hk2sch130021731.wns.windows.com
-:: cds468.lcy.llnw.net
-:: cs1.wpc.v0cdn.net
-:: teredo.ipv6.microsoft.com
-:: cds1285.lon.llnw.net
-:: cds21249.lon.llnw.net
-:: tele.trafficmanager.net
-:: settings.data.glbdns2.microsoft.com
-:: cds54.ory.llnw.net
-:: h1.msn.com
-:: preview.msn.com
-:: v20.vortex-win.data.microsoft.com
-:: view.atdmt.com
-:: cds493.lcy.llnw.net
-:: umwatsonc.telemetry.microsoft.us
-:: hk2sch130021334.wns.windows.com
-:: hk2sch130021035.wns.windows.com
-:: cds868.lon.llnw.net
-:: v10-win.vortex.data.microsoft.com.akadns.net
-:: db5.vortex.data.microsoft.com.akadns.net
-:: bn4sch101121714.wns.windows.com
-:: bn3sch020010560.wns.windows.com
-:: hk2sch130020940.wns.windows.com
-:: a.ads2.msads.net
-:: a.ads2.msn.com
-:: bn4sch101121908.wns.windows.com
-:: geo.settings.data.microsoft.com.akadns.net
-:: cds21207.lon.llnw.net
-:: cds1289.lon.llnw.net
-:: hk2sch130021958.wns.windows.com
-:: cds405.lcy.llnw.net
-:: hk2sch130020732.wns.windows.com
-:: diagnostics.support.microsoft.com
-:: hk2sch130021927.wns.windows.com
-:: spynetalt.microsoft.com
-:: adnxs.com
-:: cds27.ory.llnw.net
-:: bn3sch020011727.wns.windows.com
-:: hk2sch130021029.wns.windows.com
-:: cds21238.lon.llnw.net
-:: cds20495.lcy.llnw.net
-:: hk2sch130020824.wns.windows.com
-:: hk2sch130021833.wns.windows.com
-:: cds447.lcy.llnw.net
-:: spynet2.microsoft.com
-:: sqm.telemetry.microsoft.com
-:: cds1265.lon.llnw.net
-:: hk2sch130021260.wns.windows.com
-:: hk2sch130021830.wns.windows.com
-:: bn4sch101120913.wns.windows.com
-:: cds20445.lcy.llnw.net
-:: hk2sch130022041.wns.windows.com
-:: bn3sch020010635.wns.windows.com
-:: bn4sch101121709.wns.windows.com
-:: bn3sch020010629.wns.windows.com
-:: bn4sch101121118.wns.windows.com
-:: cds1228.lon.llnw.net
-:: cy2.vortex.data.microsoft.com.akadns.net
-:: aka-cdn-ns.adtech.de
-:: bn3sch020010558.wns.windows.com
-:: hk2sch130021554.wns.windows.com
-:: cds20404.lcy.llnw.net
-:: cds21261.lon.llnw.net
-:: insideruser.trafficmanager.net
-:: hk2sch130021450.wns.windows.com
-:: hk2sch130021634.wns.windows.com
-:: hk2sch130022035.wns.windows.com
-:: msntest.serving-sys.com
-:: cds38.ory.llnw.net
-:: cds1203.lon.llnw.net
-:: hk2sch130020723.wns.windows.com
-:: cds20475.lcy.llnw.net
-:: bn2-ris-prod-atm.trafficmanager.net
-:: cds494.lcy.llnw.net
-:: hk2sch130020729.wns.windows.com
-:: hk2sch130020726.wns.windows.com
-:: bn3sch020022335.wns.windows.com
-:: cds407.fra.llnw.net
-:: cds406.lcy.llnw.net
-:: hk2sch130021432.wns.windows.com
-:: corpext.msitadfs.glbdns2.microsoft.com
-:: bn2-ris-ap-prod-atm.trafficmanager.net
-:: cds416.lcy.llnw.net
-:: cds843.lon.llnw.net
-:: ads.msn.com
-:: hk2sch130021652.wns.windows.com
-:: cds20461.lcy.llnw.net
-:: cds20469.lcy.llnw.net
-:: ssw.live.com
-:: api.edgeoffer.microsoft.com
-:: cds21313.lon.llnw.net
-:: hk2sch130021518.wns.windows.com
-:: hk2sch130021527.wns.windows.com
-:: kmwatsonc.events.data.microsoft.com
-:: watson.ppe.telemetry.microsoft.com
-:: bn4sch101122421.wns.windows.com
-:: cds857.lon.llnw.net
-:: sg2p.wns.windows.com
-:: services.wes.df.telemetry.microsoft.com
-:: cds1244.lon.llnw.net
-:: presence.teams.live.com
-:: b.rad.msn.com
-:: hk2sch130021851.wns.windows.com
-:: cds426.lcy.llnw.net
-:: a.rad.msn.com
-:: cds21321.lon.llnw.net
-:: win1710.ipv6.microsoft.com
-:: rad.msn.com
-:: bn3sch020010636.wns.windows.com
-:: cds21281.lon.llnw.net
-:: cds21278.lon.llnw.net
-:: hk2wns1b.wns.windows.com
-:: weus2watcab02.blob.core.windows.net
-:: g.msn.com
-:: hk2sch130021726.wns.windows.com
-:: hk2sch130021153.wns.windows.com
-:: hk2.wns.windows.com
-:: hk2sch130021754.wns.windows.com
-:: cds20417.lcy.llnw.net
-:: cds21293.lon.llnw.net
-:: hk2sch130021435.wns.windows.com
-:: hk2sch130021723.wns.windows.com
-:: cds21205.lon.llnw.net
-:: romeccs.microsoft.com
-:: ads1.msads.net
-:: lb1.www.ms.akadns.net
-:: 1oavsblobprodcus350.blob.core.windows.net
-:: bn4sch101120818.wns.windows.com
-:: ac3.msn.com
-:: ieonlinews.trafficmanager.net
-:: live.rads.msn.com
-:: sqm.telemetry.microsoft.com.nsatc.net
-:: mobile.pipe.aria.microsoft.com
-:: cds20431.lcy.llnw.net
-:: adnexus.net
-:: ceuswatcab01.blob.core.windows.net
-:: cds20443.lcy.llnw.net
-:: hk2sch130021638.wns.windows.com
-:: bn4sch101121109.wns.windows.com
-### Updated: 2021-09-26T20:42:00Z02:12
-:: hk2sch130021322.wns.windows.com
-:: cds10.stn.llnw.net
-:: cds20482.lcy.llnw.net
-:: hk2sch130021842.wns.windows.com
-:: cds425.lcy.llnw.net
-:: bingads.microsoft.com
-:: hk2sch130021523.wns.windows.com
-:: cds832.lon.llnw.net
-:: bn4sch101123202.wns.windows.com
-:: hk2sch130021526.wns.windows.com
-:: cds21244.lon.llnw.net
-:: bn3sch020020322.wns.windows.com
-:: cdn.atdmt.com
-:: cds1269.lon.llnw.net
-:: umwatson.events.data.microsoft.com
-:: cds21229.lon.llnw.net
-:: web.vortex.data.microsoft.com
-:: h2.msn.com
-:: hk2sch130021544.wns.windows.com
-:: cds1257.lon.llnw.net
-:: telecommand.telemetry.microsoft.com
-:: hk2sch130022135.wns.windows.com
-:: eaus2watcab02.blob.core.windows.net
-:: bn2wns1.wns.windows.com
-:: bn3sch020022361.wns.windows.com
-:: cds21256.lon.llnw.net
-:: cds1307.lon.llnw.net
-:: cds20415.lcy.llnw.net
-:: wes.df.telemetry.microsoft.com
-:: ztd.dds.microsoft.com
-:: hk2sch130021654.wns.windows.com
-:: hk2sch130021323.wns.windows.com
-:: hk2sch130021657.wns.windows.com
-:: hk2sch130021329.wns.windows.com
-:: ec.atdmt.com
-:: cds815.lon.llnw.net
-:: hk2sch130021829.wns.windows.com
-### WindowsSpyBlocker - Hosts IPv6 spy rules
-:: cds177.dus.llnw.net
-:: ads1.msn.com
-:: cds20457.lcy.llnw.net
-:: flex.msn.com
-:: hk2sch130020721.wns.windows.com
-:: modern.watson.data.microsoft.com.akadns.net
-:: secure.flashtalking.com
-:: win10.ipv6.microsoft.com
-:: 37bvsblobprodcus311.blob.core.windows.net
-:: secure.adnxs.com
-:: hk2sch130021730.wns.windows.com
-:: survey.watson.microsoft.com
-:: db5.settings-win.data.microsoft.com.akadns.net
-:: hk2.settings.data.microsoft.com.akadns.net
-:: eaus2watcab01.blob.core.windows.net
-:: cds308.lcy.llnw.net
-:: b.ads1.msn.com
-:: cds459.lcy.llnw.net
-:: cds1273.lon.llnw.net
-:: db3aqu.atdmt.com
-:: rad.live.com
-:: nexus.officeapps.live.com
-:: ieonlinews.microsoft.com
-:: telemetry.microsoft.com
-:: bn4sch101121407.wns.windows.com
-:: bn3sch020020749.wns.windows.com
-:: alpha.telemetry.microsoft.com
-:: cds489.lcy.llnw.net
-:: aidps.atdmt.com
-:: geo.settings-win.data.microsoft.com.akadns.net
-:: vortex-sandbox.data.microsoft.com
-:: win8.ipv6.microsoft.com
-:: reports.wes.df.telemetry.microsoft.com
-:: par02p.wns.windows.com
-:: df.telemetry.microsoft.com
-:: hk2wns1.wns.windows.com
-:: telemetry.appex.bing.net
-:: cds1325.lon.llnw.net
-:: hk2sch130021437.wns.windows.com
-:: hk2sch130021727.wns.windows.com
-:: telemetry.remoteapp.windowsazure.com
-:: db5-eap.settings-win.data.microsoft.com.akadns.net
-:: cds21233.lon.llnw.net
-:: bn4sch101122310.wns.windows.com
-:: schemas.microsoft.akadns.net
-:: cds1219.lon.llnw.net
-:: hk2sch130021360.wns.windows.com
-:: geo.vortex.data.microsoft.com.akadns.net
-:: cds1310.lon.llnw.net
-:: hk2sch130021440.wns.windows.com
-:: onecollector.cloudapp.aria.akadns.net
-:: msedge.net
-:: c.atdmt.com
-:: bn3sch020012850.wns.windows.com
-:: cds471.lcy.llnw.net
-:: cds869.lon.llnw.net
-:: oca.telemetry.microsoft.us
-:: pre.footprintpredict.com
-:: bn4sch101121618.wns.windows.com
-:: cds461.lcy.llnw.net
-:: b.ads2.msads.net
-:: vortex.data.glbdns2.microsoft.com
-:: a.ads1.msn.com
-:: azwancan.trafficmanager.net
-:: kmwatson.events.data.microsoft.com
-:: bn3sch020010618.wns.windows.com
-:: hk2sch130020843.wns.windows.com
-:: uks.b.prd.ags.trafficmanager.net
-:: bn4sch101121704.wns.windows.com
-:: weus2watcab01.blob.core.windows.net
-:: bn4sch102110124.wns.windows.com
-:: cds46.ory.llnw.net
-:: cds1293.lon.llnw.net
-:: cds21257.lon.llnw.net
-:: hk2sch130021929.wns.windows.com
-:: hk2sch130021840.wns.windows.com
-:: cds20416.lcy.llnw.net
-:: bn4sch101122117.wns.windows.com
-:: asimov-win.settings.data.microsoft.com.akadns.net
-:: hk2sch130020855.wns.windows.com
-:: hk2sch130021852.wns.windows.com
-:: m.adnxs.com
-:: bn4sch101123108.wns.windows.com
-:: hk2sch130021137.wns.windows.com
-:: cds1.stn.llnw.net
-:: bn4sch101120814.wns.windows.com
-:: cds1209.lon.llnw.net
-:: cds21267.lon.llnw.net
-:: hk2sch130020956.wns.windows.com
-:: telemetry.urs.microsoft.com
-:: blobcollector.events.data.trafficmanager.net
-:: bn4sch101121019.wns.windows.com
-:: cds469.lcy.llnw.net
-:: hk2sch130021217.wns.windows.com
-:: cds818.lon.llnw.net
-### WindowsSpyBlocker - Hosts extra rules
-:: onedriveclucprodbn20029.blob.core.windows.net
-:: i-sn2-cor001.api.p001.1drv.com
-:: pstrgqp01.blob.core.windows.net
-:: europe.cp.wd.microsoft.com
-:: onedriveclucproddm20007.blob.core.windows.net
-:: t-ring.msedge.net
-:: ars.smartscreen.microsoft.com
-:: iteactive-pra.msedge.net
-:: i-sn2-cor002.api.p001.1drv.com
-:: storage.live.com
-:: a-0003.a-msedge.net
-:: reactiveassistanceinstance.cognitiveservices.azure.com
-:: finance.services.appex.bing.com
-:: outlook-ca-emeawest2.office365.com
-:: edgetipscdn.microsoft.com
-### WindowsSpyBlocker - Hosts IPv6 extra rules
-:: oneocsp.microsoft.com
-:: global.sam.msn.com
-:: studytree2.blob.core.windows.net
-:: b-ring.msedge.net
-:: k-ring.msedge.net
-:: r20swj13mr.microsoft.com
-:: login.windows.net
-:: onedriveclucprodbn20016.blob.core.windows.net
-:: search.msn.com
-:: next-services.apps.microsoft.com
-:: onedriveclucproddm20016.blob.core.windows.net
-:: api.bing.com
-:: licensingphone.md.mp.microsoft.com
-:: feedback.windows.com
-:: oneclient.sfx.ms
-:: i-am3p-cor002.api.p001.1drv.com
-:: i-sn3p-cor002.api.p001.1drv.com
-:: wscont1.apps.microsoft.com
-:: onedriveclucproddm20020.blob.core.windows.net
-:: onedriveclucprodbn20038.blob.core.windows.net
-:: onedriveclucprodbn20042.blob.core.windows.net
-:: static.2mdn.net
-:: img.stb.s-msn.com
-:: client-office365-tas.msedge.net
-:: azsc-euw.config.skype.com
-:: azpglspamprwduateus2.blob.core.windows.net
-:: onedriveclucprodbn20007.blob.core.windows.net
-:: share.microsoft.com
-:: sn3301-c.1drv.com
-:: onedriveclucproddm20029.blob.core.windows.net
-:: answers.microsoft.com
-:: onedriveclucprodbn20003.blob.core.windows.net
-:: ne-we.cp.wd.microsoft.com
-:: mediaredirect.microsoft.com
-:: i-am3p-cor005.api.p001.1drv.com
-:: ipv4.login.live.com
-:: foodanddrink.tile.appex.bing.com
-:: ch3301-g.1drv.com
-:: ch3302-e.1drv.com
-:: edge.activity.windows.com
-:: onedriveclucproddm20024.blob.core.windows.net
-:: onedriveclucprodbn20021.blob.core.windows.net
-:: onedriveclucproddm20012.blob.core.windows.net
-:: onedriveclucproddm20047.blob.core.windows.net
-:: a-0001.a-msedge.net
-:: v10.events.data.microsoft.com
-:: i-am3p-cor004.api.p001.1drv.com
-:: www.msftconnecttest.com
-:: staging.to-do.officeppe.com
-:: a-0005.a-msedge.net
-:: login.live.com
-:: s.gateway.messenger.live.com
-:: onedriveclucproddm20025.blob.core.windows.net
-:: licensing.mp.microsoft.com
-:: nav.smartscreen.microsoft.com
-:: msedge.api.cdp.microsoft.com
-:: api.msn.com
-:: query.prod.cms.rt.microsoft.com
-:: server6.pipe.aria.microsoft.com
-:: onedriveclucprodbn20037.blob.core.windows.net
-:: xml.login.live.com
-:: onedriveclucprodbn20025.blob.core.windows.net
-:: optanon.blob.core.windows.net
-:: onedriveclucprodbn20030.blob.core.windows.net
-:: a-0002.a-msedge.net
-:: inference.location.live.net
-:: a-0006.a-msedge.net
-:: da.xboxservices.com
-:: graph.microsoft.com
-:: i-am3p-cor001.api.p001.1drv.com
-:: device.auth.xboxlive.com
-:: onedriveclucprodbn20002.blob.core.windows.net
-:: onedriveclucproddm20021.blob.core.windows.net
-:: urs.smartscreen.microsoft.com
-:: ocos-office365-s2s.msedge.net
-:: api.cdp.microsoft.com
-:: i-bl6p-cor001.api.p001.1drv.com
-:: www.telecommandsvc.microsoft.com
-:: www.windowssearch.com
-:: us.vortex-win.data.microsoft.com
-:: time.windows.com
-:: version.hybrid.api.here.com
-:: a-0012.a-msedge.net
-:: www.msedge.net
-:: onedriveclucproddm20028.blob.core.windows.net
-:: continuum.dds.microsoft.com
-:: statics.teams.cdn.office.net
-:: onedriveclucproddm20019.blob.core.windows.net
-:: eu.vortex-win.data.microsoft.com
-:: config.edge.skype.com
-:: onedriveclucprodbn20028.blob.core.windows.net
-:: onedriveclucprodbn20050.blob.core.windows.net
-:: us-v20.events.data.microsoft.com
-:: mucp.api.account.microsoft.com
-:: ic3.events.data.microsoft.com
-:: roaming.officeapps.live.com
-:: hel01r3.msedge.net
-:: activation-v2.sls.microsoft.com
-:: onedriveclucproddm20017.blob.core.windows.net
-:: v10c.events.data.microsoft.com
-:: settings-win.data.microsoft.com
-:: checkappexec.microsoft.com
-:: win10-trt.msedge.net
-:: tfl.nel.measure.office.net
-:: t0.ssl.ak.tiles.virtualearth.net
-:: kiwi.blob.core.windows.net
-:: onedriveclucprodbn20013.blob.core.windows.net
-:: arc.msn.com
-:: df.csa.teams.live.com
-:: i-ch1-cor001.api.p001.1drv.com
-:: dev.virtualearth.net
-:: go.microsoft.com
-:: i-bl6p-cor002.api.p001.1drv.com
-:: urs.microsoft.com
-:: onedriveclucprodbn20026.blob.core.windows.net
-:: s2s.config.skype.com
-:: vortex-win-sandbox.data.microsoft.com
-:: feedback.microsoft-hohm.com
-:: pipe.skype.com
-:: bl3301-a.1drv.com
-:: rcr.blob.core.windows.net
-:: neu.notifications.skype.com
-:: onedriveclucprodbn20011.blob.core.windows.net
-:: purchase.mp.microsoft.com
-:: wscont.apps.microsoft.com.edgesuite.net
-:: mobile.events.data.microsoft.com
-:: onedriveclucproddm20002.blob.core.windows.net
-:: onedriveclucproddm20043.blob.core.windows.net
-:: onedriveclucproddm20004.blob.core.windows.net
-:: fr-fr.appex-rf.msn.com
-:: metadata.templates.cdn.office.net
-:: troubleshooting.microsoft.com
-:: uhf.microsoft.com
-:: windows.policies.live.net
-:: outlook.office.com
-:: packages.dmd.metaservices.microsoft.com
-:: c.bing.com
-:: i1.services.social.microsoft.com
-:: outlook.office365.com
-:: skyapi.live.net
-:: msportal.blob.core.windows.net
-:: wpcdn.blob.core.windows.net
-:: bl3301-g.1drv.com
-:: wscont.apps.microsoft.com
-:: am3pap004.storage.live.com
-:: clients.config.office.net
-:: onedriveclucproddm20049.blob.core.windows.net
-:: isgemail.blob.core.windows.net
-:: t.urs.microsoft.com
-:: c1.microsoft.com
-:: onedriveclucproddm20003.blob.core.windows.net
-:: odc.officeapps.live.com
-:: sn3301-g.1drv.com
-:: dmd.metaservices.microsoft.com
-:: blob.weather.microsoft.com
-:: by3301-a.1drv.com
-:: az361816.vo.msecnd.net
-:: bingforbusiness.com
-:: ch3302-c.1drv.com
-:: i-db3p-cor002.api.p001.1drv.com
-:: sfdataservice.microsoft.com
-:: store-images.microsoft.com
-:: choice.microsoft.com.nsatc.net
-:: outlook-emeawest2.office365.com
-:: eu.vortex.data.microsoft.com
-:: otf.msn.com
-:: a-0004.a-msedge.net
-:: onedriveclucproddm20026.blob.core.windows.net
-:: onedriveclucprodbn20019.blob.core.windows.net
-:: onedriveclucprodbn20043.blob.core.windows.net
-:: onedriveclucprodbn20027.blob.core.windows.net
-:: t0.ssl.ak.dynamic.tiles.virtualearth.net
-:: smartscreen-prod.microsoft.com
-:: choice.microsoft.com
-:: ecn.dev.virtualearth.net
-:: pti.store.microsoft.com
-:: server7.pipe.aria.microsoft.com
-:: onedriveclucproddm20042.blob.core.windows.net
-:: i-am3p-cor003.api.p001.1drv.com
-:: onedriveclucproddm20050.blob.core.windows.net
-:: api.onedrive.com
-:: mrodevicemgr.officeapps.live.com
-:: onedriveclucprodbn20012.blob.core.windows.net
-:: onedriveclucprodbn20020.blob.core.windows.net
-:: s0.2mdn.net
-:: onedriveclucprodbn20004.blob.core.windows.net
-:: officehomeblobs.blob.core.windows.net
-:: onedriveclucproddm20011.blob.core.windows.net
-:: i-by3p-cor001.api.p001.1drv.com
-:: decsitefinitycdn.blob.core.windows.net
-:: browser.events.data.microsoft.com
-:: onedriveclucprodbn20005.blob.core.windows.net
-:: i-db3p-cor005.api.p001.1drv.com
-:: onedriveclucproddm20040.blob.core.windows.net
-:: bn2b-cor004.api.p001.1drv.com
-:: browser.events.data.msn.com
-:: stor3.msedge.net
-:: i-by3p-cor002.api.p001.1drv.com
-:: i-bn3p-cor001.api.p001.1drv.com
-:: wdcpalt.microsoft.com
-:: autologon.microsoftazuread-sso.com
-:: onedriveclubproddm20041.blob.core.windows.net
-:: onedriveclucproddm20018.blob.core.windows.net
-:: c-0001.dc-msedge.net
-:: mscrl.microsoft.com
-:: settings.data.microsoft.com
-:: appex-rf.msn.com
-:: onedriveclucprodbn20018.blob.core.windows.net
-:: evoke-windowsservices-tas.msedge.net
-:: onedriveclucproddm20009.blob.core.windows.net
-:: iecvlist.microsoft.com
-:: validation-v2.sls.microsoft.com
-:: onedriveclucprodbn20040.blob.core.windows.net
-:: roaming-eu.officeapps.live.com
-:: service.weather.microsoft.com
-:: sn3301-e.1drv.com
-:: ris.api.iris.microsoft.com
-:: insideruser.microsoft.com
-:: i-db3p-cor004.api.p001.1drv.com
-:: onedriveclucproddm20027.blob.core.windows.net
-:: onedriveclucprodbn20001.blob.core.windows.net
-:: teams.events.data.microsoft.com
-:: msftncsi.com
-:: i-db3p-cor003.api.p001.1drv.com
-:: onedriveclucproddm20014.blob.core.windows.net
-:: bn2b-cor002.api.p001.1drv.com
-:: dmd.metaservices.microsoft.com.akadns.net
-:: thestreamstaging.blob.core.windows.net
-:: ne.cp.wd.microsoft.com
-:: wallet.microsoft.com
-:: i-db3p-cor001.api.p001.1drv.com
-:: config.teams.microsoft.com
-:: cy2.settings.data.microsoft.com.akadns.net
-:: outlook-1.cdn.office.net
-:: edge.microsoft.com
-:: onedriveclucprodbn20036.blob.core.windows.net
-:: onedriveclucprodbn20044.blob.core.windows.net
-:: m.hotmail.com
-:: db3pap004.storage.live.com
-:: login.microsoftonline.com
-:: a.config.skype.com
-:: developerportalprod.blob.core.windows.net
-:: onedriveclucproddm20048.blob.core.windows.net
-:: staging.to-do.microsoft.com
-:: outlookmobile-office365-tas.msedge.net
-:: onedriveclucprodbn20045.blob.core.windows.net
-:: storecatalogrevocation.storequality.microsoft.com
-:: outlook.live.com
-:: maps.windows.com
-:: az512334.vo.msecnd.net
-:: ui.skype.com
-:: onedriveclucprodbn20010.blob.core.windows.net
-:: az725175.vo.msecnd.net
-:: onedriveclucproddm20013.blob.core.windows.net
-:: onedriveclucprodbn20022.blob.core.windows.net
-:: substrate.office.com
-:: assuritystorage.blob.core.windows.net
-:: apps.skype.com
-:: us-v10.events.data.microsoft.com
-:: a-0009.a-msedge.net
-:: ch1-cor002.api.p001.1drv.com
-:: onedriveclucprodbn20048.blob.core.windows.net
-:: tile-service.weather.microsoft.com
-:: cdn.onenote.net
-:: onedriveclucprodbn20049.blob.core.windows.net
-:: onedriveclucprodbn20009.blob.core.windows.net
-:: onedriveclucprodbn20041.blob.core.windows.net
-:: onedriveclucproddm20044.blob.core.windows.net
-:: ntp.msn.com
-:: g.live.com
-:: bn2b-cor001.api.p001.1drv.com
-:: storesdk.dsx.mp.microsoft.com
-:: onedriveclucprodbn20014.blob.core.windows.net
-:: crl.microsoft.com
-:: w.apprep.smartscreen.microsoft.com
-:: onedriveclucproddm20001.blob.core.windows.net
-:: fp.msedge.net
-:: onedriveclucproddm20005.blob.core.windows.net
-:: onedriveclucprodbn20006.blob.core.windows.net
-:: events.data.microsoft.com
-:: login.msa.msidentity.com
-:: ch3301-c.1drv.com
-:: vortex-win.data.microsoft.com
-:: support.microsoft.com
-:: a-ring.msedge.net
-:: onedriveclucproddm20036.blob.core.windows.net
-:: europe.smartscreen-prod.microsoft.com
-:: i-ch1-cor002.api.p001.1drv.com
-:: rom30r3a.msedge.net
-:: bl3301-c.1drv.com
-:: a-0011.a-msedge.net
-:: bn3p-cor001.api.p001.1drv.com
-:: x.urs.microsoft.com
-:: insiderservice.microsoft.com
-:: www.xboxab.com
-:: cs.dds.microsoft.com
-:: exo.nel.measure.office.net
-:: onedriveclucproddm20006.blob.core.windows.net
-:: cbecloud.com
-:: by3301-c.1drv.com
-:: wscont2.apps.microsoft.com
-:: teams.live.com
-:: v20.events.data.microsoft.com
-:: a-0007.a-msedge.net
-:: blobs.officehome.msocdn.com
-:: co2.sls.microsoft.com
-:: settings-ssl.xboxlive.com
-:: tk2.plt.msn.com
-:: a-0008.a-msedge.net
-:: b.config.skype.com
-:: onedriveclucproddm20030.blob.core.windows.net
-:: uci.cdn.office.net
-:: g.bing.com
-:: onedriveclubprodbn20051.blob.core.windows.net
-:: nleditor.osi.office.net
-:: onedrive.live.com
-:: onedriveclucprodbn20017.blob.core.windows.net
-:: onedriveclucproddm20008.blob.core.windows.net
-:: activity.windows.com
-:: img-prod-cms-rt-microsoft-com.akamaized.net
-:: msgapi.teams.live.com
-:: logincdn.msauth.net
-:: onedriveclucproddm20039.blob.core.windows.net
-:: a-msedge.net
-:: onedriveclucproddm20045.blob.core.windows.net
-:: msagfx.live.com
-:: assets.msn.com
-:: automatedirstrprdeus.blob.core.windows.net
-:: img-s-msn-com.akamaized.net
-:: fs.microsoft.com
-:: wdcp.microsoft.com
-:: onedriveclucproddm20037.blob.core.windows.net
-:: officeclient.microsoft.com
-:: www.msftncsi.com
-:: storeedgefd.dsx.mp.microsoft.com
-:: store-images.s-microsoft.com
-:: am3pap002.storage.live.com
-:: validation.sls.microsoft.com
-:: windows.msn.com
-:: hubstordev3sstor1.blob.core.windows.net
-:: activation.sls.microsoft.com
-:: dns.msftncsi.com
-:: register.cdpcs.microsoft.com
-:: a-0003.dc-msedge.net
-:: onedriveclucprodbn20046.blob.core.windows.net
-:: onedriveclucprodbn20047.blob.core.windows.net
-:: onedriveclucproddm20046.blob.core.windows.net
-:: a-0001.dc-msedge.net
-:: manage.devcenter.microsoft.com
-:: cdn.content.prod.cms.msn.com
-:: onedriveclucprodbn20023.blob.core.windows.net
-:: auth.gfx.ms
-:: onedriveclucproddm20022.blob.core.windows.net
-:: self.events.data.microsoft.com
-:: client-s.gateway.messenger.live.com
-:: eu-v20.events.data.microsoft.com
-:: i-bn3p-cor090.api.p001.1drv.com
-:: onedriveclucprodbn20024.blob.core.windows.net
-:: by3301-e.1drv.com
-:: onedriveclucproddm20023.blob.core.windows.net
-:: arc.msn.com.nsatc.net
-:: clientconfig.passport.net
-:: ch1-cor001.api.p001.1drv.com
-:: onedriveclucproddm20015.blob.core.windows.net
-:: dlassets-ssl.xboxlive.com
-:: onedriveclucprodbn20008.blob.core.windows.net
-:: a-0010.a-msedge.net
-:: officecdn.microsoft.com.edgesuite.net
-:: location-inference-westus.cloudapp.net
-:: videomd.blob.core.windows.net
-:: ch3301-e.1drv.com
-:: statics.teams.cdn.live.net
-:: officecdn.microsoft.com
-:: login.msa.akadns6.net
-:: onedriveclucproddm20038.blob.core.windows.net
-:: onedriveclucprodbn20039.blob.core.windows.net
-:: to-do.microsoft.com
-:: eu-v10.events.data.microsoft.com
-:: feedback.search.microsoft.com
-:: ecs.office.com
-:: candycrushsoda.king.com
-:: i-sn3p-cor001.api.p001.1drv.com
-:: bn2b-cor003.api.p001.1drv.com
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
 ||*us*watcab*.blob.core.windows.net^
 ||*mistat*.xiaomi.com^
 ||*-analytics*.huami.com^
-baidu.com###J-tashuo-button-fixed
-baidu.com$$div[tpl="med_"]
-baidu.com$$div[data-log="zhujicankao.com"]
-baidu.com$$div[tpl="poi_kg"]
-baidu.com$$div[data-log="boce.com/wall/"]
-baidu.com$$div[tpl="nvl"]
-baidu.com$$div[tpl="jy_exam"]
-baidu.com$$div[tpl="wenda_"]
-baidu.com$$div[data-log="hostloc.net"]
-baidu.com$$div[tpl="rel_ugc"]
-baidu.com$$div[data-log="kxxzz.com/mgvps/"]
-baidu.com$$div[data-log="vpsyh.com"]
-baidu.com$$div[tpl="recommend_list"]
-baidu.com$$div[data-log="367783.net/zatan/"]
-baidu.com$$div[tpl="quality_wenda"]
-baidu.com$$div[tpl="we_tiebanewxml"]
-baidu.com$$div[class="feed-video-box"]
-baidu.com$$div[tpl="yl_"]
-zhidao.baidu.com##div.new-answer-entry.left-show
-baidu.com$$div[tpl="music_multi"]
-baidu.com$$div[data-log="bubuko.com"]
-baidu.com##.new-answer-entry.left-show
-baidu.com$$div[tpl="movieticket"]
-baidu.com$$div[data-log="machbbs.com"]
-baidu.com$$div[tpl="vid_pocket"]
-baidu.com$$div[tpl="pc-education-fs"]
-baidu.com##.hint-ft-questionnaire
-baidu.com$$div[tpl="_recommend"]
-baidu.com$$div[tpl="vd"]
-baidu.com$$div[tpl="_app"]
-baidu.com##.wgt-rel-exp.content-box
-baidu.com$$div[data-log="mamicode.com"]
-baidu.com$$div[tpl="_audio"]
-baidu.com$$div[tpl="guanfanghao"]
-map.baidu.com###index-areaEntry-widget
-map.baidu.com##div.index-widget-guidebanner.styleguide.container
-jingyan.baidu.com##div[class^="ui-slider"][style*="height"]
-baidu.com$$div[data-log="/sf?openapi"]
-baidu.com$$div[data-log="/sf/vsearch?pd"]
-baidu.com$$div[data-log="site.ip138.com"]
-baidu.com##.wgt-related-questions
-baidu.com$$div[data-log="vpsqb.com"]
-baidu.com##.header-act-entry
-baidu.com$$div[tpl="_demand"]
-baidu.com###tab_news_1
-baidu.com$$div[tpl="sp_"]
-baidu.com$$div[tpl="sd_imgs"]
-baidu.com$$div[tpl="ks_"]
-baidu.com$$div[tpl="vc_ting"]
-baidu.com$$div[tpl="zp_company"]
-baidu.com##.welcome-banner
-baidu.com$$div[data-log="fyddz.com.cn"]
-baidu.com$$div[data-log="dazhuanlan.com"]
-baidu.com##div.wa-guanfanghao-main
-baidu.com###feed-recommend
-baidu.com$$div[data-log="boce.com/hijack/"]
-baidu.com##.j_footer
-baidu.com$$div[class="wgt-exp-video"]
-baidu.com$$div[data-log="huaweicloud.com/theme/"]
-tieba.baidu.com##div.top-guide-wrap
-baidu.com$$div[tpl="games"]
-baidu.com$$div[data-log="cloud.tencent.com/developer/information/"]
-baidu.com$$div[data-log="boce.com/ping/"]
-baidu.com##.dynamicshareAdbox
-baidu.com##footer > a[class="dl"]
-baidu.com$$div[tpl="app_"]
-baidu.com$$div[data-log="boce.com/http/"]
-baidu.com$$div[data-log="haoxiangta.com"]
-baidu.com$$div[data-log="baijiahao"]
-baidu.com$$div[data-log="yiyult.com"]
-baidu.com$$div[data-log="boce.com/dns/"]
-baidu.com$$div[tpl="wz_movielist"]
-tieba.baidu.com##div.footer-wrap
-baidu.com$$div[tpl="sigma_celebrity_rela"]
-baidu.com$$div[tpl="comic"]
-tieba.baidu.com##div.pb_cut_hot_recommend
-baidu.com$$div[data-log="jiagongchang.com"]
-baidu.com$$div[class="bannerad"]
-zhidao.baidu.com###main-content > div.mm-content-box
-baidu.com$$div[data-log="/sf?pd"]
-baidu.com$$div[data-log="icode9.com"]
-baidu.com$$div[tpl="zhaopin"]
-baidu.com$$div[tpl="zp_sigma"]
-baidu.com$$div[tpl="enc"]
-baidu.com$$div[data-log="openapi"]
+@@||click.appcast.io^|
+@@||cl.link-ag.net^|
+@@||go.scorptec.com.au^|
+@@||classliving.lpages.co^|
+@@||intersport.peerius.com^|
+.tvp.tv^
+@@||ia.hit.interia.pl^|
+@@||cm-beacon.nakanohito.jp^|
+||*-sdk.rum.aliyuncs.com^
+@@||obituaries.thestar.com^|
+@@||www.jdoqocy.com^|
+@@||envato.market^|
+@@||click.trafficguard.ai^|
+@@||thumbnail.thench.net^|
+://say.ac^
+/^139\.45\.197\.2(4[0-9]|5[0-4])/
+@@||cmp.inmobi.com^|
+@@||api.karte.io^|
+.doublepimp.com^
+@@|affiliate.notion.so^|
+.stape.net
+||*-default-cn.rum.aliyuncs.com^
+@@||links.e.theatlantic.com^|
+@@||go.adjust.com^|
+@@||goto.walmart.com^|
+@@||a.sellpoint.net^|
+@@||vcentry3.valuecommerce.ne.jp^|
+.prod.pr.analytics.console.aws.a2z.com
+@@||forum.notebookreview.com^|
+@@||f-gear.ec-optimizer.com^|
+@@||infra-api.newrelic.com^|
+/(https?:\/\/)217\.182\.11\..{100,}/
+@@||href.li^|
+@@||proto2ad.durasite.net^|
+@@||learn.khanacademy.org^|
+@@|beta.publishers.adsterra.com^|
+@@||cs.silverpop.com^|
+@@||hidive.com^|
+@@||cdn.duurzaam.greenchoice.nl^|
+@@||stash.roistat.com^|
+@@||marketing.net.idealo-partner.com^|
+@@||oneline.nextday.media^|
+@@||public-cis.exponea.com^|
+.potopy.ru^
+@@||partner.everydays.de^|
+@@||remembering.ca^|
+@@||leechers-paradise.org^|
+@@||www.googleadservices.com^|
+.infox.sg^
+.allalla.com^
+/^142\.91\.159\.(1[5-9]\d|2[0-4]\d|250):(80|443)$/
+@@||tr.rdrtr.com^|
+@@||brm-core-*.brsrvr.com^|
+@@||get.neofinancial.com^|
+://sportframe*.org^
+@@||crm-cdn.peek-cloppenburg.com^|
+@@||taiga.maven.io^|
+@@-ds.metric.gstatic.com^|
+.sexplaycam.com^
+@@||puzzles-games-api.gp-prod.conde.digital^|
+@@||promo.gramedia.com^|
+@@||tlaol.com^|
+@@||ads.tdbank.com^|
+||*two-gun-volley.pages.dev^
+@@|adsterra.com^|
+@@||citiintl.122.2o7.net^|
+/^23\.109\.73\.\d{3}/
+@@||mc.*.exacttarget.com^|
+@@||ap01.records.in.treasuredata.com^|
+||linksprf.com^$badfilter
+@@||sbs.demdex.net^|
+@@||netatmo.commander1.com^|
+@@||support-widget.nakanohito.jp^|
+/(https?:\/\/)51\.195\.31\..{100,}/
+@@|beta.affiliates.adsterra.com^|
+://r.i.ua^
+@@||news.warhammer.com^|
+@@||www.statcounter.com^|
+@@||oa.tr.line.me^|
+@@|help-advertisers.adsterra.com^|
+-ulog-*.kwai-pro.com^
+@@||api.docodoco.jp^|
+@@||obituaries.therecord.com^|
+@@||my.tealiumiq.com^|
+@@||admin.dable.io^|
+@@||ma135-r.analytics.edgekey.net^|
+.tpm.pw^
+@@||official.paymaya.com^|
+@@||5471782.fls.doubleclick.net^|
+@@||artifactory.appodeal.com^|
+@@||email.procook.co.uk^|
+@@||daikoku.ebis.ne.jp^|
+.piccash.net^
+@@||a.adwolf.ru^|
+@@||awin1.com^|
+@@||email.*.skyeng.ru^|
+@@||links.getblueshift.com^|
+://tru.am^
+.3.n.2.2.l30.js
+@@||log.mmstat.com^|
+.3.n.2.1.l50.js
+@@|statcounter.com^|
+@@||redirect.appmetrica.yandex.com^|
+@@||e.customeriomail.com^|
+/^94\.242\.247\.(2[0-9]|3[0-2]):/
+@@||email.awscloud.com^|
+.is.traff-numerical.info^
+@@||cindyholbrook.lpages.co^|
+@@||static-v*.trbo.com^|
+@@||redir.ownpage.fr^|
+@@||home.focusatwill.com^|
+@@||app.adjust.com^|
+||tn.porngo.xxx^$badfilter
+-applog*.fqnovel.com^
+@@||grp07.ias.rakuten.co.jp^|
+@@||acs-m.daraz.com.bd^|
+@@|core.crazyegg.com^|
+@@||bcicl.*.evergage.com^|
+/(https?:\/\/)213\.32\.115\..{100,}/
+@@||id.i2i.jp^|
+.adonweb.ru^
+@@||track.rutarget.ru^|
+.n.2.1.js^
+://sportframe*.co^
+://*.a-akamaihd.com^
+@@||catchup.thisisdax.com^|
+://mine.torrent.pw^
+@@||cj.dotomi.com^|
+.1.1.1.l80.js^
+@@||gs.statcounter.com^|
+@@||login.sendpulse.com^|
+@@||click.virt.exacttarget.com^|
+@@||link.morningbrew.com^|
+@@||smtp.focusgroupresearch.com^|
+/^139\.45\.19[5-7]\.\d{1,3}/
+@@||radiofrance.targetspot.com^|
+.tovarro.com^
+@@|ads.adsterra.com^|
+@@||api-v*.trbo.com^|
+.bbelements.com^
+@@||linka.page^|
+@@||c.office.com^|
+@@||nineto5mac-d.openx.net^|
+@@||click.avs.io^|
+||*.libaishuo.com^
+@@||click.virt.s*.exacttarget.com^|
+://r.reklam*.com^
+@@||px.a8.net^|
+@@||torimochi.line-apps.com^|
+@@||hb.afl.rakuten.co.jp^|
+.cpa1.ru^
+@@||clickattr.wayup.com^|
+@@||surveymyopinion.researchnow.com^|
+@@|ezodn.com^|
+/62.76.25.2(7|8)/
+@@||vcentry2.valuecommerce.ne.jp^|
+@@||str.hit.gemius.pl^|
+@@|beta.partners.adsterra.com^|
+@@||ref.rbauction.com^|
+@@|www.daraz.pk^|
+@@||sponsor.nitropay.com^|
+@@||logentries.com^|
+@@||cdn.atmedia.hu^|
+@@||acs-m.daraz.pk^|
+@@||tags.crwdcntrl.net^|
+@@||clk*.tradedoubler.com^|
+/^23\.109\.170\.(18[7-9]|19[0-2])$/
+.ay.delivery^
+@@||cloud.notification-naviextras.com^|
+@@||data.digital.costco.ca^|
+@@||support-beacon.nakanohito.jp^|
+/^94\.242\.247\.(2[0-9]|3[0-2])/
+@@||email.elitedangerous.com^|
+@@||app.appsflyer.com^|
+@@||anwb.webpower.eu^|
+-ulogl*.kwai-pro.com^
+@@||gate.first-id.fr^|
+@@||tms.capitalone.com^|
+@@||secureimage.securedataimages.com^|
+@@||track.webgains.com^|
+@@||refer.discover.com^|
+@@||cdn.us*.exponea.com^|
+@@|publishers.adsterra.com^|
+://o0e.ru^
+.vipko.ru^
+@@||action.metaffiliation.com^|
+@@||cm-widget.nakanohito.jp^|
+@@||afi-b.com^|
+@@||rd.bizrate.com^|
+.n.2.1.l60.js^
+@@||ac.ebis.ne.jp^|
+@@||analytics.amplitude.com^|
+://jhf.ru^
+@@||health.halodoc.com^|
+@@||guce.advertising.com^|
+-ulog.*.kwaipros.com^
+@@|ftp.bmp.ovh^|
+@@||data-*.herz-fuer-tiere.de^|
+@@|partners.adsterra.com^|
+@@|affiliates.adsterra.com^|
+/^anon1.gt\d{6}.com$/
+@@||s.bluecore.com^|
+@@||media-consumer365.desigual.com^|
+://kma.biz^
+@@||validate.perfdrive.com^|
+@@||link.sylikes.com^|
+/193.200.64.24:/
+@@||omsc.kpn.com^|
+@@||omniture.walmart.com^|
+@@||go.redirectingat.com^|
+.gameleads.ru^
+@@|www3.doubleclick.net^|
+||*.exaapi.com^
+@@||prod.impartner.live^|
+.webhop.net^
+@@||click.simba.taobao.com^|
+@@||js.monitor.azure.com^|
+@@||feed.adrelayer.com^|
+/^139\.45\.197\.2(4[0-9]|5[0-4]):/
+@@|daraz.com^|
+@@||data.digital.costco.com^|
+@@||pt.afl.rakuten.co.jp^|
+||pl.ua^$badfilter
+@@||redir.tradedoubler.com^|
+-ulog-*.kwaipros.com^
+-ulog.*.kwai-pro.com^
+@@||trk.ecomm.lenovo.com^|
+@@||res.ads.nicovideo.jp^|
+@@||79423.analytics.edgekey.net^|
+@@||tlh.gedidigital.it^|
+@@||pagead.l.doubleclick.net^|
+/^https:\/\/anon1.gt\d{6}.com/
+|c.blue.*.com^|
+@@||www.dogpile.com^|
+/^188\.42\.84\.\d{1,3}/
+@@||click.cptrack.de^|
+*ad.durasite.net^
+@@||recommender.scarabresearch.com^|
+.ecommtools.com^
+@@||cutcaptcha.com^|
+@@||cdn.rozetka.com.ua^|
+@@|app.crazyegg.com^|
+@@||goto.target.com^|
+@@||sax.sina.com.cn^|
 ahgame.com,china.com.cn,dandanzan.com,netbardh.com,pangzi.ca,twoeggz.com###pop
 ||coolapk.com/v6/feed/detail?$replace=/include_goods//
 qq6080.com##.adh60
@@ -93850,7 +94006,6 @@ linovel.net##div.download-app
 ishangman.com##.ims_adle,.ims_adri,[style="position: relative; width: 728px; height: 98px; z-index: 255;"]
 www.google.com$@$div[class="_ad"]
 feizl.com##.ad960,.di650
-hxnews.com##div.rowa.clearfix,div.row.clearfix,div.ad_left,div.dxw,div.ty_3,div[id^="change_index_"],div.span-12.w495,div.link_drawing.clearfix,div.bd,.adv-text,.banner-100,.banner-90
 ||adashbc.m.taobao.com/rest^$app=com.leku.ustv
 zdzdm.com#@##share_list
 ganpapa.com##.ad-body,[class^="hidden-xs couplet_"],[class^="hidden-xs dibu_"],div[style^="display: block; position: fixed;"]
@@ -94032,6 +94187,7 @@ yxdown.com###topsearch{top: 100px;}
 gaoqing.la##body.custom-background{background-image:url('');}
 ||27k.cc/js/zztt/fmt.js
 checkadblock.ru##P.place_block block w468 js-ads-block,P.place_block block w728 js-ads-block
+junqing123.com##DIV.axing_add_ad,DIV.ad_960_85.mtop10,DIV.axing_ad_300_120
 /\/ad\d*\./$script
 /adimg/*
 ||app.bilibili.com/x/v2/account/mine?$replace=/\{\"id\"\:424.*?\}//
@@ -94732,7 +94888,6 @@ to8to.com##.float,.quote_pic_adv
 www.dajudeng.com##div#doc-ad1
 www.mgtv.com##.on.footAd
 ||static.ws.126.net/*/adTracker.$script
-||zedo.com^$third-party
 css88.com###sup-post-a,.entry-content-top,.banner-con,.amazeui-link,.textwidget
 tieba.baidu.com###list_item_wrapper j_click_stats
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
@@ -96502,7 +96657,6 @@ tadu.com##[href^="http://www.tadu.com/ad?"],.friend-close,div[id^="_"]
 www.downcc.com##div#gaosuxiazai,.mg-t5
 @@||stat.v-56.com/player
 /discor_list.js
-tieba.baidu.com##div.father_cut_daoliu
 vikacg.com$$a[href="asnebula.xyz"]
 bbs99.club##[class="wp a2_h"],.a_2mu,.ad,.a_pb
 canton8.com###banner,[src^="http://www.canton8.com/adphoto/"],#ads_c_tpc
@@ -98174,6 +98328,83 @@ www.xbiquge.com,www.xbquge.com,www.biquge.tw,biquge.com.tw##.con_ad,[width="960"
 h5galgame.com##IMG[src^="http://up.h5gal.cc/data/attachment/portal/201"]
 vzhuan.cn###box
 ::1 localhost
+@site-foregin/news
+@cibn
+@hijack/netbar
+@union-cn-plus
+@union-cn
+@union-en
+@errorpage/click
+@app-browser
+@site-foregin/tools
+@hijack/domain
+@site-foregin/sns
+@cps-taobao-simba
+@site-us
+@errorpage/sns
+@hijack/homepage
+@down/virus
+@down
+@errorpage/weixin
+@cps-jd
+@android
+@direct/1os
+@union-india
+##sogou-husky
+::1             ip6-localhost
+@hijack/apk-down
+@hijack/wifi
+@site-foregin/union
+::1             localhost
+@union-jp
+@errorpage/inside
+@direct/official
+@cps-shopping
+@union-ru
+@site-foregin/down
+@hijack/operators
+@popup
+@hijack/x-router
+@errorpage/daohang
+@cps-taobao-click
+@site-foregin/adult
+/^adsensor\./
+||*inapps.appsflyersdk.com^
+/^dwtrack\./
+/^domob\./
+/^pingfore\./
+||*cdn-settings.appsflyersdk.com^
+/^adservice\./
+/^appsflyer\./
+/^guanggao\./
+/^adsage\./
+||*-ad-sign.byteimg.com^
+/^adsserving\./
+/^adwords\./
+/^supersonicads\./
+/^openx\./
+||*launches.appsflyersdk.com^
+/^socdm\./
+||*-datareceiver.aki-game.net^
+/^omniture\./
+/^zjtoolbar\./
+||*-ad.a.yximgs.com^
+/^adsmogo\./
+/^omgmta\./
+/^wlmonitor\./
+/^admaster\./
+/^adsystem\./
+/^partnerad\./
+/^duomeng\./
+/^adsrvmedia\./
+||*-applog.fqnovel.com^
+/^omgmtaw\./
+/^admarvel\./
+||*adapt-beacon.awsprodops.movetv.com^
+/^applovin\./
+||*conversions.appsflyersdk.com^
+||*register.appsflyersdk.com^
+/^.+stat\.kugou\.com/
 tori.fi##iframe[title="Oikotie advertisement"]
 lotteryrandom.com##a[href^="http://ads.playukinternet.com/tracking.php"]
 ##.AdInline
@@ -103984,7 +104215,6 @@ audi-sport.net##div[data-widget-key="forum_home_sidebar_top_ads"]
 kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*,katbay.*,kickasshydra.*,kickasskat.*,kickassbay.*,torrentkat.*,kickassuk.*,torrentskickass.*,kickasspk.*,kickasstrusty.*,katkickass.*,kickassindia.*,kickass-usa.*,kickassaustralia.*,kickassdb.*,kathydra.*,kickassminds.*,katkickass.*,kickassunlocked.*,kickassmovies.*,kickassfull.*,bigkickass.*,kickasstracker.*,katfreak.*,kickasstracker.*,katfreak.*,kickasshydra.*,katbay.*,kickasst.*,kkickass.*,kattracker.*,topkickass.*,thekat.*,kat.*,kat2.*,kick4ss.*,kickass.*,kickass2.*,kickasstorrents.*,kat.fun,kat2.app,kat2.space,kat2.website,kat2.xyz,kick4ss.net,kickass.cd,kickass.earth,kickass.id,kickass.kim,kickass.love,kickass.name,kickass.one,kickass.vc,kickass.ws,kickass2.app,kickass2.fun,kickass2.mobi,kickass2.online,kickass2.space,kickass2.top,kickass2.website,kickass2.xyz,kickassgo.com,kickasstorrent.cr,kickasstorrents.fun,kickasstorrents.icu,kickasstorrents.mobi,kickasstorrents.to,kickassz.com,kkat.net,thekat.cc,topkickass.org,kattracker.com#?#.tabsSeparator ~ div[id]:has(> div button:contains(Protect))
 homejav.com,kbjfree.com,onscreens.me,xmorex.com##.h-\[250px\]
 przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner
-av01.tv##.group:has(> .relative.overflow-hidden.rounded-lg.bg-gray-900.cursor-pointer)
 ||anadistil.com^$popup
 @@||yt.upshrink.com/adex.js
 ###adhead
@@ -106388,7 +106618,6 @@ wiki.gg###wikigg-sl-rail
 ||api.discovery.com/v*/streaming/video/$replace=/\{"ads":\{"breaks":[\s\S]*?"playURL":/{"playURL":/,domain=diynetwork.com|discovery.com|sciencechannel.com|motortrend.com|tlc.com
 linkebr.com###antiAdBlock
 ||synonymdetected.com^$popup
-||reuters.com/pf/resources/dist/reuters/js/index.js
 caminspector.net##body > .footer ~ div[style*="background-color: rgb(0"][style*="opacity"]
 @@||mitaku.net^$generichide
 /click?key=*&COST_CPA=$all
@@ -113982,6 +114211,7 @@ theweek.com##.right-hand-adunit
 hentaimama.io###text-5
 hentaimama.io###text-3
 realsporter.info##.widget:has(> center > div[id^="HBai_"])
+av01.*#%#//scriptlet('remove-attr', 'onclick', 'a[href^="/video/"][onclick^="setTimeout"]')
 ||flirt4free.com^$third-party
 dailyboulder.com#%#//scriptlet('prevent-setTimeout', '/siteAccessNotification|AdBlockDetector/')
 shockingmovies.com##body .video-list-ads
@@ -115033,7 +115263,6 @@ kids-in-mind.com#?#.et_pb_code_inner > span[style*="font-size:"]:contains(/^adve
 javhub.net##[href^="https://r.trwl1.com/"]
 /funcript*.php?pub=
 linuxtuto.com,thepcenthusiast.com,boundingintocomics.com,pridesource.com,thehouseofportable.com###custom_html-13
-s10.watchfreejavonline.co##.mg-footer-widget-area
 ##.rcom-freestar-ads-widget
 ##html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
 readcomiconline.li#%#//scriptlet('set-constant', 'isAdb', 'false')
@@ -122261,6 +122490,7 @@ kcrw.com###portlets-middle_ad
 yenicag.az##.main-content-class > div.main-inner-pad[style="margin-bottom:15px!important;"]
 @@||360kora.com^$generichide
 thelibertydaily.com,toptenz.net##.kgbwvoqfwag
+av01.*#%#//scriptlet('prevent-window-open')
 safetydetectives.com###popup
 javgg.net##[href^="https://onlyfans.com/action/trial/"]
 85tube.com#@#.ads-iframe
@@ -123072,7 +123302,6 @@ sportskeeda.com#$#.content-holder + div[style] > div[style] { width: 100% !impor
 ||ku42hjr2e.com^$document
 thefreedictionary.com###Content_CA_AD_1_BC
 ###stop_ad3
-euronews.com###connatix-container
 ||bestchainconnection.com^$popup
 ||static.selfpua.com/mnpw.js
 walmart.com#?#.flex > div[class]:has(> div[class][style*="contain-intrinsic-size"] > div[data-item-id] > a[href^="https://wrd.walmart.com/track?adUid"])
@@ -125017,7 +125246,6 @@ iceporn.tv##.JoinChannel
 ||teenpornvideo.fun/vcrtlrvw/cjdoweph.js
 ##.spotim-amp-list-ad
 ||facetz.net^$third-party
-av01.tv#%#//scriptlet('prevent-window-open')
 doods.to,veev.to#%#(()=>{const t={apply:(t,n,e)=>{if(e[0]&&null===e[0].html?.detected&&"function"==typeof e[0].html?.instance?.start&&"function"==typeof e[0].env?.instance?.start&&"function"==typeof e[0].http?.instance?.start){const t=function(){Object.keys(this).forEach((t=>{"boolean"==typeof this[t]&&(this[t]=!1)}))};["html","env","http"].forEach((n=>{e[0][n].instance.start=t}))}return Reflect.apply(t,n,e)}};window.Object.keys=new Proxy(window.Object.keys,t)})();
 delfi.lv##a[href*="delfi.lv/shop/click.php?shop_id="]
 weatherpro.com##.list-city-ad
@@ -127235,6 +127463,7 @@ fdrive.cz##.bannerBillboard
 pdfroom.com##div[style="min-width: 308px; min-height: 250px;"]
 uploady.io##.adsbypubpower
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receivesms.org|receivesms.co
+@@||anydesk.my.site.com/ESWLiveChatDeployment$stealth=referrer
 @@||bdix.org^$generichide
 linkpoi.in##center > a[href][target="_blank"] > img
 ||arc.msn.com/*/api/selection?placement=*upsell
@@ -127623,7 +127852,6 @@ avsubthai.me###page > center
 /adsAPI.js$script
 itopmusic.com,brokensilenze.net,financeyogi.net,satcesc.com,quatvn.club,audiotools.in,insider-gaming.com,bg-gledai.co##body > script + div[class][style="display:none;"] + div[id][class*=" "]
 thelocal.at,thelocal.ch,thelocal.de,thelocal.es,thelocal.fr,thelocal.it,thelocal.no##.article--sponsored
-av01.tv#?#.row > div > div#tile-ad:upward(1)
 vxxx.com##.itrrciecmeh
 ||vengeful-egg.com^$popup
 ||zoilusdoping.top^$popup
@@ -129041,7 +129269,6 @@ glosbe.com#$#@media (min-width: 1024px) { .dictionary-grid { grid-template-colum
 139.45.197.153$network
 forum.wordreference.com##.messageList > li.message[id$="_mid"][style]
 ##.ad-adlink-bottom
-@@||tvbanywherena.com^$generichide
 yahoo.com###commerce-module-container
 kliuki.bg##img[width="960"][height="90"]
 blockonomi.com##.sidebar li[id^="custom_html"] > div.textwidget > center
@@ -133680,6 +133907,7 @@ onmsft.com#?#.gb-grid-column > .gb-container .gb-inside-container > .gb-containe
 ||porn-w.org/chili.php
 ||naturalnews.com/wp-content/themes/naturalnews-child/$script
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=nihongo-pro.com
+##.adOverlay
 br7news.co.il##.left-square-banner:has(a.banner_link)
 samfw.com###download_section .col-lg-10 > a[target="_blank"][style]
 allnovascotia.com##div[style="height:130px;text-align:center;background-color:#eef2f5"]
@@ -139046,6 +139274,7 @@ tubachorzowa.pl#?#div[id] > .stackable.center[style] > small:contains(/^REKLAMA$
 ||fux.com/nativeexternal/
 ||pornfapr.com/img/camfapr_883x80.gif
 @@||cd.adition.com/assets/adition/*/*.mp4$domain=orf.at
+/\/[a-f0-9]{32}\.js(?:$|\?)/$script,xmlhttprequest,third-party,domain=tokyomotion.net|rarbg-official.to|daftporn.com|85po.com|85po.net|85xo.com|9tsu.tv|blogspot.com|hqq.tv|javboys.com|javboys.upn.one|niraw.com|tiqu.cc|123av.com|123av.ws|1av.to|akuma.moe|fetchfile.me|gogoanime.by|gogoanime.onl|haho.moe|hianime.to|hianime.do|jav.com.se|jav.re|xfantazy.com|myxxgirl.com|nnyy.in|sexiezpix.com|hentai4.me|javhdporn.net|javseen.tv|njav.com|javhd.today|javhdz.today|av01.media|gaystream.pro|pornhoarder.net|vidboys.com|surrit.store|aflix.click|popcornmovies.org|torrentgalaxy.hair|plugincrack.com|clicknupload.click|tunemovie.fun|apkadmin.com|hdpornflix.com|thefantazy.com|cdn9mc.com|dlhd.dad|cuevana.biz|cuevana.is|cuevana.mobi|cuevana.pro|cuevana.to|lyretain.online|newsix.sbs|filmnudes.com|joporn.me|joporn.xyz|kisshentaiz.com|2embed.cc|sxyprn.net|sxyprn.com|watchfreejavonline.co|wecima.ac|cdxaws.net|mens1069.com|av01.tv
 sflix.*,sflix2.to,dsvplay.com,luluvid.com,cuttlinks.com,streamup.ws,exe-links.com,cuttty.com,cutynow.com,exnion.com,cutyion.com,jixo.online,exe-urls.com,evernia.site,ijvam.com,mrgec.com,emxaw.com,cety.app,cutnet.net,embedcanaistv.com,getintopcm.com,dorawatch.net,embedsports.me,720pstream.*,veplay.top,tuktukcinma.online,luluvdoo.com,kunmanga.com,vide0.net,airevue.net,veroan.com,amalot.net,carribo.net,stfly.biz,hianimez.*,zavalise.com,savefiles.com,do7go.com,uqload.*,kaa.mx,10short.com,oii.la,tpi.li,tvserieslatino.com,zonatmo.com,rojadirectatv.de,dooodster.com,foodiesgallery.com,y2meta.tube,koreliscans.com,capo4play.com,lulu.st,cinema-3d.xyz,animeflv.ac,hayalistic.com.tr,swiftload.io,teamoney.site,noxscans.com,movieshubweb.com,dattebayo-br.com,caroloportunidades.com.br,superembeds.com,vidsrc2.*,lrepacks.net,totalsportek.pro,vivosoccer.xyz,noromax.my.id,gdflix.cfd,pahe.plus,qqwebplay.xyz,lookmovie2.to,hdtodayz.to,xn--algododoce-j5a.com,gdrivelatino.net,ads.dblink.us,0123movies.live,myflixer.is,ogladajanime.pl,moviesnation.win,9anime.pe,movies4u.*,mp3.pm,vudeo.ws,hdtoday.cc,putlocker.vip,itopmusics.com,streamed.su,libre.futbol,topcartoons.tv,hdtoday.tv,japscan.lol,watchcartoononline.bz,hitsports.pro,arcasiangrocer.store,1qwebplay.xyz,faselhds.*,faselhdwatch.*,mlwbd.*,file-upload.org,androidonepro.com,gdrivelatinohd.net,cineplus123.org,nxbrew.net,cinemitas.org,onepiecepower.com,fstream365.com,gidplayer.online,rahim-soft.com,downarchive.org,olympicstreams.*,streambtw.com,smashy.stream,movieuniverse.li,kisscartoon.sh,ridomovies.tv,filecrypt.*,arcasiangrocer.store,faselhd-watch.shop,chatgptchatapp.com,mywatchseries.cyou,telepisodes.org,yuramanga.my.id,myflixertv.to,footybite.to,flixhq.to,furher.in,yu2be.com,lulustream.com,f1box.me,mmastreams.me,nbabox.me,nflbox.me,nhlbox.me,tennisonline.me,veev.to,projectfreetv.cyou,16bit.pl,majorscans.com,hianime.*,hdtoday.to,filecrypt.co,d000d.com,anitaku.to,luluvdo.com,mangasusuku.xyz,animetak.top,d0000d.com,cocolamanhua.com,soccerinhd.com,limpaso.com,harryaudiobooks.net,do0od.com,mangaokutr.com,coolrea.link,aniwatchtv.to,faselhd-embed.scdns.io,tranimaci.*,online-filmek.ac,uzaymanga.com,yeppuu.com,afroditscans.com,ruya-manga.com,forum.release-apk.com,filmesonlinexhd.biz,stbemucode.com,megacloud.tv,aniwatch.to,likemanga.io,freewsad.com,mangareader.to,ds2play.com,shinden.pl,online-filmek.me,watchop.live,akw.cam,swatchseries.is,doods.pro,animeunity.to,serielatinobobesponja.com,fakedetail.com,exeo.app,playertv.net,mega4upload.com,123chill.to,lilymanga.net,hexupload.net,ak.sv,animeunity.cc,9animetv.to,ssyoutube.com,up-4ever.net,tapewithadblock.org,leercapitulo.com,piraproxy.page,animerigel.com,goku.sx,dooood.com,dopebox.to,jockantv.com,niadd.com,mgnetu.com,streamlord.com,streamcloud.*,ak4ar.*,seegames.xyz,hinatasoul.com,animeblkom.net,akw.to,xn--mgba7fjn.*,flexyhit.com,ak4eg.*,atglinks.com,torrentdosfilmes.se,instamod.net,khsm.io,bacakomik.co,crackstreams.*,shahiid-anime.net,iptvxtreamcode.blogspot.com,sportcast.life,henaojara2.com,youtubevanced.com,hesgoals.top,gameshdlive.xyz,worldstreams.watch,skincarie.com,financerites.com,universanime.co,cimaa4u.*,torrentmac.net,shaheed4u.*,govad.xyz,vidshar.org,vadbam.com,animefenix.tv,comando.la,viprow.nu,exee.app,exep.app,betteranime.net,asianplay.*,charexempire.com,kat.mn,vumoo.to,exe.app,sports-stream.*,komikindo.id,daddylivehd.*,bakotv.com,boost.ink,adslink.pw,cuevana3.*,wupfile.com,turkish123.com,pelisplus.uproxy.page,waploaded.com,streamsport.*,animesup.*,forex-trnd.com,allosoccer.com,mangarawjp.*,jkanime.video,bitcomarket.net,ngomik.net,pelismartv.com,yseries.tv,hds-streaming-hd.com,hh3dhay.xyz,roms-download.com,freeromsdownload.com,roms-hub.com,anime-sanka.com,animeflv.cc,milfzr.com,miraculous.to,uptomega.me,9tsu.*,pelispoptv.com,mangaraw.*,starlive.xyz,123moviesfree.*,filmvilag.me,voiranime.stream,putlockers.*,gdplayer.*,cool-etv.net,fmovies2.cx,modsfire.com,atomohd.*,ouo.press,buffstreams.*,apkmody.io,mycima.cloud,couchtuner.show,kimoitv.com,gdtot.*,cuevanahd.net,anavidz.com,2embed.*,movieskafanda.xyz,streamingcommunity.*,s.to,atomixhq.*,anitube.*,ymovies.to,manhuascan.*,file4go.net,file4go.com,hothit.me,animesanka.*,cima4u.*,shrink.*,divicast.com,manhwa68.com,filma24.*,mp3yeni.org,upload-4ever.com,witanime.com,moviesjoy.*,hhdmovies.*,short.katflys.com,hindilinks4u.*,topflix.*,flixtor.gg,upvid.*,bbb.fm,clipconverter.cc,megafilmeshd20.pro,watchseries.*,animesonline.cz,superflix.*,kick4ss.com,jpscan-vf.com,rawkuma.com,losmovies.*,123movieshub.*,intereseducation.com,querofilmehd.*,gogoanime.*,animixplay.to,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,anime4up.*,watchmovie.*,myflixer.*,filmyzilla.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "break;case $.")
 ##.affiliate-footer
 ###adbox--hot_news_ad
@@ -139694,6 +139923,7 @@ khmertimeskh.com##.panel-grid-cell
 ||hilltopads.com^$popup
 ||cibleclick.com^$third-party
 /script/app_settings.js$third-party
+fortune.com##[class]:has(> #Leaderboard0)
 autocarindia.com##div[class^="ad-mod-section"]
 365scores.com##div[class^="external-ad_"]
 thefastmode.com###middlebanneropenet
@@ -143667,6 +143897,7 @@ itmunch.com##.vc_slide
 abmilf.com##.wrapper > section:has(> div > div[style^="width"] > div.ad__title)
 ||realclick.co.kr^$third-party
 uii.io,short.pe,clik.pw##div[style="z-index:99999;position:fixed;bottom:10px;left:50%;transform: translateX(-50%)"]
+av01.*#%#//scriptlet('remove-class', 'vjs-hidden', '.vjs-control-bar')
 manga168.com###ads_fox_bottom
 ###advert_mid
 ##.ad-region-delay-load
@@ -150067,7 +150298,6 @@ crocotube.com##.ct-advertising-footer
 planetizen.com##.revive-sitewide-banner__wrapper
 njav.com###ad300250
 /getAditem
-@@||site-banner.hange.jp/adshow?$domain=animallabo.hange.jp
 jastrzabpost.pl##.jastrzabpost-widget
 football365.com,planetf1.com,planetrugby.com,tennis365.com##.ps-block-a
 stripes.com###MidPageAd
@@ -150897,7 +151127,6 @@ thesun.co.uk#?#div[id^="customiser"] > div.sun-grid-container > div.new-block > 
 motorcyclenews.com##.sticky-leaderboard-ad-container
 ##.modulegad
 ###block_advert2
-av01.tv#%#//scriptlet('remove-class', 'vjs-hidden', '.vjs-control-bar')
 ###block_advert1
 zerohedge.com##div[class*="AxosPromoCalc_axosWidget"]
 ##.headerAdWrapper
@@ -153004,6 +153233,7 @@ dhakatribune.com##.a-d-holder-container
 thelatinonewsletter.org##div[style="align-items:center;display:flex;flex-direction:column;gap:20px;justify-content:center;margin:0 auto 0 auto;padding-bottom:20px;padding-left:27px;padding-right:27px;padding-top:20px;"]
 @@||innpoland.pl^$generichide
 07c225f3.online,content-loader.com,css-load.com,html-load.com,img-load.com#$?#html:not(:has(> head > style:only-child:contains(width:399px;height:411px))) { filter: opacity(0) !important; pointer-events: none !important; }
+##.gliaplayer-container
 /myvids/mltbn/*$script,subdocument
 ||irresponsibilityhookup.com^$popup
 ##.row_header_ads
@@ -155567,7 +155797,6 @@ techpp.com#?##home-posts-section > .ct-section-inner-wrap > .ct-div-block > .ct-
 news.fidelityhouse.eu##.hb_ad
 ###bgad
 gaypornhdfree.com#%#//scriptlet('set-constant', 'doSecondPop', 'noopFunc')
-av01.tv#%#//scriptlet('remove-attr', 'onclick', 'a[href^="/video/"][onclick^="setTimeout"]')
 kbb.com#?#.css-1xa55ag.eaivgmg0 > div[style*="display"]:has(a[href*="//ad.doubleclick.net/"])
 ||chinesean.com/affiliate/$popup
 pannunghd.com##div[class^="banner-"]
@@ -158905,6 +159134,7 @@ urlgd.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.google
 szifon.com##.afterpost-a
 ||xxxwebdlxxx.org/*%*.js|
 @@||ot.gr^$generichide
+av01.*##.group:has(> .relative.overflow-hidden.rounded-lg.bg-gray-900.cursor-pointer)
 conversanttraveller.com###text-39
 @@||sopasti.com^$generichide
 levelsex.com#?#.content-wrap > div > .related:has(> div > .recommended-logo)
@@ -158980,7 +159210,6 @@ sms24.me,sms24.info#%#//scriptlet("prevent-setTimeout", "/ADBLOCK|window\.\$ado|
 ||pornstargold.com/e7e5ed47e8b4.js
 ###sponsor_posts
 tri247.com##.entry-content > div[id^="tri247-"][style^="margin-left:"]
-/\/[a-f0-9]{32}\.js(?:$|\?)/$script,xmlhttprequest,third-party,domain=tokyomotion.net|rarbg-official.to|daftporn.com|85po.com|85po.net|85xo.com|9tsu.tv|blogspot.com|hqq.tv|javboys.com|javboys.upn.one|niraw.com|tiqu.cc|123av.com|123av.ws|1av.to|akuma.moe|fetchfile.me|gogoanime.by|gogoanime.onl|haho.moe|hianime.to|hianime.do|jav.com.se|jav.re|xfantazy.com|myxxgirl.com|nnyy.in|sexiezpix.com|hentai4.me|javhdporn.net|javseen.tv|njav.com|javhd.today|javhdz.today|av01.media|gaystream.pro|pornhoarder.net|vidboys.com|surrit.store|aflix.click|popcornmovies.org|torrentgalaxy.hair|plugincrack.com|clicknupload.click|tunemovie.fun|apkadmin.com|hdpornflix.com|thefantazy.com|cdn9mc.com|dlhd.dad|cuevana.biz|cuevana.is|cuevana.mobi|cuevana.pro|cuevana.to|lyretain.online|newsix.sbs|filmnudes.com|joporn.me|joporn.xyz|kisshentaiz.com|2embed.cc|sxyprn.net|sxyprn.com|watchfreejavonline.co|wecima.ac|cdxaws.net|mens1069.com
 ##.ad--section
 ||go2linktrack.com^$popup
 bettycrocker.com##.recipeAd
@@ -164549,7 +164778,6 @@ srulad.com##iframe[data-src^="assets/banners/"]
 afdigitale.it##.herald-below-header:has(> a[target="_blank"])
 ###site-header__ads
 sex3.com##.add-box
-av01.tv#?#div[style] > iframe[src^="https://kgua0o66bcw8.com/"]:upward(1)
 ##.advert-label
 tomsguide.com##.bordeaux-anchored-container
 vebma.com#%#//scriptlet('prevent-window-open', '/\.(com|net)\/4\/|teraboxapp|momerybox/')
@@ -166189,7 +166417,6 @@ w3newspapers.com###topads
 @@||auth.mail.ru^$stealth=useragent
 appleworld.today###block-26
 feetporno.com,freehardcore.com,cartoonporn.com###_iframe_content
-bing.com##.br-poleoffcarousel
 @@||checkz.net^$generichide
 coincodex.com##app-root > div[class*="d-none d-xl-flex ng-star-inserted"][style="width: 100%;"]
 ||tapfiliate.com^$third-party
@@ -170223,6 +170450,7 @@ proinfinity.fun##div[style$="width: 300px; height: 255px; z-index: 99999999;"]
 @@/gettoken.php?$xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 iotwock.info##.grid__ad
 nudeselfiespics.com#%#//scriptlet('prevent-eval-if', 'popUnderStage')
+boyfriendtv.com#%#//scriptlet('prevent-addEventListener', 'click', 'interstitial')
 conowego.pl##a.gofollow[data-track]
 javtiful.com##.main-content div[style^="margin-top: 0.12rem"]
 wielkahistoria.pl##.johannes-custom-content > .wp-block-image > figure > a[href]:not([href*="wielkahistoria.pl"]) > img
@@ -175695,6 +175923,7 @@ yallakora.com##.leaderboardDiv
 @@||s0ft4pc.com^$generichide
 onlineocr.net##div[class^="col-xl-"] > .row[style="padding-bottom:5px;"]
 onepiecepodcast.com##.mks_ads_widget
+telecomasia.net,meta.reviews##.ratings-bo
 sgxnifty.org###aub_cover
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=calculator-online.net,important
 vivosoccer.xyz,harimanga.com,dlhd.*,topcartoons.tv,hdtoday.tv,watchcartoononline.bz,poscitechs.xyz,hitsports.pro,arcasiangrocer.store,1qwebplay.xyz,ziperto.com##html > div[style^="position: fixed; inset: 0px;"]
@@ -177967,287 +178196,1106 @@ konto.onet.pl##div[data-testid="ad-slot-container"]
 ##.ad-on
 ##.ad-s
 ##.ad-r
-/^adsensor\./
-||*inapps.appsflyersdk.com^
-/^dwtrack\./
-/^domob\./
-||*-sdk.rum.aliyuncs.com^
-/^pingfore\./
-||*cdn-settings.appsflyersdk.com^
-/^adservice\./
-/^appsflyer\./
-/^guanggao\./
-/^adsage\./
-||*-ad-sign.byteimg.com^
-/^adsserving\./
-/^adwords\./
-/^supersonicads\./
-/^openx\./
-||*launches.appsflyersdk.com^
-/^socdm\./
-||*-datareceiver.aki-game.net^
-/^omniture\./
-/^zjtoolbar\./
-||*-ad.a.yximgs.com^
-/^adsmogo\./
-/^omgmta\./
-/^wlmonitor\./
-/^admaster\./
-/^adsystem\./
-/^partnerad\./
-/^duomeng\./
-||*-default-cn.rum.aliyuncs.com^
-/^adsrvmedia\./
-||*-applog.fqnovel.com^
-/^omgmtaw\./
-/^admarvel\./
-||*adapt-beacon.awsprodops.movetv.com^
-/^applovin\./
-||*conversions.appsflyersdk.com^
-||*register.appsflyersdk.com^
-/^.+stat\.kugou\.com/
-@@||click.appcast.io^|
-@@||cl.link-ag.net^|
-@@||go.scorptec.com.au^|
-@@||classliving.lpages.co^|
-@@||intersport.peerius.com^|
-.tvp.tv^
-@@||ia.hit.interia.pl^|
-@@||cm-beacon.nakanohito.jp^|
-@@||obituaries.thestar.com^|
-@@||www.jdoqocy.com^|
-@@||envato.market^|
-@@||click.trafficguard.ai^|
-@@||thumbnail.thench.net^|
-://say.ac^
-/^139\.45\.197\.2(4[0-9]|5[0-4])/
-@@||cmp.inmobi.com^|
-@@||api.karte.io^|
-.doublepimp.com^
-@@|affiliate.notion.so^|
-.stape.net
-@@||links.e.theatlantic.com^|
-@@||go.adjust.com^|
-@@||goto.walmart.com^|
-@@||a.sellpoint.net^|
-@@||vcentry3.valuecommerce.ne.jp^|
-.prod.pr.analytics.console.aws.a2z.com
-@@||forum.notebookreview.com^|
-@@||f-gear.ec-optimizer.com^|
-@@||infra-api.newrelic.com^|
-/(https?:\/\/)217\.182\.11\..{100,}/
-@@||href.li^|
-@@||proto2ad.durasite.net^|
-@@||learn.khanacademy.org^|
-@@|beta.publishers.adsterra.com^|
-@@||cs.silverpop.com^|
-@@||hidive.com^|
-@@||cdn.duurzaam.greenchoice.nl^|
-@@||stash.roistat.com^|
-@@||marketing.net.idealo-partner.com^|
-@@||oneline.nextday.media^|
-@@||public-cis.exponea.com^|
-.potopy.ru^
-@@||partner.everydays.de^|
-@@||remembering.ca^|
-@@||leechers-paradise.org^|
-@@||www.googleadservices.com^|
-.infox.sg^
-.allalla.com^
-/^142\.91\.159\.(1[5-9]\d|2[0-4]\d|250):(80|443)$/
-@@||tr.rdrtr.com^|
-@@||brm-core-*.brsrvr.com^|
-@@||get.neofinancial.com^|
-://sportframe*.org^
-@@||crm-cdn.peek-cloppenburg.com^|
-@@||taiga.maven.io^|
-@@-ds.metric.gstatic.com^|
-.sexplaycam.com^
-@@||puzzles-games-api.gp-prod.conde.digital^|
-@@||promo.gramedia.com^|
-@@||tlaol.com^|
-@@||ads.tdbank.com^|
-||*two-gun-volley.pages.dev^
-@@|adsterra.com^|
-@@||citiintl.122.2o7.net^|
-/^23\.109\.73\.\d{3}/
-@@||mc.*.exacttarget.com^|
-@@||ap01.records.in.treasuredata.com^|
-||linksprf.com^$badfilter
-@@||sbs.demdex.net^|
-@@||netatmo.commander1.com^|
-@@||support-widget.nakanohito.jp^|
-/(https?:\/\/)51\.195\.31\..{100,}/
-@@|beta.affiliates.adsterra.com^|
-://r.i.ua^
-@@||news.warhammer.com^|
-@@||www.statcounter.com^|
-@@||oa.tr.line.me^|
-@@|help-advertisers.adsterra.com^|
--ulog-*.kwai-pro.com^
-@@||api.docodoco.jp^|
-@@||obituaries.therecord.com^|
-@@||my.tealiumiq.com^|
-@@||admin.dable.io^|
-@@||ma135-r.analytics.edgekey.net^|
-.tpm.pw^
-@@||official.paymaya.com^|
-@@||5471782.fls.doubleclick.net^|
-@@||artifactory.appodeal.com^|
-@@||email.procook.co.uk^|
-@@||daikoku.ebis.ne.jp^|
-.piccash.net^
-@@||a.adwolf.ru^|
-@@||awin1.com^|
-@@||email.*.skyeng.ru^|
-@@||links.getblueshift.com^|
-://tru.am^
-.3.n.2.2.l30.js
-@@||log.mmstat.com^|
-.3.n.2.1.l50.js
-@@|statcounter.com^|
-@@||redirect.appmetrica.yandex.com^|
-@@||e.customeriomail.com^|
-/^94\.242\.247\.(2[0-9]|3[0-2]):/
-@@||email.awscloud.com^|
-.is.traff-numerical.info^
-@@||cindyholbrook.lpages.co^|
-@@||static-v*.trbo.com^|
-@@||redir.ownpage.fr^|
-@@||home.focusatwill.com^|
-@@||app.adjust.com^|
-||tn.porngo.xxx^$badfilter
--applog*.fqnovel.com^
-@@||grp07.ias.rakuten.co.jp^|
-@@||acs-m.daraz.com.bd^|
-@@|core.crazyegg.com^|
-@@||bcicl.*.evergage.com^|
-/(https?:\/\/)213\.32\.115\..{100,}/
-@@||id.i2i.jp^|
-.adonweb.ru^
-@@||track.rutarget.ru^|
-.n.2.1.js^
-://sportframe*.co^
-://*.a-akamaihd.com^
-@@||catchup.thisisdax.com^|
-://mine.torrent.pw^
-@@||cj.dotomi.com^|
-.1.1.1.l80.js^
-@@||gs.statcounter.com^|
-@@||login.sendpulse.com^|
-@@||click.virt.exacttarget.com^|
-@@||link.morningbrew.com^|
-@@||smtp.focusgroupresearch.com^|
-/^139\.45\.19[5-7]\.\d{1,3}/
-@@||radiofrance.targetspot.com^|
-.tovarro.com^
-@@|ads.adsterra.com^|
-@@||api-v*.trbo.com^|
-.bbelements.com^
-@@||linka.page^|
-@@||c.office.com^|
-@@||nineto5mac-d.openx.net^|
-@@||click.avs.io^|
-||*.libaishuo.com^
-@@||click.virt.s*.exacttarget.com^|
-://r.reklam*.com^
-@@||px.a8.net^|
-@@||torimochi.line-apps.com^|
-@@||hb.afl.rakuten.co.jp^|
-.cpa1.ru^
-@@||clickattr.wayup.com^|
-@@||surveymyopinion.researchnow.com^|
-@@|ezodn.com^|
-/62.76.25.2(7|8)/
-@@||vcentry2.valuecommerce.ne.jp^|
-@@||str.hit.gemius.pl^|
-@@|beta.partners.adsterra.com^|
-@@||ref.rbauction.com^|
-@@|www.daraz.pk^|
-@@||sponsor.nitropay.com^|
-@@||logentries.com^|
-@@||cdn.atmedia.hu^|
-@@||acs-m.daraz.pk^|
-@@||tags.crwdcntrl.net^|
-@@||clk*.tradedoubler.com^|
-/^23\.109\.170\.(18[7-9]|19[0-2])$/
-.ay.delivery^
-@@||cloud.notification-naviextras.com^|
-@@||data.digital.costco.ca^|
-@@||support-beacon.nakanohito.jp^|
-/^94\.242\.247\.(2[0-9]|3[0-2])/
-@@||email.elitedangerous.com^|
-@@||app.appsflyer.com^|
-@@||anwb.webpower.eu^|
--ulogl*.kwai-pro.com^
-@@||gate.first-id.fr^|
-@@||tms.capitalone.com^|
-@@||secureimage.securedataimages.com^|
-@@||track.webgains.com^|
-@@||refer.discover.com^|
-@@||cdn.us*.exponea.com^|
-@@|publishers.adsterra.com^|
-://o0e.ru^
-.vipko.ru^
-@@||action.metaffiliation.com^|
-@@||cm-widget.nakanohito.jp^|
-@@||afi-b.com^|
-@@||rd.bizrate.com^|
-.n.2.1.l60.js^
-@@||ac.ebis.ne.jp^|
-@@||analytics.amplitude.com^|
-://jhf.ru^
-@@||health.halodoc.com^|
-@@||guce.advertising.com^|
--ulog.*.kwaipros.com^
-@@|ftp.bmp.ovh^|
-@@||data-*.herz-fuer-tiere.de^|
-@@|partners.adsterra.com^|
-@@|affiliates.adsterra.com^|
-/^anon1.gt\d{6}.com$/
-@@||s.bluecore.com^|
-@@||media-consumer365.desigual.com^|
-://kma.biz^
-@@||validate.perfdrive.com^|
-@@||link.sylikes.com^|
-/193.200.64.24:/
-@@||omsc.kpn.com^|
-@@||omniture.walmart.com^|
-@@||go.redirectingat.com^|
-.gameleads.ru^
-@@|www3.doubleclick.net^|
-||*.exaapi.com^
-@@||prod.impartner.live^|
-.webhop.net^
-@@||click.simba.taobao.com^|
-@@||js.monitor.azure.com^|
-@@||feed.adrelayer.com^|
-/^139\.45\.197\.2(4[0-9]|5[0-4]):/
-@@|daraz.com^|
-@@||data.digital.costco.com^|
-@@||pt.afl.rakuten.co.jp^|
-||pl.ua^$badfilter
-@@||redir.tradedoubler.com^|
--ulog-*.kwaipros.com^
--ulog.*.kwai-pro.com^
-@@||trk.ecomm.lenovo.com^|
-@@||res.ads.nicovideo.jp^|
-@@||79423.analytics.edgekey.net^|
-@@||tlh.gedidigital.it^|
-@@||pagead.l.doubleclick.net^|
-/^https:\/\/anon1.gt\d{6}.com/
-|c.blue.*.com^|
-@@||www.dogpile.com^|
-/^188\.42\.84\.\d{1,3}/
-@@||click.cptrack.de^|
-*ad.durasite.net^
-@@||recommender.scarabresearch.com^|
-.ecommtools.com^
-@@||cutcaptcha.com^|
-@@||cdn.rozetka.com.ua^|
-@@|app.crazyegg.com^|
-@@||goto.target.com^|
-@@||sax.sina.com.cn^|
+baidu.com###J-tashuo-button-fixed
+baidu.com$$div[tpl="med_"]
+baidu.com$$div[data-log="zhujicankao.com"]
+baidu.com$$div[tpl="poi_kg"]
+baidu.com$$div[data-log="boce.com/wall/"]
+baidu.com$$div[tpl="nvl"]
+baidu.com$$div[tpl="jy_exam"]
+baidu.com$$div[tpl="wenda_"]
+baidu.com$$div[data-log="hostloc.net"]
+baidu.com$$div[tpl="rel_ugc"]
+baidu.com$$div[data-log="kxxzz.com/mgvps/"]
+baidu.com$$div[data-log="vpsyh.com"]
+baidu.com$$div[tpl="recommend_list"]
+baidu.com$$div[data-log="367783.net/zatan/"]
+baidu.com$$div[tpl="quality_wenda"]
+baidu.com$$div[tpl="we_tiebanewxml"]
+baidu.com$$div[class="feed-video-box"]
+baidu.com$$div[tpl="yl_"]
+zhidao.baidu.com##div.new-answer-entry.left-show
+baidu.com$$div[tpl="music_multi"]
+tieba.baidu.com##div.father_cut_daoliu
+baidu.com$$div[data-log="bubuko.com"]
+baidu.com##.new-answer-entry.left-show
+baidu.com$$div[tpl="movieticket"]
+baidu.com$$div[data-log="machbbs.com"]
+baidu.com$$div[tpl="vid_pocket"]
+baidu.com$$div[tpl="pc-education-fs"]
+baidu.com##.hint-ft-questionnaire
+baidu.com$$div[tpl="_recommend"]
+baidu.com$$div[tpl="vd"]
+baidu.com$$div[tpl="_app"]
+baidu.com##.wgt-rel-exp.content-box
+baidu.com$$div[data-log="mamicode.com"]
+baidu.com$$div[tpl="_audio"]
+baidu.com$$div[tpl="guanfanghao"]
+map.baidu.com###index-areaEntry-widget
+map.baidu.com##div.index-widget-guidebanner.styleguide.container
+jingyan.baidu.com##div[class^="ui-slider"][style*="height"]
+baidu.com$$div[data-log="/sf?openapi"]
+baidu.com$$div[data-log="/sf/vsearch?pd"]
+baidu.com$$div[data-log="site.ip138.com"]
+baidu.com##.wgt-related-questions
+baidu.com$$div[data-log="vpsqb.com"]
+baidu.com##.header-act-entry
+baidu.com$$div[tpl="_demand"]
+baidu.com###tab_news_1
+baidu.com$$div[tpl="sp_"]
+baidu.com$$div[tpl="sd_imgs"]
+baidu.com$$div[tpl="ks_"]
+baidu.com$$div[tpl="vc_ting"]
+baidu.com$$div[tpl="zp_company"]
+baidu.com##.welcome-banner
+baidu.com$$div[data-log="fyddz.com.cn"]
+baidu.com$$div[data-log="dazhuanlan.com"]
+baidu.com##div.wa-guanfanghao-main
+baidu.com###feed-recommend
+baidu.com$$div[data-log="boce.com/hijack/"]
+baidu.com##.j_footer
+baidu.com$$div[class="wgt-exp-video"]
+baidu.com$$div[data-log="huaweicloud.com/theme/"]
+tieba.baidu.com##div.top-guide-wrap
+baidu.com$$div[tpl="games"]
+baidu.com$$div[data-log="cloud.tencent.com/developer/information/"]
+baidu.com$$div[data-log="boce.com/ping/"]
+baidu.com##.dynamicshareAdbox
+baidu.com##footer > a[class="dl"]
+baidu.com$$div[tpl="app_"]
+baidu.com$$div[data-log="boce.com/http/"]
+baidu.com$$div[data-log="haoxiangta.com"]
+baidu.com$$div[data-log="baijiahao"]
+baidu.com$$div[data-log="yiyult.com"]
+baidu.com$$div[data-log="boce.com/dns/"]
+baidu.com$$div[tpl="wz_movielist"]
+tieba.baidu.com##div.footer-wrap
+baidu.com$$div[tpl="sigma_celebrity_rela"]
+baidu.com$$div[tpl="comic"]
+tieba.baidu.com##div.pb_cut_hot_recommend
+baidu.com$$div[data-log="jiagongchang.com"]
+baidu.com$$div[class="bannerad"]
+zhidao.baidu.com###main-content > div.mm-content-box
+baidu.com$$div[data-log="/sf?pd"]
+baidu.com$$div[data-log="icode9.com"]
+baidu.com$$div[tpl="zhaopin"]
+baidu.com$$div[tpl="zp_sigma"]
+baidu.com$$div[tpl="enc"]
+baidu.com$$div[data-log="openapi"]
+||com/adimg
+||gushiwen.cn/getTicket.aspx^$xhr
+*.pop.js^$script
+||ja2.gamersky.com/
+*/sg300
+*/floatadv.js|$script
+qidian.com##.crumbs-nav.top-op:style(margin: auto!important)
+*/images/ad960.
+||file.myqcloud.com/yuewen/game/images/$image,domain=qidian.com
+*.abang.
+~4yydstxt178.com##[id|=ad]
+*.tlvmedia.
+*/cesoft_
+*.v5ad.
+mydrivers.com##.baidu, a[href^=http][target=_blank]
+zhihu.com##.Banner-image
+*gonggao.js|$domain=~lol.qq.com
+*/googleAds3Wide.js
+*/acmsd/thea5
+*/piwik.
+*/ggimages/
+||files.jb51.net^$image
+*.keyyou.
+*/728-90-$image
+||cn/tlgg/
+||games.ifeng.com/$subdocument
+*/js/xia44$subdocument
+*.yebai.
+*.csyouxi.
+*/market-$script
+||cn/adv/
+*/showadcode.asp?
+*/adad/
+*/lmt_v
+360doc.com##div[id^=divad],#fullbg
+*/RichMedia.js|
+||www.zolsky.com/read/readad/$subdocument
+*.99g99.
+user.qzone.qq.com##div#idQbossHotbar.hotbar_wrap,div.icenter-right-ad,div#QM_100005_Body,div.fn-feed-mod-bd,div.ck-act,div#QM_Container_100005,div.gdtads_box,li.f-single-biz
+*.bmw100.
+||com/adright
+*/common/cf/$image,object,domain=~wifi.liebao.cn|~96fei.com
+*/adslvfile
+*/guanggao
+||d2.sina.com.cn/
+*/pop_cpf.$script
+*/tb_360$subdocument
+*/pop.js^$domain=~socpk.com|~autohome.com.cn|~patch.ali213.net
+||www.downbank.cn/js/gong.js
+*/ja486$image,object
+skycn.com###top970,ul.ul_Address>h3,a[href^="http://down.xiazaidc.com/"]
+*/ejia/$domain=~189.cn
+*.gtrxm.
+||www.uzzf.com/skin/know/$script
+crsky.com##div[class^=banner],div.fast_down,dl.mirror-special,div.banner-square,li.yellowdown
+*.tjq.
+*/d/960.js|
+*/s.php?id=$script,third-party
+pcbeta.com###sitefocus
+*/soqidian/
+iciba.com##div.newpc-entry
+*/newSNDAPop
+||www.2345.com/cnxh/$script
+*/newhuagg/
+*/ggg/$image,object
+*.y2126.
+*.mr66.
+*/pipi1.htm$subdocument
+*/youme/
+*/youme.
+*/300250.swf$object
+*/article/yy/$subdocument
+*/jsadv/
+||com/vShow.php?id=
+*/G-G/
+*/slgg/
+||adsrich.qq.com/
+||www.dmhy.org/*.gif^$image
+*.cnnetallyads.
+*.wan789.
+||baike.baidu.com/*/directad?$xhr
+||pacd.3conline.com/$script
+*_950x90.gif$image
+||ifengimg.com/feather/images/$image
+||com/cs/jsfile/
+*/950x90.gif$image
+*/760_*.js|$script
+*/adPub/adpub
+*/newS_contentad
+52z.com###softdown>div,div.syGaosuDa:first-child
+*/960x90.gif$image
+*/rndView.
+*.xian.cm.
+||com/aajjss/$script
+*.whoclick.
+||ifengimg.com/mappa
+ithome.com###tt
+admin5.com##.float_both,div.sherry_ad1,div.specialBox,.content_right_ad
+*/float.js^$script,domain=~keylol.com
+||ubmcmm.baidustatic.com/
+||wan.$~image
+*.xi666.
+*/adadmin
+||com/c?z=$domain=~ifeng.com
+*/html/ads
+||d3.sina.com.cn/
+*/html/cbjs.html?id=$subdocument
+||612.com^$script,domain=cr173.com
+*/tc_ad.
+||pconline.com.cn/download/images/soft/dl_ad.jpg
+pan.baidu.com##.ad-platform-tips, .phone-banner
+*##.ad960-90
+||ca.gtimg.com/adplugin/js/adplayer.js
+*.gokzxc.
+pcpop.com##[id^=ad_],div.ad1,div.pcpop_ad1,div#banner9th
+@@||sax.sina.com.cn/video/$script
+*.kx365.
+*/js/showad.js|
+*.switchadhub.
+*/googlevideoads
+zongheng.com###zh_ab_rb,#sumcard_flag,#gameFTip
+*/300x250.swf
+*/bootom2.js|
+*.adsxin.
+pan.baidu.com##.frame-all:style(overflow-x:hidden!important)
+*.zfjiu.
+mail.21cn.com##.arale-dialog-1_2_3
+*/zongheng_chat_loader
+*/adposjs/$script
+ebusinessreview.cn##div.header,.adarticle,div.ad_s,[id^=ad_]
+||com/adfile/
+*/svnad/$subdocument,image,object
+||entry.baidu.com/$subdocument
+*/soft_mid_
+*.ssrj.
+||com/i.php?z=
+*.swf?clicktag=
+||click.gamersky.com/
+*.linekong.
+*/union/link_
+*/mynicedd/
+*.u.imop.
+||pcgames.com.cn/adpuba/show?
+*/js/advert.js
+*/popjs.$script
+@@||bikroy.com/neo/bikroy-contactUs*-ads-$script,1p
+*/advimg/
+*/jbk.gif^$image,object
+||jwz.3conline.com/adpuba/
+*.91ivr.
+*.keyrun.
+||com/js/bd960
+||sbeacon.sina.com.cn/
+*.pv-indexurl.
+*/468_80.$subdocument
+||rh.qq.com/
+*/ugcad
+*.hosting24.
+*/AdShowCache
+*/adgg/
+*.ilepai.
+*.wyunion.
+*/maimg/
+||bobo.163.com/
+||pfp.sina.com.cn/
+*/gg_final
+*.myiee.
+daohang.qq.com##[id^=AD_]
+www.google.com.*,www.google.*##.VEELad
+*/adImgCover
+*/css/jsContent
+||www.greenxiazai.com/green/
+||itv.hexun.com/
+*/mier168
+*/maxcms/
+||org/ad$image
+*/50bang.gif$image
+*_index_ad_
+||dygang.cc/d/$script
+onlinedown.net##div.downDz>:first-child,a[href*=".9377wan.cn/"],div.downgs,div.downxzqad,div.srolltool~div,#ItemXGJC,#ItemXGXZ,#ItemXGZT,#ItemSSZT
+~google.com,~mediafire.com##.ads
+*/nettv/adp/
+*/js/bd.js^$domain=~dmhy.org
+*.9wcpm.
+*/tc00$domain=~xbeta.info
+||coinhive.com/
+*/js/1.htm$subdocument
+tianyabooks.com##div[class^=bread_]
+*.feike5.
+*/d8adf801/?ref=
+*/wzygg/$image,object
+*/icast/
+*&adsc_typpe=
+*/advpic/$image
+*/guangg/
+*/js/adv.js?
+*.zhangxiu.
+||www.4399.com/loadimg/iframe_$subdocument
+*.ylunion.
+*/js/js2.js$script
+*/small*_ad.$subdocument
+*/adSide.$script,xhr
+*/widget.jsp?bId$subdocument
+*/960_60.$script,subdocument
+*/adScript/$script
+*/adservice/
+@@||wago.io/js/118.$script
+||com/otherhtml/$script
+*/09-hp/
+*.daoyoudao.
+*-300X250.$image,object
+*/ggad
+*.windsad.
+*/468_60.
+*/tanxssp/
+*.9vcp.
+*.zhanzhang.
+*/js/eteadx*.js|$script
+*/rnad/$image,object
+*/xy/js/
+bbs.xmfish.com##div[id^=adm_show_]
+||www.zhujiceping.com/F/$image
+*/468_90.$subdocument
+*/tres/ylgm/
+*.haoll.
+myqqjd.com##+js(acis, String.fromCharCode, decodeURIComponent)
+*/js/autosize.js|
+*/aaadddd/2.js$script
+*.jugao.
+||com/pagecpv/
+||6vgood.com/d/$script
+*/push_n.php
+*/daocaoren*.gif|$image
+||d1.sina.com.cn/
+*.ipinyou.$domain=~www.v1.cn
+*/adfile$script,subdocument
+*/wFloat.
+*/760.js|$script
+||cc/scriptAD/$script
+||static.cnbetacdn.com/frontend/vipics/$image
+*/tttccc.
+@@||qidian.gtimg.com/*/qd/js/component/ad_strategies.$script
+||cdn.iciba.com/web/co/ci/$image
+||www.crsky.com/img/pic.js
+*.bmgad.
+*/usmsad
+*.w99.
+||xz7.com/js/
+||com/ecom?di=$domain=~7958.com|~www.redocn.com|~bbs.tiexue.net|~www.narutom.com|~www.neihan8.com|~666ccc.com|~yue365.com
+*.biyici.
+*/yinsu$image
+||www.zhujiceping.com/wp-content/uploads/$script
+|https://api.ithome.com/json/hot/dajia.json^$script
+chuangshi.qq.com##.topbanner,.mainbox>div.adv,div.jpBanner.fr,.banner_index,.main_banner,#advert
+||crsky.com/theme/images/rd0
+*/99ad/
+www.rjno1.com##body > *:nth-child(-n+5)
+*/99tt.js|
+*/ads/
+*/adpolestar
+||vamaker.com/$third-party
+*/messagetip.
+tiebac.baidu.com,tieba.baidu.com,jump.bdimg.com,jump2.bdimg.com###thread_list>li:not(.j_thread_list):not(.thread_top_list_folder),div[data-rank],div[ad-dom-img],a.j_click_stats,div.custom-ad-container
+||coin-hive.com/
+*/vamaker/
+*/market.$script,domain=~jin10.com|~streamcommunity.com
+||ygdy8.com/jsy1/
+*.woniu666.
+*.admsger.
+*.chinacpc.
+||static.yxdown.com/cj/$script
+*/tanchuang
+*/gg_search_
+*/gg-sel.$subdocument
+*/js/ad1.
+*/tuiguang/$subdocument
+*/adService$script,xhr
+ithome.com##.categoryimg,#hd_float,#side_func,#con>#tt5>div,div.related_buy,li.sb_list:nth-child(5)
+||gold-cdn.xitu.io/asset/sidbar-banner/$image
+||dup.baidustatic.com/
+*/js/yun.
+||net/Runtime/js/$script
+*/afp/door/;ap=
+*/aili_content_
+##[id$="-ad"]
+||static.oschina.net/uploads/space/20*.jpg|$image
+*.imufc.
+||china.com.cn/2016ads/$subdocument
+*.heroclick.
+v2ex.com##.box:has(.sidebar_compliance)
+*/js/cpc_$script
+*/js/cpv_$script
+*.info/ad7*.js^$script
+*/lsgg/
+||52pk.com/$object
+*/mopgg
+*.untang.
+*/adhead
+www.zol.com.cn,www.91danji.com,92btbtt.com##body:style(background: center !important)
+||games.ifeng.com/webgame/
+*.youxjia.
+*/xiazaiyoudao
+||s1.bdstatic.com/r/www/cache/biz/ecom/common/api/$script
+*/adsview/
+*##.adtable
+||pcgames.com.cn/g/extlin/pcdownpic/$script
+||com/code/cpm.asp?pid=
+blog.sina.cn##div.item_hide+div,#pl-blog-artad
+*/hj_end.js|
+*.jijing1.
+||dm.gucheng.com/
+*.yuunion.
+||www.zolsky.com/killsoftware/sdsoft/page2/newad/$script
+www.epinv.com###container>#sidebar~*,div.huadong,div.epinv_f
+*/other/fh.
+||gdt.qq.com/
+*-160-600.jpg|$image
+*.is686.
+*.ugooo.
+*.sfilm.
+*.cpm9v.
+*/fn/minibar_1.js|
+*/img/ads_$image
+u17.com##[id|=u17-advert],div.ad_wrap
+*/banner960.htm^$subdocument
+autohome.com.cn###s2287
+||ifeng.com/a_if/$subdocument
+www.hao123.com##.link.download,#ecom,div.widget-topbanner,#shortcut-box,#shortcut-box~*,div[monkey=yixing],#leftbannerv2
+*.cpm.cm.sandai.net
+||qidian.com/upload/gamesy/20$image
+*/08gg/
+||www.1ting.com/$subdocument
+*/js/gg_$script,subdocument,domain=~www.111ttt.com
+@@||static.realme.net/v1/knowledge/images/banner.jpg$image
+*/guang/
+||jianshu.io/assets/web/*-ads-$image
+*/wcast
+*.yoyi.
+*/js/page_ad_$script
+*.svem.
+*.qndown.
+||rm.sina.com.cn/$script,subdocument
+pcbeta.com##div[class^="_jc"]:upward(4)
+*/other/ff.
+*.tuite8.
+ctfile.com,www.pipipan.com##a[href^="https://union.ctfile.com"],div[id|=ad],div[id^=ad_]
+||static.zongheng.com/upload/*ds/column/$script,image
+*/headbiggg_hq
+*/rdidc.gif$image,object
+*/impservice$script
+||www.rjno1.com^$inline-script
+*/ggjs/
+*.cpm360.com
+*.biz5.sandai.net
+*/fdad/$image,object
+*.gif|$image,domain=3987.com|www.ouyaoxiazai.com|www.myhack58.com
+*.q150.
+*/js/300X250-
+*.jzunion.
+@@||isdspeed.qq.com/cgi-bin/r.cgi?flag1=
+*/js/118.
+@@|https://media.amazon.map.fastly.net^$script
+*/gg160.$subdocument
+*.gamediad.
+||hjwzw.com/js/n$script
+*/proxy.html?id=$subdocument
+*/44jjss/$script
+*/w-z1.
+*/yintai/$subdocument
+*/ggaotp/
+||autohome.com.cn/adfront/
+||www.skycn.com/js/info.js
+*.uctrac.
+open.163.com###j-hbtj,#j-footertj
+*.dayingwo.
+*/js/3000.$domain=~dict.naver.com
+*/gg.$script
+*/pagead$script
+*.my4399.
+@@||crsky.com/ggao/images/$image
+duote.com###quickDown
+*/js/cpc.$script
+||com/images/openad/
+*/Zotac600x60
+baike.baidu.com##.after-content,#adLayerSideWrap
+*/BOJS/dytop1.js
+*.maxreturn.
+*/a_d_s
+fanyi.baidu.com##div.banner-wrap
+*##.ad
+*_ad_close.$image
+*_guanggao.js|
+*.jingwei.
+*_300_250_$image
+*/a_d_c
+*/8976_360100$subdocument
+*/gg300.$subdocument
+*.pv-indexcpm.
+*/jsgg/
+*/tpl/kg/
+@@||s.click.taobao.com^$popup
+*/tres/recommend/
+*/js/floatadv.js
+*/ad_
+jingyan.baidu.com##.wgt-cms-banner, .right-fixed-related-wrap, #bottom-ads-container
+||net/scriptAD/$script
+||www.xiazaiba.com/data/xzb_haha.js
+*/image/banner/$image,domain=~bilinovel.com
+*.ytunion.
+*/baidugg/
+*-980x60.gif$image
+*.ziye8.com
+chinanews.com##div.advert_nav,#news_top_advert,#qizhi_div980,#zhengwenvideo~*
+*/yingsu*.gif$image
+*/d/f1.js|
+*/tj.js|
+||www.chnmoney.com/skin/$script
+@@||wx.qq.com/*/ad_$script
+*/zhifubao
+*/gongyong.js|
+||com/adv.php?
+||ja.gamersky.com/
+*/GetAd.aspx?
+*/gampad/
+*/blank^adcode_$subdocument
+*/indexAD.js
+||img1.126.net/
+*.jixing1.
+||pcgames.com.cn/g/*/fz/
+*.qizhao.
+||hm.baidu.com/
+||ddooo.com/ddshow/$script
+||6vw.cc/d/$script
+*/duilian_
+*_index_banner$script
+||cn/js/cpv
+*/baiduad
+csdn.net###mainBox~*, body > .imgViewDom~*
+*/gguangg$image,object
+*/intf/bbs_expert
+||pconline.com.cn/pconline/download/fz/$image
+||go.$domain=kickass.cd|thepiratebay.*|btsow.*
+@@||media.nintendo.com/share/nclood/stable/en-us/bundles/microsite.min.js$script
+*/kwgg/$image,object
+*/tyad_$image,object
+*/rsdowngood_
+||ja1.gamersky.com/
+*/600x90.
+*/hxli/$image,object
+*/wafp.
+news.163.com###js-cnxh-content~:not(#js-epTabRank)
+*/cc222ads
+*/tomFlashAdChanel
+||img0.pcgames.com.cn^$object
+||c.m.163.com^$subdocument
+*/gaog/
+||www.skycn.com/show/d2.gif
+*/gg.html|$subdocument
+*/tan1/
+||baike.baidu.com/lemma/api/guesslike?$xhr
+*/ads1.
+*/bqzn000
+*.nuffnang.
+*/js/asp.js^$script
+||com/code1/
+*/advertisement/
+||tajs.qq.com/$domain=~wuxia.qq.com
+*/images/169$object
+*.oizu.
+||sinaimg.cn/crop.$domain=~video.sina.com.cn|~weibo.com|~mydrivers.com
+*/scad1.h$subdocument
+||n.sinaimg.cn/tech/zcapp$image
+*/advview.php?ad_pos=$script
+|data:text/plain$popup,domain=music.163.com
+*/code_img/
+*/789uc/sb.
+*/aadd/$image,object
+xiazaiba.com##div.test-90,div.test-300,div.dl-item:first-child
+*/d/f2.js|
+||net/code/pop_
+*/rightCornerPop/
+*/gvodad
+*/images/banner$domain=~ipo.chinairn.com|~www.shuame.com|~exp.qq.com
+*/acmsd/thea17
+*/js/bd1.js^
+*/acmsd/thea15
+*##div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#preAdContent
+*/d/f3.js|
+||ifengimg.com/*_guanggao_$script,xhr
+*.zoomino.
+gd.qq.com###r_ad
+*_960_60.$image
+||com/s?z=
+||cn/s?z=
+*.9cpm.
+||crsky.com/img/hezi
+*/verycms/
+*.youxitui.
+*.chinaih.
+ftchinese.com,cn.ft.com##.mpu-container-instory,div[data-id|=banner],div[data-id|=storympu],div[data-id|=mpu],div.o-barrier
+zhihu.com##.Banner
+*.9ccpm.
+*/tcgg
+*.qling.
+*/displayAd.js?
+||cpro.$domain=~baidu.com
+duowan.com##a[adid]
+||www.pconline.com.cn/jrzcz/$script
+||icon.zol-img.com.cn/public/js/web_foot$script
+||www.bdsola.com/js/common.js
+*.jinzhao99.
+*/wizard.js^
+||www.ftchinese.com/a.html$subdocument
+*.keydot.
+*/adimages/$image,object
+*/ad-$~stylesheet
+*/9lala.gif$image
+*/nc.jpg$image,object
+*/336x280.
+*/ddcr.gif|$image
+*/adSide/$script,xhr
+||img6.126.net/
+*/acadv
+*/floatad.js|$script,domain=~fwxgx.com
+|http://www.downyi.com/tg/$script
+||wa.gtimg.com/
+*/jsad/
+*/ftad.js?$script
+||p.zol-img.com.cn/$script
+*/code/adview_
+*.cnxad.$third-party
+||com/cpf/
+*/top_950
+||3.ssqzj.com/
+*/banner/$subdocument
+*.lrswl.
+@@||bnet.163.com/
+*/wb/dldl
+*/wzduilian/$image,object
+*/weige.$image,object
+*/scode_index
+greenxiazai.com##a[rel="nofollow"],.sinfo>div.s1,td.down-rr,.down-bd>div,div.list_lg
+||x.autoimg.cn/dealer/custom/subsite/forcePicAd20160628.js
+*/cont_adL
+*/tan1.$script
+||duomai.com/$third-party
+*/tv/tv1.js|
+*/popiq123
+||www.epinv.com/wp-content/themes/ep/tu/
+||com/js/float$script
+*/code/popjs.asp?
+toutiao.com##div.adTab,div.carAd,#pagelet-detailadd,iframe[onload^="var adWrap"],li.item.J_add,div[ad_name]
+*/300X250.gif$image
+*/d/f4.js|
+*/ad/$script,subdocument,media
+*.hxad.
+*/cont_bottom.js|
+*.qq937.
+*/badu468.gif|
+*/adpro.js$script
+||adbox.sina.com.cn/
+qiushibaike.com##div.shopwindow
+*/js/showads.php?
+*/ads_banner
+*/cont_adr
+*/upcontent.js|
+||wkstatic.bdimg.com/static/wkview/widget/top_ads_banner/$script
+*.my5058.
+*/js/shang.$subdocument
+||sinaimg.cn/unipro/$domain=~video.sina.com.cn|~weibo.com
+||com/cpm/
+*/468x60_
+*.9bcpm.
+*/778_110.$image,object
+||com/webad/
+*/html/hot_s
+*/pu_nocap_cn
+*/lm/iframe/js/blognew2011
+*/ga.js^
+||js.cncrk.com/
+||org/js/bd0*.js|$script
+||buy.pconline.com.cn/$script
+||g.csdnimg.cn/asdf/*/trackad.js|$script,important
+*/gg_ad/
+*/mlfoot.js|
+*/adplayer/*.swf?v=
+*/eptgoal/
+||mat1.gtimg.com/comic/newqshou/js/AD2v1.1.js
+*.leshu.
+*/ads?click
+*/gao.
+*/gao/
+@@||xxxy.jnu.edu.cn/_upload/tpl/08/ad/2221/template2221/$script
+*/gg/$domain=~cnr.cn|~20-0.net|~health.dahe.cn
+*.d9ad.
+*.xt918.
+*_960_90.$image
+*/sygg/$subdocument
+*/botbanner
+*/dzx/forum$image,object
+*/js/ggcommon$script
+*/300x250_
+*/homeadver.js|
+*.yy32.
+~news.sina.com.cn##[id^=ad_]
+||ashow.pcpop.com/
+|http://res.njxzwh.com/downza/pc/v2017/images/downAD.gif
+blog.163.com###lofter_single,div.f-trans
+*/adUtils.js
+zol.com.cn##.down-h4,span.down-alink,div[class^=ad_],div[class*=-ad],div[id^=AD_]
+*/sj/a2
+*/www/deliver/
+||a.lz13.cn/
+*_350_330.$image
+*$doc,removeparam=/^(sp|ut|fro?)m(_|\b)/
+||pan.baidu.com/rest/*/adx?$image
+*/js/indexgg
+@@||www.microsoft.com/onerfstatics/marketingsites-*/ad-$script
+mydrivers.com##+js(set,jQuery.fn.resetIdleTimeup,trueFunc)
+|https://img.ithome.com/file/dylive/dylive.min.js^$script
+*/tan/
+*/adflashes
+pconline.com.cn##div.jcztl,div.box.best,div.ivy-330
+*.adyun.
+||tongj.xilu.com/
+||168.it168.com$script
+||com/union/$script,domain=~linkstars.com
+*.adayi55.
+1ting.com##[id^=tingx_]
+||pbmp.ali213.net/
+||gamersky.com/$subdocument
+*/tc-ad.
+*/wwwcpm
+*/images/bbsad/
+*/51ads/
+||mat1.gtimg.com/sports/000_AD/$image
+*/nadTimeFlashLayer
+*/960x90_
+||media.$third-party,script,subdocument,domain=~ted.com
+*/GetAds.aspx?
+*.xixianad.
+*/yxCoupletsAd
+||com/advert/$domain=~music.baidu.com
+||com/gg*.gif|$image
+@@||v.gdt.qq.com/gdt_stats.fcg?
+*.yiqiwin.
+||qidian.qpic.cn/qidian_common/$image
+*/js/you1$subdocument
+||yxdown.com/open/$script
+||static.oschina.net/*_banner_$image
+||www.pconline.com.cn/_hux_$script
+*/js/ddd.js|
+||sina.com.cn/iframe/76/$subdocument
+||www.hexun.com/hxpage/index.html$subdocument
+||static.ws.126.net/*/js/sspAd.$script
+*.9wee.$third-party
+*_960.$image
+*/hqad.php?type=$subdocument
+||www.dy2018.com/jsdd/$script
+*.9ecpm.
+||com/code/cpv.asp?
+||www.tianyabooks.com/$script,inline-script
+*/cwjad
+*.ubcpm.
+www.zol.com.cn##.side-news-nointel.side-news,#bgad
+*.at918.
+*/9115gg/dd1.js
+||i8.chinanews.com^$subdocument
+*/yxkucode
+*/?age=1&col=
+*/bdun.bsc?$subdocument
+*/adwidget$script
+bitauto.com##.ad-tag-box,ins,body>div.container[style^=margin-top]
+||com/ads
+||cn/adfile/
+*/teleplayvip/
+*_728x90_$image
+*/goo.js|$script
+*.na7.
+*/ggao/
+*/guangao/
+*/html.ng/
+*/enkj.gif$image
+*.miyou1314.
+*/ggao.
+*.dianxin.
+*/afp6_
+*/html_1.
+qq.com##div[id^=AdZone],div.ad-banner,div.side_ad,#topAd
+||ztyumn.ifeng.com/$script
+*.op2.web.kuaiwan.
+*/gupiao.gif$image
+||cn.ft.com/m/marketing/$subdocument
+*.iloveyouxi.
+*.exian.
+*/google_service.js|
+||exp.bdstatic.com/static/exp-pc/common-jquery/widget/popup-$script
+||adscdn.baidu.com/
+*/pickcode_
+163.com##.gg200,.gg300,.gg200x300,[class$="_ad"],div.mod_ad_text,#bobo,#layout-bobo,.txt-bobo,#js_a_bobo,.bobo-area,.imglist-bobo-app,#layout-love,#layout-shop,.top-banner,div.post_adtop_main,div.post_adtop_side,a.tie-ad-bar,#fixed_foot_ad,#js-epTabDS,#js-epBobo
+*/adshow.$script,subdocument
+||mail.21cn.com/w2/source/images/firstpagecont/$image
+*/index_banner_
+*/46860.
+*/popme.
+91danji.com###bg_ad,div.hr.hr48
+*/top_all.js|
+||www.36dm.com/images/$image
+||x0.ifengimg.com/feprod/c/web/d/coupletFloat.js
+*/tc.js|$script
+||hao6v.com/d/$script
+*/ulinkdir
+*.huiten99.
+*/js/acmsd/
+||v2ex.assets.uxengine.net/assets/sidebar/$image
+*/view-960x90
+*/adjs/
+*/adjs.
+*/adcode/
+||p.zol.com.cn/$script
+*.redu-click.
+*.topad.
+@@||bdstatic.com/static/common/widget/ui/admanager/$script,domain=image.baidu.com
+||down.tgjkbx.cn/xxjs/$script
+*.cpp9v.
+*/d/f6.js|
+*.9buo.
+oschina.net##.blog-left-ad,#project_ad_banner,a[data-traceid],a[href^="http://click.aliyun."]
+||net/adfiles/
+*.xenw.
+*/js/newtc.js
+www.dmhy.org##.info.relative-goods, #pkpk
+*.mwad.
+*/acs56.js$script
+||com/AShow.aspx?AID=$script
+||com/cpc/
+*/900x250.$subdocument
+*/daocaoren*.jpg|$image
+*/images/ping.js|
+*.samboc.com
+zhidao.baidu.com###left-promotion,#ui-tooltip-0,div.cms-slide.cms-slide-optimus,div.wgt-bottom-ask,div.cms-slide.cms-slide-lazy
+||com/js/union/
+v.ifeng.com##.vAdbox,div.vAdImg,div.newAdImg,div.ad300,div.ad1000,div.vPlayerAdbox,div.main+.scrollcol
+*/inner_center1
+*/tongji.js|$domain=~zongheng.com
+||www.91danji.com/js/$script
+|https://www.36dm.com/js/
+*/code/cpc.$script
+*.9dcpm.
+||www-static.xunzai.com/static/wwwimg/$image
+@@||img05.zhaopin.cn/2014/common/js/za/ga.js
+*.istreamsche.
+*/bill/s201$subdocument
+*.yxcpm.
+||zchot.com/images/jiaoyou
+*/cpv123
+*/mcfg
+~google.com##.adsbygoogle
+*/union/union_
+||acs.$domain=~youku.com|~tudou.com|~acs.org
+*/Index_AD/
+||ivy.pconline.com.cn/show$script
+||cn.ft.com/a.html?$subdocument
+*/ejia360$image,object
+*_ad.php?
+||fund.eastmoney.com/trade/Hot_$subdocument
+*/script_couplet
+*.uu01.
+||ifeng.com/ssi-incs/$subdocument
+*/js/yzz/
+*-ads-$script
+||com/bbsadv$script
+downxia.com##.download-ad,#gaosu_div0,ul.list-down>h3,a[href^="http://url.tduou.com/down/"]
+||5054399.com/4399_js/$script
+||dmjs.gucheng.com/
+||img.cmm.xmfish.com/pages/uploads/20$image
+*/acho/280x$image,object
+||com/advview
+*.9wad.
+||api.huo360.com/www/back/$image
+*.cpp360.
+*.t3nlink.
+*/yuegui.js|
+*.u.18dx.
+*.admin1.
+bing.com##li.b_ad,#b_notificationContainer_bop
+*/allgg$subdocument
+*/fbookad/
+||mydisplay.ctfile.com/$script,subdocument,popup
+*_right_ad.$domain=~dzwww.com
+*/files/adv/
+*/scripts/topads.js
+*/js/66*x60.
+||com/index0data/$~stylesheet,domain=~www.tvf4.com
+news.mydrivers.com##.main_right_div:nth-of-type(4)
+@@||c.gdt.qq.com/gdt_click.
+*/tengyou960.gif$image
+*/pushcar.php
+||com/cpv_
+*/bbs/paypic/*.gif|
+||pc6.com/$subdocument
+*/2345float
+*.9gcpm.
+*.soua.
+bbs.hupu.com###game-center-entrance-container
+||www.downxia.com/dgjs/$script
+*.cssyouxi.
+*/get_ad_
+*/gg_a.
+*/ad.$image,script,subdocument,media
+*/adpuba/$script
+*.dyunion.
+||isdspeed.qq.com/
+*/468_70.$subdocument
+*/news_ad$subdocument
+||news.mydrivers.com/incutf8/HaoWuTuiJianTop6_2023.js$script
+||com/banners/
+*/VV_MOYU
+*/scripts/showad.js|
+*.wangzhan5.
+juejin.im##.banner,.wechat-banner
+*/gad/$domain=~cc.163.com|~uu.163.com
+*/taobao_if$subdocument
+||pos.baidu.com/
+*/js/jctj
+*/js/outwin
+||mairuan.$all
+||pgdt.gtimg.cn/gdt/
+||www.zongheng.com/zhda/zhda.html
+*/198game_
+*/html/yuedu$subdocument
+*/960x90-$image
+*.dingge.
+*/adscpv/
+||www.xdowns.com/js/$script
+||ifeng.com/a_if/taobao/
+www.hao123.com##.siye,#mingzhanresource
+*/sf5ovny2
+*/tan.$script
+||www.fxxz.com/show/html/$subdocument
+||com/images/adbanner$image
+*/yzjy.$subdocument
+*/cpv/bd/$script,image
+||cbjs.baidu.com/
+||cn/Advertis
+*/ireadad.
+*/js/floats
+*/gghead
+*/www/delivery/
+*/dcr.gif|$image
+*.xiaoangel.
+||bitautoimg.com/ResourceFiles/$image,object
+*/ok/toptl
+||2345.com/duoteimg/duotehtml/$script
+||com/js/bd0*.js^$script
+*/7mad.$image,object
+*.scyb10010.
+||click.ali213.net/
+||com/main/s?user=
+||www.fxxz.com/skin/know/html/$subdocument
+||tj.ali213.net/
+*/external/public126
+*/js/gg.$script,subdocument
+||hxsame.hexun.com/
+*/bootom1.js|
+*/cjsh.js|
+ithome.com##+js(trusted-click-element, span.hb-close-btn)
+*/pop_fmt
+*/agfile/
+*.shenduchuanmei.
+ifeng.com##div[class^=adList],div[class^=adbox],[class|=topAd],[class^=ad_],#couplet3_right,#couplet3_left,[href^="//mall.ifeng.com"],#js_videopause_container
+*/webimg08/dot.gif^
+*/market_$script
+*/kdjl_306x200
+*_ad.js|
+*/fkunion
+*/Unika600x60.
+*.i3z.
+*/ead/union/
+www.chnmoney.com##.tonglan
+||www.toutiao.com/api/web_ads/
+||bcebos.com^$image,domain=pan.baidu.com
+||org/js/ad$script
+||img3.126.net/
+*/ads_$script,subdocument
+*.ljzbjc.$subdocument
+*/banner.js?v=$script
+*/at-img*.swf|
+*/readadend
+pcbeta.com##.x_m.pb_tan:upward(1)
+*.jasd.
+*.gyy1314.
+*/ikb/js/t.js|
+||firefoxchina.cn/html/$subdocument
+*/a-d-s/
+*/imgad
+*/BOJS/top2.js
+*/gggg
+||pups.bdimg.com/
+*.9fcpm.
+*/js/k1.
+*/nadScreenFloat
+*/js/22.$subdocument
+||dmp.sina.cn/
+*/adnet
+*/chinaadclient.js
+*.bnet.
+*/vstart-$image
+||com/svnad/
+*_ads.js|
+*/js_adscommon.js
+*/images/stock.js|
+*.igalive.
+*/scad.h$subdocument
+*/uuzu_
+baike.com###right_ad_div
+*/tuiguang360-300.
+*.tiaosa.
+*/js/k2.
+*/740_60.jpg
+*/min_ad.$subdocument
+||www.skycn.com/js/$image
+www.qq.com##.adLeft,.adRight
+||com/adfiles/
+eastmoney.com##.footer-ads,#rightAD
+||crs.baidu.com/
+*/xiu.$script
+||www.sdbeta.com/images/$image
+||galaxy.sogoucdn.com/galaxy/
+*/adiframe/
+douban.com##.subject-banner, div[ad-status]
+yxdown.com##.bg_l,.bg_r,div.gg,div[id$=_ads]
+*/idcgg/
+||crsky.com/theme/images/fast_down.
+||static.zongheng.com/upload/recommend/game/201$image
+||adgeo.163.com/
+*.egoodad.
+@@||learn.microsoft.com/video/media/*_960.jpg|$image,domain=learn.microsoft.com
+||cm.$image,script,xhr,3p
+@@||res.wx.qq.com/mmbizwap/$script
+*/ad340-50.gif|
+*/piao.js|
+*.91wan.
+@@||static.zhihu.com/ad-raccoon-web/$script
+||games.qq.com/playgame/videoweb/
+*/9vads
+wiki.mbalib.com###ad-phone
+*/gg250.$subdocument
+*/i.js^$script,third-party
+*/js/33.$subdocument
+*/js/bann.js|
+*/banners?
+*/sluke/ml
+*/tdcm/adcontrol
+*##.adbox
+www.zhihu.com##div[role=list] > .Pc-word:not([tabindex])
+||downxia.com/dgjs/pic/
+||ivy.pconline.com.cn/adpuba/show
+||market.aliyun.com/
+*.feesee.
+*/adServer$script,xhr
+*/codepic/
+cr173.com###foot~*,div.show_970,[data=viewAds]
+*/adPictures
+*/js/bd3.js^
+*/mini/01.$subdocument
+*/ulinkjs
+*_ads.swf|
+||ax.ifeng.com/$script
+zhihu.com##.shameimaru-section
+||autoimg.cn/admdfs/
+*/js/bd2.js^
+*_banner.html|
+*/jump.js|
+*/if/07top-new
+||eduad.baidu.com/
+||cmsjs.eastmoney.com/$subdocument
+||com/cpv/
+*/adfshow?user=
+*/doublePop.js
+*/upfile/myshow$image,object
+*.r.arpg2.
+*/_union/
+||com/cpv.$script
+*/fhHYTagNew
+@@||www.gamersky.com/gsinc/$subdocument
+*/ggs/
+*.adjwl.
+||static.zongheng.com/*/ad$script
+*/js/js1.js
+*/js/mu/
+*.rj518.
+*/pop-ad_
+*.name265.
+*/tuidc468.gif|$image
+*/p_111
+*/p_110
+*/mygg$image,object
+||baike.baidu.com/api/wikiad/$xhr
+yiche.com##.news-head > div.news-head-adv:first-child, div.words-ad-list
+*.rsccs.
+*/baidu_ads/$subdocument,script
+||swa.gtimg.com/
+||www.zolsky.com/hotsoft/$subdocument,script
+qidian.com###tr-banner,div.banner-wrap,div.focus-img.cf,#j_bodyRecWrap,#j-topHeadBox,#j-topBgBox,div.games-op-wrap
+*.flunion.
+||www.chnmoney.com/dfile/$script,image
+*/9115gg/toubu.js$script
+||www.pconline.com.cn/*/intf$subdocument,script
+baike.baidu.com##.squareAni.square.super-layer-promote
+*/zanzhu
+*/178acg/
+*/adz.js|
+*.ppunion.
 ||ketseestoog.net^$document
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.floatingWrapper
 ||taggify.net^$third-party
@@ -182530,6 +183578,7 @@ bqprime.com##.story-base-template-m__vuukle-ad__g1YBt
 ||polaranalytics.com^$third-party
 ||tohechaustoox.net^$popup
 .keap-link015.com/$image
+euronews.com###connatix-container
 /server/detect.php?
 ||rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml
 ||citibank.com.sg/jso/js/fp.js
@@ -184414,6 +185463,7 @@ pornfaia.com##.footer-bnrz
 .mail.odysee.com/o/$image
 ###bgframe[style^="position: fixed;"]
 ||cfmediaview.com/API/MV_Visit.ashx
+||zedo.com^$third-party
 /api/internal/pixel?
 ||beemray.com^$third-party
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
@@ -185246,6 +186296,7 @@ autohome.com.cn###packetsWrap
 teenhost.net##.bottom-ban
 ithome.com###wapddfda21
 /stats-tracking.js
+bing.com##.br-poleoffcarousel
 /ipdvdc.min.js
 ||muenchener-stadtplan.com/t.gif
 strategie-bourse.com##.cadre_encadre_pub
@@ -186662,7 +187713,6 @@ fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32c
 ||youtube.com/api/stats/qoe?
 ||baghoglitu.net^$popup
 @@||ajax.googleapis.com^$script,domain=imgbox.com
-fanyi.sogou.com##.img-banner
 ||y3600.cc/20
 /trovit-analytics.js
 ||pp8.com^$third-party
@@ -188375,7 +189425,6 @@ sina.com.cn##.f_app_screen_wrap
 ||bit.ly^$domain=boyfriendtv.com
 1909.me,8se.me,crxs.me,xchina.biz,xchina.co##.media
 cocoimage.com##.inner_right
-ssuip.com###mask
 /^https?:\/\/(.+?\.)?ipatriot\.com[\/]{1,}.*[a-zA-Z0-9]{9,}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=ipatriot.com
 guancha.cn###ewm_app
 .*roytj33.fun/$script,third-party
@@ -188540,7 +189589,6 @@ trustedreviews.com##.keystone-single-widget
 /kameleoon.js
 ||b714b1e8-4b7d-4ce9-a248-48fd5472aa0b.online^$document,popup
 /track/component/*
-map.baidu.com###message-panel
 131400.best,vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/next/"]
 /^https?:\/\/(.+?\.)?writerscafe\.org[\/]{1,}.*[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=writerscafe.org
 ||urlbrief.com^$third-party
@@ -189916,7 +190964,6 @@ ansamed.info,baltic-course.com,futbol24.com,gatewaynews.co.za,gsmarena.com,gulfn
 letv.com###JS_banner02
 ||retailads.net^$third-party
 letv.com###JS_banner01
-meijumi.net##.couplet_app
 ##.arena-ad-col
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
 /autotrack.custom.js
@@ -195440,6 +196487,7 @@ gismeteo.com,meteofor.com,nofilmschool.com##.placeholder
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
 /utm.gif?
 ||surveywriter.com^$third-party
+||groove.so/unlocker.js
 ||baidu.com/4.gif?
 ||botize.com^$third-party
 ||socialtrack.co^$third-party
@@ -195739,1119 +196787,6 @@ sogou.com###bottom_appad
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
 hdtube.porn,pornid.xxx,rat.xxx##.cs-under-player
-@site-foregin/news
-@cibn
-@hijack/netbar
-@union-cn-plus
-@union-cn
-@union-en
-@errorpage/click
-@app-browser
-@site-foregin/tools
-@hijack/domain
-@site-foregin/sns
-@cps-taobao-simba
-@site-us
-@errorpage/sns
-@hijack/homepage
-@down/virus
-@down
-@errorpage/weixin
-@cps-jd
-@android
-@direct/1os
-@union-india
-##sogou-husky
-::1             ip6-localhost
-@hijack/apk-down
-@hijack/wifi
-@site-foregin/union
-::1             localhost
-@union-jp
-@errorpage/inside
-@direct/official
-@cps-shopping
-@union-ru
-@site-foregin/down
-@hijack/operators
-@popup
-@hijack/x-router
-@errorpage/daohang
-@cps-taobao-click
-@site-foregin/adult
-/^(\S+\.)?s?metrics\./
-/^(\S+\.)?61677[\da-z]{0,20}\.com$/
-/^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
-/^(\S+\.)?delivery([\d]{2}|dom|modo).com$/
-/^(\S+\.)?11599[\da-z]{2,20}\.com$/
-/^(\S+\.)?syma[a-z]\.cn$/
-/^(\S+\.)?widgets?\./
-/^(\S+\.)?[0-9a-f]{15,}\.com$/
-/^(\S+\.)?ylx-[0-9].com$/
-/^(\S+\.)?sax[\dns]?\.sina\.com\.cn/
-/^(\S+\.)?[0-9a-z]{16,}\.xyz$/
-/^(\S+\.)?5551[0-9]{3}\.com?$/
-/^(\S+\.)?voyage-prive\.[a-z]+(\.uk)?$/
-/^(\S+\.)?aj[0-9]{4,}.online$/
-/^(\S+\.)?analytics(\-|\.)/
-/^(\S+\.)?(webstats?|swebstats?|mywebstats?)\./
-/^(\S+\.)?777\-?partners?\.(net|com)$/
-/^(\S+\.)?e7[0-9]{2,4}\.(net|com)?$/
-/^(\S+\.)?[c-s]ads(abs|abz|ans|anz|ats|atz|del|ecs|ecz|ims|imz|ips|ipz|kis|kiz|oks|okz|one|pms|pmz)\.com/
-/^(\S+\.)?xpj[0-9]\.net$/
-/^(\S+\.)?counter(\-|\.)/
-/^(\S+\.)?tongji\./
-/^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
-/^(\S+\.)?advert/$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com|tmall.com|taobao.com
-/^(\S+\.)?333[1-9]{2}[0-9]{2}\.com?$/
-||*serror*.wo.com.cn^$dnstype=A|CNAME
-/^(\S+\.)?g[1-4][0-9]{8,9}\.com?$/
-/^(\S+\.)?adservice\.google\./
-/^(\S+\.)?afgr[\d]{1,2}\.com$/
-/^(\S+\.)?toolbar\./
-/^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./
-/^(\S+\.)?hg[0-9]{4,5}\.com?$/
-/^(\S+\.)?pixels?\./
-||com/adimg
-||gushiwen.cn/getTicket.aspx^$xhr
-*.pop.js^$script
-||ja2.gamersky.com/
-*/sg300
-*/floatadv.js|$script
-qidian.com##.crumbs-nav.top-op:style(margin: auto!important)
-*/images/ad960.
-||file.myqcloud.com/yuewen/game/images/$image,domain=qidian.com
-*.abang.
-~4yydstxt178.com##[id|=ad]
-*.tlvmedia.
-*/cesoft_
-*.v5ad.
-mydrivers.com##.baidu, a[href^=http][target=_blank]
-zhihu.com##.Banner-image
-*gonggao.js|$domain=~lol.qq.com
-*/googleAds3Wide.js
-*/acmsd/thea5
-*/piwik.
-*/ggimages/
-||files.jb51.net^$image
-*.keyyou.
-*/728-90-$image
-||cn/tlgg/
-||games.ifeng.com/$subdocument
-*/js/xia44$subdocument
-*.yebai.
-*.csyouxi.
-*/market-$script
-||cn/adv/
-*/showadcode.asp?
-*/adad/
-*/lmt_v
-360doc.com##div[id^=divad],#fullbg
-*/RichMedia.js|
-||www.zolsky.com/read/readad/$subdocument
-*.99g99.
-user.qzone.qq.com##div#idQbossHotbar.hotbar_wrap,div.icenter-right-ad,div#QM_100005_Body,div.fn-feed-mod-bd,div.ck-act,div#QM_Container_100005,div.gdtads_box,li.f-single-biz
-*.bmw100.
-||com/adright
-*/common/cf/$image,object,domain=~wifi.liebao.cn|~96fei.com
-*/adslvfile
-*/guanggao
-||d2.sina.com.cn/
-*/pop_cpf.$script
-*/tb_360$subdocument
-*/pop.js^$domain=~socpk.com|~autohome.com.cn|~patch.ali213.net
-||www.downbank.cn/js/gong.js
-*/ja486$image,object
-skycn.com###top970,ul.ul_Address>h3,a[href^="http://down.xiazaidc.com/"]
-*/ejia/$domain=~189.cn
-*.gtrxm.
-||www.uzzf.com/skin/know/$script
-crsky.com##div[class^=banner],div.fast_down,dl.mirror-special,div.banner-square,li.yellowdown
-*.tjq.
-*/d/960.js|
-*/s.php?id=$script,third-party
-pcbeta.com###sitefocus
-*/soqidian/
-iciba.com##div.newpc-entry
-*/newSNDAPop
-||www.2345.com/cnxh/$script
-*/newhuagg/
-*/ggg/$image,object
-*.y2126.
-*.mr66.
-*/pipi1.htm$subdocument
-*/youme/
-*/youme.
-*/300250.swf$object
-*/article/yy/$subdocument
-*/jsadv/
-||com/vShow.php?id=
-*/G-G/
-*/slgg/
-||adsrich.qq.com/
-||www.dmhy.org/*.gif^$image
-*.cnnetallyads.
-*.wan789.
-||baike.baidu.com/*/directad?$xhr
-||pacd.3conline.com/$script
-*_950x90.gif$image
-||ifengimg.com/feather/images/$image
-||com/cs/jsfile/
-*/950x90.gif$image
-*/760_*.js|$script
-*/adPub/adpub
-*/newS_contentad
-52z.com###softdown>div,div.syGaosuDa:first-child
-*/960x90.gif$image
-*/rndView.
-*.xian.cm.
-||com/aajjss/$script
-*.whoclick.
-||ifengimg.com/mappa
-ithome.com###tt
-admin5.com##.float_both,div.sherry_ad1,div.specialBox,.content_right_ad
-*/float.js^$script,domain=~keylol.com
-||ubmcmm.baidustatic.com/
-||wan.$~image
-*.xi666.
-*/adadmin
-||com/c?z=$domain=~ifeng.com
-*/html/ads
-||d3.sina.com.cn/
-*/html/cbjs.html?id=$subdocument
-||612.com^$script,domain=cr173.com
-*/tc_ad.
-||pconline.com.cn/download/images/soft/dl_ad.jpg
-pan.baidu.com##.ad-platform-tips, .phone-banner
-*##.ad960-90
-||ca.gtimg.com/adplugin/js/adplayer.js
-*.gokzxc.
-pcpop.com##[id^=ad_],div.ad1,div.pcpop_ad1,div#banner9th
-@@||sax.sina.com.cn/video/$script
-*.kx365.
-*/js/showad.js|
-*.switchadhub.
-*/googlevideoads
-zongheng.com###zh_ab_rb,#sumcard_flag,#gameFTip
-*/300x250.swf
-*/bootom2.js|
-*.adsxin.
-pan.baidu.com##.frame-all:style(overflow-x:hidden!important)
-*.zfjiu.
-mail.21cn.com##.arale-dialog-1_2_3
-*/zongheng_chat_loader
-*/adposjs/$script
-ebusinessreview.cn##div.header,.adarticle,div.ad_s,[id^=ad_]
-||com/adfile/
-*/svnad/$subdocument,image,object
-||entry.baidu.com/$subdocument
-*/soft_mid_
-*.ssrj.
-||com/i.php?z=
-*.swf?clicktag=
-||click.gamersky.com/
-*.linekong.
-*/union/link_
-*/mynicedd/
-*.u.imop.
-||pcgames.com.cn/adpuba/show?
-*/js/advert.js
-*/popjs.$script
-@@||bikroy.com/neo/bikroy-contactUs*-ads-$script,1p
-*/advimg/
-*/jbk.gif^$image,object
-||jwz.3conline.com/adpuba/
-*.91ivr.
-*.keyrun.
-||com/js/bd960
-||sbeacon.sina.com.cn/
-*.pv-indexurl.
-*/468_80.$subdocument
-||rh.qq.com/
-*/ugcad
-*.hosting24.
-*/AdShowCache
-*/adgg/
-*.ilepai.
-*.wyunion.
-*/maimg/
-||bobo.163.com/
-||pfp.sina.com.cn/
-*/gg_final
-*.myiee.
-daohang.qq.com##[id^=AD_]
-www.google.com.*,www.google.*##.VEELad
-*/adImgCover
-*/css/jsContent
-||www.greenxiazai.com/green/
-||itv.hexun.com/
-*/mier168
-*/maxcms/
-||org/ad$image
-*/50bang.gif$image
-*_index_ad_
-||dygang.cc/d/$script
-onlinedown.net##div.downDz>:first-child,a[href*=".9377wan.cn/"],div.downgs,div.downxzqad,div.srolltool~div,#ItemXGJC,#ItemXGXZ,#ItemXGZT,#ItemSSZT
-~google.com,~mediafire.com##.ads
-*/nettv/adp/
-*/js/bd.js^$domain=~dmhy.org
-*.9wcpm.
-*/tc00$domain=~xbeta.info
-||coinhive.com/
-*/js/1.htm$subdocument
-tianyabooks.com##div[class^=bread_]
-*.feike5.
-*/d8adf801/?ref=
-*/wzygg/$image,object
-*/icast/
-*&adsc_typpe=
-*/advpic/$image
-*/guangg/
-*/js/adv.js?
-*.zhangxiu.
-||www.4399.com/loadimg/iframe_$subdocument
-*.ylunion.
-*/js/js2.js$script
-*/small*_ad.$subdocument
-*/adSide.$script,xhr
-*/widget.jsp?bId$subdocument
-*/960_60.$script,subdocument
-*/adScript/$script
-*/adservice/
-@@||wago.io/js/118.$script
-||com/otherhtml/$script
-*/09-hp/
-*.daoyoudao.
-*-300X250.$image,object
-*/ggad
-*.windsad.
-*/468_60.
-*/tanxssp/
-*.9vcp.
-*.zhanzhang.
-*/js/eteadx*.js|$script
-*/rnad/$image,object
-*/xy/js/
-bbs.xmfish.com##div[id^=adm_show_]
-||www.zhujiceping.com/F/$image
-*/468_90.$subdocument
-*/tres/ylgm/
-*.haoll.
-myqqjd.com##+js(acis, String.fromCharCode, decodeURIComponent)
-*/js/autosize.js|
-*/aaadddd/2.js$script
-*.jugao.
-||com/pagecpv/
-||6vgood.com/d/$script
-*/push_n.php
-*/daocaoren*.gif|$image
-||d1.sina.com.cn/
-*.ipinyou.$domain=~www.v1.cn
-*/adfile$script,subdocument
-*/wFloat.
-*/760.js|$script
-||cc/scriptAD/$script
-||static.cnbetacdn.com/frontend/vipics/$image
-*/tttccc.
-@@||qidian.gtimg.com/*/qd/js/component/ad_strategies.$script
-||cdn.iciba.com/web/co/ci/$image
-||www.crsky.com/img/pic.js
-*.bmgad.
-*/usmsad
-*.w99.
-||xz7.com/js/
-||com/ecom?di=$domain=~7958.com|~www.redocn.com|~bbs.tiexue.net|~www.narutom.com|~www.neihan8.com|~666ccc.com|~yue365.com
-*.biyici.
-*/yinsu$image
-||www.zhujiceping.com/wp-content/uploads/$script
-|https://api.ithome.com/json/hot/dajia.json^$script
-chuangshi.qq.com##.topbanner,.mainbox>div.adv,div.jpBanner.fr,.banner_index,.main_banner,#advert
-||crsky.com/theme/images/rd0
-*/99ad/
-www.rjno1.com##body > *:nth-child(-n+5)
-*/99tt.js|
-*/ads/
-*/adpolestar
-||vamaker.com/$third-party
-*/messagetip.
-tiebac.baidu.com,tieba.baidu.com,jump.bdimg.com,jump2.bdimg.com###thread_list>li:not(.j_thread_list):not(.thread_top_list_folder),div[data-rank],div[ad-dom-img],a.j_click_stats,div.custom-ad-container
-||coin-hive.com/
-*/vamaker/
-*/market.$script,domain=~jin10.com|~streamcommunity.com
-||ygdy8.com/jsy1/
-*.woniu666.
-*.admsger.
-*.chinacpc.
-||static.yxdown.com/cj/$script
-*/tanchuang
-*/gg_search_
-*/gg-sel.$subdocument
-*/js/ad1.
-*/tuiguang/$subdocument
-*/adService$script,xhr
-ithome.com##.categoryimg,#hd_float,#side_func,#con>#tt5>div,div.related_buy,li.sb_list:nth-child(5)
-||gold-cdn.xitu.io/asset/sidbar-banner/$image
-||dup.baidustatic.com/
-*/js/yun.
-||net/Runtime/js/$script
-*/afp/door/;ap=
-*/aili_content_
-##[id$="-ad"]
-||static.oschina.net/uploads/space/20*.jpg|$image
-*.imufc.
-||china.com.cn/2016ads/$subdocument
-*.heroclick.
-v2ex.com##.box:has(.sidebar_compliance)
-*/js/cpc_$script
-*/js/cpv_$script
-*.info/ad7*.js^$script
-*/lsgg/
-||52pk.com/$object
-*/mopgg
-*.untang.
-*/adhead
-www.zol.com.cn,www.91danji.com,92btbtt.com##body:style(background: center !important)
-||games.ifeng.com/webgame/
-*.youxjia.
-*/xiazaiyoudao
-||s1.bdstatic.com/r/www/cache/biz/ecom/common/api/$script
-*/adsview/
-*##.adtable
-||pcgames.com.cn/g/extlin/pcdownpic/$script
-||com/code/cpm.asp?pid=
-blog.sina.cn##div.item_hide+div,#pl-blog-artad
-*/hj_end.js|
-*.jijing1.
-||dm.gucheng.com/
-*.yuunion.
-||www.zolsky.com/killsoftware/sdsoft/page2/newad/$script
-www.epinv.com###container>#sidebar~*,div.huadong,div.epinv_f
-*/other/fh.
-||gdt.qq.com/
-*-160-600.jpg|$image
-*.is686.
-*.ugooo.
-*.sfilm.
-*.cpm9v.
-*/fn/minibar_1.js|
-*/img/ads_$image
-u17.com##[id|=u17-advert],div.ad_wrap
-*/banner960.htm^$subdocument
-autohome.com.cn###s2287
-||ifeng.com/a_if/$subdocument
-www.hao123.com##.link.download,#ecom,div.widget-topbanner,#shortcut-box,#shortcut-box~*,div[monkey=yixing],#leftbannerv2
-*.cpm.cm.sandai.net
-||qidian.com/upload/gamesy/20$image
-*/08gg/
-||www.1ting.com/$subdocument
-*/js/gg_$script,subdocument,domain=~www.111ttt.com
-@@||static.realme.net/v1/knowledge/images/banner.jpg$image
-*/guang/
-||jianshu.io/assets/web/*-ads-$image
-*/wcast
-*.yoyi.
-*/js/page_ad_$script
-*.svem.
-*.qndown.
-||rm.sina.com.cn/$script,subdocument
-pcbeta.com##div[class^="_jc"]:upward(4)
-*/other/ff.
-*.tuite8.
-ctfile.com,www.pipipan.com##a[href^="https://union.ctfile.com"],div[id|=ad],div[id^=ad_]
-||static.zongheng.com/upload/*ds/column/$script,image
-*/headbiggg_hq
-*/rdidc.gif$image,object
-*/impservice$script
-||www.rjno1.com^$inline-script
-*/ggjs/
-*.cpm360.com
-*.biz5.sandai.net
-*/fdad/$image,object
-*.gif|$image,domain=3987.com|www.ouyaoxiazai.com|www.myhack58.com
-*.q150.
-*/js/300X250-
-*.jzunion.
-@@||isdspeed.qq.com/cgi-bin/r.cgi?flag1=
-*/js/118.
-@@|https://media.amazon.map.fastly.net^$script
-*/gg160.$subdocument
-*.gamediad.
-||hjwzw.com/js/n$script
-*/proxy.html?id=$subdocument
-*/44jjss/$script
-*/w-z1.
-*/yintai/$subdocument
-*/ggaotp/
-||autohome.com.cn/adfront/
-||www.skycn.com/js/info.js
-*.uctrac.
-open.163.com###j-hbtj,#j-footertj
-*.dayingwo.
-*/js/3000.$domain=~dict.naver.com
-*/gg.$script
-*/pagead$script
-*.my4399.
-@@||crsky.com/ggao/images/$image
-duote.com###quickDown
-*/js/cpc.$script
-||com/images/openad/
-*/Zotac600x60
-baike.baidu.com##.after-content,#adLayerSideWrap
-*/BOJS/dytop1.js
-*.maxreturn.
-*/a_d_s
-fanyi.baidu.com##div.banner-wrap
-*##.ad
-*_ad_close.$image
-*_guanggao.js|
-*.jingwei.
-*_300_250_$image
-*/a_d_c
-*/8976_360100$subdocument
-*/gg300.$subdocument
-*.pv-indexcpm.
-*/jsgg/
-*/tpl/kg/
-@@||s.click.taobao.com^$popup
-*/tres/recommend/
-*/js/floatadv.js
-*/ad_
-jingyan.baidu.com##.wgt-cms-banner, .right-fixed-related-wrap, #bottom-ads-container
-||net/scriptAD/$script
-||www.xiazaiba.com/data/xzb_haha.js
-*/image/banner/$image,domain=~bilinovel.com
-*.ytunion.
-*/baidugg/
-*-980x60.gif$image
-*.ziye8.com
-chinanews.com##div.advert_nav,#news_top_advert,#qizhi_div980,#zhengwenvideo~*
-*/yingsu*.gif$image
-*/d/f1.js|
-*/tj.js|
-||www.chnmoney.com/skin/$script
-@@||wx.qq.com/*/ad_$script
-*/zhifubao
-*/gongyong.js|
-||com/adv.php?
-||ja.gamersky.com/
-*/GetAd.aspx?
-*/gampad/
-*/blank^adcode_$subdocument
-*/indexAD.js
-||img1.126.net/
-*.jixing1.
-||pcgames.com.cn/g/*/fz/
-*.qizhao.
-||hm.baidu.com/
-||ddooo.com/ddshow/$script
-||6vw.cc/d/$script
-*/duilian_
-*_index_banner$script
-||cn/js/cpv
-*/baiduad
-csdn.net###mainBox~*, body > .imgViewDom~*
-*/gguangg$image,object
-*/intf/bbs_expert
-||pconline.com.cn/pconline/download/fz/$image
-||go.$domain=kickass.cd|thepiratebay.*|btsow.*
-@@||media.nintendo.com/share/nclood/stable/en-us/bundles/microsite.min.js$script
-*/kwgg/$image,object
-*/tyad_$image,object
-*/rsdowngood_
-||ja1.gamersky.com/
-*/600x90.
-*/hxli/$image,object
-*/wafp.
-news.163.com###js-cnxh-content~:not(#js-epTabRank)
-*/cc222ads
-*/tomFlashAdChanel
-||img0.pcgames.com.cn^$object
-||c.m.163.com^$subdocument
-*/gaog/
-||www.skycn.com/show/d2.gif
-*/gg.html|$subdocument
-*/tan1/
-||baike.baidu.com/lemma/api/guesslike?$xhr
-*/ads1.
-*/bqzn000
-*.nuffnang.
-*/js/asp.js^$script
-||com/code1/
-*/advertisement/
-||tajs.qq.com/$domain=~wuxia.qq.com
-*/images/169$object
-*.oizu.
-||sinaimg.cn/crop.$domain=~video.sina.com.cn|~weibo.com|~mydrivers.com
-*/scad1.h$subdocument
-||n.sinaimg.cn/tech/zcapp$image
-*/advview.php?ad_pos=$script
-|data:text/plain$popup,domain=music.163.com
-*/code_img/
-*/789uc/sb.
-*/aadd/$image,object
-xiazaiba.com##div.test-90,div.test-300,div.dl-item:first-child
-*/d/f2.js|
-||net/code/pop_
-*/rightCornerPop/
-*/gvodad
-*/images/banner$domain=~ipo.chinairn.com|~www.shuame.com|~exp.qq.com
-*/acmsd/thea17
-*/js/bd1.js^
-*/acmsd/thea15
-*##div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#preAdContent
-*/d/f3.js|
-||ifengimg.com/*_guanggao_$script,xhr
-*.zoomino.
-gd.qq.com###r_ad
-*_960_60.$image
-||com/s?z=
-||cn/s?z=
-*.9cpm.
-||crsky.com/img/hezi
-*/verycms/
-*.youxitui.
-*.chinaih.
-ftchinese.com,cn.ft.com##.mpu-container-instory,div[data-id|=banner],div[data-id|=storympu],div[data-id|=mpu],div.o-barrier
-zhihu.com##.Banner
-*.9ccpm.
-*/tcgg
-*.qling.
-*/displayAd.js?
-||cpro.$domain=~baidu.com
-duowan.com##a[adid]
-||www.pconline.com.cn/jrzcz/$script
-||icon.zol-img.com.cn/public/js/web_foot$script
-||www.bdsola.com/js/common.js
-*.jinzhao99.
-*/wizard.js^
-||www.ftchinese.com/a.html$subdocument
-*.keydot.
-*/adimages/$image,object
-*/ad-$~stylesheet
-*/9lala.gif$image
-*/nc.jpg$image,object
-*/336x280.
-*/ddcr.gif|$image
-*/adSide/$script,xhr
-||img6.126.net/
-*/acadv
-*/floatad.js|$script,domain=~fwxgx.com
-|http://www.downyi.com/tg/$script
-||wa.gtimg.com/
-*/jsad/
-*/ftad.js?$script
-||p.zol-img.com.cn/$script
-*/code/adview_
-*.cnxad.$third-party
-||com/cpf/
-*/top_950
-||3.ssqzj.com/
-*/banner/$subdocument
-*.lrswl.
-@@||bnet.163.com/
-*/wb/dldl
-*/wzduilian/$image,object
-*/weige.$image,object
-*/scode_index
-greenxiazai.com##a[rel="nofollow"],.sinfo>div.s1,td.down-rr,.down-bd>div,div.list_lg
-||x.autoimg.cn/dealer/custom/subsite/forcePicAd20160628.js
-*/cont_adL
-*/tan1.$script
-||duomai.com/$third-party
-*/tv/tv1.js|
-*/popiq123
-||www.epinv.com/wp-content/themes/ep/tu/
-||com/js/float$script
-*/code/popjs.asp?
-toutiao.com##div.adTab,div.carAd,#pagelet-detailadd,iframe[onload^="var adWrap"],li.item.J_add,div[ad_name]
-*/300X250.gif$image
-*/d/f4.js|
-*/ad/$script,subdocument,media
-*.hxad.
-*/cont_bottom.js|
-*.qq937.
-*/badu468.gif|
-*/adpro.js$script
-||adbox.sina.com.cn/
-qiushibaike.com##div.shopwindow
-*/js/showads.php?
-*/ads_banner
-*/cont_adr
-*/upcontent.js|
-||wkstatic.bdimg.com/static/wkview/widget/top_ads_banner/$script
-*.my5058.
-*/js/shang.$subdocument
-||sinaimg.cn/unipro/$domain=~video.sina.com.cn|~weibo.com
-||com/cpm/
-*/468x60_
-*.9bcpm.
-*/778_110.$image,object
-||com/webad/
-*/html/hot_s
-*/pu_nocap_cn
-*/lm/iframe/js/blognew2011
-*/ga.js^
-||js.cncrk.com/
-||org/js/bd0*.js|$script
-||buy.pconline.com.cn/$script
-||g.csdnimg.cn/asdf/*/trackad.js|$script,important
-*/gg_ad/
-*/mlfoot.js|
-*/adplayer/*.swf?v=
-*/eptgoal/
-||mat1.gtimg.com/comic/newqshou/js/AD2v1.1.js
-*.leshu.
-*/ads?click
-*/gao.
-*/gao/
-@@||xxxy.jnu.edu.cn/_upload/tpl/08/ad/2221/template2221/$script
-*/gg/$domain=~cnr.cn|~20-0.net|~health.dahe.cn
-*.d9ad.
-*.xt918.
-*_960_90.$image
-*/sygg/$subdocument
-*/botbanner
-*/dzx/forum$image,object
-*/js/ggcommon$script
-*/300x250_
-*/homeadver.js|
-*.yy32.
-~news.sina.com.cn##[id^=ad_]
-||ashow.pcpop.com/
-|http://res.njxzwh.com/downza/pc/v2017/images/downAD.gif
-blog.163.com###lofter_single,div.f-trans
-*/adUtils.js
-zol.com.cn##.down-h4,span.down-alink,div[class^=ad_],div[class*=-ad],div[id^=AD_]
-*/sj/a2
-*/www/deliver/
-||a.lz13.cn/
-*_350_330.$image
-*$doc,removeparam=/^(sp|ut|fro?)m(_|\b)/
-||pan.baidu.com/rest/*/adx?$image
-*/js/indexgg
-@@||www.microsoft.com/onerfstatics/marketingsites-*/ad-$script
-mydrivers.com##+js(set,jQuery.fn.resetIdleTimeup,trueFunc)
-|https://img.ithome.com/file/dylive/dylive.min.js^$script
-*/tan/
-*/adflashes
-pconline.com.cn##div.jcztl,div.box.best,div.ivy-330
-*.adyun.
-||tongj.xilu.com/
-||168.it168.com$script
-||com/union/$script,domain=~linkstars.com
-*.adayi55.
-1ting.com##[id^=tingx_]
-||pbmp.ali213.net/
-||gamersky.com/$subdocument
-*/tc-ad.
-*/wwwcpm
-*/images/bbsad/
-*/51ads/
-||mat1.gtimg.com/sports/000_AD/$image
-*/nadTimeFlashLayer
-*/960x90_
-||media.$third-party,script,subdocument,domain=~ted.com
-*/GetAds.aspx?
-*.xixianad.
-*/yxCoupletsAd
-||com/advert/$domain=~music.baidu.com
-||com/gg*.gif|$image
-@@||v.gdt.qq.com/gdt_stats.fcg?
-*.yiqiwin.
-||qidian.qpic.cn/qidian_common/$image
-*/js/you1$subdocument
-||yxdown.com/open/$script
-||static.oschina.net/*_banner_$image
-||www.pconline.com.cn/_hux_$script
-*/js/ddd.js|
-||sina.com.cn/iframe/76/$subdocument
-||www.hexun.com/hxpage/index.html$subdocument
-||static.ws.126.net/*/js/sspAd.$script
-*.9wee.$third-party
-*_960.$image
-*/hqad.php?type=$subdocument
-||www.dy2018.com/jsdd/$script
-*.9ecpm.
-||com/code/cpv.asp?
-||www.tianyabooks.com/$script,inline-script
-*/cwjad
-*.ubcpm.
-www.zol.com.cn##.side-news-nointel.side-news,#bgad
-*.at918.
-*/9115gg/dd1.js
-||i8.chinanews.com^$subdocument
-*/yxkucode
-*/?age=1&col=
-*/bdun.bsc?$subdocument
-*/adwidget$script
-bitauto.com##.ad-tag-box,ins,body>div.container[style^=margin-top]
-||com/ads
-||cn/adfile/
-*/teleplayvip/
-*_728x90_$image
-*/goo.js|$script
-*.na7.
-*/ggao/
-*/guangao/
-*/html.ng/
-*/enkj.gif$image
-*.miyou1314.
-*/ggao.
-*.dianxin.
-*/afp6_
-*/html_1.
-qq.com##div[id^=AdZone],div.ad-banner,div.side_ad,#topAd
-||ztyumn.ifeng.com/$script
-*.op2.web.kuaiwan.
-*/gupiao.gif$image
-||cn.ft.com/m/marketing/$subdocument
-*.iloveyouxi.
-*.exian.
-*/google_service.js|
-||exp.bdstatic.com/static/exp-pc/common-jquery/widget/popup-$script
-||adscdn.baidu.com/
-*/pickcode_
-163.com##.gg200,.gg300,.gg200x300,[class$="_ad"],div.mod_ad_text,#bobo,#layout-bobo,.txt-bobo,#js_a_bobo,.bobo-area,.imglist-bobo-app,#layout-love,#layout-shop,.top-banner,div.post_adtop_main,div.post_adtop_side,a.tie-ad-bar,#fixed_foot_ad,#js-epTabDS,#js-epBobo
-*/adshow.$script,subdocument
-||mail.21cn.com/w2/source/images/firstpagecont/$image
-*/index_banner_
-*/46860.
-*/popme.
-91danji.com###bg_ad,div.hr.hr48
-*/top_all.js|
-||www.36dm.com/images/$image
-||x0.ifengimg.com/feprod/c/web/d/coupletFloat.js
-*/tc.js|$script
-||hao6v.com/d/$script
-*/ulinkdir
-*.huiten99.
-*/js/acmsd/
-||v2ex.assets.uxengine.net/assets/sidebar/$image
-*/view-960x90
-*/adjs/
-*/adjs.
-*/adcode/
-||p.zol.com.cn/$script
-*.redu-click.
-*.topad.
-@@||bdstatic.com/static/common/widget/ui/admanager/$script,domain=image.baidu.com
-||down.tgjkbx.cn/xxjs/$script
-*.cpp9v.
-*/d/f6.js|
-*.9buo.
-oschina.net##.blog-left-ad,#project_ad_banner,a[data-traceid],a[href^="http://click.aliyun."]
-||net/adfiles/
-*.xenw.
-*/js/newtc.js
-www.dmhy.org##.info.relative-goods, #pkpk
-*.mwad.
-*/acs56.js$script
-||com/AShow.aspx?AID=$script
-||com/cpc/
-*/900x250.$subdocument
-*/daocaoren*.jpg|$image
-*/images/ping.js|
-*.samboc.com
-zhidao.baidu.com###left-promotion,#ui-tooltip-0,div.cms-slide.cms-slide-optimus,div.wgt-bottom-ask,div.cms-slide.cms-slide-lazy
-||com/js/union/
-v.ifeng.com##.vAdbox,div.vAdImg,div.newAdImg,div.ad300,div.ad1000,div.vPlayerAdbox,div.main+.scrollcol
-*/inner_center1
-*/tongji.js|$domain=~zongheng.com
-||www.91danji.com/js/$script
-|https://www.36dm.com/js/
-*/code/cpc.$script
-*.9dcpm.
-||www-static.xunzai.com/static/wwwimg/$image
-@@||img05.zhaopin.cn/2014/common/js/za/ga.js
-*.istreamsche.
-*/bill/s201$subdocument
-*.yxcpm.
-||zchot.com/images/jiaoyou
-*/cpv123
-*/mcfg
-~google.com##.adsbygoogle
-*/union/union_
-||acs.$domain=~youku.com|~tudou.com|~acs.org
-*/Index_AD/
-||ivy.pconline.com.cn/show$script
-||cn.ft.com/a.html?$subdocument
-*/ejia360$image,object
-*_ad.php?
-||fund.eastmoney.com/trade/Hot_$subdocument
-*/script_couplet
-*.uu01.
-||ifeng.com/ssi-incs/$subdocument
-*/js/yzz/
-*-ads-$script
-||com/bbsadv$script
-downxia.com##.download-ad,#gaosu_div0,ul.list-down>h3,a[href^="http://url.tduou.com/down/"]
-||5054399.com/4399_js/$script
-||dmjs.gucheng.com/
-||img.cmm.xmfish.com/pages/uploads/20$image
-*/acho/280x$image,object
-||com/advview
-*.9wad.
-||api.huo360.com/www/back/$image
-*.cpp360.
-*.t3nlink.
-*/yuegui.js|
-*.u.18dx.
-*.admin1.
-bing.com##li.b_ad,#b_notificationContainer_bop
-*/allgg$subdocument
-*/fbookad/
-||mydisplay.ctfile.com/$script,subdocument,popup
-*_right_ad.$domain=~dzwww.com
-*/files/adv/
-*/scripts/topads.js
-*/js/66*x60.
-||com/index0data/$~stylesheet,domain=~www.tvf4.com
-news.mydrivers.com##.main_right_div:nth-of-type(4)
-@@||c.gdt.qq.com/gdt_click.
-*/tengyou960.gif$image
-*/pushcar.php
-||com/cpv_
-*/bbs/paypic/*.gif|
-||pc6.com/$subdocument
-*/2345float
-*.9gcpm.
-*.soua.
-bbs.hupu.com###game-center-entrance-container
-||www.downxia.com/dgjs/$script
-*.cssyouxi.
-*/get_ad_
-*/gg_a.
-*/ad.$image,script,subdocument,media
-*/adpuba/$script
-*.dyunion.
-||isdspeed.qq.com/
-*/468_70.$subdocument
-*/news_ad$subdocument
-||news.mydrivers.com/incutf8/HaoWuTuiJianTop6_2023.js$script
-||com/banners/
-*/VV_MOYU
-*/scripts/showad.js|
-*.wangzhan5.
-juejin.im##.banner,.wechat-banner
-*/gad/$domain=~cc.163.com|~uu.163.com
-*/taobao_if$subdocument
-||pos.baidu.com/
-*/js/jctj
-*/js/outwin
-||mairuan.$all
-||pgdt.gtimg.cn/gdt/
-||www.zongheng.com/zhda/zhda.html
-*/198game_
-*/html/yuedu$subdocument
-*/960x90-$image
-*.dingge.
-*/adscpv/
-||www.xdowns.com/js/$script
-||ifeng.com/a_if/taobao/
-www.hao123.com##.siye,#mingzhanresource
-*/sf5ovny2
-*/tan.$script
-||www.fxxz.com/show/html/$subdocument
-||com/images/adbanner$image
-*/yzjy.$subdocument
-*/cpv/bd/$script,image
-||cbjs.baidu.com/
-||cn/Advertis
-*/ireadad.
-*/js/floats
-*/gghead
-*/www/delivery/
-*/dcr.gif|$image
-*.xiaoangel.
-||bitautoimg.com/ResourceFiles/$image,object
-*/ok/toptl
-||2345.com/duoteimg/duotehtml/$script
-||com/js/bd0*.js^$script
-*/7mad.$image,object
-*.scyb10010.
-||click.ali213.net/
-||com/main/s?user=
-||www.fxxz.com/skin/know/html/$subdocument
-||tj.ali213.net/
-*/external/public126
-*/js/gg.$script,subdocument
-||hxsame.hexun.com/
-*/bootom1.js|
-*/cjsh.js|
-ithome.com##+js(trusted-click-element, span.hb-close-btn)
-*/pop_fmt
-*/agfile/
-*.shenduchuanmei.
-ifeng.com##div[class^=adList],div[class^=adbox],[class|=topAd],[class^=ad_],#couplet3_right,#couplet3_left,[href^="//mall.ifeng.com"],#js_videopause_container
-*/webimg08/dot.gif^
-*/market_$script
-*/kdjl_306x200
-*_ad.js|
-*/fkunion
-*/Unika600x60.
-*.i3z.
-*/ead/union/
-www.chnmoney.com##.tonglan
-||www.toutiao.com/api/web_ads/
-||bcebos.com^$image,domain=pan.baidu.com
-||org/js/ad$script
-||img3.126.net/
-*/ads_$script,subdocument
-*.ljzbjc.$subdocument
-*/banner.js?v=$script
-*/at-img*.swf|
-*/readadend
-pcbeta.com##.x_m.pb_tan:upward(1)
-*.jasd.
-*.gyy1314.
-*/ikb/js/t.js|
-||firefoxchina.cn/html/$subdocument
-*/a-d-s/
-*/imgad
-*/BOJS/top2.js
-*/gggg
-||pups.bdimg.com/
-*.9fcpm.
-*/js/k1.
-*/nadScreenFloat
-*/js/22.$subdocument
-||dmp.sina.cn/
-*/adnet
-*/chinaadclient.js
-*.bnet.
-*/vstart-$image
-||com/svnad/
-*_ads.js|
-*/js_adscommon.js
-*/images/stock.js|
-*.igalive.
-*/scad.h$subdocument
-*/uuzu_
-baike.com###right_ad_div
-*/tuiguang360-300.
-*.tiaosa.
-*/js/k2.
-*/740_60.jpg
-*/min_ad.$subdocument
-||www.skycn.com/js/$image
-www.qq.com##.adLeft,.adRight
-||com/adfiles/
-eastmoney.com##.footer-ads,#rightAD
-||crs.baidu.com/
-*/xiu.$script
-||www.sdbeta.com/images/$image
-||galaxy.sogoucdn.com/galaxy/
-*/adiframe/
-douban.com##.subject-banner, div[ad-status]
-yxdown.com##.bg_l,.bg_r,div.gg,div[id$=_ads]
-*/idcgg/
-||crsky.com/theme/images/fast_down.
-||static.zongheng.com/upload/recommend/game/201$image
-||adgeo.163.com/
-*.egoodad.
-@@||learn.microsoft.com/video/media/*_960.jpg|$image,domain=learn.microsoft.com
-||cm.$image,script,xhr,3p
-@@||res.wx.qq.com/mmbizwap/$script
-*/ad340-50.gif|
-*/piao.js|
-*.91wan.
-@@||static.zhihu.com/ad-raccoon-web/$script
-||games.qq.com/playgame/videoweb/
-*/9vads
-wiki.mbalib.com###ad-phone
-*/gg250.$subdocument
-*/i.js^$script,third-party
-*/js/33.$subdocument
-*/js/bann.js|
-*/banners?
-*/sluke/ml
-*/tdcm/adcontrol
-*##.adbox
-www.zhihu.com##div[role=list] > .Pc-word:not([tabindex])
-||downxia.com/dgjs/pic/
-||ivy.pconline.com.cn/adpuba/show
-||market.aliyun.com/
-*.feesee.
-*/adServer$script,xhr
-*/codepic/
-cr173.com###foot~*,div.show_970,[data=viewAds]
-*/adPictures
-*/js/bd3.js^
-*/mini/01.$subdocument
-*/ulinkjs
-*_ads.swf|
-||ax.ifeng.com/$script
-zhihu.com##.shameimaru-section
-||autoimg.cn/admdfs/
-*/js/bd2.js^
-*_banner.html|
-*/jump.js|
-*/if/07top-new
-||eduad.baidu.com/
-||cmsjs.eastmoney.com/$subdocument
-||com/cpv/
-*/adfshow?user=
-*/doublePop.js
-*/upfile/myshow$image,object
-*.r.arpg2.
-*/_union/
-||com/cpv.$script
-*/fhHYTagNew
-@@||www.gamersky.com/gsinc/$subdocument
-*/ggs/
-*.adjwl.
-||static.zongheng.com/*/ad$script
-*/js/js1.js
-*/js/mu/
-*.rj518.
-*/pop-ad_
-*.name265.
-*/tuidc468.gif|$image
-*/p_111
-*/p_110
-*/mygg$image,object
-||baike.baidu.com/api/wikiad/$xhr
-yiche.com##.news-head > div.news-head-adv:first-child, div.words-ad-list
-*.rsccs.
-*/baidu_ads/$subdocument,script
-||swa.gtimg.com/
-||www.zolsky.com/hotsoft/$subdocument,script
-qidian.com###tr-banner,div.banner-wrap,div.focus-img.cf,#j_bodyRecWrap,#j-topHeadBox,#j-topBgBox,div.games-op-wrap
-*.flunion.
-||www.chnmoney.com/dfile/$script,image
-*/9115gg/toubu.js$script
-||www.pconline.com.cn/*/intf$subdocument,script
-baike.baidu.com##.squareAni.square.super-layer-promote
-*/zanzhu
-*/178acg/
-*/adz.js|
-*.ppunion.
-<link rel=alternate type="application/rss+xml" title="Blocklist of hostnames and domains for blocking ads, trackers and others (format: adblockplus - for use with Adblock Plus) (RSS - last 50 added)" href="rss/1.0/adservers.rss">
-</pre>
-<meta name="author" value="Peter Lowe; pgl@yoyo.org">
-<meta name="description" value="Blocklist of hostnames and domains for blocking ads, trackers and others (format: adblockplus - for use with Adblock Plus)">
-<meta name="keywords" value="ad blocking, blocking ads, ad servers, trackers, ads, banners, hosts file, privacy">
-</html>
-</body>
-Blocklist of hostnames and domains for blocking ads, trackers and others (format: adblockplus - for use with Adblock Plus)</title>
-<link rel='stylesheet' href='/css/pgl.css' type='text/css'></head>
-bing.com,~www.bing.com#?#.b_algo:-abp-has(p:-abp-properties(display: inline-block;))
-#@@||ali-web-player-tracker.biliapi.net^$important
-#@@||pic.imgdb.cn
-#@@||lf1-cdn-tos.bytegoofy.com^$client='10.5.33.120'
-#@@||live-trace.bilibili.com^$important
-#@@||tcls.igame.qq.com^$important
-#@@||mssdk.bytedance.com^$important
-#@@||sensorsdata.cn^$important
-#@@||mon.zijieapi.com^$important
-#@@||payapp.weixin.qq.com^$important
-#@@||pingfore.qq.com^$important
-#@@||mcs.zijieapi.com^$client='10.5.33.120'
-#@@||aegis.qq.com^$important
-#@@||logs.game.qq.com^$important
-#@@||beaconcdn.qq.com^$important
-#@@||dataflow.biliapi.com^$important
-@@||live-trace.bilibili.com/xlive/data-interface^$important
 ||counterapi.dev^$third-party
 ||lepetitjournal.com/monitoring?
 &event_name=view_item_list&
@@ -197327,6 +197262,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
 ||form.typeform.com/forms/*/insights/
 ||housecrm.com.br/track/
+||storage.googleapis.com/builder-preview/iframe/pixel.js
 /FacebookEvent/PageView$xmlhttprequest
 ||gateway.melia.com/tracking
 .sparkpostmail1.com/q/$image
@@ -197554,7 +197490,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||secretbenefits.com/js/script.js
 .gif?mpe=*&mpn=
 ||app.tag-plus.com/ja/api/v1/unison_planet/heat_map
-@@||franceinfo.fr/assets/*/piano-analytics/piano-analytics-$script,~third-party
 ||salesforce.com/beacon/
 ||vimeo.com/add/
 ||deporvillage.com/tracking-library/
@@ -197788,6 +197723,7 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||opecloud.com/ope-pdmp.js
 /wp-json/burst/v1/track/*
 ||visualwebsiteoptimizer.com/cdn/analysis/
+||mccdn.me/assets/js/widget.js
 ||up4stream.com/js/anti.js
 ||dormtherapy.com/jAYekY18/init.js
 ||keirin.netkeiba.com/ndtracker/
@@ -197798,6 +197734,56 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||bridged.media^$third-party
 ||diabrowser.com/api/event
 mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
+#@@||ali-web-player-tracker.biliapi.net^$important
+#@@||pic.imgdb.cn
+#@@||lf1-cdn-tos.bytegoofy.com^$client='10.5.33.120'
+#@@||live-trace.bilibili.com^$important
+#@@||tcls.igame.qq.com^$important
+#@@||mssdk.bytedance.com^$important
+#@@||sensorsdata.cn^$important
+#@@||mon.zijieapi.com^$important
+#@@||payapp.weixin.qq.com^$important
+#@@||pingfore.qq.com^$important
+#@@||mcs.zijieapi.com^$client='10.5.33.120'
+#@@||aegis.qq.com^$important
+#@@||logs.game.qq.com^$important
+#@@||beaconcdn.qq.com^$important
+#@@||dataflow.biliapi.com^$important
+@@||live-trace.bilibili.com/xlive/data-interface^$important
+bing.com,~www.bing.com#?#.b_algo:-abp-has(p:-abp-properties(display: inline-block;))
+/^(\S+\.)?s?metrics\./
+/^(\S+\.)?61677[\da-z]{0,20}\.com$/
+/^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
+/^(\S+\.)?delivery([\d]{2}|dom|modo).com$/
+/^(\S+\.)?11599[\da-z]{2,20}\.com$/
+/^(\S+\.)?syma[a-z]\.cn$/
+/^(\S+\.)?widgets?\./
+/^(\S+\.)?[0-9a-f]{15,}\.com$/
+/^(\S+\.)?ylx-[0-9].com$/
+/^(\S+\.)?sax[\dns]?\.sina\.com\.cn/
+/^(\S+\.)?[0-9a-z]{16,}\.xyz$/
+/^(\S+\.)?5551[0-9]{3}\.com?$/
+/^(\S+\.)?voyage-prive\.[a-z]+(\.uk)?$/
+/^(\S+\.)?aj[0-9]{4,}.online$/
+/^(\S+\.)?analytics(\-|\.)/
+/^(\S+\.)?(webstats?|swebstats?|mywebstats?)\./
+/^(\S+\.)?777\-?partners?\.(net|com)$/
+/^(\S+\.)?e7[0-9]{2,4}\.(net|com)?$/
+/^(\S+\.)?[c-s]ads(abs|abz|ans|anz|ats|atz|del|ecs|ecz|ims|imz|ips|ipz|kis|kiz|oks|okz|one|pms|pmz)\.com/
+/^(\S+\.)?xpj[0-9]\.net$/
+/^(\S+\.)?counter(\-|\.)/
+/^(\S+\.)?tongji\./
+/^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
+/^(\S+\.)?advert/$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com|tmall.com|taobao.com
+/^(\S+\.)?333[1-9]{2}[0-9]{2}\.com?$/
+||*serror*.wo.com.cn^$dnstype=A|CNAME
+/^(\S+\.)?g[1-4][0-9]{8,9}\.com?$/
+/^(\S+\.)?adservice\.google\./
+/^(\S+\.)?afgr[\d]{1,2}\.com$/
+/^(\S+\.)?toolbar\./
+/^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./
+/^(\S+\.)?hg[0-9]{4,5}\.com?$/
+/^(\S+\.)?pixels?\./
 portableapps.com##[alt="RSS"]
 ###socialFloatVert
 bonduelle.ru##+js(set-cookie, cookie_locales, true)
@@ -211199,6 +211185,7 @@ ghresources.com##.wpt-modal
 knubel.de##.floating
 ##.author-social
 ##.article-share-cnt
+lazycatkitchen.com##body:style(overflow: auto !important; position: initial !important;)
 oxfordamerican.org##.shareLinkContainer
 ###privacy_notice
 ##.pane-sharethis-sharethis
@@ -216497,6 +216484,7 @@ alueviesti.fi,kiuruvesilehti.fi,urjalansanomat.fi##+js(set-cookie, cm_analytics,
 ##.pp-cookie-banner
 @@||ahaan.co.uk^$~third-party,xmlhttprequest
 my.dhlparcel.nl#?#.MuiPaper-root.MuiPaper-elevation:-abp-contains(Create your own My DHL account)
+##.cookiesTop_div
 ###gdpr_consent_banner
 ##.slide_likebox
 independentaustralia.net##.panelSubscription
@@ -216847,6 +216835,7 @@ freesmsgateway.com##+js(acs, $, modal_newsletter)
 ##.gig-reaction-bar-container
 ##.shareH
 ##.cerez-mesaji
+lyte.com##.CookiePopUp_cookiePopUp__2mB8Q
 ##.shareE
 ||superguidatv.it^*/head-tgCom.
 ##.js-data-protection-popup
@@ -226856,7 +226845,6 @@ banggood.com##.app-top-bar
 ###cookie-content_placeholder
 ##.c-rodo-bar
 fev.es###fondo_opacidad
-cnet.com##.c-avStickyVideo
 multiplayer.it##.article_nav
 ###share-strip
 ##.c5-social-sidebar
@@ -233717,6 +233705,7 @@ umschool.net###popup-container-bottom-left
 ##.story__social
 ###subscribe-widget
 ##.popup[data-popup="popup-cookie"]
+fanyi.sogou.com##.img-banner
 ###mappcookie
 ||weather.com/*.MedalliaSurvey.
 ##.heateor_sss_sharing_container
@@ -234827,6 +234816,7 @@ neofeed.com.br###modalNewsletter
 ##.cookies-compliance-block
 osaka-seitetu.co.jp##.mod_message
 palestinechronicle.com###inner_pages_fundraiser
+saksfifthavenue.com##.home-email-signup
 ##.region-cookie-ban
 ##.pinterest-icon
 hakom.hr,zagreb.hr,zgh.hr##.gdc-container
@@ -236395,6 +236385,7 @@ mmo13.ru#@##menu-share
 ###rgpd__info__
 tapinto.net##body,html:style(overflow: auto !important; position: initial !important;)
 ##.banner-cookies-wrapper
+map.baidu.com###message-panel
 ##.sharelist__items
 ###footerCookieNotice
 prdaily.com##.sidebarShareHeading
@@ -238259,6 +238250,7 @@ twz.com##.recurrent-sidebar-newsletter-block
 ###subscribePopupform
 ###hshare
 ##.sharer-twitter
+meijumi.net##.couplet_app
 erlus.com##+js(set-local-storage-item, pc-cookie-technical-accepted, true)
 ##.blog-social-left
 computable.nl,cyberseceurope.com,fsr.eui.eu##.ce-banner
@@ -246293,4 +246285,15 @@ inc42.com,thechunkychef.com,yesmagazine.org##.home-subscribe
 canadianbestseller.com,moon-audio.com,mrphone.gr,sportsgirl.com.au##.footer-top
 esetindia.com##.jqmWindow
 ###cookie-popup-hintergrund
+<link rel=alternate type="application/rss+xml" title="Blocklist of hostnames and domains for blocking ads, trackers and others (format: adblockplus - for use with Adblock Plus) (RSS - last 50 added)" href="rss/1.0/adservers.rss">
+</pre>
+<meta name="author" value="Peter Lowe; pgl@yoyo.org">
+<meta name="description" value="Blocklist of hostnames and domains for blocking ads, trackers and others (format: adblockplus - for use with Adblock Plus)">
+<meta name="keywords" value="ad blocking, blocking ads, ad servers, trackers, ads, banners, hosts file, privacy">
+</html>
+</body>
+Blocklist of hostnames and domains for blocking ads, trackers and others (format: adblockplus - for use with Adblock Plus)</title>
+<link rel='stylesheet' href='/css/pgl.css' type='text/css'></head>
+#
+::1  localhost
 <!doctype html><html lang="zh-hans-CN" class="notranslate translated-ltr" translate="no"><head><title>GitLink | 新一代开源创新服务平台</title><meta charset="utf-8"><meta name="Keywords" content="GitLink, git, 开源, 代码托管, 项目管理, 版本控制, 代码分享, 项目协作, 协同开发平台"><meta name="description" content="GitLink 是一个新一代的开源创新服务平台，提供分布式协作开发、流水线运维、代码分析等功能，基于 Git 打造分布式代码托管环境。"><meta property="og:title" content="GitLink | 确实开源"/><meta property="og:type" content="website"/><meta property="og:url" content="https://gitlink.org.cn/"/><meta property="og:image" content="https://www.gitlink.org.cn/images/logo.png"/><meta property="og:image:alt" content="GitLink | 确实开源"/><meta property="og:site_name" content="GitLink"/><meta property="og:description" content="GitLink 是一个新一代的开源创新服务平台，提供分布式协作开发、流水线运维、代码分析等功能，基于 Git 打造分布式代码托管环境。"/><meta name="hostname" content="gitlink.org.cn"><meta name="keyboard-shortcuts-preference" content="all"><meta name="expected-hostname" content="gitlink.org.cn"><meta name="go-import" content="gitlink.org.cn git https://gitlink.org.cn"><meta name="octolytics-dimension-user_login" content="GitLink"><meta name="octolytics-dimension-repository_nwo" content="GitLink"><meta name="octolytics-dimension-repository_network_root_nwo" content="GitLink"><meta name="theme-color" content="#000000"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="referrer" content="always"><meta name="google-site-verification" content="rGWc47_e6dmJlLtT6ngl3WSiXMsY8FCcll2dbdlNHm0"/><meta name="viewport" content=""><link rel="canonical" href="https://gitlink.org.cn" data-turbo-transient=""><link rel="fluid-icon" href="https://www.gitlink.org.cn/images/logo.png" title="GitLink"><link rel="manifest" href="/build//manifest.json"><link rel="stylesheet" href="/build/css/alex/alex.all.global.min.css"><link rel="stylesheet" href="/build/css/iconfont.css"><link rel="stylesheet" href="/build/css/editormd.min.css"><link rel="stylesheet" href="/build/css/gitlink.min.css"><link href="/build/static/css/main.c43039ce.chunk.css" rel="stylesheet"></head><body><div id="md_div" style="display:none"></div><div id="root" class="page -layout-v -fit widthunit"></div><div id="picture_display" style="display:none"></div><script src="https://gw.alipayobjects.com/os/lib/react/16.14.0/umd/react.production.min.js"></script><script src="https://gw.alipayobjects.com/os/lib/react-dom/16.14.0/umd/react-dom.production.min.js"></script><script src="/build/js/jquery-1.8.3.min.js"></script><script src="/build/js/js_min_all.js"></script><script src="/build/js/codemirror/codemirror.js"></script><script src="/build/js/editormd/editormd.min.js"></script><script src="/build/js/codemirror/merge/merge.js"></script><script src="/build/js/alex/moment.js"></script><script src="https://gw.alipayobjects.com/os/lib/alipay/alex/2.0.19/bundle/alex.all.global.min.js"></script><script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script><script src="/build/./static/js/runtime~main.4ce2f3c2.js"></script><script src="/build/./static/js/main.5e667b16.chunk.js"></script><script>var _hmt=_hmt||[];!function(){var t=document.createElement("script");t.src="https://hm.baidu.com/hm.js?7e2def1fe918f15f9f1c5c061f69b256";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(),window.onload=function(){$(".newContainer").delegate("a.anchors","click",(function(){let t=$(this).offset().top-180;return $("html,body").animate({scrollTop:t},10),window.location.hash=$(this).attr("name"),!1}))}</script></body></html>
