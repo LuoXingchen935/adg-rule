@@ -1,4 +1,4 @@
-# Update time: 2025-12-12 00:30:10
+# Update time: 2025-12-12 09:41:43
 # Repo URL: https://github.com/fordes123/adg-rule
 
 0.0.0.0 bn4sch101120911.wns.windows.com
@@ -2057,6 +2057,7 @@
 127.0.0.1 mxvp-feature-toggle-prod-1.zenmxapps.com
 127.0.0.1 yt.mmstat.com
 127.0.0.1 eum-orange-saas.instana.io
+127.0.0.1 rtr.innovid.com
 127.0.0.1 rtb.gumgum.com
 127.0.0.1 rat.nl.eu.criteo.com
 127.0.0.1 gateway.ttpsdk.info
@@ -3699,6 +3700,7 @@
 127.0.0.1 sdk.postscript.io
 127.0.0.1 17de4c17.akstat.io
 127.0.0.1 ad.linksynergy.com
+127.0.0.1 tag-st.contextweb.com
 127.0.0.1 tapas.net
 127.0.0.1 a3718.casalemedia.com
 127.0.0.1 fm.duokanbox.com
