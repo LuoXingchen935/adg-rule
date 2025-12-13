@@ -1,4 +1,4 @@
-# Update time: 2025-12-13 09:27:50
+# Update time: 2025-12-13 16:25:18
 # Repo URL: https://github.com/fordes123/adg-rule
 
 amazon.*#@#div[id^="dp-ads-"]
@@ -5303,7 +5303,6 @@ z-library.*##.desktop-banner-container:has(> .a-message > div[data-name="desktop
 wiki.mbalib.com###down-app-pop
 wear.jp##section[class]:has(> div[class*="image_links"] > div.contents a[href^="https://app.adjust.com/"])
 duckduckgo.com##div[class^="mobile-homepage_atbBadge"]
-adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_apps
 sride.jp##.p-cv
 m.digi24.ro#%#//scriptlet('remove-class', 'smartbanner-visible', 'body')
 edh.tw###vip-banner
@@ -5884,7 +5883,6 @@ skiddle.com##a[href^="https://bnc.lt/m/"] > img
 wear.jp#%#//scriptlet('trusted-set-session-storage-item', 'status_of_app_redirect_half_modal_on_coordinate_list', '{"displayed":true}')
 scoopzapp.com#?#.fixed:has(> div[class]:only-child > div[class] > div:only-child > span:only-child:contains(Open app))
 amazon.co.jp###kcpApp_feature_div
-adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_ext
 wondershare.com##.d-lg-none
 v.ifeng.com##header[class^="header-"]
 hitosara.com##.app_area
@@ -6227,6 +6225,7 @@ spbdnevnik.ru###getAppAdds
 rakumachi.jp#$?#.atomicityPromotion { remove: true; }
 shufoo.net###sectionAppInfo
 cian.ru#$#body { overflow: auto !important; }
+quotidiano.net#%#//scriptlet('set-local-storage-item', 'pwa_show', 'true')
 pizzaroni.ru##.fpsmart
 tractorsupply.com###tsc-app-banner
 aminoapps.com##.fixed_get_amino_app
@@ -6655,7 +6654,6 @@ ameblo.jp#?##app aside[class^="_"]:has(> a[href^="https://auth.user.ameba.jp/sig
 mydramalist.com#%#//scriptlet('remove-class', 'smartbanner-active', 'body')
 obi.ru#$#.obi-android div.off-canvas-outer > #Main-Content { padding-top: 85px !important; }
 ||gc-img.net/img/parts/banner_comment.png
-fishingjapan.jp##.common__adv_full
 wdr.de,t.pia.jp##.js_smartbanner
 docomo.ne.jp##.mydocomo-app-area
 newegg.com##.our-apps
@@ -6804,6 +6802,7 @@ xlcountry.com,my1035.com##.branded-app-shortcode-inarticle
 linkedin.com#$#.header-container { margin-top:0px!important; }
 doordash.com##main > div[style="border: none; margin-top: var(--usage-space-medium);"]
 m.webtoons.com#$#body { overflow: visible !important; position: relative !important; }
+crimeradar.us##main > div.fixed.left-0.top-0
 camscanner.com##.orcode_box
 m.vkvideo.ru##div[class*="OpenInAppPromoButton_"]
 zillow.com###local-app-upsell
@@ -10081,7 +10080,6 @@ eiga.com##.yads_infeed
 bhaskar.com,divyabhaskar.co.in##.ad_320
 @@||imasdk.googleapis.com$app=com.digiturk.ligtv
 m.gsmarena.com###specs-list > .align-center:has(> pgs-ad)
-quotidiano.net#%#//scriptlet('set-local-storage-item', 'pwa_show', 'true')
 ||miofive.com^$app=com.miofive.speedcamera.tw
 news.tv-asahi.co.jp#$#.timeline[data-parts-element="timeline-summary"] { min-height: fit-content !important; }
 thenewsminute.com##.view-ads
@@ -15062,6 +15060,7 @@ txbiz.tv-tokyo.co.jp###HomeAds-5
 /pandalocker.$script,domain=lanka.ru
 latestcracked.com#$#.onp-sl-signin-locker { display: none!important; }
 165.22.246.130#%#//scriptlet('adjust-setInterval', '/wpsafe|wait|timer/', '*', '0.001')
+regioactive.de##.sitebody > div.inner > div#slider
 ||eow.alc.co.jp/content/js/popup_control.js
 citilink.ru#%#//scriptlet('set-cookie-reload', 'header_banner_hidden', 'true')
 opennet.ru##div[style="background-color: #E9EAD6; width:100%; height: 61px;"]
@@ -16658,6 +16657,7 @@ getmodsapk.com#%#//scriptlet('adjust-setInterval', 'download', '*', '0.02')
 crystalmark.info#%#//scriptlet('adjust-setTimeout', 'Math.min((elapsed / delay)', '*', '0.001')
 buhgalteria.ru###article-post > div.text:has(> div.mobileimg > a[href="https://www.buhgalteria.ru/godovoy-otchet/"])
 jptorrent.org#%#//scriptlet('adjust-setTimeout', 'updateinfo', '1000', '0.02')
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_apps
 notizie.tiscali.it#?#div[style="width:100%"] > div[class]:has(a[href^="https://casa.tiscali.it/promo/"])
 portal.librus.pl#?#.article-list .row > .article__container:has(> .article__link > .article__image-container > .article__content-inner > .article__sponsored)
 petco.com###signIn_Citrus_ad
@@ -17133,6 +17133,7 @@ scdkey.com##body > div.main > ul.bg
 oberlo.in##section[aria-label="Register Today"]
 x.com,twitter.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
 afisha.ru##div[style^="width: 100%; height: 120px;"]
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_ext
 nowymarketing.pl#$#.article-articleBody > .blured[style="filter: blur(3px);"] { filter: none!important; }
 auto.ru##.Modal:has(> div.Modal__container > div.Modal__content_wrapper div[class^="HelpSelectCarForm-"])
 antiwar.com##.sidebar > section[id^="text-"]:has(> div.textwidget > p.small > a[href="https://www.antiwar.com/advertise/"])
@@ -21550,6 +21551,7 @@ ccleaner.com###bannerModule
 getthot.com#%#//scriptlet('trusted-click-element', 'a[href^="http"].skip-btn', '', '1000')
 gamewith.jp##.gdb-advertisement-in-article
 ||nallihanhaber.com/wp-content/uploads/2020/09/nallihansondakika-min.gif
+fishingjapan.jp##.common__adv_full
 g2.com##.product-head__sponsored-ad
 investing.com#$#.relative ~ div[class^="fixed bottom-0 z-50"] { display: none !important; }
 adshrink.it#?#.stackable .red.floating.message > p > .adversal:upward(2)
@@ -33708,6 +33710,7 @@ baidu.com###index_right_float
 ||j.sdqoi2d.com^$third-party
 xiaozhongjishu.com##.apd > a[target="_blank"] > img
 qq.com##.tmallredpacket
+@@||blackmod.net^$generichide
 bilibili.com##span[style*="height:"][data-loc-id]
 efuxs.com#%#//scriptlet('abort-current-inline-script', 'document.write', 'position:')
 chongbuluo.com###add + a
@@ -35873,6 +35876,7 @@ douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
 afzhan.com,cngold.org,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
 @@/adimage/*$domain=scyts.com|wacom.tw
 yahoo.com###sda-mid-right-iframe
+@@||cnprint.org^$generichide
 .icu/*?ssid=_$third-party
 ||iid97.com/bdgo/
 ##.index-top-gg
@@ -43105,6 +43109,7 @@ bukaivip.com##img[onclick]
 @@||ibf.tw/user/plugins/webtech-topbar/fuckadblock.js
 baidu.com##.rec-feeditem
 528500.com###wp > div[align="center"]
+@@||85tube.com/player/player_ads.html
 timedg.com##.crossAdvertise2
 ##.gpt_ads_box
 ||bcebos.com/59x360x528.gif
@@ -45364,6 +45369,7 @@ mini.eastday.com###dsp_btxf
 ||51vob.com/js/hf.js
 ||af29.com/banner/
 ||ps123.net/MyFile/
+@@||rmdown.com/ads.js
 xc6b.com###leftbottbox
 /js/ads/piao.js
 ||yxgfcj.com^$third-party
@@ -45676,6 +45682,7 @@ hao123.sh##.box-banner
 ||alicdn.com/img/ibank/*_687764080.
 jianshen114.com##.index_temp
 ##a[href*="bjty"] > img[src*="imgsrc.baidu.com"]
+@@||aternos.org^$generichide
 ||bendibao.com/mo/adm_iframe.htm?
 sinoca.com##td[align="center"][height="90"]
 ##a[href^="javascript:gl012"] + img
@@ -49810,6 +49817,760 @@ xinhua110.com,91porny.org,jstv600.com###main > div[id^="rd"]
 zi.media##body > div[style="height: 300px;"]
 #
 ::1  localhost
+### WindowsSpyBlocker - Hosts spy rules
+### More info: https://github.com/crazy-max/WindowsSpyBlocker
+### License: MIT
+### Donate: https://github.com/sponsors/crazy-max ; https://www.paypal.me/crazyws
+### Updated: 2022-05-16T13:25:00Z02:12
+:: cds20005.stn.llnw.net
+:: cds1287.lon.llnw.net
+:: cds422.lcy.llnw.net
+:: hk2sch130021618.wns.windows.com
+:: nw-umwatson.events.data.microsoft.com
+:: oca.telemetry.microsoft.com
+:: redir.metaservices.microsoft.com
+:: bn4sch101123110.wns.windows.com
+:: hk2sch130021264.wns.windows.com
+:: watson.live.com
+:: hk2sch130021646.wns.windows.com
+:: cds20424.lcy.llnw.net
+:: umwatsonc.events.data.microsoft.com
+:: cds812.lon.llnw.net
+:: hk2sch130020936.wns.windows.com
+:: sqm.df.telemetry.microsoft.com
+:: hk2sch130020961.wns.windows.com
+:: ceuswatcab02.blob.core.windows.net
+:: vortex.data.microsoft.com
+:: cds483.lcy.llnw.net
+:: c.msn.com
+:: settingsfd-geo.trafficmanager.net
+:: cds484.lcy.llnw.net
+:: hk2sch130021017.wns.windows.com
+:: settings-win-ppe.data.microsoft.com
+:: hk2sch130021142.wns.windows.com
+:: bn3sch020010650.wns.windows.com
+:: xblgdvrassets3010.blob.core.windows.net
+:: cds1327.lon.llnw.net
+:: cds20485.lcy.llnw.net
+:: compatexchange1.trafficmanager.net
+:: hk2sch130021928.wns.windows.com
+:: ca.telemetry.microsoft.com
+:: cds21309.lon.llnw.net
+:: cds836.lon.llnw.net
+:: hk2sch130020851.wns.windows.com
+:: cds421.lcy.llnw.net
+:: hk2sch130020854.wns.windows.com
+:: cds20452.lcy.llnw.net
+:: cds20450.lcy.llnw.net
+:: corp.sts.microsoft.com
+:: hk2sch130021433.wns.windows.com
+:: bn3sch020022328.wns.windows.com
+:: settings-sandbox.data.microsoft.com
+:: hk2sch130022049.wns.windows.com
+:: cds21225.lon.llnw.net
+:: cds20440.lcy.llnw.net
+:: spyneteurope.microsoft.akadns.net
+:: v10.vortex-win.data.microsoft.com
+:: cds20435.lcy.llnw.net
+:: cds458.lcy.llnw.net
+:: api.cortana.ai
+:: bn3sch020010631.wns.windows.com
+:: cds310.lcy.llnw.net
+:: hk2sch130020958.wns.windows.com
+:: hk2sch130020924.wns.windows.com
+:: test.activity.windows.com
+:: hk2sch130021249.wns.windows.com
+:: cache.datamart.windows.com
+:: cds840.lon.llnw.net
+:: bn4sch101122312.wns.windows.com
+:: watson.telemetry.microsoft.com
+:: db5.settings.data.microsoft.com.akadns.net
+:: cds20411.lcy.llnw.net
+:: cds21258.lon.llnw.net
+:: hk2sch130021246.wns.windows.com
+:: cds30027.stn.llnw.net
+:: bn4sch101120911.wns.windows.com
+:: cds1204.lon.llnw.net
+:: watson.microsoft.com
+:: bs.serving-sys.com
+:: cds299.lcy.llnw.net
+:: bn4sch101121223.wns.windows.com
+:: browser.pipe.aria.microsoft.com
+:: cds20425.lcy.llnw.net
+:: nexusrules.officeapps.live.com
+:: hk2sch130021731.wns.windows.com
+:: cds468.lcy.llnw.net
+:: cs1.wpc.v0cdn.net
+:: teredo.ipv6.microsoft.com
+:: cds1285.lon.llnw.net
+:: cds21249.lon.llnw.net
+:: tele.trafficmanager.net
+:: settings.data.glbdns2.microsoft.com
+:: cds54.ory.llnw.net
+:: h1.msn.com
+:: preview.msn.com
+:: v20.vortex-win.data.microsoft.com
+:: view.atdmt.com
+:: cds493.lcy.llnw.net
+:: umwatsonc.telemetry.microsoft.us
+:: hk2sch130021334.wns.windows.com
+:: hk2sch130021035.wns.windows.com
+:: cds868.lon.llnw.net
+:: v10-win.vortex.data.microsoft.com.akadns.net
+:: db5.vortex.data.microsoft.com.akadns.net
+:: bn4sch101121714.wns.windows.com
+:: bn3sch020010560.wns.windows.com
+:: hk2sch130020940.wns.windows.com
+:: a.ads2.msads.net
+:: a.ads2.msn.com
+:: bn4sch101121908.wns.windows.com
+:: geo.settings.data.microsoft.com.akadns.net
+:: cds21207.lon.llnw.net
+:: cds1289.lon.llnw.net
+:: hk2sch130021958.wns.windows.com
+:: cds405.lcy.llnw.net
+:: hk2sch130020732.wns.windows.com
+:: diagnostics.support.microsoft.com
+:: hk2sch130021927.wns.windows.com
+:: spynetalt.microsoft.com
+:: adnxs.com
+:: cds27.ory.llnw.net
+:: bn3sch020011727.wns.windows.com
+:: hk2sch130021029.wns.windows.com
+:: cds21238.lon.llnw.net
+:: cds20495.lcy.llnw.net
+:: hk2sch130020824.wns.windows.com
+:: hk2sch130021833.wns.windows.com
+:: cds447.lcy.llnw.net
+:: spynet2.microsoft.com
+:: sqm.telemetry.microsoft.com
+:: cds1265.lon.llnw.net
+:: hk2sch130021260.wns.windows.com
+:: hk2sch130021830.wns.windows.com
+:: bn4sch101120913.wns.windows.com
+:: cds20445.lcy.llnw.net
+:: hk2sch130022041.wns.windows.com
+:: bn3sch020010635.wns.windows.com
+:: bn4sch101121709.wns.windows.com
+:: bn3sch020010629.wns.windows.com
+:: bn4sch101121118.wns.windows.com
+:: cds1228.lon.llnw.net
+:: cy2.vortex.data.microsoft.com.akadns.net
+:: aka-cdn-ns.adtech.de
+:: bn3sch020010558.wns.windows.com
+:: hk2sch130021554.wns.windows.com
+:: cds20404.lcy.llnw.net
+:: cds21261.lon.llnw.net
+:: insideruser.trafficmanager.net
+:: hk2sch130021450.wns.windows.com
+:: hk2sch130021634.wns.windows.com
+:: hk2sch130022035.wns.windows.com
+:: msntest.serving-sys.com
+:: cds38.ory.llnw.net
+:: cds1203.lon.llnw.net
+:: hk2sch130020723.wns.windows.com
+:: cds20475.lcy.llnw.net
+:: bn2-ris-prod-atm.trafficmanager.net
+:: cds494.lcy.llnw.net
+:: hk2sch130020729.wns.windows.com
+:: hk2sch130020726.wns.windows.com
+:: bn3sch020022335.wns.windows.com
+:: cds407.fra.llnw.net
+:: cds406.lcy.llnw.net
+:: hk2sch130021432.wns.windows.com
+:: corpext.msitadfs.glbdns2.microsoft.com
+:: bn2-ris-ap-prod-atm.trafficmanager.net
+:: cds416.lcy.llnw.net
+:: cds843.lon.llnw.net
+:: ads.msn.com
+:: hk2sch130021652.wns.windows.com
+:: cds20461.lcy.llnw.net
+:: cds20469.lcy.llnw.net
+:: ssw.live.com
+:: api.edgeoffer.microsoft.com
+:: cds21313.lon.llnw.net
+:: hk2sch130021518.wns.windows.com
+:: hk2sch130021527.wns.windows.com
+:: kmwatsonc.events.data.microsoft.com
+:: watson.ppe.telemetry.microsoft.com
+:: bn4sch101122421.wns.windows.com
+:: cds857.lon.llnw.net
+:: sg2p.wns.windows.com
+:: services.wes.df.telemetry.microsoft.com
+:: cds1244.lon.llnw.net
+:: presence.teams.live.com
+:: b.rad.msn.com
+:: hk2sch130021851.wns.windows.com
+:: cds426.lcy.llnw.net
+:: a.rad.msn.com
+:: cds21321.lon.llnw.net
+:: win1710.ipv6.microsoft.com
+:: rad.msn.com
+:: bn3sch020010636.wns.windows.com
+:: cds21281.lon.llnw.net
+:: cds21278.lon.llnw.net
+:: hk2wns1b.wns.windows.com
+:: weus2watcab02.blob.core.windows.net
+:: g.msn.com
+:: hk2sch130021726.wns.windows.com
+:: hk2sch130021153.wns.windows.com
+:: hk2.wns.windows.com
+:: hk2sch130021754.wns.windows.com
+:: cds20417.lcy.llnw.net
+:: cds21293.lon.llnw.net
+:: hk2sch130021435.wns.windows.com
+:: hk2sch130021723.wns.windows.com
+:: cds21205.lon.llnw.net
+:: romeccs.microsoft.com
+:: ads1.msads.net
+:: lb1.www.ms.akadns.net
+:: 1oavsblobprodcus350.blob.core.windows.net
+:: bn4sch101120818.wns.windows.com
+:: ac3.msn.com
+:: ieonlinews.trafficmanager.net
+:: live.rads.msn.com
+:: sqm.telemetry.microsoft.com.nsatc.net
+:: mobile.pipe.aria.microsoft.com
+:: cds20431.lcy.llnw.net
+:: adnexus.net
+:: ceuswatcab01.blob.core.windows.net
+:: cds20443.lcy.llnw.net
+:: hk2sch130021638.wns.windows.com
+:: bn4sch101121109.wns.windows.com
+### Updated: 2021-09-26T20:42:00Z02:12
+:: hk2sch130021322.wns.windows.com
+:: cds10.stn.llnw.net
+:: cds20482.lcy.llnw.net
+:: hk2sch130021842.wns.windows.com
+:: cds425.lcy.llnw.net
+:: bingads.microsoft.com
+:: hk2sch130021523.wns.windows.com
+:: cds832.lon.llnw.net
+:: bn4sch101123202.wns.windows.com
+:: hk2sch130021526.wns.windows.com
+:: cds21244.lon.llnw.net
+:: bn3sch020020322.wns.windows.com
+:: cdn.atdmt.com
+:: cds1269.lon.llnw.net
+:: umwatson.events.data.microsoft.com
+:: cds21229.lon.llnw.net
+:: web.vortex.data.microsoft.com
+:: h2.msn.com
+:: hk2sch130021544.wns.windows.com
+:: cds1257.lon.llnw.net
+:: telecommand.telemetry.microsoft.com
+:: hk2sch130022135.wns.windows.com
+:: eaus2watcab02.blob.core.windows.net
+:: bn2wns1.wns.windows.com
+:: bn3sch020022361.wns.windows.com
+:: cds21256.lon.llnw.net
+:: cds1307.lon.llnw.net
+:: cds20415.lcy.llnw.net
+:: wes.df.telemetry.microsoft.com
+:: ztd.dds.microsoft.com
+:: hk2sch130021654.wns.windows.com
+:: hk2sch130021323.wns.windows.com
+:: hk2sch130021657.wns.windows.com
+:: hk2sch130021329.wns.windows.com
+:: ec.atdmt.com
+:: cds815.lon.llnw.net
+:: hk2sch130021829.wns.windows.com
+### WindowsSpyBlocker - Hosts IPv6 spy rules
+:: cds177.dus.llnw.net
+:: ads1.msn.com
+:: cds20457.lcy.llnw.net
+:: flex.msn.com
+:: hk2sch130020721.wns.windows.com
+:: modern.watson.data.microsoft.com.akadns.net
+:: secure.flashtalking.com
+:: win10.ipv6.microsoft.com
+:: 37bvsblobprodcus311.blob.core.windows.net
+:: secure.adnxs.com
+:: hk2sch130021730.wns.windows.com
+:: survey.watson.microsoft.com
+:: db5.settings-win.data.microsoft.com.akadns.net
+:: hk2.settings.data.microsoft.com.akadns.net
+:: eaus2watcab01.blob.core.windows.net
+:: cds308.lcy.llnw.net
+:: b.ads1.msn.com
+:: cds459.lcy.llnw.net
+:: cds1273.lon.llnw.net
+:: db3aqu.atdmt.com
+:: rad.live.com
+:: nexus.officeapps.live.com
+:: ieonlinews.microsoft.com
+:: telemetry.microsoft.com
+:: bn4sch101121407.wns.windows.com
+:: bn3sch020020749.wns.windows.com
+:: alpha.telemetry.microsoft.com
+:: cds489.lcy.llnw.net
+:: aidps.atdmt.com
+:: geo.settings-win.data.microsoft.com.akadns.net
+:: vortex-sandbox.data.microsoft.com
+:: win8.ipv6.microsoft.com
+:: reports.wes.df.telemetry.microsoft.com
+:: par02p.wns.windows.com
+:: df.telemetry.microsoft.com
+:: hk2wns1.wns.windows.com
+:: telemetry.appex.bing.net
+:: cds1325.lon.llnw.net
+:: hk2sch130021437.wns.windows.com
+:: hk2sch130021727.wns.windows.com
+:: telemetry.remoteapp.windowsazure.com
+:: db5-eap.settings-win.data.microsoft.com.akadns.net
+:: cds21233.lon.llnw.net
+:: bn4sch101122310.wns.windows.com
+:: schemas.microsoft.akadns.net
+:: cds1219.lon.llnw.net
+:: hk2sch130021360.wns.windows.com
+:: geo.vortex.data.microsoft.com.akadns.net
+:: cds1310.lon.llnw.net
+:: hk2sch130021440.wns.windows.com
+:: onecollector.cloudapp.aria.akadns.net
+:: msedge.net
+:: c.atdmt.com
+:: bn3sch020012850.wns.windows.com
+:: cds471.lcy.llnw.net
+:: cds869.lon.llnw.net
+:: oca.telemetry.microsoft.us
+:: pre.footprintpredict.com
+:: bn4sch101121618.wns.windows.com
+:: cds461.lcy.llnw.net
+:: b.ads2.msads.net
+:: vortex.data.glbdns2.microsoft.com
+:: a.ads1.msn.com
+:: azwancan.trafficmanager.net
+:: kmwatson.events.data.microsoft.com
+:: bn3sch020010618.wns.windows.com
+:: hk2sch130020843.wns.windows.com
+:: uks.b.prd.ags.trafficmanager.net
+:: bn4sch101121704.wns.windows.com
+:: weus2watcab01.blob.core.windows.net
+:: bn4sch102110124.wns.windows.com
+:: cds46.ory.llnw.net
+:: cds1293.lon.llnw.net
+:: cds21257.lon.llnw.net
+:: hk2sch130021929.wns.windows.com
+:: hk2sch130021840.wns.windows.com
+:: cds20416.lcy.llnw.net
+:: bn4sch101122117.wns.windows.com
+:: asimov-win.settings.data.microsoft.com.akadns.net
+:: hk2sch130020855.wns.windows.com
+:: hk2sch130021852.wns.windows.com
+:: m.adnxs.com
+:: bn4sch101123108.wns.windows.com
+:: hk2sch130021137.wns.windows.com
+:: cds1.stn.llnw.net
+:: bn4sch101120814.wns.windows.com
+:: cds1209.lon.llnw.net
+:: cds21267.lon.llnw.net
+:: hk2sch130020956.wns.windows.com
+:: telemetry.urs.microsoft.com
+:: blobcollector.events.data.trafficmanager.net
+:: bn4sch101121019.wns.windows.com
+:: cds469.lcy.llnw.net
+:: hk2sch130021217.wns.windows.com
+:: cds818.lon.llnw.net
+### WindowsSpyBlocker - Hosts extra rules
+:: onedriveclucprodbn20029.blob.core.windows.net
+:: i-sn2-cor001.api.p001.1drv.com
+:: pstrgqp01.blob.core.windows.net
+:: europe.cp.wd.microsoft.com
+:: onedriveclucproddm20007.blob.core.windows.net
+:: t-ring.msedge.net
+:: ars.smartscreen.microsoft.com
+:: iteactive-pra.msedge.net
+:: i-sn2-cor002.api.p001.1drv.com
+:: storage.live.com
+:: a-0003.a-msedge.net
+:: reactiveassistanceinstance.cognitiveservices.azure.com
+:: finance.services.appex.bing.com
+:: outlook-ca-emeawest2.office365.com
+:: edgetipscdn.microsoft.com
+### WindowsSpyBlocker - Hosts IPv6 extra rules
+:: oneocsp.microsoft.com
+:: global.sam.msn.com
+:: studytree2.blob.core.windows.net
+:: b-ring.msedge.net
+:: k-ring.msedge.net
+:: r20swj13mr.microsoft.com
+:: login.windows.net
+:: onedriveclucprodbn20016.blob.core.windows.net
+:: search.msn.com
+:: next-services.apps.microsoft.com
+:: onedriveclucproddm20016.blob.core.windows.net
+:: api.bing.com
+:: licensingphone.md.mp.microsoft.com
+:: feedback.windows.com
+:: oneclient.sfx.ms
+:: i-am3p-cor002.api.p001.1drv.com
+:: i-sn3p-cor002.api.p001.1drv.com
+:: wscont1.apps.microsoft.com
+:: onedriveclucproddm20020.blob.core.windows.net
+:: onedriveclucprodbn20038.blob.core.windows.net
+:: onedriveclucprodbn20042.blob.core.windows.net
+:: static.2mdn.net
+:: img.stb.s-msn.com
+:: client-office365-tas.msedge.net
+:: azsc-euw.config.skype.com
+:: azpglspamprwduateus2.blob.core.windows.net
+:: onedriveclucprodbn20007.blob.core.windows.net
+:: share.microsoft.com
+:: sn3301-c.1drv.com
+:: onedriveclucproddm20029.blob.core.windows.net
+:: answers.microsoft.com
+:: onedriveclucprodbn20003.blob.core.windows.net
+:: ne-we.cp.wd.microsoft.com
+:: mediaredirect.microsoft.com
+:: i-am3p-cor005.api.p001.1drv.com
+:: ipv4.login.live.com
+:: foodanddrink.tile.appex.bing.com
+:: ch3301-g.1drv.com
+:: ch3302-e.1drv.com
+:: edge.activity.windows.com
+:: onedriveclucproddm20024.blob.core.windows.net
+:: onedriveclucprodbn20021.blob.core.windows.net
+:: onedriveclucproddm20012.blob.core.windows.net
+:: onedriveclucproddm20047.blob.core.windows.net
+:: a-0001.a-msedge.net
+:: v10.events.data.microsoft.com
+:: i-am3p-cor004.api.p001.1drv.com
+:: www.msftconnecttest.com
+:: staging.to-do.officeppe.com
+:: a-0005.a-msedge.net
+:: login.live.com
+:: s.gateway.messenger.live.com
+:: onedriveclucproddm20025.blob.core.windows.net
+:: licensing.mp.microsoft.com
+:: nav.smartscreen.microsoft.com
+:: msedge.api.cdp.microsoft.com
+:: api.msn.com
+:: query.prod.cms.rt.microsoft.com
+:: server6.pipe.aria.microsoft.com
+:: onedriveclucprodbn20037.blob.core.windows.net
+:: xml.login.live.com
+:: onedriveclucprodbn20025.blob.core.windows.net
+:: optanon.blob.core.windows.net
+:: onedriveclucprodbn20030.blob.core.windows.net
+:: a-0002.a-msedge.net
+:: inference.location.live.net
+:: a-0006.a-msedge.net
+:: da.xboxservices.com
+:: graph.microsoft.com
+:: i-am3p-cor001.api.p001.1drv.com
+:: device.auth.xboxlive.com
+:: onedriveclucprodbn20002.blob.core.windows.net
+:: onedriveclucproddm20021.blob.core.windows.net
+:: urs.smartscreen.microsoft.com
+:: ocos-office365-s2s.msedge.net
+:: api.cdp.microsoft.com
+:: i-bl6p-cor001.api.p001.1drv.com
+:: www.telecommandsvc.microsoft.com
+:: www.windowssearch.com
+:: us.vortex-win.data.microsoft.com
+:: time.windows.com
+:: version.hybrid.api.here.com
+:: a-0012.a-msedge.net
+:: www.msedge.net
+:: onedriveclucproddm20028.blob.core.windows.net
+:: continuum.dds.microsoft.com
+:: statics.teams.cdn.office.net
+:: onedriveclucproddm20019.blob.core.windows.net
+:: eu.vortex-win.data.microsoft.com
+:: config.edge.skype.com
+:: onedriveclucprodbn20028.blob.core.windows.net
+:: onedriveclucprodbn20050.blob.core.windows.net
+:: us-v20.events.data.microsoft.com
+:: mucp.api.account.microsoft.com
+:: ic3.events.data.microsoft.com
+:: roaming.officeapps.live.com
+:: hel01r3.msedge.net
+:: activation-v2.sls.microsoft.com
+:: onedriveclucproddm20017.blob.core.windows.net
+:: v10c.events.data.microsoft.com
+:: settings-win.data.microsoft.com
+:: checkappexec.microsoft.com
+:: win10-trt.msedge.net
+:: tfl.nel.measure.office.net
+:: t0.ssl.ak.tiles.virtualearth.net
+:: kiwi.blob.core.windows.net
+:: onedriveclucprodbn20013.blob.core.windows.net
+:: arc.msn.com
+:: df.csa.teams.live.com
+:: i-ch1-cor001.api.p001.1drv.com
+:: dev.virtualearth.net
+:: go.microsoft.com
+:: i-bl6p-cor002.api.p001.1drv.com
+:: urs.microsoft.com
+:: onedriveclucprodbn20026.blob.core.windows.net
+:: s2s.config.skype.com
+:: vortex-win-sandbox.data.microsoft.com
+:: feedback.microsoft-hohm.com
+:: pipe.skype.com
+:: bl3301-a.1drv.com
+:: rcr.blob.core.windows.net
+:: neu.notifications.skype.com
+:: onedriveclucprodbn20011.blob.core.windows.net
+:: purchase.mp.microsoft.com
+:: wscont.apps.microsoft.com.edgesuite.net
+:: mobile.events.data.microsoft.com
+:: onedriveclucproddm20002.blob.core.windows.net
+:: onedriveclucproddm20043.blob.core.windows.net
+:: onedriveclucproddm20004.blob.core.windows.net
+:: fr-fr.appex-rf.msn.com
+:: metadata.templates.cdn.office.net
+:: troubleshooting.microsoft.com
+:: uhf.microsoft.com
+:: windows.policies.live.net
+:: outlook.office.com
+:: packages.dmd.metaservices.microsoft.com
+:: c.bing.com
+:: i1.services.social.microsoft.com
+:: outlook.office365.com
+:: skyapi.live.net
+:: msportal.blob.core.windows.net
+:: wpcdn.blob.core.windows.net
+:: bl3301-g.1drv.com
+:: wscont.apps.microsoft.com
+:: am3pap004.storage.live.com
+:: clients.config.office.net
+:: onedriveclucproddm20049.blob.core.windows.net
+:: isgemail.blob.core.windows.net
+:: t.urs.microsoft.com
+:: c1.microsoft.com
+:: onedriveclucproddm20003.blob.core.windows.net
+:: odc.officeapps.live.com
+:: sn3301-g.1drv.com
+:: dmd.metaservices.microsoft.com
+:: blob.weather.microsoft.com
+:: by3301-a.1drv.com
+:: az361816.vo.msecnd.net
+:: bingforbusiness.com
+:: ch3302-c.1drv.com
+:: i-db3p-cor002.api.p001.1drv.com
+:: sfdataservice.microsoft.com
+:: store-images.microsoft.com
+:: choice.microsoft.com.nsatc.net
+:: outlook-emeawest2.office365.com
+:: eu.vortex.data.microsoft.com
+:: otf.msn.com
+:: a-0004.a-msedge.net
+:: onedriveclucproddm20026.blob.core.windows.net
+:: onedriveclucprodbn20019.blob.core.windows.net
+:: onedriveclucprodbn20043.blob.core.windows.net
+:: onedriveclucprodbn20027.blob.core.windows.net
+:: t0.ssl.ak.dynamic.tiles.virtualearth.net
+:: smartscreen-prod.microsoft.com
+:: choice.microsoft.com
+:: ecn.dev.virtualearth.net
+:: pti.store.microsoft.com
+:: server7.pipe.aria.microsoft.com
+:: onedriveclucproddm20042.blob.core.windows.net
+:: i-am3p-cor003.api.p001.1drv.com
+:: onedriveclucproddm20050.blob.core.windows.net
+:: api.onedrive.com
+:: mrodevicemgr.officeapps.live.com
+:: onedriveclucprodbn20012.blob.core.windows.net
+:: onedriveclucprodbn20020.blob.core.windows.net
+:: s0.2mdn.net
+:: onedriveclucprodbn20004.blob.core.windows.net
+:: officehomeblobs.blob.core.windows.net
+:: onedriveclucproddm20011.blob.core.windows.net
+:: i-by3p-cor001.api.p001.1drv.com
+:: decsitefinitycdn.blob.core.windows.net
+:: browser.events.data.microsoft.com
+:: onedriveclucprodbn20005.blob.core.windows.net
+:: i-db3p-cor005.api.p001.1drv.com
+:: onedriveclucproddm20040.blob.core.windows.net
+:: bn2b-cor004.api.p001.1drv.com
+:: browser.events.data.msn.com
+:: stor3.msedge.net
+:: i-by3p-cor002.api.p001.1drv.com
+:: i-bn3p-cor001.api.p001.1drv.com
+:: wdcpalt.microsoft.com
+:: autologon.microsoftazuread-sso.com
+:: onedriveclubproddm20041.blob.core.windows.net
+:: onedriveclucproddm20018.blob.core.windows.net
+:: c-0001.dc-msedge.net
+:: mscrl.microsoft.com
+:: settings.data.microsoft.com
+:: appex-rf.msn.com
+:: onedriveclucprodbn20018.blob.core.windows.net
+:: evoke-windowsservices-tas.msedge.net
+:: onedriveclucproddm20009.blob.core.windows.net
+:: iecvlist.microsoft.com
+:: validation-v2.sls.microsoft.com
+:: onedriveclucprodbn20040.blob.core.windows.net
+:: roaming-eu.officeapps.live.com
+:: service.weather.microsoft.com
+:: sn3301-e.1drv.com
+:: ris.api.iris.microsoft.com
+:: insideruser.microsoft.com
+:: i-db3p-cor004.api.p001.1drv.com
+:: onedriveclucproddm20027.blob.core.windows.net
+:: onedriveclucprodbn20001.blob.core.windows.net
+:: teams.events.data.microsoft.com
+:: msftncsi.com
+:: i-db3p-cor003.api.p001.1drv.com
+:: onedriveclucproddm20014.blob.core.windows.net
+:: bn2b-cor002.api.p001.1drv.com
+:: dmd.metaservices.microsoft.com.akadns.net
+:: thestreamstaging.blob.core.windows.net
+:: ne.cp.wd.microsoft.com
+:: wallet.microsoft.com
+:: i-db3p-cor001.api.p001.1drv.com
+:: config.teams.microsoft.com
+:: cy2.settings.data.microsoft.com.akadns.net
+:: outlook-1.cdn.office.net
+:: edge.microsoft.com
+:: onedriveclucprodbn20036.blob.core.windows.net
+:: onedriveclucprodbn20044.blob.core.windows.net
+:: m.hotmail.com
+:: db3pap004.storage.live.com
+:: login.microsoftonline.com
+:: a.config.skype.com
+:: developerportalprod.blob.core.windows.net
+:: onedriveclucproddm20048.blob.core.windows.net
+:: staging.to-do.microsoft.com
+:: outlookmobile-office365-tas.msedge.net
+:: onedriveclucprodbn20045.blob.core.windows.net
+:: storecatalogrevocation.storequality.microsoft.com
+:: outlook.live.com
+:: maps.windows.com
+:: az512334.vo.msecnd.net
+:: ui.skype.com
+:: onedriveclucprodbn20010.blob.core.windows.net
+:: az725175.vo.msecnd.net
+:: onedriveclucproddm20013.blob.core.windows.net
+:: onedriveclucprodbn20022.blob.core.windows.net
+:: substrate.office.com
+:: assuritystorage.blob.core.windows.net
+:: apps.skype.com
+:: us-v10.events.data.microsoft.com
+:: a-0009.a-msedge.net
+:: ch1-cor002.api.p001.1drv.com
+:: onedriveclucprodbn20048.blob.core.windows.net
+:: tile-service.weather.microsoft.com
+:: cdn.onenote.net
+:: onedriveclucprodbn20049.blob.core.windows.net
+:: onedriveclucprodbn20009.blob.core.windows.net
+:: onedriveclucprodbn20041.blob.core.windows.net
+:: onedriveclucproddm20044.blob.core.windows.net
+:: ntp.msn.com
+:: g.live.com
+:: bn2b-cor001.api.p001.1drv.com
+:: storesdk.dsx.mp.microsoft.com
+:: onedriveclucprodbn20014.blob.core.windows.net
+:: crl.microsoft.com
+:: w.apprep.smartscreen.microsoft.com
+:: onedriveclucproddm20001.blob.core.windows.net
+:: fp.msedge.net
+:: onedriveclucproddm20005.blob.core.windows.net
+:: onedriveclucprodbn20006.blob.core.windows.net
+:: events.data.microsoft.com
+:: login.msa.msidentity.com
+:: ch3301-c.1drv.com
+:: vortex-win.data.microsoft.com
+:: support.microsoft.com
+:: a-ring.msedge.net
+:: onedriveclucproddm20036.blob.core.windows.net
+:: europe.smartscreen-prod.microsoft.com
+:: i-ch1-cor002.api.p001.1drv.com
+:: rom30r3a.msedge.net
+:: bl3301-c.1drv.com
+:: a-0011.a-msedge.net
+:: bn3p-cor001.api.p001.1drv.com
+:: x.urs.microsoft.com
+:: insiderservice.microsoft.com
+:: www.xboxab.com
+:: cs.dds.microsoft.com
+:: exo.nel.measure.office.net
+:: onedriveclucproddm20006.blob.core.windows.net
+:: cbecloud.com
+:: by3301-c.1drv.com
+:: wscont2.apps.microsoft.com
+:: teams.live.com
+:: v20.events.data.microsoft.com
+:: a-0007.a-msedge.net
+:: blobs.officehome.msocdn.com
+:: co2.sls.microsoft.com
+:: settings-ssl.xboxlive.com
+:: tk2.plt.msn.com
+:: a-0008.a-msedge.net
+:: b.config.skype.com
+:: onedriveclucproddm20030.blob.core.windows.net
+:: uci.cdn.office.net
+:: g.bing.com
+:: onedriveclubprodbn20051.blob.core.windows.net
+:: nleditor.osi.office.net
+:: onedrive.live.com
+:: onedriveclucprodbn20017.blob.core.windows.net
+:: onedriveclucproddm20008.blob.core.windows.net
+:: activity.windows.com
+:: img-prod-cms-rt-microsoft-com.akamaized.net
+:: msgapi.teams.live.com
+:: logincdn.msauth.net
+:: onedriveclucproddm20039.blob.core.windows.net
+:: a-msedge.net
+:: onedriveclucproddm20045.blob.core.windows.net
+:: msagfx.live.com
+:: assets.msn.com
+:: automatedirstrprdeus.blob.core.windows.net
+:: img-s-msn-com.akamaized.net
+:: fs.microsoft.com
+:: wdcp.microsoft.com
+:: onedriveclucproddm20037.blob.core.windows.net
+:: officeclient.microsoft.com
+:: www.msftncsi.com
+:: storeedgefd.dsx.mp.microsoft.com
+:: store-images.s-microsoft.com
+:: am3pap002.storage.live.com
+:: validation.sls.microsoft.com
+:: windows.msn.com
+:: hubstordev3sstor1.blob.core.windows.net
+:: activation.sls.microsoft.com
+:: dns.msftncsi.com
+:: register.cdpcs.microsoft.com
+:: a-0003.dc-msedge.net
+:: onedriveclucprodbn20046.blob.core.windows.net
+:: onedriveclucprodbn20047.blob.core.windows.net
+:: onedriveclucproddm20046.blob.core.windows.net
+:: a-0001.dc-msedge.net
+:: manage.devcenter.microsoft.com
+:: cdn.content.prod.cms.msn.com
+:: onedriveclucprodbn20023.blob.core.windows.net
+:: auth.gfx.ms
+:: onedriveclucproddm20022.blob.core.windows.net
+:: self.events.data.microsoft.com
+:: client-s.gateway.messenger.live.com
+:: eu-v20.events.data.microsoft.com
+:: i-bn3p-cor090.api.p001.1drv.com
+:: onedriveclucprodbn20024.blob.core.windows.net
+:: by3301-e.1drv.com
+:: onedriveclucproddm20023.blob.core.windows.net
+:: arc.msn.com.nsatc.net
+:: clientconfig.passport.net
+:: ch1-cor001.api.p001.1drv.com
+:: onedriveclucproddm20015.blob.core.windows.net
+:: dlassets-ssl.xboxlive.com
+:: onedriveclucprodbn20008.blob.core.windows.net
+:: a-0010.a-msedge.net
+:: officecdn.microsoft.com.edgesuite.net
+:: location-inference-westus.cloudapp.net
+:: videomd.blob.core.windows.net
+:: ch3301-e.1drv.com
+:: statics.teams.cdn.live.net
+:: officecdn.microsoft.com
+:: login.msa.akadns6.net
+:: onedriveclucproddm20038.blob.core.windows.net
+:: onedriveclucprodbn20039.blob.core.windows.net
+:: to-do.microsoft.com
+:: eu-v10.events.data.microsoft.com
+:: feedback.search.microsoft.com
+:: ecs.office.com
+:: candycrushsoda.king.com
+:: i-sn3p-cor001.api.p001.1drv.com
+:: bn2b-cor003.api.p001.1drv.com
 lesen.amazon.de##ion-toast
 @@||gamesqa.ru/wp-content/themes/gamesqa/advertising.js
 vi.nl#@#[class*="cookie-"]
@@ -50711,7 +51472,6 @@ brico.be,praxis.nl#%#//scriptlet('trusted-set-cookie-reload', 'CookieConsentLeve
 v-tagile.ru###info-collect-warning
 exceedlms.com,kalenderwoche.de,hostinger.*,box.com,thelayoff.com,narcity.com###gdpr-consent
 imgview.net,imgmaze.pw,imgview.pw#@#.pub_300x250
-regioactive.de##.sitebody > div.inner > div#slider
 te1.com.br##.ltteleg-overlay
 travel.yandex.*##div[data-seo="transport_snippet"] ~ div:not([data-seo="transport_snippet"]):has(form[name="MODAL_SUBSCRIPTION"])
 money.it#@#.cky-consent-container
@@ -65515,7 +66275,6 @@ donanimhaber.com##.abonelik
 ao.com###aoMessageHolder
 sadnescity.it,baydoner.com##body > .alert-dismissible[role="alert"]
 oferta.efortuna.pl#$#.feg-cookie-banner { display: none !important; }
-##.gliaplayer-container
 milsped.com,accounts.kaleido.ai,unscreen.com,remove.bg##.banner
 academyfx.ru#$#body { overflow: visible !important; }
 bussgeldkatalog.org###slidein
@@ -66286,7 +67045,6 @@ store.dji.com#%#//scriptlet('set-local-storage-item', 'popupHasShowed', 'true')
 vrchat.com##div[aria-label*="COOKIE WARNING"]
 thatgamecompany.com#%#//scriptlet('set-local-storage-item', 'tsg_announcement_seen', 'true')
 thebetterindia.com##.tbi-gtap-notification-overlay
-postimees.ee#%#//scriptlet("prevent-setTimeout", "adblockNotif")
 sport-plus-online.com#$#body { overflow: auto !important; }
 clever-fit.com###cookieDataProtection
 spojoba.com##.line-nav
@@ -70434,7 +71192,6 @@ chronicle.com##.SignupModule
 blog.livedoor.jp#?#.plugin-memo > div.side > div[id^="blz_rss_"]:upward(2)
 ||yangteacher.ru/reformal.js
 jumpmatome2ch.biz#?##body-in > .menu_title3:contains(/ヘッドライン|ピックアップ/)
-crimeradar.us##main > div.fixed.left-0.top-0
 mysuki.jp,how-to-inc.com###sp-cta
 qastack.fr#%#//scriptlet("abort-on-property-read", "useGDPR")
 @@||android-hilfe-down.blogspot.com^$generichide
@@ -86732,7 +87489,6 @@ cruxnow.com##.post-banners > section.py-cta-content:has(.subscribe-form)
 thenewstack.io##.frontpage-newsletter-block
 funnycase.pl#@#.consent-container
 m.ceneo.pl#$#.page-header.cm .cookie-monster ~ .nav-header { margin-top: auto!important; }
-@@||aternos.org^$generichide
 asuracomic.net#%#//scriptlet('trusted-set-local-storage-item', 'asuraPremiumTrialClosedG', '99999999999999')
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=mope.io
 cookpad.com###cookie_dialog
@@ -92195,1014 +92951,6 @@ bo3.gg##.c-modal-cookie
 hotcourses.ru#$##cookiePopUpId { display: none !important; }
 joyn.de#%#(()=>{let t,e=!1;const o=new MutationObserver(((e,o)=>{const c=t?.querySelector('cmp-button[variant="primary"]');c&&(c.click(),o.disconnect())})),c={apply:(c,n,a)=>{const r=Reflect.apply(c,n,a);return!e&&n.matches("cmp-dialog")&&(e=!0,t=r),o.observe(r,{subtree:!0,childList:!0}),r}};window.Element.prototype.attachShadow=new Proxy(window.Element.prototype.attachShadow,c)})();
 algonquincollege.com###fancybox-container-1
-### WindowsSpyBlocker - Hosts extra rules
-:: cds20005.stn.llnw.net
-:: cds1287.lon.llnw.net
-:: cds422.lcy.llnw.net
-:: hk2sch130021618.wns.windows.com
-:: nw-umwatson.events.data.microsoft.com
-:: oca.telemetry.microsoft.com
-:: redir.metaservices.microsoft.com
-:: bn4sch101123110.wns.windows.com
-:: hk2sch130021264.wns.windows.com
-:: watson.live.com
-:: hk2sch130021646.wns.windows.com
-:: cds20424.lcy.llnw.net
-:: umwatsonc.events.data.microsoft.com
-:: cds812.lon.llnw.net
-:: hk2sch130020936.wns.windows.com
-:: sqm.df.telemetry.microsoft.com
-:: hk2sch130020961.wns.windows.com
-:: ceuswatcab02.blob.core.windows.net
-:: vortex.data.microsoft.com
-:: cds483.lcy.llnw.net
-:: c.msn.com
-:: settingsfd-geo.trafficmanager.net
-:: cds484.lcy.llnw.net
-:: hk2sch130021017.wns.windows.com
-:: settings-win-ppe.data.microsoft.com
-:: hk2sch130021142.wns.windows.com
-:: bn3sch020010650.wns.windows.com
-:: xblgdvrassets3010.blob.core.windows.net
-:: cds1327.lon.llnw.net
-:: cds20485.lcy.llnw.net
-:: compatexchange1.trafficmanager.net
-:: hk2sch130021928.wns.windows.com
-:: ca.telemetry.microsoft.com
-:: cds21309.lon.llnw.net
-:: cds836.lon.llnw.net
-:: hk2sch130020851.wns.windows.com
-:: cds421.lcy.llnw.net
-:: hk2sch130020854.wns.windows.com
-:: cds20452.lcy.llnw.net
-:: cds20450.lcy.llnw.net
-:: corp.sts.microsoft.com
-:: hk2sch130021433.wns.windows.com
-:: bn3sch020022328.wns.windows.com
-:: settings-sandbox.data.microsoft.com
-:: hk2sch130022049.wns.windows.com
-:: cds21225.lon.llnw.net
-:: cds20440.lcy.llnw.net
-:: spyneteurope.microsoft.akadns.net
-:: v10.vortex-win.data.microsoft.com
-:: cds20435.lcy.llnw.net
-:: cds458.lcy.llnw.net
-:: api.cortana.ai
-:: bn3sch020010631.wns.windows.com
-:: cds310.lcy.llnw.net
-:: hk2sch130020958.wns.windows.com
-:: hk2sch130020924.wns.windows.com
-:: test.activity.windows.com
-:: hk2sch130021249.wns.windows.com
-:: cache.datamart.windows.com
-:: cds840.lon.llnw.net
-:: bn4sch101122312.wns.windows.com
-:: watson.telemetry.microsoft.com
-:: db5.settings.data.microsoft.com.akadns.net
-:: cds20411.lcy.llnw.net
-:: cds21258.lon.llnw.net
-:: hk2sch130021246.wns.windows.com
-:: cds30027.stn.llnw.net
-:: bn4sch101120911.wns.windows.com
-:: cds1204.lon.llnw.net
-:: watson.microsoft.com
-:: bs.serving-sys.com
-:: cds299.lcy.llnw.net
-:: bn4sch101121223.wns.windows.com
-:: browser.pipe.aria.microsoft.com
-:: cds20425.lcy.llnw.net
-:: nexusrules.officeapps.live.com
-:: hk2sch130021731.wns.windows.com
-:: cds468.lcy.llnw.net
-:: cs1.wpc.v0cdn.net
-:: teredo.ipv6.microsoft.com
-:: cds1285.lon.llnw.net
-:: cds21249.lon.llnw.net
-:: tele.trafficmanager.net
-:: settings.data.glbdns2.microsoft.com
-:: cds54.ory.llnw.net
-:: h1.msn.com
-:: preview.msn.com
-:: v20.vortex-win.data.microsoft.com
-:: view.atdmt.com
-:: cds493.lcy.llnw.net
-:: umwatsonc.telemetry.microsoft.us
-:: hk2sch130021334.wns.windows.com
-:: hk2sch130021035.wns.windows.com
-:: cds868.lon.llnw.net
-:: v10-win.vortex.data.microsoft.com.akadns.net
-:: db5.vortex.data.microsoft.com.akadns.net
-:: bn4sch101121714.wns.windows.com
-:: bn3sch020010560.wns.windows.com
-:: hk2sch130020940.wns.windows.com
-:: a.ads2.msads.net
-:: a.ads2.msn.com
-:: bn4sch101121908.wns.windows.com
-:: geo.settings.data.microsoft.com.akadns.net
-:: cds21207.lon.llnw.net
-:: cds1289.lon.llnw.net
-:: hk2sch130021958.wns.windows.com
-:: cds405.lcy.llnw.net
-:: hk2sch130020732.wns.windows.com
-:: diagnostics.support.microsoft.com
-:: hk2sch130021927.wns.windows.com
-:: spynetalt.microsoft.com
-:: adnxs.com
-:: cds27.ory.llnw.net
-:: bn3sch020011727.wns.windows.com
-:: hk2sch130021029.wns.windows.com
-:: cds21238.lon.llnw.net
-:: cds20495.lcy.llnw.net
-:: hk2sch130020824.wns.windows.com
-:: hk2sch130021833.wns.windows.com
-:: cds447.lcy.llnw.net
-:: spynet2.microsoft.com
-:: sqm.telemetry.microsoft.com
-:: cds1265.lon.llnw.net
-:: hk2sch130021260.wns.windows.com
-:: hk2sch130021830.wns.windows.com
-:: bn4sch101120913.wns.windows.com
-:: cds20445.lcy.llnw.net
-:: hk2sch130022041.wns.windows.com
-:: bn3sch020010635.wns.windows.com
-:: bn4sch101121709.wns.windows.com
-:: bn3sch020010629.wns.windows.com
-:: bn4sch101121118.wns.windows.com
-:: cds1228.lon.llnw.net
-:: cy2.vortex.data.microsoft.com.akadns.net
-:: aka-cdn-ns.adtech.de
-:: bn3sch020010558.wns.windows.com
-:: hk2sch130021554.wns.windows.com
-:: cds20404.lcy.llnw.net
-:: cds21261.lon.llnw.net
-:: insideruser.trafficmanager.net
-:: hk2sch130021450.wns.windows.com
-:: hk2sch130021634.wns.windows.com
-:: hk2sch130022035.wns.windows.com
-:: msntest.serving-sys.com
-:: cds38.ory.llnw.net
-:: cds1203.lon.llnw.net
-:: hk2sch130020723.wns.windows.com
-:: cds20475.lcy.llnw.net
-:: bn2-ris-prod-atm.trafficmanager.net
-:: cds494.lcy.llnw.net
-:: hk2sch130020729.wns.windows.com
-:: hk2sch130020726.wns.windows.com
-:: bn3sch020022335.wns.windows.com
-:: cds407.fra.llnw.net
-:: cds406.lcy.llnw.net
-:: hk2sch130021432.wns.windows.com
-:: corpext.msitadfs.glbdns2.microsoft.com
-:: bn2-ris-ap-prod-atm.trafficmanager.net
-:: cds416.lcy.llnw.net
-:: cds843.lon.llnw.net
-:: ads.msn.com
-:: hk2sch130021652.wns.windows.com
-:: cds20461.lcy.llnw.net
-:: cds20469.lcy.llnw.net
-:: ssw.live.com
-:: api.edgeoffer.microsoft.com
-:: cds21313.lon.llnw.net
-:: hk2sch130021518.wns.windows.com
-:: hk2sch130021527.wns.windows.com
-:: kmwatsonc.events.data.microsoft.com
-:: watson.ppe.telemetry.microsoft.com
-:: bn4sch101122421.wns.windows.com
-:: cds857.lon.llnw.net
-:: sg2p.wns.windows.com
-:: services.wes.df.telemetry.microsoft.com
-:: cds1244.lon.llnw.net
-:: presence.teams.live.com
-:: b.rad.msn.com
-:: hk2sch130021851.wns.windows.com
-:: cds426.lcy.llnw.net
-:: a.rad.msn.com
-:: cds21321.lon.llnw.net
-:: win1710.ipv6.microsoft.com
-:: rad.msn.com
-:: bn3sch020010636.wns.windows.com
-:: cds21281.lon.llnw.net
-:: cds21278.lon.llnw.net
-:: hk2wns1b.wns.windows.com
-:: weus2watcab02.blob.core.windows.net
-:: g.msn.com
-:: hk2sch130021726.wns.windows.com
-:: hk2sch130021153.wns.windows.com
-:: hk2.wns.windows.com
-:: hk2sch130021754.wns.windows.com
-:: cds20417.lcy.llnw.net
-:: cds21293.lon.llnw.net
-:: hk2sch130021435.wns.windows.com
-:: hk2sch130021723.wns.windows.com
-:: cds21205.lon.llnw.net
-:: romeccs.microsoft.com
-:: ads1.msads.net
-:: lb1.www.ms.akadns.net
-:: 1oavsblobprodcus350.blob.core.windows.net
-:: bn4sch101120818.wns.windows.com
-:: ac3.msn.com
-:: ieonlinews.trafficmanager.net
-:: live.rads.msn.com
-:: sqm.telemetry.microsoft.com.nsatc.net
-:: mobile.pipe.aria.microsoft.com
-:: cds20431.lcy.llnw.net
-:: adnexus.net
-:: ceuswatcab01.blob.core.windows.net
-:: cds20443.lcy.llnw.net
-:: hk2sch130021638.wns.windows.com
-:: bn4sch101121109.wns.windows.com
-### Updated: 2021-09-26T20:42:00Z02:12
-:: hk2sch130021322.wns.windows.com
-:: cds10.stn.llnw.net
-:: cds20482.lcy.llnw.net
-:: hk2sch130021842.wns.windows.com
-:: cds425.lcy.llnw.net
-:: bingads.microsoft.com
-:: hk2sch130021523.wns.windows.com
-:: cds832.lon.llnw.net
-:: bn4sch101123202.wns.windows.com
-:: hk2sch130021526.wns.windows.com
-:: cds21244.lon.llnw.net
-:: bn3sch020020322.wns.windows.com
-:: cdn.atdmt.com
-:: cds1269.lon.llnw.net
-:: umwatson.events.data.microsoft.com
-:: cds21229.lon.llnw.net
-:: web.vortex.data.microsoft.com
-:: h2.msn.com
-:: hk2sch130021544.wns.windows.com
-:: cds1257.lon.llnw.net
-:: telecommand.telemetry.microsoft.com
-:: hk2sch130022135.wns.windows.com
-:: eaus2watcab02.blob.core.windows.net
-:: bn2wns1.wns.windows.com
-:: bn3sch020022361.wns.windows.com
-:: cds21256.lon.llnw.net
-:: cds1307.lon.llnw.net
-:: cds20415.lcy.llnw.net
-:: wes.df.telemetry.microsoft.com
-:: ztd.dds.microsoft.com
-:: hk2sch130021654.wns.windows.com
-:: hk2sch130021323.wns.windows.com
-:: hk2sch130021657.wns.windows.com
-:: hk2sch130021329.wns.windows.com
-:: ec.atdmt.com
-:: cds815.lon.llnw.net
-:: hk2sch130021829.wns.windows.com
-### WindowsSpyBlocker - Hosts IPv6 spy rules
-:: cds177.dus.llnw.net
-:: ads1.msn.com
-:: cds20457.lcy.llnw.net
-:: flex.msn.com
-:: hk2sch130020721.wns.windows.com
-:: modern.watson.data.microsoft.com.akadns.net
-:: secure.flashtalking.com
-:: win10.ipv6.microsoft.com
-:: 37bvsblobprodcus311.blob.core.windows.net
-:: secure.adnxs.com
-:: hk2sch130021730.wns.windows.com
-:: survey.watson.microsoft.com
-:: db5.settings-win.data.microsoft.com.akadns.net
-:: hk2.settings.data.microsoft.com.akadns.net
-:: eaus2watcab01.blob.core.windows.net
-:: cds308.lcy.llnw.net
-:: b.ads1.msn.com
-:: cds459.lcy.llnw.net
-:: cds1273.lon.llnw.net
-:: db3aqu.atdmt.com
-:: rad.live.com
-:: nexus.officeapps.live.com
-:: ieonlinews.microsoft.com
-:: telemetry.microsoft.com
-:: bn4sch101121407.wns.windows.com
-:: bn3sch020020749.wns.windows.com
-:: alpha.telemetry.microsoft.com
-:: cds489.lcy.llnw.net
-:: aidps.atdmt.com
-:: geo.settings-win.data.microsoft.com.akadns.net
-:: vortex-sandbox.data.microsoft.com
-:: win8.ipv6.microsoft.com
-:: reports.wes.df.telemetry.microsoft.com
-:: par02p.wns.windows.com
-:: df.telemetry.microsoft.com
-:: hk2wns1.wns.windows.com
-:: telemetry.appex.bing.net
-:: cds1325.lon.llnw.net
-:: hk2sch130021437.wns.windows.com
-:: hk2sch130021727.wns.windows.com
-:: telemetry.remoteapp.windowsazure.com
-:: db5-eap.settings-win.data.microsoft.com.akadns.net
-:: cds21233.lon.llnw.net
-:: bn4sch101122310.wns.windows.com
-:: schemas.microsoft.akadns.net
-:: cds1219.lon.llnw.net
-:: hk2sch130021360.wns.windows.com
-:: geo.vortex.data.microsoft.com.akadns.net
-:: cds1310.lon.llnw.net
-:: hk2sch130021440.wns.windows.com
-:: onecollector.cloudapp.aria.akadns.net
-:: msedge.net
-:: c.atdmt.com
-:: bn3sch020012850.wns.windows.com
-:: cds471.lcy.llnw.net
-:: cds869.lon.llnw.net
-:: oca.telemetry.microsoft.us
-:: pre.footprintpredict.com
-:: bn4sch101121618.wns.windows.com
-:: cds461.lcy.llnw.net
-:: b.ads2.msads.net
-:: vortex.data.glbdns2.microsoft.com
-:: a.ads1.msn.com
-:: azwancan.trafficmanager.net
-:: kmwatson.events.data.microsoft.com
-:: bn3sch020010618.wns.windows.com
-:: hk2sch130020843.wns.windows.com
-:: uks.b.prd.ags.trafficmanager.net
-:: bn4sch101121704.wns.windows.com
-:: weus2watcab01.blob.core.windows.net
-:: bn4sch102110124.wns.windows.com
-:: cds46.ory.llnw.net
-:: cds1293.lon.llnw.net
-:: cds21257.lon.llnw.net
-:: hk2sch130021929.wns.windows.com
-:: hk2sch130021840.wns.windows.com
-:: cds20416.lcy.llnw.net
-:: bn4sch101122117.wns.windows.com
-:: asimov-win.settings.data.microsoft.com.akadns.net
-:: hk2sch130020855.wns.windows.com
-:: hk2sch130021852.wns.windows.com
-:: m.adnxs.com
-:: bn4sch101123108.wns.windows.com
-:: hk2sch130021137.wns.windows.com
-:: cds1.stn.llnw.net
-:: bn4sch101120814.wns.windows.com
-:: cds1209.lon.llnw.net
-:: cds21267.lon.llnw.net
-:: hk2sch130020956.wns.windows.com
-:: telemetry.urs.microsoft.com
-:: blobcollector.events.data.trafficmanager.net
-:: bn4sch101121019.wns.windows.com
-:: cds469.lcy.llnw.net
-:: hk2sch130021217.wns.windows.com
-:: cds818.lon.llnw.net
-:: onedriveclucprodbn20029.blob.core.windows.net
-:: i-sn2-cor001.api.p001.1drv.com
-:: pstrgqp01.blob.core.windows.net
-:: europe.cp.wd.microsoft.com
-:: onedriveclucproddm20007.blob.core.windows.net
-:: t-ring.msedge.net
-:: ars.smartscreen.microsoft.com
-:: iteactive-pra.msedge.net
-:: i-sn2-cor002.api.p001.1drv.com
-:: storage.live.com
-:: a-0003.a-msedge.net
-:: reactiveassistanceinstance.cognitiveservices.azure.com
-:: finance.services.appex.bing.com
-:: outlook-ca-emeawest2.office365.com
-:: edgetipscdn.microsoft.com
-### WindowsSpyBlocker - Hosts IPv6 extra rules
-:: oneocsp.microsoft.com
-:: global.sam.msn.com
-:: studytree2.blob.core.windows.net
-:: b-ring.msedge.net
-:: k-ring.msedge.net
-:: r20swj13mr.microsoft.com
-:: login.windows.net
-:: onedriveclucprodbn20016.blob.core.windows.net
-:: search.msn.com
-:: next-services.apps.microsoft.com
-:: onedriveclucproddm20016.blob.core.windows.net
-:: api.bing.com
-:: licensingphone.md.mp.microsoft.com
-:: feedback.windows.com
-:: oneclient.sfx.ms
-:: i-am3p-cor002.api.p001.1drv.com
-:: i-sn3p-cor002.api.p001.1drv.com
-:: wscont1.apps.microsoft.com
-:: onedriveclucproddm20020.blob.core.windows.net
-:: onedriveclucprodbn20038.blob.core.windows.net
-:: onedriveclucprodbn20042.blob.core.windows.net
-:: static.2mdn.net
-:: img.stb.s-msn.com
-:: client-office365-tas.msedge.net
-:: azsc-euw.config.skype.com
-:: azpglspamprwduateus2.blob.core.windows.net
-:: onedriveclucprodbn20007.blob.core.windows.net
-:: share.microsoft.com
-:: sn3301-c.1drv.com
-:: onedriveclucproddm20029.blob.core.windows.net
-:: answers.microsoft.com
-:: onedriveclucprodbn20003.blob.core.windows.net
-:: ne-we.cp.wd.microsoft.com
-:: mediaredirect.microsoft.com
-:: i-am3p-cor005.api.p001.1drv.com
-:: ipv4.login.live.com
-:: foodanddrink.tile.appex.bing.com
-:: ch3301-g.1drv.com
-:: ch3302-e.1drv.com
-:: edge.activity.windows.com
-:: onedriveclucproddm20024.blob.core.windows.net
-:: onedriveclucprodbn20021.blob.core.windows.net
-:: onedriveclucproddm20012.blob.core.windows.net
-:: onedriveclucproddm20047.blob.core.windows.net
-:: a-0001.a-msedge.net
-:: v10.events.data.microsoft.com
-:: i-am3p-cor004.api.p001.1drv.com
-:: www.msftconnecttest.com
-:: staging.to-do.officeppe.com
-:: a-0005.a-msedge.net
-:: login.live.com
-:: s.gateway.messenger.live.com
-:: onedriveclucproddm20025.blob.core.windows.net
-:: licensing.mp.microsoft.com
-:: nav.smartscreen.microsoft.com
-:: msedge.api.cdp.microsoft.com
-:: api.msn.com
-:: query.prod.cms.rt.microsoft.com
-:: server6.pipe.aria.microsoft.com
-:: onedriveclucprodbn20037.blob.core.windows.net
-:: xml.login.live.com
-:: onedriveclucprodbn20025.blob.core.windows.net
-:: optanon.blob.core.windows.net
-:: onedriveclucprodbn20030.blob.core.windows.net
-:: a-0002.a-msedge.net
-:: inference.location.live.net
-:: a-0006.a-msedge.net
-:: da.xboxservices.com
-:: graph.microsoft.com
-:: i-am3p-cor001.api.p001.1drv.com
-:: device.auth.xboxlive.com
-:: onedriveclucprodbn20002.blob.core.windows.net
-:: onedriveclucproddm20021.blob.core.windows.net
-:: urs.smartscreen.microsoft.com
-:: ocos-office365-s2s.msedge.net
-:: api.cdp.microsoft.com
-:: i-bl6p-cor001.api.p001.1drv.com
-:: www.telecommandsvc.microsoft.com
-:: www.windowssearch.com
-:: us.vortex-win.data.microsoft.com
-:: time.windows.com
-:: version.hybrid.api.here.com
-:: a-0012.a-msedge.net
-:: www.msedge.net
-:: onedriveclucproddm20028.blob.core.windows.net
-:: continuum.dds.microsoft.com
-:: statics.teams.cdn.office.net
-:: onedriveclucproddm20019.blob.core.windows.net
-:: eu.vortex-win.data.microsoft.com
-:: config.edge.skype.com
-:: onedriveclucprodbn20028.blob.core.windows.net
-:: onedriveclucprodbn20050.blob.core.windows.net
-:: us-v20.events.data.microsoft.com
-:: mucp.api.account.microsoft.com
-:: ic3.events.data.microsoft.com
-:: roaming.officeapps.live.com
-:: hel01r3.msedge.net
-:: activation-v2.sls.microsoft.com
-:: onedriveclucproddm20017.blob.core.windows.net
-:: v10c.events.data.microsoft.com
-:: settings-win.data.microsoft.com
-:: checkappexec.microsoft.com
-:: win10-trt.msedge.net
-:: tfl.nel.measure.office.net
-:: t0.ssl.ak.tiles.virtualearth.net
-:: kiwi.blob.core.windows.net
-:: onedriveclucprodbn20013.blob.core.windows.net
-:: arc.msn.com
-:: df.csa.teams.live.com
-:: i-ch1-cor001.api.p001.1drv.com
-:: dev.virtualearth.net
-:: go.microsoft.com
-:: i-bl6p-cor002.api.p001.1drv.com
-:: urs.microsoft.com
-:: onedriveclucprodbn20026.blob.core.windows.net
-:: s2s.config.skype.com
-:: vortex-win-sandbox.data.microsoft.com
-:: feedback.microsoft-hohm.com
-:: pipe.skype.com
-:: bl3301-a.1drv.com
-:: rcr.blob.core.windows.net
-:: neu.notifications.skype.com
-:: onedriveclucprodbn20011.blob.core.windows.net
-:: purchase.mp.microsoft.com
-:: wscont.apps.microsoft.com.edgesuite.net
-:: mobile.events.data.microsoft.com
-:: onedriveclucproddm20002.blob.core.windows.net
-:: onedriveclucproddm20043.blob.core.windows.net
-:: onedriveclucproddm20004.blob.core.windows.net
-:: fr-fr.appex-rf.msn.com
-:: metadata.templates.cdn.office.net
-:: troubleshooting.microsoft.com
-:: uhf.microsoft.com
-:: windows.policies.live.net
-:: outlook.office.com
-:: packages.dmd.metaservices.microsoft.com
-:: c.bing.com
-:: i1.services.social.microsoft.com
-:: outlook.office365.com
-:: skyapi.live.net
-:: msportal.blob.core.windows.net
-:: wpcdn.blob.core.windows.net
-:: bl3301-g.1drv.com
-:: wscont.apps.microsoft.com
-:: am3pap004.storage.live.com
-:: clients.config.office.net
-:: onedriveclucproddm20049.blob.core.windows.net
-:: isgemail.blob.core.windows.net
-:: t.urs.microsoft.com
-:: c1.microsoft.com
-:: onedriveclucproddm20003.blob.core.windows.net
-:: odc.officeapps.live.com
-:: sn3301-g.1drv.com
-:: dmd.metaservices.microsoft.com
-:: blob.weather.microsoft.com
-:: by3301-a.1drv.com
-:: az361816.vo.msecnd.net
-:: bingforbusiness.com
-:: ch3302-c.1drv.com
-:: i-db3p-cor002.api.p001.1drv.com
-:: sfdataservice.microsoft.com
-:: store-images.microsoft.com
-:: choice.microsoft.com.nsatc.net
-:: outlook-emeawest2.office365.com
-:: eu.vortex.data.microsoft.com
-:: otf.msn.com
-:: a-0004.a-msedge.net
-:: onedriveclucproddm20026.blob.core.windows.net
-:: onedriveclucprodbn20019.blob.core.windows.net
-:: onedriveclucprodbn20043.blob.core.windows.net
-:: onedriveclucprodbn20027.blob.core.windows.net
-:: t0.ssl.ak.dynamic.tiles.virtualearth.net
-:: smartscreen-prod.microsoft.com
-:: choice.microsoft.com
-:: ecn.dev.virtualearth.net
-:: pti.store.microsoft.com
-:: server7.pipe.aria.microsoft.com
-:: onedriveclucproddm20042.blob.core.windows.net
-:: i-am3p-cor003.api.p001.1drv.com
-:: onedriveclucproddm20050.blob.core.windows.net
-:: api.onedrive.com
-:: mrodevicemgr.officeapps.live.com
-:: onedriveclucprodbn20012.blob.core.windows.net
-:: onedriveclucprodbn20020.blob.core.windows.net
-:: s0.2mdn.net
-:: onedriveclucprodbn20004.blob.core.windows.net
-:: officehomeblobs.blob.core.windows.net
-:: onedriveclucproddm20011.blob.core.windows.net
-:: i-by3p-cor001.api.p001.1drv.com
-:: decsitefinitycdn.blob.core.windows.net
-:: browser.events.data.microsoft.com
-:: onedriveclucprodbn20005.blob.core.windows.net
-:: i-db3p-cor005.api.p001.1drv.com
-:: onedriveclucproddm20040.blob.core.windows.net
-:: bn2b-cor004.api.p001.1drv.com
-:: browser.events.data.msn.com
-:: stor3.msedge.net
-:: i-by3p-cor002.api.p001.1drv.com
-:: i-bn3p-cor001.api.p001.1drv.com
-:: wdcpalt.microsoft.com
-:: autologon.microsoftazuread-sso.com
-:: onedriveclubproddm20041.blob.core.windows.net
-:: onedriveclucproddm20018.blob.core.windows.net
-:: c-0001.dc-msedge.net
-:: mscrl.microsoft.com
-:: settings.data.microsoft.com
-:: appex-rf.msn.com
-:: onedriveclucprodbn20018.blob.core.windows.net
-:: evoke-windowsservices-tas.msedge.net
-:: onedriveclucproddm20009.blob.core.windows.net
-:: iecvlist.microsoft.com
-:: validation-v2.sls.microsoft.com
-:: onedriveclucprodbn20040.blob.core.windows.net
-:: roaming-eu.officeapps.live.com
-:: service.weather.microsoft.com
-:: sn3301-e.1drv.com
-:: ris.api.iris.microsoft.com
-:: insideruser.microsoft.com
-:: i-db3p-cor004.api.p001.1drv.com
-:: onedriveclucproddm20027.blob.core.windows.net
-:: onedriveclucprodbn20001.blob.core.windows.net
-:: teams.events.data.microsoft.com
-:: msftncsi.com
-:: i-db3p-cor003.api.p001.1drv.com
-:: onedriveclucproddm20014.blob.core.windows.net
-:: bn2b-cor002.api.p001.1drv.com
-:: dmd.metaservices.microsoft.com.akadns.net
-:: thestreamstaging.blob.core.windows.net
-:: ne.cp.wd.microsoft.com
-:: wallet.microsoft.com
-:: i-db3p-cor001.api.p001.1drv.com
-:: config.teams.microsoft.com
-:: cy2.settings.data.microsoft.com.akadns.net
-:: outlook-1.cdn.office.net
-:: edge.microsoft.com
-:: onedriveclucprodbn20036.blob.core.windows.net
-:: onedriveclucprodbn20044.blob.core.windows.net
-:: m.hotmail.com
-:: db3pap004.storage.live.com
-:: login.microsoftonline.com
-:: a.config.skype.com
-:: developerportalprod.blob.core.windows.net
-:: onedriveclucproddm20048.blob.core.windows.net
-:: staging.to-do.microsoft.com
-:: outlookmobile-office365-tas.msedge.net
-:: onedriveclucprodbn20045.blob.core.windows.net
-:: storecatalogrevocation.storequality.microsoft.com
-:: outlook.live.com
-:: maps.windows.com
-:: az512334.vo.msecnd.net
-:: ui.skype.com
-:: onedriveclucprodbn20010.blob.core.windows.net
-:: az725175.vo.msecnd.net
-:: onedriveclucproddm20013.blob.core.windows.net
-:: onedriveclucprodbn20022.blob.core.windows.net
-:: substrate.office.com
-:: assuritystorage.blob.core.windows.net
-:: apps.skype.com
-:: us-v10.events.data.microsoft.com
-:: a-0009.a-msedge.net
-:: ch1-cor002.api.p001.1drv.com
-:: onedriveclucprodbn20048.blob.core.windows.net
-:: tile-service.weather.microsoft.com
-:: cdn.onenote.net
-:: onedriveclucprodbn20049.blob.core.windows.net
-:: onedriveclucprodbn20009.blob.core.windows.net
-:: onedriveclucprodbn20041.blob.core.windows.net
-:: onedriveclucproddm20044.blob.core.windows.net
-:: ntp.msn.com
-:: g.live.com
-:: bn2b-cor001.api.p001.1drv.com
-:: storesdk.dsx.mp.microsoft.com
-:: onedriveclucprodbn20014.blob.core.windows.net
-:: crl.microsoft.com
-:: w.apprep.smartscreen.microsoft.com
-:: onedriveclucproddm20001.blob.core.windows.net
-:: fp.msedge.net
-:: onedriveclucproddm20005.blob.core.windows.net
-:: onedriveclucprodbn20006.blob.core.windows.net
-:: events.data.microsoft.com
-:: login.msa.msidentity.com
-:: ch3301-c.1drv.com
-:: vortex-win.data.microsoft.com
-:: support.microsoft.com
-:: a-ring.msedge.net
-:: onedriveclucproddm20036.blob.core.windows.net
-:: europe.smartscreen-prod.microsoft.com
-:: i-ch1-cor002.api.p001.1drv.com
-:: rom30r3a.msedge.net
-:: bl3301-c.1drv.com
-:: a-0011.a-msedge.net
-:: bn3p-cor001.api.p001.1drv.com
-:: x.urs.microsoft.com
-:: insiderservice.microsoft.com
-:: www.xboxab.com
-:: cs.dds.microsoft.com
-:: exo.nel.measure.office.net
-:: onedriveclucproddm20006.blob.core.windows.net
-:: cbecloud.com
-:: by3301-c.1drv.com
-:: wscont2.apps.microsoft.com
-:: teams.live.com
-:: v20.events.data.microsoft.com
-:: a-0007.a-msedge.net
-:: blobs.officehome.msocdn.com
-:: co2.sls.microsoft.com
-:: settings-ssl.xboxlive.com
-:: tk2.plt.msn.com
-:: a-0008.a-msedge.net
-:: b.config.skype.com
-:: onedriveclucproddm20030.blob.core.windows.net
-:: uci.cdn.office.net
-:: g.bing.com
-:: onedriveclubprodbn20051.blob.core.windows.net
-:: nleditor.osi.office.net
-:: onedrive.live.com
-:: onedriveclucprodbn20017.blob.core.windows.net
-:: onedriveclucproddm20008.blob.core.windows.net
-:: activity.windows.com
-:: img-prod-cms-rt-microsoft-com.akamaized.net
-:: msgapi.teams.live.com
-:: logincdn.msauth.net
-:: onedriveclucproddm20039.blob.core.windows.net
-:: a-msedge.net
-:: onedriveclucproddm20045.blob.core.windows.net
-:: msagfx.live.com
-:: assets.msn.com
-:: automatedirstrprdeus.blob.core.windows.net
-:: img-s-msn-com.akamaized.net
-:: fs.microsoft.com
-:: wdcp.microsoft.com
-:: onedriveclucproddm20037.blob.core.windows.net
-:: officeclient.microsoft.com
-:: www.msftncsi.com
-:: storeedgefd.dsx.mp.microsoft.com
-:: store-images.s-microsoft.com
-:: am3pap002.storage.live.com
-:: validation.sls.microsoft.com
-:: windows.msn.com
-:: hubstordev3sstor1.blob.core.windows.net
-:: activation.sls.microsoft.com
-:: dns.msftncsi.com
-:: register.cdpcs.microsoft.com
-:: a-0003.dc-msedge.net
-:: onedriveclucprodbn20046.blob.core.windows.net
-:: onedriveclucprodbn20047.blob.core.windows.net
-:: onedriveclucproddm20046.blob.core.windows.net
-:: a-0001.dc-msedge.net
-:: manage.devcenter.microsoft.com
-:: cdn.content.prod.cms.msn.com
-:: onedriveclucprodbn20023.blob.core.windows.net
-:: auth.gfx.ms
-:: onedriveclucproddm20022.blob.core.windows.net
-:: self.events.data.microsoft.com
-:: client-s.gateway.messenger.live.com
-:: eu-v20.events.data.microsoft.com
-:: i-bn3p-cor090.api.p001.1drv.com
-:: onedriveclucprodbn20024.blob.core.windows.net
-:: by3301-e.1drv.com
-:: onedriveclucproddm20023.blob.core.windows.net
-:: arc.msn.com.nsatc.net
-:: clientconfig.passport.net
-:: ch1-cor001.api.p001.1drv.com
-:: onedriveclucproddm20015.blob.core.windows.net
-:: dlassets-ssl.xboxlive.com
-:: onedriveclucprodbn20008.blob.core.windows.net
-:: a-0010.a-msedge.net
-:: officecdn.microsoft.com.edgesuite.net
-:: location-inference-westus.cloudapp.net
-:: videomd.blob.core.windows.net
-:: ch3301-e.1drv.com
-:: statics.teams.cdn.live.net
-:: officecdn.microsoft.com
-:: login.msa.akadns6.net
-:: onedriveclucproddm20038.blob.core.windows.net
-:: onedriveclucprodbn20039.blob.core.windows.net
-:: to-do.microsoft.com
-:: eu-v10.events.data.microsoft.com
-:: feedback.search.microsoft.com
-:: ecs.office.com
-:: candycrushsoda.king.com
-:: i-sn3p-cor001.api.p001.1drv.com
-:: bn2b-cor003.api.p001.1drv.com
-@@||click.appcast.io^|
-@@/\.(gif|jpe?g|png|webp)#(\/?.+)?(\/(ad)s?\/|\/ad-)/
-@@||cl.link-ag.net^|
-@@||go.scorptec.com.au^|
-@@||classliving.lpages.co^|
-@@||intersport.peerius.com^|
-.tvp.tv^
-@@||ia.hit.interia.pl^|
-@@||cm-beacon.nakanohito.jp^|
-||*-sdk.rum.aliyuncs.com^
-@@||obituaries.thestar.com^|
-@@||www.jdoqocy.com^|
-@@||envato.market^|
-@@||click.trafficguard.ai^|
-@@||thumbnail.thench.net^|
-://say.ac^
--iklan-gif-
-/^139\.45\.197\.2(4[0-9]|5[0-4])/
-@@||cmp.inmobi.com^|
-@@||api.karte.io^|
-.doublepimp.com^
-@@|affiliate.notion.so^|
-.stape.net
-||*-default-cn.rum.aliyuncs.com^
-@@||links.e.theatlantic.com^|
-@@||go.adjust.com^|
-@@||goto.walmart.com^|
-@@||a.sellpoint.net^|
-@@||vcentry3.valuecommerce.ne.jp^|
-.prod.pr.analytics.console.aws.a2z.com
-@@||forum.notebookreview.com^|
-@@||f-gear.ec-optimizer.com^|
-@@||infra-api.newrelic.com^|
-/(https?:\/\/)217\.182\.11\..{100,}/
-@@||href.li^|
-@@||proto2ad.durasite.net^|
-@@||learn.khanacademy.org^|
-@@|beta.publishers.adsterra.com^|
-@@||cs.silverpop.com^|
-@@||hidive.com^|
-@@||cdn.duurzaam.greenchoice.nl^|
-@@||stash.roistat.com^|
-@@||marketing.net.idealo-partner.com^|
-@@||oneline.nextday.media^|
-@@||public-cis.exponea.com^|
-.potopy.ru^
-@@||partner.everydays.de^|
-@@||remembering.ca^|
-@@||leechers-paradise.org^|
-@@||www.googleadservices.com^|
-.infox.sg^
-.allalla.com^
-/^142\.91\.159\.(1[5-9]\d|2[0-4]\d|250):(80|443)$/
-@@||tr.rdrtr.com^|
-@@||brm-core-*.brsrvr.com^|
-@@||get.neofinancial.com^|
-://sportframe*.org^
-@@||crm-cdn.peek-cloppenburg.com^|
-@@||taiga.maven.io^|
-@@-ds.metric.gstatic.com^|
-.sexplaycam.com^
-@@||puzzles-games-api.gp-prod.conde.digital^|
-@@||promo.gramedia.com^|
-@@||tlaol.com^|
-@@||ads.tdbank.com^|
-||*two-gun-volley.pages.dev^
-@@|adsterra.com^|
-@@||citiintl.122.2o7.net^|
-/^23\.109\.73\.\d{3}/
-@@||mc.*.exacttarget.com^|
-@@||ap01.records.in.treasuredata.com^|
-||linksprf.com^$badfilter
-@@||sbs.demdex.net^|
-@@||netatmo.commander1.com^|
-@@||support-widget.nakanohito.jp^|
-/(https?:\/\/)51\.195\.31\..{100,}/
-@@|beta.affiliates.adsterra.com^|
-://r.i.ua^
-@@||news.warhammer.com^|
-@@||www.statcounter.com^|
--banner728x90.
-@@||oa.tr.line.me^|
-@@|help-advertisers.adsterra.com^|
--ulog-*.kwai-pro.com^
-@@||api.docodoco.jp^|
-@@||obituaries.therecord.com^|
--bandarkiu.
-@@||my.tealiumiq.com^|
-@@||admin.dable.io^|
-@@||ma135-r.analytics.edgekey.net^|
-.tpm.pw^
-@@||official.paymaya.com^|
-@@||5471782.fls.doubleclick.net^|
-@@||artifactory.appodeal.com^|
-@@||email.procook.co.uk^|
--ikln.
-@@||daikoku.ebis.ne.jp^|
-.piccash.net^
-@@||a.adwolf.ru^|
-@@||awin1.com^|
-@@||email.*.skyeng.ru^|
-@@||links.getblueshift.com^|
-://tru.am^
-.3.n.2.2.l30.js
-@@||log.mmstat.com^|
-.3.n.2.1.l50.js
-@@|statcounter.com^|
-@@||redirect.appmetrica.yandex.com^|
-@@||e.customeriomail.com^|
-/^94\.242\.247\.(2[0-9]|3[0-2]):/
-@@||email.awscloud.com^|
-.is.traff-numerical.info^
-@@||cindyholbrook.lpages.co^|
--ad123-
-@@||static-v*.trbo.com^|
-@@||redir.ownpage.fr^|
-@@||home.focusatwill.com^|
-@@||app.adjust.com^|
-||tn.porngo.xxx^$badfilter
--applog*.fqnovel.com^
-@@||grp07.ias.rakuten.co.jp^|
--728x90a.
-@@||acs-m.daraz.com.bd^|
-@@|core.crazyegg.com^|
-@@||bcicl.*.evergage.com^|
-/(https?:\/\/)213\.32\.115\..{100,}/
-@@||id.i2i.jp^|
-.adonweb.ru^
--banner-ads.
-@@||track.rutarget.ru^|
-.n.2.1.js^
-://sportframe*.co^
-://*.a-akamaihd.com^
-@@||catchup.thisisdax.com^|
-://mine.torrent.pw^
-@@||cj.dotomi.com^|
-.1.1.1.l80.js^
-@@||gs.statcounter.com^|
-@@||login.sendpulse.com^|
-@@||click.virt.exacttarget.com^|
-@@||link.morningbrew.com^|
-@@||smtp.focusgroupresearch.com^|
-/^139\.45\.19[5-7]\.\d{1,3}/
-@@||radiofrance.targetspot.com^|
-.tovarro.com^
-@@|ads.adsterra.com^|
-@@||api-v*.trbo.com^|
-.bbelements.com^
-@@||linka.page^|
-@@||c.office.com^|
-@@||nineto5mac-d.openx.net^|
-@@||click.avs.io^|
-||*.libaishuo.com^
-@@||click.virt.s*.exacttarget.com^|
-://r.reklam*.com^
-@@||px.a8.net^|
-@@||torimochi.line-apps.com^|
-@@||hb.afl.rakuten.co.jp^|
-.cpa1.ru^
-@@||clickattr.wayup.com^|
-@@||surveymyopinion.researchnow.com^|
-@@|ezodn.com^|
-/62.76.25.2(7|8)/
-@@||vcentry2.valuecommerce.ne.jp^|
--iklan789-
-@@||str.hit.gemius.pl^|
-@@|beta.partners.adsterra.com^|
-@@||ref.rbauction.com^|
-.1080.x.90.
-@@|www.daraz.pk^|
-@@||sponsor.nitropay.com^|
-@@||logentries.com^|
-@@||cdn.atmedia.hu^|
-@@||acs-m.daraz.pk^|
-@@||tags.crwdcntrl.net^|
-@@||clk*.tradedoubler.com^|
-/^23\.109\.170\.(18[7-9]|19[0-2])$/
-.ay.delivery^
-@@||cloud.notification-naviextras.com^|
-@@||www.datadoghq-browser-agent.com^|
-@@||data.digital.costco.ca^|
-@@||support-beacon.nakanohito.jp^|
-/^94\.242\.247\.(2[0-9]|3[0-2])/
--iklan2.
-@@||email.elitedangerous.com^|
-@@||app.appsflyer.com^|
-@@||anwb.webpower.eu^|
--ulogl*.kwai-pro.com^
-@@||gate.first-id.fr^|
-@@||tms.capitalone.com^|
-@@||secureimage.securedataimages.com^|
-@@||track.webgains.com^|
-@@||refer.discover.com^|
-@@||cdn.us*.exponea.com^|
-@@|publishers.adsterra.com^|
-://o0e.ru^
-.vipko.ru^
-@@||action.metaffiliation.com^|
--iklan1.
-@@||cm-widget.nakanohito.jp^|
-@@||afi-b.com^|
-@@||rd.bizrate.com^|
-.n.2.1.l60.js^
-@@||ac.ebis.ne.jp^|
-@@||analytics.amplitude.com^|
-://jhf.ru^
-@@||health.halodoc.com^|
-@@||guce.advertising.com^|
-@@||itoya.ec-optimizer.com^|
--ulog.*.kwaipros.com^
-@@|ftp.bmp.ovh^|
-@@||data-*.herz-fuer-tiere.de^|
-@@|partners.adsterra.com^|
-@@|affiliates.adsterra.com^|
-/^anon1.gt\d{6}.com$/
-@@||s.bluecore.com^|
-@@||media-consumer365.desigual.com^|
-://kma.biz^
-@@||validate.perfdrive.com^|
-@@||link.sylikes.com^|
-/193.200.64.24:/
-@@||omsc.kpn.com^|
-@@||omniture.walmart.com^|
-@@||go.redirectingat.com^|
-.gameleads.ru^
-@@|www3.doubleclick.net^|
-||*.exaapi.com^
-@@||prod.impartner.live^|
-.webhop.net^
-@@||click.simba.taobao.com^|
-@@||js.monitor.azure.com^|
-@@||feed.adrelayer.com^|
-/^139\.45\.197\.2(4[0-9]|5[0-4]):/
-@@|daraz.com^|
-@@||data.digital.costco.com^|
-@@||pt.afl.rakuten.co.jp^|
-||pl.ua^$badfilter
-@@||redir.tradedoubler.com^|
--ulog-*.kwaipros.com^
--ulog.*.kwai-pro.com^
-@@||trk.ecomm.lenovo.com^|
-@@||res.ads.nicovideo.jp^|
-@@||79423.analytics.edgekey.net^|
--720x90-
-@@||tlh.gedidigital.it^|
-@@||pagead.l.doubleclick.net^|
-/^https:\/\/anon1.gt\d{6}.com/
-|c.blue.*.com^|
-@@||www.dogpile.com^|
-/^188\.42\.84\.\d{1,3}/
-@@||click.cptrack.de^|
-*ad.durasite.net^
-@@||recommender.scarabresearch.com^|
-.ecommtools.com^
-@@||cutcaptcha.com^|
-@@||cdn.rozetka.com.ua^|
-@@|app.crazyegg.com^|
-@@||goto.target.com^|
-@@||sax.sina.com.cn^|
 ahgame.com,china.com.cn,dandanzan.com,netbardh.com,pangzi.ca,twoeggz.com###pop
 ||coolapk.com/v6/feed/detail?$replace=/include_goods//
 qq6080.com##.adh60
@@ -93815,6 +93563,7 @@ www.lanyingwang.com##div.ad_h,ins.adsbygoogle
 jump.bdimg.com,tieba.baidu.com##.u_bdhome
 7654.com##[src^="http://boardx.huanqiu.com/smu0/j.html"],.hp300,.hp290,.hp250,.hp270,.hp124,.hp90,.mediav-newsfeed-listitem-type-1
 fyzb8.com##[id^="ad"]
+##.ad-banner-wrapper
 /hm.js^$third-party
 yaerwen.com##table[height="250"]
 ||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
@@ -98083,6 +97832,7 @@ iweihai.cn##div.readCon_right.tar,IMG[src="http://pro.iweihai.cn/2014/dongfeng/9
 ^adv^
 www.skinme.cc##div[style^="width:120px;height:320px;"]
 ||imgbus.com^$domain=ref.so
+###player-advertising
 fzlbase.com##.block-long,.ad-6,.ad-5,.ad-R
 ||trafficfactory.biz^$third-party
 ||display.intdmp.com^$popup
@@ -99194,97 +98944,6 @@ waikeung.info##[height="60"]
 www.xbiquge.com,www.xbquge.com,www.biquge.tw,biquge.com.tw##.con_ad,[width="960"][height="90"],.dahengfu,[src^="http://img.xa9t.com/html/click/"],[src^="http://img.fd7c.com/html/click/"]
 h5galgame.com##IMG[src^="http://up.h5gal.cc/data/attachment/portal/201"]
 vzhuan.cn###box
-baidu.com###J-tashuo-button-fixed
-baidu.com$$div[tpl="med_"]
-baidu.com$$div[data-log="zhujicankao.com"]
-baidu.com$$div[tpl="poi_kg"]
-baidu.com$$div[data-log="boce.com/wall/"]
-baidu.com$$div[tpl="nvl"]
-baidu.com$$div[tpl="jy_exam"]
-baidu.com$$div[tpl="wenda_"]
-baidu.com$$div[data-log="hostloc.net"]
-baidu.com$$div[tpl="rel_ugc"]
-baidu.com$$div[data-log="kxxzz.com/mgvps/"]
-baidu.com$$div[data-log="vpsyh.com"]
-baidu.com$$div[tpl="recommend_list"]
-baidu.com$$div[data-log="367783.net/zatan/"]
-baidu.com$$div[tpl="quality_wenda"]
-baidu.com$$div[tpl="we_tiebanewxml"]
-baidu.com$$div[class="feed-video-box"]
-baidu.com$$div[tpl="yl_"]
-zhidao.baidu.com##div.new-answer-entry.left-show
-baidu.com$$div[tpl="music_multi"]
-baidu.com$$div[data-log="bubuko.com"]
-baidu.com##.new-answer-entry.left-show
-baidu.com$$div[tpl="movieticket"]
-baidu.com$$div[data-log="machbbs.com"]
-baidu.com$$div[tpl="vid_pocket"]
-baidu.com$$div[tpl="pc-education-fs"]
-baidu.com##.hint-ft-questionnaire
-baidu.com$$div[tpl="_recommend"]
-baidu.com$$div[tpl="vd"]
-baidu.com$$div[tpl="_app"]
-baidu.com##.wgt-rel-exp.content-box
-baidu.com$$div[data-log="mamicode.com"]
-baidu.com$$div[tpl="_audio"]
-baidu.com$$div[tpl="guanfanghao"]
-map.baidu.com###index-areaEntry-widget
-map.baidu.com##div.index-widget-guidebanner.styleguide.container
-jingyan.baidu.com##div[class^="ui-slider"][style*="height"]
-baidu.com$$div[data-log="/sf?openapi"]
-baidu.com$$div[data-log="/sf/vsearch?pd"]
-baidu.com$$div[data-log="site.ip138.com"]
-baidu.com##.wgt-related-questions
-baidu.com$$div[data-log="vpsqb.com"]
-baidu.com##.header-act-entry
-baidu.com$$div[tpl="_demand"]
-baidu.com###tab_news_1
-baidu.com$$div[tpl="sp_"]
-baidu.com$$div[tpl="sd_imgs"]
-baidu.com$$div[tpl="ks_"]
-baidu.com$$div[tpl="vc_ting"]
-baidu.com$$div[tpl="zp_company"]
-baidu.com##.welcome-banner
-baidu.com$$div[data-log="fyddz.com.cn"]
-baidu.com$$div[data-log="dazhuanlan.com"]
-baidu.com##div.wa-guanfanghao-main
-baidu.com###feed-recommend
-baidu.com$$div[data-log="boce.com/hijack/"]
-baidu.com##.j_footer
-baidu.com$$div[class="wgt-exp-video"]
-baidu.com$$div[data-log="huaweicloud.com/theme/"]
-tieba.baidu.com##div.top-guide-wrap
-baidu.com$$div[tpl="games"]
-baidu.com$$div[data-log="cloud.tencent.com/developer/information/"]
-baidu.com$$div[data-log="boce.com/ping/"]
-baidu.com##.dynamicshareAdbox
-baidu.com##footer > a[class="dl"]
-baidu.com$$div[tpl="app_"]
-baidu.com$$div[data-log="boce.com/http/"]
-baidu.com$$div[data-log="haoxiangta.com"]
-baidu.com$$div[data-log="baijiahao"]
-baidu.com$$div[data-log="yiyult.com"]
-baidu.com$$div[data-log="boce.com/dns/"]
-baidu.com$$div[tpl="wz_movielist"]
-tieba.baidu.com##div.footer-wrap
-baidu.com$$div[tpl="sigma_celebrity_rela"]
-baidu.com$$div[tpl="comic"]
-tieba.baidu.com##div.pb_cut_hot_recommend
-baidu.com$$div[data-log="jiagongchang.com"]
-baidu.com$$div[class="bannerad"]
-zhidao.baidu.com###main-content > div.mm-content-box
-baidu.com$$div[data-log="/sf?pd"]
-baidu.com$$div[data-log="icode9.com"]
-baidu.com$$div[tpl="zhaopin"]
-baidu.com$$div[tpl="zp_sigma"]
-baidu.com$$div[tpl="enc"]
-baidu.com$$div[data-log="openapi"]
-### WindowsSpyBlocker - Hosts spy rules
-### More info: https://github.com/crazy-max/WindowsSpyBlocker
-### License: MIT
-### Donate: https://github.com/sponsors/crazy-max ; https://www.paypal.me/crazyws
-### Updated: 2022-05-16T13:25:00Z02:12
-::1 localhost
 @site-foregin/news
 @cibn
 @hijack/netbar
@@ -99325,6 +98984,309 @@ baidu.com$$div[data-log="openapi"]
 @errorpage/daohang
 @cps-taobao-click
 @site-foregin/adult
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
+::1 localhost
+@@||click.appcast.io^|
+@@/\.(gif|jpe?g|png|webp)#(\/?.+)?(\/(ad)s?\/|\/ad-)/
+@@||cl.link-ag.net^|
+@@||go.scorptec.com.au^|
+@@||classliving.lpages.co^|
+@@||intersport.peerius.com^|
+.tvp.tv^
+@@||ia.hit.interia.pl^|
+@@||cm-beacon.nakanohito.jp^|
+@@||obituaries.thestar.com^|
+@@||www.jdoqocy.com^|
+@@||envato.market^|
+@@||click.trafficguard.ai^|
+@@||thumbnail.thench.net^|
+://say.ac^
+-iklan-gif-
+/^139\.45\.197\.2(4[0-9]|5[0-4])/
+@@||cmp.inmobi.com^|
+@@||api.karte.io^|
+.doublepimp.com^
+@@|affiliate.notion.so^|
+.stape.net
+@@||links.e.theatlantic.com^|
+@@||go.adjust.com^|
+@@||goto.walmart.com^|
+@@||a.sellpoint.net^|
+@@||vcentry3.valuecommerce.ne.jp^|
+.prod.pr.analytics.console.aws.a2z.com
+@@||forum.notebookreview.com^|
+@@||f-gear.ec-optimizer.com^|
+@@||infra-api.newrelic.com^|
+/(https?:\/\/)217\.182\.11\..{100,}/
+@@||href.li^|
+@@||proto2ad.durasite.net^|
+@@||learn.khanacademy.org^|
+@@|beta.publishers.adsterra.com^|
+@@||cs.silverpop.com^|
+@@||hidive.com^|
+@@||cdn.duurzaam.greenchoice.nl^|
+@@||stash.roistat.com^|
+@@||marketing.net.idealo-partner.com^|
+@@||oneline.nextday.media^|
+@@||public-cis.exponea.com^|
+.potopy.ru^
+@@||partner.everydays.de^|
+@@||remembering.ca^|
+@@||leechers-paradise.org^|
+@@||www.googleadservices.com^|
+.infox.sg^
+.allalla.com^
+/^142\.91\.159\.(1[5-9]\d|2[0-4]\d|250):(80|443)$/
+@@||tr.rdrtr.com^|
+@@||brm-core-*.brsrvr.com^|
+@@||get.neofinancial.com^|
+://sportframe*.org^
+@@||crm-cdn.peek-cloppenburg.com^|
+@@||taiga.maven.io^|
+@@-ds.metric.gstatic.com^|
+.sexplaycam.com^
+@@||puzzles-games-api.gp-prod.conde.digital^|
+@@||promo.gramedia.com^|
+@@||tlaol.com^|
+@@||ads.tdbank.com^|
+||*two-gun-volley.pages.dev^
+@@|adsterra.com^|
+@@||citiintl.122.2o7.net^|
+/^23\.109\.73\.\d{3}/
+@@||mc.*.exacttarget.com^|
+@@||ap01.records.in.treasuredata.com^|
+||linksprf.com^$badfilter
+@@||sbs.demdex.net^|
+@@||netatmo.commander1.com^|
+@@||support-widget.nakanohito.jp^|
+/(https?:\/\/)51\.195\.31\..{100,}/
+@@|beta.affiliates.adsterra.com^|
+://r.i.ua^
+@@||news.warhammer.com^|
+@@||www.statcounter.com^|
+-banner728x90.
+@@||oa.tr.line.me^|
+@@|help-advertisers.adsterra.com^|
+-ulog-*.kwai-pro.com^
+@@||api.docodoco.jp^|
+@@||obituaries.therecord.com^|
+-bandarkiu.
+@@||my.tealiumiq.com^|
+@@||admin.dable.io^|
+@@||ma135-r.analytics.edgekey.net^|
+.tpm.pw^
+@@||official.paymaya.com^|
+@@||5471782.fls.doubleclick.net^|
+@@||artifactory.appodeal.com^|
+@@||email.procook.co.uk^|
+-ikln.
+@@||daikoku.ebis.ne.jp^|
+.piccash.net^
+@@||a.adwolf.ru^|
+@@||awin1.com^|
+@@||email.*.skyeng.ru^|
+@@||links.getblueshift.com^|
+://tru.am^
+.3.n.2.2.l30.js
+@@||log.mmstat.com^|
+.3.n.2.1.l50.js
+@@|statcounter.com^|
+@@||redirect.appmetrica.yandex.com^|
+@@||e.customeriomail.com^|
+/^94\.242\.247\.(2[0-9]|3[0-2]):/
+@@||email.awscloud.com^|
+.is.traff-numerical.info^
+@@||cindyholbrook.lpages.co^|
+-ad123-
+@@||static-v*.trbo.com^|
+@@||redir.ownpage.fr^|
+@@||home.focusatwill.com^|
+@@||app.adjust.com^|
+||tn.porngo.xxx^$badfilter
+-applog*.fqnovel.com^
+@@||grp07.ias.rakuten.co.jp^|
+-728x90a.
+@@||acs-m.daraz.com.bd^|
+@@|core.crazyegg.com^|
+@@||bcicl.*.evergage.com^|
+/(https?:\/\/)213\.32\.115\..{100,}/
+@@||id.i2i.jp^|
+.adonweb.ru^
+-banner-ads.
+@@||track.rutarget.ru^|
+.n.2.1.js^
+://sportframe*.co^
+://*.a-akamaihd.com^
+@@||catchup.thisisdax.com^|
+://mine.torrent.pw^
+@@||cj.dotomi.com^|
+.1.1.1.l80.js^
+@@||gs.statcounter.com^|
+@@||login.sendpulse.com^|
+@@||click.virt.exacttarget.com^|
+@@||link.morningbrew.com^|
+@@||smtp.focusgroupresearch.com^|
+/^139\.45\.19[5-7]\.\d{1,3}/
+@@||radiofrance.targetspot.com^|
+.tovarro.com^
+@@|ads.adsterra.com^|
+@@||api-v*.trbo.com^|
+.bbelements.com^
+@@||linka.page^|
+@@||c.office.com^|
+@@||nineto5mac-d.openx.net^|
+@@||click.avs.io^|
+||*.libaishuo.com^
+@@||click.virt.s*.exacttarget.com^|
+://r.reklam*.com^
+@@||px.a8.net^|
+@@||torimochi.line-apps.com^|
+@@||hb.afl.rakuten.co.jp^|
+.cpa1.ru^
+@@||clickattr.wayup.com^|
+@@||surveymyopinion.researchnow.com^|
+@@|ezodn.com^|
+/62.76.25.2(7|8)/
+@@||vcentry2.valuecommerce.ne.jp^|
+-iklan789-
+@@||str.hit.gemius.pl^|
+@@|beta.partners.adsterra.com^|
+@@||ref.rbauction.com^|
+.1080.x.90.
+@@|www.daraz.pk^|
+@@||sponsor.nitropay.com^|
+@@||logentries.com^|
+@@||cdn.atmedia.hu^|
+@@||acs-m.daraz.pk^|
+@@||tags.crwdcntrl.net^|
+@@||clk*.tradedoubler.com^|
+/^23\.109\.170\.(18[7-9]|19[0-2])$/
+.ay.delivery^
+@@||cloud.notification-naviextras.com^|
+@@||www.datadoghq-browser-agent.com^|
+@@||data.digital.costco.ca^|
+@@||support-beacon.nakanohito.jp^|
+/^94\.242\.247\.(2[0-9]|3[0-2])/
+-iklan2.
+@@||email.elitedangerous.com^|
+@@||app.appsflyer.com^|
+@@||anwb.webpower.eu^|
+-ulogl*.kwai-pro.com^
+@@||gate.first-id.fr^|
+@@||tms.capitalone.com^|
+@@||secureimage.securedataimages.com^|
+@@||track.webgains.com^|
+@@||refer.discover.com^|
+@@||cdn.us*.exponea.com^|
+@@|publishers.adsterra.com^|
+://o0e.ru^
+.vipko.ru^
+@@||action.metaffiliation.com^|
+-iklan1.
+@@||cm-widget.nakanohito.jp^|
+@@||afi-b.com^|
+@@||rd.bizrate.com^|
+.n.2.1.l60.js^
+@@||ac.ebis.ne.jp^|
+@@||analytics.amplitude.com^|
+://jhf.ru^
+@@||health.halodoc.com^|
+@@||guce.advertising.com^|
+@@||itoya.ec-optimizer.com^|
+-ulog.*.kwaipros.com^
+@@|ftp.bmp.ovh^|
+@@||data-*.herz-fuer-tiere.de^|
+@@|partners.adsterra.com^|
+@@|affiliates.adsterra.com^|
+/^anon1.gt\d{6}.com$/
+@@||s.bluecore.com^|
+@@||media-consumer365.desigual.com^|
+://kma.biz^
+@@||validate.perfdrive.com^|
+@@||link.sylikes.com^|
+/193.200.64.24:/
+@@||omsc.kpn.com^|
+@@||omniture.walmart.com^|
+@@||go.redirectingat.com^|
+.gameleads.ru^
+@@|www3.doubleclick.net^|
+||*.exaapi.com^
+@@||prod.impartner.live^|
+.webhop.net^
+@@||click.simba.taobao.com^|
+@@||js.monitor.azure.com^|
+@@||feed.adrelayer.com^|
+/^139\.45\.197\.2(4[0-9]|5[0-4]):/
+@@|daraz.com^|
+@@||data.digital.costco.com^|
+@@||pt.afl.rakuten.co.jp^|
+||pl.ua^$badfilter
+@@||redir.tradedoubler.com^|
+-ulog-*.kwaipros.com^
+-ulog.*.kwai-pro.com^
+@@||trk.ecomm.lenovo.com^|
+@@||res.ads.nicovideo.jp^|
+@@||79423.analytics.edgekey.net^|
+@@||tlh.gedidigital.it^|
+@@||pagead.l.doubleclick.net^|
+/^https:\/\/anon1.gt\d{6}.com/
+|c.blue.*.com^|
+@@||www.dogpile.com^|
+/^188\.42\.84\.\d{1,3}/
+@@||click.cptrack.de^|
+*ad.durasite.net^
+@@||recommender.scarabresearch.com^|
+.ecommtools.com^
+@@||cutcaptcha.com^|
+@@||cdn.rozetka.com.ua^|
+@@|app.crazyegg.com^|
+@@||goto.target.com^|
+@@||sax.sina.com.cn^|
+/^adsensor\./
+||*inapps.appsflyersdk.com^
+/^dwtrack\./
+/^domob\./
+||*-sdk.rum.aliyuncs.com^
+/^pingfore\./
+||*cdn-settings.appsflyersdk.com^
+/^adservice\./
+/^appsflyer\./
+/^guanggao\./
+/^adsage\./
+||*-ad-sign.byteimg.com^
+/^adsserving\./
+/^adwords\./
+/^supersonicads\./
+/^openx\./
+||*launches.appsflyersdk.com^
+/^socdm\./
+||*-datareceiver.aki-game.net^
+/^omniture\./
+/^zjtoolbar\./
+||*-ad.a.yximgs.com^
+/^adsmogo\./
+/^omgmta\./
+/^wlmonitor\./
+/^admaster\./
+||*stun.kugou.com^
+/^adsystem\./
+/^partnerad\./
+/^duomeng\./
+||*-default-cn.rum.aliyuncs.com^
+/^adsrvmedia\./
+||*-applog.fqnovel.com^
+/^omgmtaw\./
+/^admarvel\./
+||*adapt-beacon.awsprodops.movetv.com^
+/^applovin\./
+||*conversions.appsflyersdk.com^
+||*register.appsflyersdk.com^
+/^.+stat\.kugou\.com/
 tori.fi##iframe[title="Oikotie advertisement"]
 lotteryrandom.com##a[href^="http://ads.playukinternet.com/tracking.php"]
 ##.AdInline
@@ -101374,7 +101336,6 @@ sport.detik.com##.sbparallax
 ||avforme.com/templates/default/js/arf-app.js
 ||cdnu.porndoe.com/static/pop/slide-in/*.mp4
 ##.adslot-feature
-addictivetips.com,coinweek.com,flashbak.com,lmanime.com,news365.co.za,simscommunity.info,tech-fairy.com##.custom-html-widget
 netflix.com#%#(() => { var ReplaceMap = {adBreaks: [], adState: null, currentAdBreak: 'undefined'}; Object.defineProperty = new Proxy(Object.defineProperty, { apply: (target, thisArg, ArgsList) => { var Original = Reflect.apply(target, thisArg, ArgsList); if (ArgsList[1] == 'getAdBreaks' || ArgsList[1] == 'getAdsDisplayStringParams') { return Original[ArgsList[1]] = function() {}; } else if (ArgsList[1] == 'adBreaks' || ArgsList[1] == 'currentAdBreak' || typeof Original['adBreaks'] !== 'undefined') { for (var [key, value] of Object.entries(Original)) { if (typeof ReplaceMap[key] !== 'undefined' && ReplaceMap[key] !== 'undefined') { Original[key] = ReplaceMap[key]; } else if (typeof ReplaceMap[key] !== 'undefined' && ReplaceMap[key] === 'undefined') { Original[key] = undefined; } } return Original; } else { return Original; }}})})();
 ||pubads.g.doubleclick.net/gampad/ads?*Wuxia_Video_*www.wuxiaworld.com$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,important
 promisingapps.com##body > div#global-wrapper + div[id][class*=" "]
@@ -104986,6 +104947,7 @@ liverpoolecho.co.uk,manchestereveningnews.co.uk##.teaser[data-tmdatatrack-source
 etherscan.io##p[style="min-height:22px"]
 ##.p-ad-rectangle
 epicbundle.com##.background-click
+12tomatoes.com,allwomenstalk.com,bloomberg.com,datpiff.com,gadgetreview.com,hockeybuzz.com,koreaboo.com,logotv.com,news.sky.com,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,thedrinknation.com,theserverside.com,vacations.info###leaderboard
 majhinaukri.in##.code-block-labels
 indy100.com##.relatedLink_content:has(> div[id^="taboola"])
 @@||embed.watchanimesub.net/inc/embed/ads.js
@@ -110579,6 +110541,7 @@ calorieking.com##.jss356
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 akiba-online.com##.p-body-inner > div[align="center"] > a:not([href*="akiba-online.com"]) > img
 dfiles.eu##iframe[width="240px"][height="800px"]
+11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,abovethelaw.com,adelaidenow.com.au,adtmag.com,aero-news.net,airportia.com,aiscoop.com,americanprofile.com,ans.org,appleinsider.com,arazu.io,arstechnica.com,as.com,asianwiki.com,askmen.com,associationsnow.com,attheraces.com,autoevolution.com,autoguide.com,automation.com,autotrader.com.au,bab.la,barchart.com,bdnews24.com,beinsports.com,biometricupdate.com,boats.com,bobvila.com,booksourcemagazine.com,bostonglobe.com,bradleybraves.com,briskoda.net,btimesonline.com,businessdailyafrica.com,businessinsider.com,businesstech.co.za,businessworld.in,c21media.net,carcomplaints.com,cbc.ca,cbs19.tv,celebdigs.com,celebified.com,ch-aviation.com,chargedevs.com,chemistryworld.com,cknxnewstoday.ca,cnn.com,colourlovers.com,computerhope.com,couriermail.com.au,cracked.com,createtv.com,crn.com,crossmap.com,crosswalk.com,cyberscoop.com,dailycaller.com,dailylobo.com,dailyparent.com,dailytarheel.com,dcist.com,dealnews.com,deccanherald.com,defenseone.com,defensescoop.com,discordbotlist.com,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.in,downdetector.sg,dpreview.com,dynamicwallpaper.club,earlygame.com,edmontonjournal.com,edscoop.com,elpais.com,emoji.gg,eurosport.com,excellence-mag.com,familydoctor.org,fanpop.com,fedscoop.com,femalefirst.co.uk,filehippo.com,filerox.com,finance.yahoo.com,firstcoastnews.com,flightglobal.com,flowermanga.net,fox6now.com,foxbusiness.com,foxnews.com,funeraltimes.com,gamepressure.com,gamesadshopper.com,gayvegas.com,geelongadvertiser.com.au,gmanetwork.com,go.com,godtube.com,golfweather.com,greasyfork.org,gtplanet.net,heraldnet.com,heraldsun.com.au,hodinkee.com,homebeautiful.com.au,hoodline.com,huckmag.com,indiatvnews.com,infobyip.com,inhabitat.com,interfax.com.ua,joc.com,jscompress.com,kagstv.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,kpopstarz.com,krem.com,ksdk.com,ktvb.com,kvue.com,lagom.nl,leaderpost.com,leaf.tv,letsgodigital.org,lifezette.com,liga.net,lonestarlive.com,looktothestars.org,m.famousfix.com,mangarockteam.com,marketwatch.com,maxpreps.com,mcpmag.com,mlb.com,modernretail.co,monkeytype.com,motherjones.com,mprnews.org,mybroadband.co.za,myfox8.com,myfoxzone.com,mygaming.co.za,myrecipes.com,namibtimes.net,nejm.org,neowin.net,newbeauty.com,news.com.au,news.sky.com,newscentermaine.com,newsday.com,newstatesman.com,nowtolove.co.nz,nymag.com,nytimes.com,nzherald.co.nz,patch.com,patheos.com,pcgamesn.com,petfinder.com,pharmaceutical-journal.com,picmix.com,planelogger.com,playsnake.org,playtictactoe.org,pokertube.com,politico.com,politico.eu,powernationtv.com,pressgazette.co.uk,proremodeler.com,quackit.com,ranker.com,ratemds.com,ratemyprofessors.com,redmondmag.com,refinery29.com,revolver.news,roadsideamerica.com,salisburypost.com,scholarlykitchen.sspnet.org,scworld.com,seattletimes.com,segmentnext.com,silive.com,simpledesktops.com,slickdeals.net,slippedisc.com,sltrib.com,smartcompany.com.au,softpedia.com,soranews24.com,spryliving.com,statenews.com,statescoop.com,statscrop.com,straight.com,streetinsider.com,stv.tv,the-decoder.com,thecut.com,thedigitalfix.com,thedp.com,theeastafrican.co.ke,thefader.com,thefirearmblog.com,thegrocer.co.uk,themercury.com.au,theringreport.com,thestarphoenix.com,thv11.com,time.com,timeshighereducation.com,tntsports.co.uk,today.com,toonado.com,townhall.com,tracker.gg,tribalfootball.com,triblive.com,tripadvisor.*,tweaktown.com,ultimatespecs.com,ultiworld.com,untappedcities.com,uptodown.com,usmagazine.com,usnews.com,vancouversun.com,vogue.in,vulture.com,wamu.org,washingtonexaminer.com,washingtontimes.com,watzatsong.com,wbir.com,wcnc.com,wdhafm.com,weatheronline.co.uk,webestools.com,webmd.com,weeklytimesnow.com.au,wfaa.com,wfmynews2.com,wgntv.com,wgrz.com,whas11.com,windsorstar.com,winnipegfreepress.com,wkyc.com,wltx.com,wnep.com,worthplaying.com,wqad.com,wral.com,wrif.com,wtsp.com,wusa9.com,wwltv.com,wyff4.com,wzzm13.com,x17online.com,xatakaon.com,yorkpress.co.uk##.ad
 zzaoceanu.com,forex-nawigator.biz##.ads
 patchedfiles.com,khanpc.com##a[href^="https://guidepaper.website/"]
 @@||teams.microsoft.com^$generichide
@@ -110889,7 +110852,6 @@ amritadrino.com##div[id^="adguru_modal_"]
 smallseotools.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 turbobit.net###__bgd_link
 ##meta + title + script + div[id^="img_"]
-@@||85tube.com/player/player_ads.html
 rateyourmusic.com###content > div[style="width:970px;min-height:90px;text-align:center;margin:0 auto;margin-top:0.25em;margin-bottom:1em;"]
 xmorex.com#@#.ad-content
 ##.connatix-hodler
@@ -113722,6 +113684,7 @@ cognitiveclass.ai##.announcement
 autotrader.ca###hulkTileBottomRow
 sketchup.cgtips.org#%#//scriptlet('abort-on-property-write', 'Databdcacb')
 forum.gocmod.com#%#//scriptlet("abort-current-inline-script", "$", "!document.getElementById(btoa")
+smh.com.au##.BGXXr
 ||ice.hockey/images/sponsoren/
 keep2porn.net##center > a[href="https://vrpornx.net/"] > img
 romspedia.com,gdforum.freeforums.net###ad1
@@ -113975,7 +113938,6 @@ tnaflix.com##.pspBanner + div[id]
 @@||down.mdiaload.com^$generichide
 kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*,katbay.*,kickasshydra.*,kickasskat.*,kickassbay.*,torrentkat.*,kickassuk.*,torrentskickass.*,kickasspk.*,kickasstrusty.*,katkickass.*,kickassindia.*,kickass-usa.*,kickassaustralia.*,kickassdb.*,kathydra.*,kickassminds.*,katkickass.*,kickassunlocked.*,kickassmovies.*,kickassfull.*,bigkickass.*,kickasstracker.*,katfreak.*,kickasstracker.*,katfreak.*,kickasshydra.*,katbay.*,kickasst.*,kkickass.*,kattracker.*,topkickass.*,thekat.*,kat.*,kat2.*,kick4ss.*,kickass.*,kickass2.*,kickasstorrents.*,kat.fun,kat2.app,kat2.space,kat2.website,kat2.xyz,kick4ss.net,kickass.cd,kickass.earth,kickass.id,kickass.kim,kickass.love,kickass.name,kickass.one,kickass.vc,kickass.ws,kickass2.app,kickass2.fun,kickass2.mobi,kickass2.online,kickass2.space,kickass2.top,kickass2.website,kickass2.xyz,kickassgo.com,kickasstorrent.cr,kickasstorrents.fun,kickasstorrents.icu,kickasstorrents.mobi,kickasstorrents.to,kickassz.com,kkat.net,thekat.cc,topkickass.org,kattracker.com#%#//scriptlet("abort-on-property-read", "ini1Pu")
 hvg.hu##a[title="Ratecard"]
-leaf.tv,sciencing.com,sportsnet.ca##.sticky-leaderboard-container
 imtranslator.net##td[align]> div[style="padding:5px;margin:5px;border:1px solid #21497D;"]
 ##.adx-wrapper
 blogue.tech###jeg_forgotform + div[id][class]
@@ -117583,6 +117545,7 @@ getexploits.com##.border:has(> .bg-background-default > .adsbygoogle:only-child)
 ###ArticleContentAd
 corrosionhour.com##.corro-widget
 ##.ad-sense-ad
+mynbc5.com,wyff4.com##.listing-page-ad
 /pu/?psid=
 download.ipeenk.com#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "adlinkfly_url")
 arkadium.com#%#//scriptlet('adjust-setTimeout', '[native code]', '*', '0.02')
@@ -118532,7 +118495,6 @@ android.com.pl#?#.post__content figure.wp-block-gallery:has(> figcaption.wp-elem
 moonbit.co.in,moondash.co.in##.flexContentAd
 ||vsrc.*.js?_=
 ||bannersnack.net^$third-party,domain=~bannersnack.dev
-sportsnet.ca##.Ads_card-wrapper__KyXLu
 telecomasia.net,meta.reviews##.feed-bar-list > article.feed-box:has(> div > a[data-seo-type="promo"])
 ||javgg.me/wp-content/plugins/1shortlink/js/shorten.js
 ##.ad-banner-bottom-container
@@ -119908,6 +119870,7 @@ perezhilton.com###feature-spot
 bing.com#@#li.b_adBottom
 cricbuzz.com##.cb-ad-unit
 ##.article-first-ad
+drive.com.au##.adSpacing-module-scss-module__5jWT7q__drive-ad-spacing
 ||constructpreachystopper.com^$popup
 ##[data-type="ad-vertical"]
 ##.cta-ad
@@ -121464,6 +121427,7 @@ winterszus.pl###text-8
 @@||software-on.com/wp-content/plugins/angwp2/assets/dev/js/advertising.js
 pixelexperience.org#$#.ezoic-ad { position: absolute !important; left: -3000px !important; }
 ##.sbTopadWrapper
+addictivetips.com,coinweek.com,flashbak.com,lmanime.com,news365.co.za,prohockeyrumors.com,simscommunity.info,tech-fairy.com##.custom-html-widget
 nsmb.com###header-banner
 thegrio.com##.aspect-ratio-box
 5masterzzz.*,everydayporn.co,bussyhunter.com#%#//scriptlet('prevent-window-open')
@@ -124238,7 +124202,6 @@ sportskeeda.com#$#.content-holder + div[style] > div[style] { width: 100% !impor
 ||ku42hjr2e.com^$document
 thefreedictionary.com###Content_CA_AD_1_BC
 ###stop_ad3
-euronews.com###connatix-container
 ||bestchainconnection.com^$popup
 ||static.selfpua.com/mnpw.js
 walmart.com#?#.flex > div[class]:has(> div[class][style*="contain-intrinsic-size"] > div[data-item-id] > a[href^="https://wrd.walmart.com/track?adUid"])
@@ -127432,6 +127395,7 @@ iamgujarat.com##style[type="text/css"] + div[class]:not([id]):not([style]):not([
 ||mylink.vc/nordcode.php
 shemale777.com##.covid19
 ||assets.sheetmusicplus.com^$third-party
+_400x68.
 tinhte.vn#?#.root > header + div[class^="jsx-"].main:has(> div[class^="jsx-"] > div[id^="bling-"])
 ||jpg.church/quicknoisilyheadbites.js
 @@||hosts-file.net/ad_servers.txt
@@ -129369,6 +129333,7 @@ notateslaapp.com#?#.articles-container > div.container:has(> div.release > scrip
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=zattoo.com
 ||seethisinaction.com^$popup
 ###topheader_ads
+smh.com.au##.gF8wY
 ###div_ad_float
 ||redrotou.net^$popup
 yardbarker.com##.yb-card-leaderboard
@@ -131283,6 +131248,7 @@ couponxoo.com#?#.row > div:has(> ins.adsbygoogle)
 4runnerforum.com,acuraforums.com,blazerforum.com,buickforum.com,cadillacforum.com,camaroforums.com,cbrforum.com,chryslerforum.com,civicforums.com,corvetteforums.com,fordforum.com,germanautoforums.com,hondaaccordforum.com,hondacivicforum.com,hondaforum.com,hummerforums.com,isuzuforums.com,kawasakiforums.com,landroverforums.com,lexusforum.com,mazdaforum.com,mercuryforum.com,minicooperforums.com,mitsubishiforum.com,montecarloforum.com,mustangboards.com,nissanforum.com,oldsmobileforum.com,pontiactalk.com,saabforums.com,saturnforum.com,truckforums.com,volkswagenforum.com,volvoforums.com##aside > center
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=investguiding-com.custommapposter.com
 spy.com##.multiple-products
+www.yahoo.com##.ad-container
 bravotube.net###umyep
 ||havenclick.com/www/delivery/*vast$xmlhttprequest,redirect=noopvast-2.0
 ||medicina.az/extra/www.rdm.az.gif
@@ -132936,7 +132902,6 @@ miniclip.com###promo-mast
 mixrootmod.com###adBlockModal
 ###wide-ad
 pornfap.tv##.video-sidebar_column
-24rodopi.com,rodopi24.blogspot.com##a[style="float:left;width:254px;"]
 @@||rad.msn.com/ADSAdClient31.dll$domain=msn.com
 report.az##.feed-col > div[style^="height:"]
 ||popcdn.day/magnitude.js
@@ -133101,7 +133066,6 @@ makemytrip.com##.hotDeals
 therealdeal.com##[data-testid="test-div-id-for-pushdown"]
 piraproxy.info,unblockedstreaming.net###lbxUR99472
 ins-dream.com##.mainContent > center > a > img
-sportsnet.ca###leaderboard_master
 ##.ad300x250-2
 jigsawplanet.com###tsi-9c55f80e-3
 multmetric.com##div[style^="min-height: 300px;"]
@@ -135263,7 +135227,6 @@ edition.cnn.com##.ad-slot-dynamic
 ||citytv.com/wp-json/rsm-adutil/$xmlhttprequest,redirect-rule=noopjson
 strikeout.me##.embed-responsive > div[id][style="display: block;"] > div.text-success
 ##.dfp-mrec
-agcanada.com,allmusic.com,allrecipes.com,allthatsinteresting.com,autoaction.com.au,aviatorsmarket.com,bdonline.co.uk,boardgamegeek.com,bravewords.com,broadcastnow.co.uk,cantbeunseen.com,cattime.com,chairmanlol.com,chemistryworld.com,citynews.ca,comingsoon.net,coolmathgames.com,crn.com.au,diyfail.com,dogtime.com,drugtargetreview.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodandwine.com,foodista.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,gcaptain.com,gmanetwork.com,itnews.asia,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,liveoutdoors.com,macleans.ca,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,newsonjapan.com,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,retail-week.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,uproxx.com,vax-before-travel.com,wapt.com,where.ca,yoimaletyoufinish.com##.leaderboard
 protoselidaefimeridon.gr##.add_top
 pornblade.com###e_v + aside[id]
 stuff.tv##.c-ad--mpu-top
@@ -135784,6 +135747,7 @@ pluginsaddonsextensions.com##.advertise
 pravda.com.ua,slobodnadalmacija.hr,lovelive-petitsoku.com#%#//scriptlet('remove-node-text', 'script', 'Ad-Shield')
 jablickar.cz###ad_popup
 ###banner_pos3_ddb_0
+sportsnet.ca##.Ads_card-wrapper__RKLH4
 @@||smashresume.com^$generichide
 motohigh.pl##.superauto
 snippet.univtec.com,tapewithadblock.org,socceronline.me,cricstreams.re,lasprovincias.es,viprow.*,strikeout.*,zdopravy.cz,amc.com,nova.cz,informatikamu.id,heraldsun.com.au,tv2play.hu,discordbotlist.com,tutflix.org,lolbeans.io,goodfon.com,tny.so,pennbookcenter.com,metro.co.uk,couriermail.com.au,ontiva.com,techgeek.digital,ephoto360.com,trade2win.com,veneziatoday.it,7misr4day.com,forexforum.co,taste.com.au,elahmad.com,key-hub.eu,news.com.au,point-news.jp,nulledteam.com,life-n.jp,mailonsunday.co.uk,lookmovie.ag,grab.tc,engine.univtec.com,litecoinads.com,vaughn.live,t-rocforum.de,lumiafirmware.com,trentotoday.it,m.kuku.lu,inews.co.uk,zbporn.com,tibiabr.com,tibiawiki.com.br,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,brofist.io,haddoz.net,fantasy.lu,porndroids.com,xkekos.tv,baritoday.it,peers.tv,asiatv.cc,amni8.com,royaleapi.com,oceanhero.today,ebookdz.com,dailytelegraph.com.au,streamtape.*,wyborcza.biz,digitalstudiome.com,wyborcza.pl,key-hub.eu,turkrock.com,romatoday.it,desktopsolution.org,comparteunclic.com,nakedteens.fun,althub.club,dzone.com,sapixcraft.com,imintweb.com,newsmondo.it,verteleseriesonline.com,kollhong.com,foggiatoday.it,kelasdesain.com,9docu.org,freedownloadmanager.org,coinadster.com,controlc.com,webserver.one,apiplayers.boardgamesonline.net,daemon-hentai.com,palermotoday.it,mega-hentai2.blogspot.com,iptvspor.com,teenager365.com,mshare.xyz,ashemaletube.com,techacrobat.com,osxinfo.net,7news.com.au,coivl.net,thefastlaneforum.com,thememypc.net,md5hashing.net,theandroidpro.com,520call.me,orangespotlight.com,3dbrute.com,firefaucet.win,jnovels.com,claimfreecoins.io,dloady.com,sharing.wtf,nightwolfapk.com.br,luckybits.io,wibc.com,audio-sound-premium.com,lesmoutonsrebelles.com,6tek.org,the-man.gr,otomizu.work,13.cl,zetflix.net,9now.com.au,ymso.net,yandexcdn.com,ciftklik.net,omglyrics.com,jbzd.com.pl,afolog.com,yandexsport.ru,scotsman.com,dailymail.co.uk,faucetcrypto.com,bitsfree.net,speakingtree.in,stb.ua,player.starlight.digital,onlineinterviewquestions.com,audioreview.m1001.coreserver.jp,tv-onlinehd.com,pornflixhd.com,incredibox.com,alexgoldcheidt.com,tellmehow.co,pinsystem.co.uk,svipvids.com,synonymbog.com,techbii.com#@#.TextAd
@@ -136471,6 +136435,7 @@ eporner.com###btasd
 tattle.life##.visitorAdPost
 ||assoc-amazon.it^$third-party
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=key-hub.eu
+leaf.tv,sciencing.com##.sticky-leaderboard-container
 ?ab=*&rl=1|$all
 ||ostlon.com^$popup
 strefainwestorow.pl##.pb-4 > .block-block-content:has(> .content > div[id^="div-gpt-"])
@@ -139459,7 +139424,6 @@ pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 ||bullz-eye.com/images/ads/
 alternativeto.net##div[style^="min-height: 114px; background-color:"]
 ##.w_ad
-@@||blackmod.net^$generichide
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion#?#div[data-testid="block-Well"] > div[class] > div[data-well-section="well-section"]:has( > div[class] > .ad)
 ##.ad--banniere_haute
 money.it#?#a[rel="sponsored nofollow"]
@@ -139872,7 +139836,6 @@ futbolnews.pl##.floatBox-bottom
 lankanewsweb.net##.tdm_block_inline_image
 ||aemediatraffic.com^$third-party
 camwhores.tv##.row-models
-##.ad-banner-wrapper
 thegay.com##.video-page__content > .left + div
 tradee.com#@#.ad-img
 ##.adSlice
@@ -140562,6 +140525,7 @@ tossinggames.com,urbanartassociation.com##[href^="http://redirect.viglink.com"]
 chouseisan.com##.header-ad-div
 @@||order-order.com/wp-content/themes/orderorder/admanager.google.com.js
 @@||ujjivansfb.in^$stealth=dpi
+prohockeyrumors.com##.div-gpt-ad-post
 ||rentalcars.com/partners/
 ###Top-ad
 ###ad_main_leader
@@ -142573,7 +142537,6 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 ###homepage-footer-ad
 ||viewdeos.com^$script,third-party
 ||i.imgur.com/cSePTP2.jpg
-mynbc5.com##.listing-page-ad
 ||launcher-api.bignox.com/desktop/v1/ad
 @@||isekaisubs.web.id^$generichide
 wikiwand.com##.video-ad
@@ -143595,7 +143558,6 @@ gadgethacks.com##.hide-on-empty
 ||roudoduor.com^$popup
 darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[id^="native-boxes"]
 readwhere.com#@#.adunit
-comicbook.com##.wp-block-savage-platform-primis-video
 gay.bingo##.player-section__ad-b
 coub.com##.viewer__das
 @@||fifakitcreator.com^$generichide
@@ -149183,6 +149145,7 @@ linksfire.co##.box-main a[href][target="_blank"]
 ||strtgic.com^$popup
 why-tech.it##.adsbygoogle:not(#ad-detector)
 ||fstsrv9.com^$popup
+agcanada.com,allmusic.com,allrecipes.com,allthatsinteresting.com,autoaction.com.au,aviatorsmarket.com,bdonline.co.uk,boardgamegeek.com,bravewords.com,broadcastnow.co.uk,cantbeunseen.com,cattime.com,chairmanlol.com,chemistryworld.com,citynews.ca,comingsoon.net,coolmathgames.com,crn.com.au,diyfail.com,dogtime.com,drugtargetreview.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodandwine.com,foodista.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,gcaptain.com,gmanetwork.com,itnews.asia,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,liveoutdoors.com,macleans.ca,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,newsonjapan.com,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,retail-week.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,uproxx.com,vax-before-travel.com,wapt.com,where.ca,wyff4.com,yoimaletyoufinish.com##.leaderboard
 @@||vstx.ru^$generichide
 miejscawewroclawiu.pl##.miejs-widget
 hotcopper.com.au##.row-billboard
@@ -150255,6 +150218,7 @@ olympics.com##div[class^="indexstyles__AdWrapper-sc-"]
 @@||doubleclickbygoogle.com/favicon.ico
 -720x90.
 ||vectips.com/wp-content/themes/vectips-theme/js/adzones.js
+-720x90-
 sextubespot.com##.content.ways > .related.video ~ h5.title-line[style="margin: auto;margin-bottom: 5px;margin-top: 3px;"]
 hentaicb.help#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'setupBanner')
 viptube.com##div[style="padding: 2px 11px; margin-top: 1px;"]
@@ -151249,7 +151213,6 @@ crocotube.com##.ct-advertising-footer
 planetizen.com##.revive-sitewide-banner__wrapper
 njav.com###ad300250
 /getAditem
-@@||site-banner.hange.jp/adshow?$domain=animallabo.hange.jp
 jastrzabpost.pl##.jastrzabpost-widget
 football365.com,planetf1.com,planetrugby.com,tennis365.com##.ps-block-a
 stripes.com###MidPageAd
@@ -153270,7 +153233,6 @@ eater.com,sbnation.com,vox.com##[data-concert="leaderboard_top_tablet_desktop"]
 bleepingcomputer.com##.articleBody > div[style^="width:"]:not([class]):has(> a[target="_blank"])
 myreadingmanga.info#%#//scriptlet("abort-on-property-read", "bisqus")
 @@||majhinaukri.in^$generichide
-11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,abovethelaw.com,adelaidenow.com.au,adtmag.com,aero-news.net,airportia.com,aiscoop.com,americanprofile.com,ans.org,appleinsider.com,arazu.io,arstechnica.com,as.com,asianwiki.com,askmen.com,associationsnow.com,attheraces.com,autoevolution.com,autoguide.com,automation.com,autotrader.com.au,bab.la,barchart.com,bdnews24.com,beinsports.com,biometricupdate.com,boats.com,bobvila.com,booksourcemagazine.com,bostonglobe.com,bradleybraves.com,briskoda.net,btimesonline.com,businessdailyafrica.com,businessinsider.com,businesstech.co.za,businessworld.in,c21media.net,carcomplaints.com,cbc.ca,cbs19.tv,celebdigs.com,celebified.com,ch-aviation.com,chargedevs.com,chemistryworld.com,cknxnewstoday.ca,cnn.com,colourlovers.com,computerhope.com,couriermail.com.au,cracked.com,createtv.com,crn.com,crossmap.com,crosswalk.com,cyberscoop.com,dailycaller.com,dailylobo.com,dailyparent.com,dailytarheel.com,dcist.com,dealnews.com,deccanherald.com,defenseone.com,defensescoop.com,discordbotlist.com,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.in,downdetector.sg,dpreview.com,dynamicwallpaper.club,earlygame.com,edmontonjournal.com,edscoop.com,elpais.com,emoji.gg,eurosport.com,excellence-mag.com,familydoctor.org,fanpop.com,fedscoop.com,femalefirst.co.uk,filehippo.com,filerox.com,finance.yahoo.com,firstcoastnews.com,flightglobal.com,flowermanga.net,fox6now.com,foxbusiness.com,foxnews.com,funeraltimes.com,gamepressure.com,gamesadshopper.com,gayvegas.com,geelongadvertiser.com.au,gmanetwork.com,go.com,godtube.com,golfweather.com,greasyfork.org,gtplanet.net,heraldnet.com,heraldsun.com.au,hodinkee.com,homebeautiful.com.au,hoodline.com,huckmag.com,indiatvnews.com,infobyip.com,inhabitat.com,interfax.com.ua,joc.com,jscompress.com,kagstv.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,kpopstarz.com,krem.com,ksdk.com,ktvb.com,kvue.com,lagom.nl,leaderpost.com,leaf.tv,letsgodigital.org,lifezette.com,liga.net,lonestarlive.com,looktothestars.org,m.famousfix.com,mangarockteam.com,marketwatch.com,maxpreps.com,mcpmag.com,mlb.com,modernretail.co,monkeytype.com,motherjones.com,mprnews.org,mybroadband.co.za,myfox8.com,myfoxzone.com,mygaming.co.za,myrecipes.com,namibtimes.net,nejm.org,neowin.net,newbeauty.com,news.com.au,news.sky.com,newscentermaine.com,newsday.com,newstatesman.com,nowtolove.co.nz,nymag.com,nytimes.com,nzherald.co.nz,patch.com,patheos.com,pcgamesn.com,petfinder.com,pharmaceutical-journal.com,picmix.com,planelogger.com,playsnake.org,playtictactoe.org,pokertube.com,politico.com,politico.eu,powernationtv.com,pressgazette.co.uk,proremodeler.com,quackit.com,ranker.com,ratemds.com,ratemyprofessors.com,redmondmag.com,refinery29.com,revolver.news,roadsideamerica.com,salisburypost.com,scholarlykitchen.sspnet.org,scworld.com,seattletimes.com,segmentnext.com,silive.com,simpledesktops.com,slickdeals.net,slippedisc.com,sltrib.com,smartcompany.com.au,softpedia.com,soranews24.com,spryliving.com,statenews.com,statescoop.com,statscrop.com,straight.com,streetinsider.com,stv.tv,the-decoder.com,thecut.com,thedigitalfix.com,thedp.com,theeastafrican.co.ke,thefader.com,thefirearmblog.com,thegrocer.co.uk,themercury.com.au,theringreport.com,thestarphoenix.com,thv11.com,time.com,timeshighereducation.com,tntsports.co.uk,today.com,toonado.com,townhall.com,tracker.gg,tribalfootball.com,triblive.com,tripadvisor.*,tweaktown.com,ultimatespecs.com,ultiworld.com,untappedcities.com,uptodown.com,usmagazine.com,usnews.com,vancouversun.com,vogue.in,vulture.com,wamu.org,washingtonexaminer.com,washingtontimes.com,watzatsong.com,wbir.com,wcnc.com,wdhafm.com,weatheronline.co.uk,webestools.com,webmd.com,weeklytimesnow.com.au,wfaa.com,wfmynews2.com,wgntv.com,wgrz.com,whas11.com,windsorstar.com,winnipegfreepress.com,wkyc.com,wltx.com,wnep.com,worthplaying.com,wqad.com,wral.com,wrif.com,wtsp.com,wusa9.com,wwltv.com,wzzm13.com,x17online.com,xatakaon.com,yorkpress.co.uk##.ad
 ##.js-lazy-ad
 omnicalculator.com##div[data-testid="billboard-ads-layout-row"]
 ||59768910.xyz^$document,popup
@@ -153650,7 +153612,6 @@ sheshaft.com##.after_adv
 ##.adslot_1
 @@||windows7forum.pl^$generichide
 ||47415889.xyz^$document,popup
-bnnbloomberg.ca,cp24.com,ctvnews.ca##.b-ads-custom
 reuters.com##[data-testid="ResponsiveAdSlot"]
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=askmen.com
 .com^|$xmlhttprequest,third-party,domain=vipleague.pm|myflixerz.to|kaido.to|swatchseries.is|hianime.nz|dbsullca.com|hdtodayz.to|hdtoday.cc|myasiantv.ac|footyroom.top|miztv.shop|movieshd.watch|watch.cricstreams.re|mega4upload.net|streamingcommunity.*|vixcloud.co|yuppow.com|animeunity.so|zonatmo.com|dopebox.to|viprow.nu|animeflv.net|giize.com|hianimez.*|nmac.to|daddylive.*|topcinema.*|luckypatchers.com|tvableon.me|cricstreams.re|tvableon.me|kunmanga.com|anime3rb.com|forcedtoplay.xyz|thedaddy.*|streamlord.com|forcedtoplay.xyz|youtubemp4.to|tinyzonetv.cc|y2mate.*|cuevana.*|dorawatch.net|capo6play.com|hianime.to|dlhd.dad|embedtv.net|asd.homes|mlbbox.me|ico3c.com|hianime.do|watchluna.com|fs6.lol|movielair.cc
@@ -153842,7 +153803,6 @@ seattletimes.com#$#html.async-hide { opacity: 1!important; }
 goodrx.com##div[class^="adContainer"]
 ##.ablock300
 timesofisrael.com##.sellwild-label
-@@||rmdown.com/ads.js
 clutchpoints.com##.hYrQwu
 pcguide.com##.wepc-takeover-top
 ##.sponsor-area
@@ -154200,6 +154160,7 @@ dhakatribune.com##.a-d-holder-container
 thelatinonewsletter.org##div[style="align-items:center;display:flex;flex-direction:column;gap:20px;justify-content:center;margin:0 auto 0 auto;padding-bottom:20px;padding-left:27px;padding-right:27px;padding-top:20px;"]
 @@||innpoland.pl^$generichide
 07c225f3.online,content-loader.com,css-load.com,html-load.com,img-load.com#$?#html:not(:has(> head > style:only-child:contains(width:399px;height:411px))) { filter: opacity(0) !important; pointer-events: none !important; }
+##.gliaplayer-container
 /myvids/mltbn/*$script,subdocument
 ||irresponsibilityhookup.com^$popup
 ##.row_header_ads
@@ -154825,6 +154786,7 @@ foxhq.com##.menu > ul > li:has(> a.sponsor)
 free-mockup.com#?##main > #secondary > div[style*="text-align: center; margin: 0 auto 15px;background: white;"]:has(> .adspot-title)
 ###belowNodeAds
 militaryleak.com##.gmr-floatbanner
+bnnbloomberg.ca,cp24.com,ctvnews.ca,tsn.ca##.b-ads-custom
 rpmvid.com,streamcasthub.store#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{const e=Object.getOwnPropertyDescriptor(Element.prototype,"innerHTML").set,t=Object.getOwnPropertyDescriptor(Element.prototype,"innerHTML").get;Object.defineProperty(Element.prototype,"innerHTML",{get(){const e=t.call(this);return e.includes("delete window")?"":e},set(t){e.call(this,t)}})})();')
 analyticsindiamag.com##img[src="https://www.analyticsindiamag.com/wp-content/uploads/2019/02/Blue_03.jpg"]
 xxxmovies.pro##.main-col > .bt-hs-col > .bt-h-b
@@ -154977,6 +154939,7 @@ theblock.co#$#.modal-container[ga-event-label$="Prime Trust_Modal"] { display: n
 ||fantabro.com^$document
 profullversion.com,warezcrack.net##center > a[href][rel="nofollow"][target="_blank"] > img
 lodynet.co##.Ad160
+postimees.ee#%#//scriptlet("prevent-setTimeout", "adblockNotif")
 ##.js-ad-unit
 @@||123link.pw/1/2/advertisement.js
 @@||howkteam.vn/Assets/pagead/adsbygoogle.js
@@ -155475,6 +155438,7 @@ forums.ventoy.net##.wwads-cn
 ##.ad-in-content
 mydirtyhobby.to##.col-md-4 > .well.tt-body
 @@||abp-profile-service.adobe.io^$stealth=3p-auth
+canucksarmy.com##[data-injection="stn-video"]
 indianexpress.com##.rhs-banner-wrapn
 bforbloggers.com#?#.sidebar > section.widget div.sidebar-product:upward(section.widget)
 ||landerhq.com^$document
@@ -155994,6 +155958,7 @@ elektroda.pl#$#div[id^="post-content-"] > .text-wrap[style*="filter: blur"] { fi
 @@||api.bbc.com/bbcdotcom/assets/*/script/av/emp/adverts.js
 ||s.aimg.sk/zive_symfony/build/article-adblock*.js
 akirabox.com#%#//scriptlet('prevent-addEventListener', 'click', 'Ads')
+javcrave.com#@#.widget_custom_html
 rockmods.net,link.postearn.io###adblock-modal
 cointelegraph.com##div[class*="ad-slot_"]
 @@||xhcdn.com/*.mp4$domain=xhamster.com
@@ -162076,7 +162041,6 @@ canadapolicereport.ca##.adsbygoogle
 ##.widget_adsingle
 hentaipins.com#%#//scriptlet("abort-on-property-read", "popundrCheck")
 theatlantic.com##.ad-boxright-wrapper
-@@||cnprint.org^$generichide
 xpornzo.com#%#//scriptlet("abort-on-property-read", "iamout")
 ||hentaihaven.icu/wp-content/plugins/sscript-manager/
 newser.com###headerAdSection
@@ -163814,7 +163778,6 @@ moviewatcher.is##a#show-button[target="_blank"][rel][href^="/"]
 @@||cdpn.io^$stealth=referrer,domain=codepen.io
 fastt.gg##a[id="startDownload"][target="_blank"]
 ##.MPUstyled__MPUWrapper-sc-100o0l7-0
-wapt.com##.ad-track
 nme.com###taboola-below-article
 ##.mediumRectangleAdvert
 manitobacooperator.ca##.inline--2
@@ -167406,7 +167369,6 @@ w3newspapers.com###topads
 @@||auth.mail.ru^$stealth=useragent
 appleworld.today###block-26
 feetporno.com,freehardcore.com,cartoonporn.com###_iframe_content
-bing.com##.br-poleoffcarousel
 @@||checkz.net^$generichide
 coincodex.com##app-root > div[class*="d-none d-xl-flex ng-star-inserted"][style="width: 100%;"]
 ||tapfiliate.com^$third-party
@@ -168141,7 +168103,6 @@ speakingtree.in##.amazonProductSidebar
 ||iyfnzgb.com^$popup
 ||caprofitx.com^$third-party
 chatib.us##.login-container > div[class^="col-"] > center > div.mrg-b-25
-sportsnet.ca##.ad-container-bb
 appleware.dev#%#//scriptlet('prevent-setTimeout', '.offsetHeight')
 7starhd.*##div[style^="clear:both;float:left;width:100%;"] > a[target="_blank"] > img
 arrowos.net#?#.center.card-content:has(> ins.adsbygoogle)
@@ -168825,6 +168786,7 @@ kohls.com###open-drawer
 pornstream.org##.player > div.right
 medievalists.net###custom_html-7
 ||72888710.xyz^$document,popup
+wapt.com,wyff4.com##.ad-track
 amishamerica.com##a[rel="nofollow"] > img
 ilmeteo.it###banner-320-50
 joemonster.org##.sky-wrapper
@@ -169261,6 +169223,7 @@ ghacks.net#@#.tag-sponsored
 aframnews.com,afro.com,animationmagazine.net,aurn.com,aviacionline.com,blackvoicenews.com,borneobulletin.com.bn,brewmasterly.com,businessday.ng,businessofapps.com,carstopia.net,chargedevs.com,chicagodefender.com,chimpreports.com,coinweek.com,collive.com,coralspringstalk.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,defence-industry.eu,dieworkwear.com,draxe.com,gadgetbuzz.net,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,hamodia.com,illustrationmaster.com,islandecho.co.uk,jacksonvillefreepress.com,kbla1580.com,marionmugshots.com,marshallradio.net,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,placenorthwest.co.uk,postnewsgroup.com,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,spaceref.com,swling.com,talkers.com,thegolfnewsnet.com,travelandtourworld.com,utdmercury.com,virtualrealitieshub.com,waamradio.com,webpokie.com,womensagenda.com.au##.g
 ||audioz.download/templates/Default/img/promo/
 ||38hgc.com^$popup
+comicbook.com,vice.com##.wp-block-savage-platform-primis-video
 shrinkurl.org#%#//scriptlet("abort-current-inline-script", "fetch", "adblock")
 freemalaysiatoday.com##.ads-medium-desktop
 prothomalo.com##img[width="300"][height="80"]
@@ -169588,7 +169551,6 @@ pilot.wp.pl#?#aside section[class*=" "]:has(> style + div[class] > img[src="http
 tech5s.co,wiki.magmanode.com,divnil.com,toolss.net,uvnc.com,vijesti.me,techmody.io,mcrypto.club,exxen.com,manyvids.com,downfile.site,tricksplit.io,meucdn.vip,yandexcdn.com,honeyhunterworld.com,waaw.to,upstream.to,hukumonline.com,techsprobe.com,persianhive.com,subtitletools.com,iade.com,ebesucher.ru,streamporn.pw,habblet.city,miniroyale2.io,ad-doge.com,blkom.com,fshost.me,androidgreek.com,moneyexcel.com,playtube.ws,novagente.pt,vod-platform.net,filmozercy.com,nightpoint.io,panjiachen.gitee.io,kangkimin.com,pdd.by,teepr.com,getmega.net,animeblkom.net,arabianbusiness.com,innemedium.pl,tv8.com.tr,onlinetvrecorder.com,mypussydischarge.com,mshares.co,oemdtc.com,newdeaf.club,ivg.it,studyqueries.com,tutorialforlinux.com,imedikament.de,laufpix.de,kochamjp.pl,mp4upload.com,technologywindow.com,freebcc.org,pestleanalysis.com,yabiladi.com,servedez.com,why-tech.it,firefile.cc,xnalgas.com,imgtorrnt.in,xpaja.net,enterinit.com,habbokritik.de,suj.nu,net4ts.com,como5.com,macx.cn,plugincim.com,pspstation.org,sh7.ch,musicradar.com,thaiphysicsteacher.com,leechpremium.link,klyker.com,infotelematico.com,cdnvideo.me,playhydrax.com,compressnow.com,hydrax.net,radiotunes.com,fruitlab.com,turkcedersi.net,mirrorace.com,warda.at,picmix.com,infoua.biz,minecraftmin.net,domowe-wypieki.pl,konten.co.id,fanseriesthaisub.com,cinafoniaci.com,heliohost.org,yannik.biz,moneyhouse.ch,twi55.com,sorumatik.co,alsumaria.tv,kwikmotion.com,yamareco.com,cshort.org,batch.id,receivesms.co,smszamok.ru,waaw.tv,bold.dk,chd4.com,tieusunguoinoitieng.com,phys-kids.com,simple-devices.ru,5urokov.ru,cpopchanelofficial.com,satoshimonster.com,capage.in,okcaller.com,satoshihero.com,yhocdata.com,1000ps.at,mexa.sh,queenfaucet.website,techspite.com,malzemebilimi.net,hqq.tv,techperiod.com,unityassetcollection.com,tribuntekno.com,paladinsdecks.com,autocar.co.uk,gdforum.freeforums.net,primochef.it,109.163.231.44,123link.biz,123link.pro,123link.pw,123link.vip,7plus.com.au,99businessideas.com,adbeat.com,aeonsource.org,andaluciainformacion.es,androidaba.com,androidiani.com,androidmakale.com,anime-odcinki.pl,anime47.com,animextre.me,aphim.co,atresplayer.com,autoroad.cz,azdictionary.com,bagusdl.pro,bdix.org,bebesymas.com,bemad.es,bg-gledai.tv,biters.io,bitsilver.io,bituniverse.net,boas.io,bombuj.eu,bombuj.tv,broncos.com.au,bs.to,camiris.com,cashrewards.com.au,channel4.com,chelsea24news.pl,citytv.com,clk.ink,closeload.com,commentimemorabili.it,coolgames.com,cpmlink.net,crazyhd.com,cuatro.com,d-navi004.com,dalatmongm.site,dallasnews.com,damnripped.com,delivembed.cc,developerinsider.co,di.fm,diariodeleon.es,dickpritchettrealestate.com,dingit.tv,ditchthecarbs.com,divinity.es,diysideas.com,donnaglamour.it,dramaz.se,dvdgayonline.com,eclypsia.com,ecuestre.es,egprices.com,egybest.site,elderland.de,elecgate.com,elektrobike-online.com,kijk.nl,energytv.es,eskago.pl,estrenosdoramas.net,eurosport.co.uk,eurosport.com,eurosport.de,eurosport.dk,eurosport.es,eurosport.fi,eurosport.fr,eurosport.nl,eurosport.no,eurosport.se,eurozpravy.cz,ez3c.tw,facepunch.io,factoriadeficcion.com,farmeramania.de,fetishpapa.com,filesharing.io,fisp.io,flooxer.com,fm.tuba.pl,food-tiger.de,freaktab.com,freepsdvn.com,freevpn.us,funimation.com,futbin.com,gagetmatome.com,gamefaucet.com,gamesource.it,gametop.com,gastroguide.de,geekrar.com,genbeta.com,gisher.org,globe24.cz,globo.com,gobits.io,gocolumbialions.com,grazia.fr,gs.by,gsmturkey.net,habboin.net,healbot.dpm15.net,highresolutionmusic.com,huynhhieu.com,idealsilhouette.com,ilpuntotecnicoeadsl.com,indianrailways.info,inmanga.com,inside-handy.de,intercelestial.com,iphonesoft.fr,iphonetweak.fr,j-talk.com,javhiv.com,jazzradio.com,jbzdy.pl,jntufastupdates.com,journaldev.com,jovempan.uol.com.br,karanpc.com,karwan.tv,ketubanjiwa.com,knowyourmeme.com,kodvizit.com,kphim.tv,kuchnia-domowa.pl,ladige.it,lasvegassun.com,latinoweb-tv.com,lavozdealmeria.es,league-funny.com,ledauphine.com,leitesculinaria.com,lifehacker.com,livesports.pw,logrosxbox.com,lols.gg,loveawake.com,mackie100projects.altervista.org,marimo.me,matchat.online,medyaradar.com,meutimao.com.br,mitti.se,mmorpg.org.pl,mobilesringtones.com,mobinozer.com,mokeedev.com,moneymag.cz,mooma.sh,motorradonline.de,moviesunuss.net,mrwebmaster.it,mtled-novels.com,mtmad.es,muhendisimaaslari.com,mx-sh.net,myanimelist.net,mylivesignature.com,myshorturls.blogspot.com,myvidster.com,nadaguides.com,ncaa.com,newz.dk,nrz.de,odkrywamyzakryte.com,olympine.com,onvasortir.com,opensnow.com,orgasmnaut.com,ouo.io,outdoor-magazin.com,overwatch.pl,papalah.com,pga.com,pikio.pl,pitbullofficial.com,play.anghami.com,pogo.com,polscygracze.pl,popcornflix.com,popcorntv.it,premium-link.ninja,professionaltutorial.com,promobil.de,publico.pt,purposegames.com,quoka.de,racingsportscars.com,radiocut.fm,rapidrar.com,replica-watch.info,reponsesphoto.fr,rijmwoordenboek.net,roadbike.de,robot-forum.com,ronron-blog.com,rte.ie,runnersworld.de,s-kip.eu,saglamindir.net,seetv.tv,sentireascoltare.com,shareinfo.pl,shencomics.com,shinden.pl,sk-ip.ru,softonic.com,sol.dk,splinternews.com,sport-tv-guide.live,stars24.cz,svapo.it,tagblatt.ch,teachios.com,techperiod.com,tecnotutoshd.net,telecinco.es,telegraph.co.uk,thaivisa.com,thechive.com,theonion.com,theroot.com,thesurfersview.com,thetakeout.com,today.it,trecetv.es,trendenciashombre.com,truyenaudiocv.com,tsa-algerie.com,tubitv.com,tvserial.it,vacation-et.work,veuclips.com,vidoza.net,viuclips.net,vmf.edge-apps.net,vtvgiaitri.vn,watchseries1.cc,weatherx.co.in,win10.vn,windows7forum.pl,wordgames.com,worldfreeware.com,wpteq.org,xatakandroid.com,yafud.pl#@#.text-ad
 thesun.co.uk##.dpa-slot
 goalsport.info#%#//scriptlet('prevent-setTimeout', 'keepChecking')
-pimpandhost.com##.aaablock_yes
 imagetwist.com#%#//scriptlet('abort-on-property-write', 'shouldShowAd')
 down.fast-down.com##a.create[href*="download"][href*=".html"]
 megatube.xxx##iframe[id^="inp_iframe"]
@@ -170986,6 +170948,7 @@ kickedface.com##.adsbygoogle
 ||pulsivecerebra.top^$document
 counterpunch.org##.header-center
 ###ad_top_holder
+nhl.com##.nhl-o-adv
 @@||sapixcraft.com/css/exitPopup.css
 world-weather.info##.ww-cont-top-ban
 ||*.com/*/*/tt?id=$third-party
@@ -173282,7 +173245,6 @@ lascimmiapensa.com#%#//scriptlet('set-constant', 'Brid.A9.prototype.runBackfillB
 @@||zorroplay.xyz/*.php$stealth=referrer
 @@||mid.ru^$stealth=ip
 ##.js-dfp-ad
-###player-advertising
 ||data.idnes.cz/nocache/DPP/dacan/
 hardocp.com###content-left > div[style="height:280px; width:336px; margin-left: 10px; clear: both;"]:not([class]):not([id])
 swimswam.com##.homepage_block_ads
@@ -176556,7 +176518,6 @@ avvocatoandreani.it#@#.AdSense
 supjav.com##.video-wrap > div.right
 myabandonware.com###content > .abox
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=vebma.com
-12tomatoes.com,allwomenstalk.com,bloomberg.com,datpiff.com,gadgetreview.com,hockeybuzz.com,koreaboo.com,logotv.com,news.sky.com,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,sportsnet.ca,thedrinknation.com,theserverside.com,vacations.info###leaderboard
 ##.ad-widget-list
 ##.ad300x90
 mmegi.bw##.vertical-banner
@@ -177040,6 +177001,7 @@ radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.p
 neowin.net#$#.banner-square { height: 0!important; min-height: 0!important; margin: 0!important; padding: 0!important; display: none!important; }
 ||jav.land/ad/
 ||detectiveconanworld.com/images/support-us-brave.png
+smh.com.au##.TPT1c
 ##.advertising-block
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=app.axenthost.com
 freeseotoolbox.net##.sideXd
@@ -178755,6 +178717,7 @@ xanimu.com,familyporner.com,darknessporn.com,freepublicporn.com,pisshamster.com,
 windowschimp.com#?#.inside-right-sidebar > aside.widget:has(> div.textwidget a[target="_blank"] > img)
 sploop.io###bottom-content
 ##.shift-ad
+drive.com.au##.gam-ad-wrapper
 ##.mvp_ad_widget
 ##.stickyAd
 ##.ad-bordered
@@ -179190,12 +179153,6 @@ cheaptickets.com,expedia.*,hotels.com,orbitz.com,travelocity.ca,travelocity.com,
 ##.ad-on
 ##.ad-s
 ##.ad-r
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 ||ketseestoog.net^$document
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.floatingWrapper
 ||taggify.net^$third-party
@@ -182114,6 +182071,7 @@ ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray)
 ||bloggerei.de^$third-party
 /hit.c?
 @@||ganyancanavari.com/js/fingerprint2.min.js$~third-party
+mynbc5.com##.listing-page-ad
 cam4.com##.xmlAdsTitle
 ||sitescdn.net/ytag/ytag.min.js
 ||checkmy.cam^$popup
@@ -183022,6 +182980,7 @@ kuman.com##.guide-download-footer-box
 ||pstatp.com^*/push.js
 @@||cdn.bootcss.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 ##.top-bar-ad-related
+comicbook.com##.wp-block-savage-platform-primis-video
 cnki.com.cn##.mainboxconbanner
 ||coinwebmining.com^$third-party
 ||stat24.ru^$third-party
@@ -183622,6 +183581,7 @@ bqprime.com##.story-base-template-m__vuukle-ad__g1YBt
 ||polaranalytics.com^$third-party
 ||tohechaustoox.net^$popup
 .keap-link015.com/$image
+euronews.com###connatix-container
 ||ao1*kas.top/$script,third-party
 /server/detect.php?
 ||rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml
@@ -186416,6 +186376,7 @@ hao.360.com#?#.cube-mod:-abp-has(.dh-cpcad-container)
 teenhost.net##.bottom-ban
 ithome.com###wapddfda21
 /stats-tracking.js
+bing.com##.br-poleoffcarousel
 yyets.click#?#.MuiBadge-root:-abp-has(>a[href*="/maomao.cloud/"])
 /ipdvdc.min.js
 ||muenchener-stadtplan.com/t.gif
@@ -187096,6 +187057,7 @@ stocktwits.com##.Primis_container__KwtjV
 /aff_i?offer_id=
 ||iyzipay.com/buyer-protection/assets/js/analytics.js
 ||baidu.com/smalllog/
+sportsnet.ca##.ad-container-bb
 ||twitter.com/9/measurement/
 /wpstatistics/v1/hit?
 forbes.com,windowscentral.com##.ad-unit
@@ -191637,6 +191599,7 @@ cruisecritic.co.uk##div[data-sentry-component="AdWrapper"]
 ||priceline.com/pws/v1/ace/impression/
 ||iplist.cc^$third-party
 ||ntlab.org^$third-party
+sportsnet.ca###leaderboard_master
 nipic.com##.vip_show
 /wp-monero-miner.min.js
 iamdisappoint.com,shitbrix.com,tattoofailure.com##a[href^="http://goo.gl/"]
@@ -196615,6 +196578,7 @@ search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
 -wrapper-analytics-prod.cloudfunctions.net/
 /statistics/pixel/*
 /storefront.google-analytics-4.min.js
+sportsnet.ca##.Ads_card-wrapper__KyXLu
 ||uuu9.com/photolog.html
 ||yu987.com^$third-party
 /ws_client?zone=gen$websocket
@@ -197254,77 +197218,6 @@ simpcity.su##div[style="text-align:center;margin-bottom:20px;"]
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
 hdtube.porn,pornid.xxx,rat.xxx##.cs-under-player
-/^(\S+\.)?s?metrics\./
-/^(\S+\.)?61677[\da-z]{0,20}\.com$/
-/^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
-/^(\S+\.)?delivery([\d]{2}|dom|modo).com$/
-/^(\S+\.)?11599[\da-z]{2,20}\.com$/
-/^(\S+\.)?syma[a-z]\.cn$/
-/^(\S+\.)?widgets?\./
-/^(\S+\.)?[0-9a-f]{15,}\.com$/
-/^(\S+\.)?ylx-[0-9].com$/
-/^(\S+\.)?sax[\dns]?\.sina\.com\.cn/
-/^(\S+\.)?[0-9a-z]{16,}\.xyz$/
-/^(\S+\.)?5551[0-9]{3}\.com?$/
-/^(\S+\.)?voyage-prive\.[a-z]+(\.uk)?$/
-/^(\S+\.)?aj[0-9]{4,}.online$/
-/^(\S+\.)?analytics(\-|\.)/
-/^(\S+\.)?(webstats?|swebstats?|mywebstats?)\./
-/^(\S+\.)?777\-?partners?\.(net|com)$/
-/^(\S+\.)?e7[0-9]{2,4}\.(net|com)?$/
-/^(\S+\.)?[c-s]ads(abs|abz|ans|anz|ats|atz|del|ecs|ecz|ims|imz|ips|ipz|kis|kiz|oks|okz|one|pms|pmz)\.com/
-/^(\S+\.)?xpj[0-9]\.net$/
-/^(\S+\.)?counter(\-|\.)/
-/^(\S+\.)?tongji\./
-/^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
-/^(\S+\.)?advert/$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com|tmall.com|taobao.com
-/^(\S+\.)?333[1-9]{2}[0-9]{2}\.com?$/
-||*serror*.wo.com.cn^$dnstype=A|CNAME
-/^(\S+\.)?g[1-4][0-9]{8,9}\.com?$/
-/^(\S+\.)?adservice\.google\./
-/^(\S+\.)?afgr[\d]{1,2}\.com$/
-/^(\S+\.)?toolbar\./
-/^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./
-/^(\S+\.)?hg[0-9]{4,5}\.com?$/
-/^(\S+\.)?pixels?\./
-/^adsensor\./
-||*inapps.appsflyersdk.com^
-/^dwtrack\./
-/^domob\./
-/^pingfore\./
-||*cdn-settings.appsflyersdk.com^
-/^adservice\./
-/^appsflyer\./
-/^guanggao\./
-/^adsage\./
-||*-ad-sign.byteimg.com^
-/^adsserving\./
-/^adwords\./
-/^supersonicads\./
-/^openx\./
-||*launches.appsflyersdk.com^
-/^socdm\./
-||*-datareceiver.aki-game.net^
-/^omniture\./
-/^zjtoolbar\./
-||*-ad.a.yximgs.com^
-/^adsmogo\./
-/^omgmta\./
-/^wlmonitor\./
-/^admaster\./
-||*stun.kugou.com^
-/^adsystem\./
-/^partnerad\./
-/^duomeng\./
-/^adsrvmedia\./
-||*-applog.fqnovel.com^
-/^omgmtaw\./
-/^admarvel\./
-||*adapt-beacon.awsprodops.movetv.com^
-/^applovin\./
-||*conversions.appsflyersdk.com^
-||*register.appsflyersdk.com^
-/^.+stat\.kugou\.com/
 ||com/adimg
 ||gushiwen.cn/getTicket.aspx^$xhr
 *.pop.js^$script
@@ -198339,6 +198232,91 @@ baike.baidu.com##.squareAni.square.super-layer-promote
 */178acg/
 */adz.js|
 *.ppunion.
+baidu.com###J-tashuo-button-fixed
+baidu.com$$div[tpl="med_"]
+baidu.com$$div[data-log="zhujicankao.com"]
+baidu.com$$div[tpl="poi_kg"]
+baidu.com$$div[data-log="boce.com/wall/"]
+baidu.com$$div[tpl="nvl"]
+baidu.com$$div[tpl="jy_exam"]
+baidu.com$$div[tpl="wenda_"]
+baidu.com$$div[data-log="hostloc.net"]
+baidu.com$$div[tpl="rel_ugc"]
+baidu.com$$div[data-log="kxxzz.com/mgvps/"]
+baidu.com$$div[data-log="vpsyh.com"]
+baidu.com$$div[tpl="recommend_list"]
+baidu.com$$div[data-log="367783.net/zatan/"]
+baidu.com$$div[tpl="quality_wenda"]
+baidu.com$$div[tpl="we_tiebanewxml"]
+baidu.com$$div[class="feed-video-box"]
+baidu.com$$div[tpl="yl_"]
+zhidao.baidu.com##div.new-answer-entry.left-show
+baidu.com$$div[tpl="music_multi"]
+baidu.com$$div[data-log="bubuko.com"]
+baidu.com##.new-answer-entry.left-show
+baidu.com$$div[tpl="movieticket"]
+baidu.com$$div[data-log="machbbs.com"]
+baidu.com$$div[tpl="vid_pocket"]
+baidu.com$$div[tpl="pc-education-fs"]
+baidu.com##.hint-ft-questionnaire
+baidu.com$$div[tpl="_recommend"]
+baidu.com$$div[tpl="vd"]
+baidu.com$$div[tpl="_app"]
+baidu.com##.wgt-rel-exp.content-box
+baidu.com$$div[data-log="mamicode.com"]
+baidu.com$$div[tpl="_audio"]
+baidu.com$$div[tpl="guanfanghao"]
+map.baidu.com###index-areaEntry-widget
+map.baidu.com##div.index-widget-guidebanner.styleguide.container
+jingyan.baidu.com##div[class^="ui-slider"][style*="height"]
+baidu.com$$div[data-log="/sf?openapi"]
+baidu.com$$div[data-log="/sf/vsearch?pd"]
+baidu.com$$div[data-log="site.ip138.com"]
+baidu.com##.wgt-related-questions
+baidu.com$$div[data-log="vpsqb.com"]
+baidu.com##.header-act-entry
+baidu.com$$div[tpl="_demand"]
+baidu.com###tab_news_1
+baidu.com$$div[tpl="sp_"]
+baidu.com$$div[tpl="sd_imgs"]
+baidu.com$$div[tpl="ks_"]
+baidu.com$$div[tpl="vc_ting"]
+baidu.com$$div[tpl="zp_company"]
+baidu.com##.welcome-banner
+baidu.com$$div[data-log="fyddz.com.cn"]
+baidu.com$$div[data-log="dazhuanlan.com"]
+baidu.com##div.wa-guanfanghao-main
+baidu.com###feed-recommend
+baidu.com$$div[data-log="boce.com/hijack/"]
+baidu.com##.j_footer
+baidu.com$$div[class="wgt-exp-video"]
+baidu.com$$div[data-log="huaweicloud.com/theme/"]
+tieba.baidu.com##div.top-guide-wrap
+baidu.com$$div[tpl="games"]
+baidu.com$$div[data-log="cloud.tencent.com/developer/information/"]
+baidu.com$$div[data-log="boce.com/ping/"]
+baidu.com##.dynamicshareAdbox
+baidu.com##footer > a[class="dl"]
+baidu.com$$div[tpl="app_"]
+baidu.com$$div[data-log="boce.com/http/"]
+baidu.com$$div[data-log="haoxiangta.com"]
+baidu.com$$div[data-log="baijiahao"]
+baidu.com$$div[data-log="yiyult.com"]
+baidu.com$$div[data-log="boce.com/dns/"]
+baidu.com$$div[tpl="wz_movielist"]
+tieba.baidu.com##div.footer-wrap
+baidu.com$$div[tpl="sigma_celebrity_rela"]
+baidu.com$$div[tpl="comic"]
+tieba.baidu.com##div.pb_cut_hot_recommend
+baidu.com$$div[data-log="jiagongchang.com"]
+baidu.com$$div[class="bannerad"]
+zhidao.baidu.com###main-content > div.mm-content-box
+baidu.com$$div[data-log="/sf?pd"]
+baidu.com$$div[data-log="icode9.com"]
+baidu.com$$div[tpl="zhaopin"]
+baidu.com$$div[tpl="zp_sigma"]
+baidu.com$$div[tpl="enc"]
+baidu.com$$div[data-log="openapi"]
 ||counterapi.dev^$third-party
 ||lepetitjournal.com/monitoring?
 &event_name=view_item_list&
@@ -198807,6 +198785,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||nakanohito.jp^*/bi.js$domain=nexon.com,important
 ||hlstatus.com^$third-party
 ||api.thefantazy.com/web-vitals
+@@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$~third-party
 ://emailtracking.$image
 ://e.*/open?$image
 ://openedlog.
@@ -198859,6 +198838,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||sockr.birdie.so/event
 ||rayn.io/contextual_targeting
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
+/fingerprint.js^$domain=~github.com
 ||fleshlight.com/api/collect
 ||aitotop.com^*/collect.js?
 ||mellow.tel^$third-party
@@ -198884,6 +198864,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||videezy.com/assets/tracking/show_page_tracking-
 @@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|accounts-bc.com|app.cryptotrader.tax|app.joinhandshake.com|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com|swatches.interiordefine.com
 ||octaneai.com/api/v1/beacon
+||curos.ca/res/*/resources/scripts/lib/fingerprint.js$script,redirect=fingerprint2.js,important
 ||amazonaws.com/default/tracking?url=
 ||shutterstock.com/blog/wp-content/mu-plugins/wp-parsely-
 @@||cybozu.com/*/event.gif?$~third-party
@@ -199027,6 +199008,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 @@||googletagmanager.com/gtag/destination?$domain=sloways.eu
 /hit.php?$domain=~etoland.co.kr
 ||api-staging.sitelytics.tech/pixel/core/api/send-event
+||s.yimg.com/ss/analytics-$script,domain=yahoo.com
 ||amp.analytics-debugger.com^$third-party
 ||try.elevenlabs.io/pr/js
 /visitors/collect_data|$xmlhttprequest
@@ -199086,7 +199068,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||play.pl/?_hn:type=
 ||ncbi.nlm.nih.gov/core/pinger/pinger.js
 /line.my.salesforce.com/servlet/servlet.ImageServer?oid=*&esid=$image
-/fingerprint.js$domain=~github.com
 /iris-t.js
 ||pics-view.com/ad-track
 /tag/proxy?id=G-
@@ -199351,6 +199332,39 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 </body>
 Blocklist of hostnames and domains for blocking ads, trackers and others (format: adblockplus - for use with Adblock Plus)</title>
 <link rel='stylesheet' href='/css/pgl.css' type='text/css'></head>
+/^(\S+\.)?s?metrics\./
+/^(\S+\.)?61677[\da-z]{0,20}\.com$/
+/^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
+/^(\S+\.)?delivery([\d]{2}|dom|modo).com$/
+/^(\S+\.)?11599[\da-z]{2,20}\.com$/
+/^(\S+\.)?syma[a-z]\.cn$/
+/^(\S+\.)?widgets?\./
+/^(\S+\.)?[0-9a-f]{15,}\.com$/
+/^(\S+\.)?ylx-[0-9].com$/
+/^(\S+\.)?sax[\dns]?\.sina\.com\.cn/
+/^(\S+\.)?[0-9a-z]{16,}\.xyz$/
+/^(\S+\.)?5551[0-9]{3}\.com?$/
+/^(\S+\.)?voyage-prive\.[a-z]+(\.uk)?$/
+/^(\S+\.)?aj[0-9]{4,}.online$/
+/^(\S+\.)?analytics(\-|\.)/
+/^(\S+\.)?(webstats?|swebstats?|mywebstats?)\./
+/^(\S+\.)?777\-?partners?\.(net|com)$/
+/^(\S+\.)?e7[0-9]{2,4}\.(net|com)?$/
+/^(\S+\.)?[c-s]ads(abs|abz|ans|anz|ats|atz|del|ecs|ecz|ims|imz|ips|ipz|kis|kiz|oks|okz|one|pms|pmz)\.com/
+/^(\S+\.)?xpj[0-9]\.net$/
+/^(\S+\.)?counter(\-|\.)/
+/^(\S+\.)?tongji\./
+/^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
+/^(\S+\.)?advert/$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com|tmall.com|taobao.com
+/^(\S+\.)?333[1-9]{2}[0-9]{2}\.com?$/
+||*serror*.wo.com.cn^$dnstype=A|CNAME
+/^(\S+\.)?g[1-4][0-9]{8,9}\.com?$/
+/^(\S+\.)?adservice\.google\./
+/^(\S+\.)?afgr[\d]{1,2}\.com$/
+/^(\S+\.)?toolbar\./
+/^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./
+/^(\S+\.)?hg[0-9]{4,5}\.com?$/
+/^(\S+\.)?pixels?\./
 baozimh.org#?#.relative:-abp-has(>.bg-red-500)
 iqiyi.com#?#div[class^="list_list_"]>div:-abp-has(div[class^="videolist_closeAd"])
 bing.com,~www.bing.com#?#.b_algo:-abp-has(p:-abp-properties(display: inline-block;))
@@ -199631,7 +199645,6 @@ klubradio.hu##.socials-middle
 massivetoyblowout.ca##.wcb-md-overlay
 noelleeming.co.nz##.dynotifyjs-corner
 bankingdive.com,biopharmadive.com,constructiondive.com,cstoredive.com,cybersecuritydive.com,grocerydive.com,hrdive.com,k12dive.com,marketingdive.com,multifamilydive.com,packagingdive.com,pharmavoice.com,smartcitiesdive.com,themarshallproject.org,utilitydive.com,www.retaildive.com##.inline-signup
-watch.sportsnet.ca##.sport-hero__share-action-container
 ##.cookie-approval__wrapper
 ##.storifycon-share
 ##.cookie-bar--type-manage
@@ -202207,6 +202220,7 @@ ecologiaverde.com,el9nou.cat,elsaltodiario.com,infocatolica.com,lanacion.com.ar,
 ###cookies-personalize
 ##.bls-cookie-policy
 beebom.com##.beebom-social-share
+2x2.su,4-72.com.co,7.wan.com,acaplast-group.com,acaplast.com,adscompass.com,advstreet.ru,aegeanbalticbank.com,agerip.com.br,agugiarofigna.com,aislamientostrapaga.com,akado.ru,aliorbank.pl,alty.co,amikado.com,and-rus.ru,angolodelregalo.it,angora.com.pl,aoc.com,apcloud.es,aphome.es,appaddict.org,aquasain.com,aragon.es,arbiton.com,asda.com,aslimnica.lv,asmcf.org,astra-mag.com,autempoeuropie.pl,auto1.fi,auto10.com,avanga.org,bacelic.hr,bahianoticias.com.br,bandainamcostudios.my,bandainamcostudios.sg,baza.io,bbva.mx,bcm.marketing,belarus24.by,belenus.com.br,belivehotels.com,bemob.com,bfc.pl,bim-bike.hr,binomo.com,biofoodolbia.com,blomedry.com,bogazici.edu.tr,bokadirekt.se,bolagsverket.se,boomverzorgingmichiel.be,brandmake.nl,bubble-ecoworking.com,bubok.com.ar,caaquebec.com,calltouch.ru,carowall.com,cashconverters.es,cavex.co.uk,cdnnow.pro,cdnnow.ru,cebupacificair.com,centromaiez.com,certafarmacia.com.br,ch1ef.ru,chemistdirect.co.uk,chiavalon.hr,chilexpress.cl,chophytol.ru,ciar.london,cienpalacios.com,cineworld.co.uk,city-story.ru,classen.pl,colaboraread.com.br,compendium.com.ua,conquistainternet.com,corporate.it,cp.pt,creatica.com.ar,crytek.com,custplace.com,cutterbrooks.com,cvat.ai,cyberctm.com,danwood.de,darking.cz,depintxopote.com,desirebutik.pl,dhosting.pl,diamantea.com,diariodelaribera.net,dille-kamille.de,dimply.ai,divinity.game,dobro.hr,doctoralilianamarrero.com,doit.software,domarket.ru,dorotheum.com,duplicatephotosfixer.com,dur.ac.uk,dvdmax.pl,e-bebek.com,e-glossa.it,ebschool.cz,edifier.com,egyptair.com,egzaminy.edu.pl,elmachips.com.br,emall.by,emea.com.tr,enable-javascript.com,equall.gr,espariga.lv,estudiotextilcolor.com,etymon-solutions.com,eudita.es,euromedictorun.pl,eurozine.com,everybody-s.com,evisa.express,evropochta.by,fair.bg,fannatic.be,fastpersonal.ru,filtrosfera.pl,fitpatrol.pl,flatironsquare.co.uk,fluid.co.uk,fnsea.fr,folklore-society.com,fondazionehenraux.it,food.vkusvill.ru,foodforsoul.it,forsettlement.com,fortressbp.com,fotomatonia.com,free3dbase.com,freevpnplanet.com,friendsfit.cz,friendsofeurope.org,fuegodevida.com,gamdias.com,game-game.com,game-game.com.ua,game-game.ee,gandalf.com.pl,garajecentrobilbao.com,gartic.io,gdplegal.es,generator-rus.ru,geschenking.de,glavred.info,gmzp.pl,goboony.be,golfdondurma.com.tr,gorealtravel.com,gorodn.ru,gramota.ru,graneleiro.com.br,graspop.be,guggenheim-bilbao.eus,gumenadom.si,gurutzekogurasoak.eus,hartfordbusiness.com,hemocentroriopreto.com.br,heyzine.com,hi-fi.ru,hitdiscount.by,hmv.com,hondadealers.com,hopdoddy.com,hospitaldebase.com.br,hotel-merlin.cz,hotel-spider.com,hotelbellaire.com,hotelhaven.fi,hotelskeppsholmen.se,houkesloot.nl,hp-store.hr,hse.ru,huntshowdown.com,iamhungry.fr,iasgp.org,iden.team,idiomaster-arrasate.com,igsoft.be,ileanafundi.com,ilmainensanakirja.fi,imaginanet.com,imq.es,inagrm.com,indepth.dev,ingrad.ru,intendit.se,intergameonline.com,itkkit.com,iwp.be,jefferson-hifi-video.fr,justicaeleitoral.jus.br,kabola.hr,kaitseliit.ee,kiauto.fr,kituramirus.com,laboratoriohlab.com.br,lama-media.com,larepublica.co,laskort.com,latiendadelaspegatinas.com,lavardi.ru,ldavinci.edu.pe,lelieuunique.com,lenovostore.hr,les33.ru,lfv.se,ligaforty.com.br,litostroj.si,login.bankhapoalim.co.il,lvsas.sk,m.brettspielwelt.de,mabanque.bnpparibas,macpaw.com,madalinliviu.ro,mailjet.com,makandracards.com,mannheimerswartling.se,markups.kdanmobile.com,marsgaming.eu,martinrandall.com,maschinenportal24.de,mcc.live,media-sense.com,meintierdiscount.de,melag.com,metaflux-ts.cz,metalomarao.pt,mikronis.hr,milanowek.pl,mindshareworld.com,mindswarms.com,mir-tema.ru,mlp-advokat.ru,mm.ck.ua,mmk.ru,mnemonic.io,mobilephonemuseum.com,moby.it,mobylines.com,mobylines.de,mobylines.fr,modirum.com,monetizze.com.br,monterail.com,moongamestudios.com,mpccreative.io,mute.design,myinvestor.es,mzk.zgora.pl,najlepszemeble.pl,nanocad.com,nascentdesign.com,naszefutrzaki.eu,nedbank.co.za,nederlandsebrouwers.nl,netify.ai,neumaticoszorroza.com,nextmillennium.com,niedziela.pl,nobis.se,nobishotel.se,northmagnetic.com,nowports.com,o-ma-god.com,okocrm.com,omaweetraad.nl,onas.org.pl,onderdelenlijn.nl,oneticket.cz,onpoint.ru,onwelo.com,operakallaren.se,orientalmart.co.uk,ostrog.com,otkritkiok.ru,oxfloormultistep.com,panamaamerica.com.pa,panfasad.com,parfumsclub.de,patek.com,paysale.com,perfumesclub.co.uk,perfumesclub.com,perfumesclub.fr,perfumesclub.it,perfumesclub.nl,perfumesclub.pt,permak.com.tr,photonengine.com,picnic.app,pics.io,pildorasdefe.net,pkpcargo.com,playgwent.com,podmaz.sk,poolboy.eu,portalnovosti.com,portovivosru.pt,previssima.fr,pribram.cz,privatbank.ua,prof53.ru,propertygem.pl,proton.com,proxyparts.com,proxyparts.de,proxyparts.es,proxyparts.fr,proxyparts.pl,puntodepartida.com,radio-ecuador.com,referendum.gov.pl,reinbold-entsorgungstechnik.com,renaultbryanston.co.za,renaultfourways.co.za,renaultretailgroup.es,resumebuild.eu,rktbns.de,rowery-indiana.pl,royalparks.org.uk,rskrf.ru,rss.com,rti.org.tw,rtl.hr,rubyroidlabs.com,rusvpn.com,samsonite.ro,santiment.net,sapphiretech.com,sbsjager.sk,scamner.com,scobel.pasaz24.pl,screenflanders.be,sejmsenat2019.pkw.gov.pl,selfhost.de,selo-zelenoe.ru,sgu.se,sharafdg.com,sikera.com,singulart.com,sisjointressenter.se,sistic.com.sg,skillbox.ru,sky.com.mx,slicethepie.com,sosbernuciemati.lv,sprawdzonyfizjoterapeuta.pl,sprinter-avto.com,srazenazver.cz,stallmastaregarden.se,staltrans.ru,stanumamoy.com,stb.com.tn,stratoflow.com,streetfootballworld.org,strefawalut.pl,stuttafordvanlines.co.za,sudzibas.lv,summa.es,supercast.com,svww.de,swood.pl,sylan.pl,taylorandfrancis.com,tdsexport.com,technolove.ru,teknikdelar.se,telsu.fi,terilogy.com,tescomobile.ie,testeri.fi,thea-nordic.dk,thenottingham.com,thisisplayground.com,thomas-elliott.co.uk,threadreaderapp.com,tireshop.ua,tirrenia.it,todomecanica.com,topographic-map.com,topvintage.com,topwayschool.com,trempak.co.za,trend-russia.ru,tse.jus.br,tsmodelstube.com,tuplus.com.co,twinings.co.uk,udruga-gradova.hr,ukcisa.org.uk,umicore.com,unian.info,unian.net,unian.ua,universiteitleiden.nl,unknownphone.com,unpoly.com,uob.edu.om,uptodown.com,userinyerface.com,ustavprava.cz,uxfocus.cz,valledeelda.com,veb.net,ver-tv.online,vertabelo.com,vestaconsultores.com,vfs.cz,vips.com.mx,visolit.net,vizologi.com,vocesmexico.com,volvocars.com,vuz24.ru,vvdntools.com,webawards.com.ua,webdock.dk,webdock.io,welfarepartners.ie,westpandi.com,wesur.fr,weweler.eu,wid.com.pl,wilko.com,wizards.com,wkruk.pl,worldeducation.hr,wybory.gov.pl,wyylde.com,xn--h1alcedd.xn--d1aqf.xn--p1ai,youareinapp.com,zelena-akcija.hr,zerolives.com,zieduveikals.lv,zoom.earth##.cookies
 ##.js-share-facebook
 advocate.com,slashdot.org##.tw
 ###CookieConsentGdpr
@@ -204999,7 +205013,6 @@ proprivacy.com##.author-social-icons
 foxandbriar.com#?#.has-tertiary-background-color:-abp-contains(Week)
 zebrapen.ca##.spu-bottom-bar
 ##.mom-socials-counter
-2x2.su,4-72.com.co,7.wan.com,acaplast-group.com,acaplast.com,adscompass.com,advstreet.ru,aegeanbalticbank.com,agerip.com.br,agugiarofigna.com,aislamientostrapaga.com,akado.ru,aliorbank.pl,alty.co,amikado.com,angolodelregalo.it,angora.com.pl,aoc.com,apcloud.es,aphome.es,appaddict.org,aquasain.com,aragon.es,arbiton.com,asda.com,aslimnica.lv,asmcf.org,astra-mag.com,autempoeuropie.pl,auto1.fi,auto10.com,avanga.org,bacelic.hr,bahianoticias.com.br,bandainamcostudios.my,bandainamcostudios.sg,baza.io,bbva.mx,bcm.marketing,belarus24.by,belenus.com.br,belivehotels.com,bemob.com,bfc.pl,bim-bike.hr,binomo.com,biofoodolbia.com,blomedry.com,bogazici.edu.tr,bokadirekt.se,bolagsverket.se,boomverzorgingmichiel.be,brandmake.nl,bubble-ecoworking.com,bubok.com.ar,caaquebec.com,calltouch.ru,carowall.com,cashconverters.es,cavex.co.uk,cdnnow.pro,cdnnow.ru,cebupacificair.com,centromaiez.com,certafarmacia.com.br,ch1ef.ru,chemistdirect.co.uk,chiavalon.hr,chilexpress.cl,chophytol.ru,ciar.london,cienpalacios.com,cineworld.co.uk,city-story.ru,classen.pl,colaboraread.com.br,compendium.com.ua,conquistainternet.com,corporate.it,cp.pt,creatica.com.ar,crytek.com,custplace.com,cutterbrooks.com,cvat.ai,cyberctm.com,danwood.de,darking.cz,depintxopote.com,desirebutik.pl,dhosting.pl,diamantea.com,diariodelaribera.net,dille-kamille.de,dimply.ai,divinity.game,dobro.hr,doctoralilianamarrero.com,doit.software,domarket.ru,dorotheum.com,duplicatephotosfixer.com,dur.ac.uk,dvdmax.pl,e-bebek.com,e-glossa.it,ebschool.cz,edifier.com,egyptair.com,egzaminy.edu.pl,elmachips.com.br,emall.by,emea.com.tr,enable-javascript.com,equall.gr,espariga.lv,estudiotextilcolor.com,etymon-solutions.com,eudita.es,euromedictorun.pl,eurozine.com,everybody-s.com,evisa.express,evropochta.by,fair.bg,fannatic.be,fastpersonal.ru,filtrosfera.pl,fitpatrol.pl,flatironsquare.co.uk,fluid.co.uk,fnsea.fr,folklore-society.com,fondazionehenraux.it,food.vkusvill.ru,foodforsoul.it,forsettlement.com,fortressbp.com,fotomatonia.com,free3dbase.com,freevpnplanet.com,friendsfit.cz,friendsofeurope.org,fuegodevida.com,gamdias.com,game-game.com,game-game.com.ua,game-game.ee,gandalf.com.pl,garajecentrobilbao.com,gartic.io,gdplegal.es,generator-rus.ru,geschenking.de,glavred.info,gmzp.pl,goboony.be,golfdondurma.com.tr,gorealtravel.com,gorodn.ru,gramota.ru,graneleiro.com.br,graspop.be,guggenheim-bilbao.eus,gumenadom.si,gurutzekogurasoak.eus,hartfordbusiness.com,hemocentroriopreto.com.br,heyzine.com,hi-fi.ru,hitdiscount.by,hmv.com,hondadealers.com,hopdoddy.com,hospitaldebase.com.br,hotel-merlin.cz,hotel-spider.com,hotelbellaire.com,hotelhaven.fi,hotelskeppsholmen.se,houkesloot.nl,hp-store.hr,hse.ru,huntshowdown.com,iamhungry.fr,iasgp.org,iden.team,idiomaster-arrasate.com,igsoft.be,ileanafundi.com,ilmainensanakirja.fi,imaginanet.com,imq.es,inagrm.com,indepth.dev,ingrad.ru,intendit.se,intergameonline.com,itkkit.com,iwp.be,jefferson-hifi-video.fr,justicaeleitoral.jus.br,kabola.hr,kaitseliit.ee,kiauto.fr,kituramirus.com,laboratoriohlab.com.br,lama-media.com,larepublica.co,laskort.com,latiendadelaspegatinas.com,lavardi.ru,ldavinci.edu.pe,lelieuunique.com,lenovostore.hr,les33.ru,lfv.se,ligaforty.com.br,litostroj.si,login.bankhapoalim.co.il,lvsas.sk,m.brettspielwelt.de,mabanque.bnpparibas,macpaw.com,madalinliviu.ro,mailjet.com,makandracards.com,mannheimerswartling.se,markups.kdanmobile.com,marsgaming.eu,martinrandall.com,maschinenportal24.de,mcc.live,media-sense.com,meintierdiscount.de,melag.com,metaflux-ts.cz,metalomarao.pt,mikronis.hr,milanowek.pl,mindshareworld.com,mindswarms.com,mir-tema.ru,mlp-advokat.ru,mm.ck.ua,mmk.ru,mnemonic.io,mobilephonemuseum.com,moby.it,mobylines.com,mobylines.de,mobylines.fr,modirum.com,monetizze.com.br,monterail.com,moongamestudios.com,mpccreative.io,mute.design,myinvestor.es,mzk.zgora.pl,najlepszemeble.pl,nanocad.com,nascentdesign.com,naszefutrzaki.eu,nedbank.co.za,nederlandsebrouwers.nl,netify.ai,neumaticoszorroza.com,nextmillennium.com,niedziela.pl,nobis.se,nobishotel.se,northmagnetic.com,nowports.com,o-ma-god.com,okocrm.com,omaweetraad.nl,onas.org.pl,onderdelenlijn.nl,oneticket.cz,onpoint.ru,onwelo.com,operakallaren.se,orientalmart.co.uk,ostrog.com,otkritkiok.ru,oxfloormultistep.com,panamaamerica.com.pa,panfasad.com,parfumsclub.de,patek.com,paysale.com,perfumesclub.co.uk,perfumesclub.com,perfumesclub.fr,perfumesclub.it,perfumesclub.nl,perfumesclub.pt,permak.com.tr,photonengine.com,picnic.app,pics.io,pildorasdefe.net,pkpcargo.com,playgwent.com,podmaz.sk,poolboy.eu,portalnovosti.com,portovivosru.pt,previssima.fr,pribram.cz,privatbank.ua,prof53.ru,propertygem.pl,proton.com,proxyparts.com,proxyparts.de,proxyparts.es,proxyparts.fr,proxyparts.pl,puntodepartida.com,radio-ecuador.com,referendum.gov.pl,reinbold-entsorgungstechnik.com,renaultbryanston.co.za,renaultfourways.co.za,renaultretailgroup.es,resumebuild.eu,rktbns.de,rowery-indiana.pl,royalparks.org.uk,rskrf.ru,rss.com,rti.org.tw,rtl.hr,rubyroidlabs.com,rusvpn.com,samsonite.ro,santiment.net,sapphiretech.com,sbsjager.sk,scamner.com,scobel.pasaz24.pl,screenflanders.be,sejmsenat2019.pkw.gov.pl,selfhost.de,selo-zelenoe.ru,sgu.se,sharafdg.com,sikera.com,singulart.com,sisjointressenter.se,sistic.com.sg,skillbox.ru,sky.com.mx,slicethepie.com,sosbernuciemati.lv,sprawdzonyfizjoterapeuta.pl,sprinter-avto.com,srazenazver.cz,stallmastaregarden.se,staltrans.ru,stanumamoy.com,stb.com.tn,stratoflow.com,streetfootballworld.org,strefawalut.pl,stuttafordvanlines.co.za,sudzibas.lv,summa.es,supercast.com,svww.de,swood.pl,sylan.pl,taylorandfrancis.com,tdsexport.com,technolove.ru,teknikdelar.se,telsu.fi,terilogy.com,tescomobile.ie,testeri.fi,thea-nordic.dk,thenottingham.com,thisisplayground.com,thomas-elliott.co.uk,threadreaderapp.com,tireshop.ua,tirrenia.it,todomecanica.com,topographic-map.com,topvintage.com,topwayschool.com,trempak.co.za,trend-russia.ru,tse.jus.br,tsmodelstube.com,tuplus.com.co,twinings.co.uk,udruga-gradova.hr,ukcisa.org.uk,umicore.com,unian.info,unian.net,unian.ua,universiteitleiden.nl,unknownphone.com,unpoly.com,uob.edu.om,uptodown.com,userinyerface.com,ustavprava.cz,uxfocus.cz,valledeelda.com,veb.net,ver-tv.online,vertabelo.com,vestaconsultores.com,vfs.cz,vips.com.mx,visolit.net,vizologi.com,vocesmexico.com,volvocars.com,vuz24.ru,vvdntools.com,webawards.com.ua,webdock.dk,webdock.io,welfarepartners.ie,westpandi.com,wesur.fr,weweler.eu,wid.com.pl,wilko.com,wizards.com,wkruk.pl,worldeducation.hr,wybory.gov.pl,wyylde.com,xn--h1alcedd.xn--d1aqf.xn--p1ai,youareinapp.com,zelena-akcija.hr,zerolives.com,zieduveikals.lv,zoom.earth##.cookies
 supermedia.pl##.cookies-banner_component
 ##.W_gotop
 whitepages.com##+js(set-cookie, accepted_tos_via_serp, true)
@@ -209182,6 +209195,7 @@ univ-journal.jp##.snsSpace
 ###hays-cookie-notice
 ###rndcookie_banner
 /icon_share_
+bnnbloomberg.ca,cp24.com,ctvnews.ca,irishnews.com,thedailybeast.com,tsn.ca##.b-share-bar
 iotsrg.org##.call-to-action
 ||route-fifty.com/cookie-policy
 temu.com##+js(set-local-storage-item, cookie_prompt_times, 1)
@@ -209623,7 +209637,6 @@ oilprice.com##.JoinCommunityBtnContainer
 itsfoss.com##.cta__inner
 ||face-push.com^$third-party
 ##.mini-socials
-sportsnet.ca##.micro_mail__dd_RW
 gmanetwork.com##.hdr-social-links
 ##.share__twitter
 coolmaterial.com##.c-socials-share-section
@@ -213063,7 +213076,6 @@ pizzastories.le5stagioni.it##.inview_animate
 3r-ambiental.com.br##.cookieConsentContainer
 kiplinger.com##.blueconic-article__wrapper
 ###js-c-cookie-consent-banner
-mlbtraderumors.com##.fv_sharing_round
 ##.newsletter__social-links
 ##.gdprCookieLaw
 ##.privacy_cookies_policy
@@ -213077,7 +213089,6 @@ ebay.com###gh-bt
 ##.rrss__button--twitter
 ###piskotOpozorilo
 ##.b-sharebar
-accademiadomani.it,bcgourmet.it,puntovendita.info,safevent.dk,unipi.it##.cadre_alert_cookies
 crowdstrike.com##.blog_main_navigation_top
 gaudiumpress.org##.widget_gaudium_social_links_widget
 dmsg.de,bgk.pl,pflegezeit-berlin.de,gpd-nordost-onlineberatung.de,proabschluss-beratung.de,dww-suchtberatung.de,cyberforum.de,gutscheine.eurothermen.at,wolff-mueller.de,ras.bz.it,technoalpin.com##+js(rc, dp--cookie-consent, body, stay)
@@ -213278,6 +213289,7 @@ zoover.nl##.jss179
 ###followface
 ###js-cookie-section
 royalora.hu##.cc-holder
+atlantablackstar.com##.pre-footer
 ##.social_header
 ||gstatic.com/firebasejs/$domain=joins.com|kompas.com|novayagazeta.eu|packaginginsights.com
 ##.df-top-bar-social
@@ -213463,6 +213475,7 @@ history.com##.p11s5o4
 ##.site-gdpr-message
 hooray-heroes.ca,hoorayheroes.co.uk###cookies
 carry.pl##+js(set-cookie, __carry_cookie_module, 2, , reload, 1)
+mlbtraderumors.com,prohockeyrumors.com##.fv_sharing_round
 basspro.com,cabelas.com##.DisclosurePopupContainer
 ##.ns-cookies
 ##.c-cookie__banner
@@ -213843,6 +213856,7 @@ leganerd.com##.LNPocket
 standaard.be#@#.gdpr-dialog
 rehva.eu###wb-cookie-policy
 ##.M4T-cookie
+accademiadomani.it,bcgourmet.it,diastixo.gr,puntovendita.info,safevent.dk,unipi.it##.cadre_alert_cookies
 ##.m-icon-facebook
 ##.openshare
 playbite.com###pb-cta
@@ -214068,6 +214082,7 @@ hyperallergic.com###pico_prompt
 ##.modal-cookies-color
 ecostal.fr,pferdekaemper.de,davidoff.com,floridaeis.de,kommago.nl,miele.ca,shop.zoo-leipzig.de,zav-sava.si,fresubin.com,applegang.cz,hyperoptic.com,sava-pokojninska.si,bookchoice.com,ladies-forum.de,cabri-sbo.org,socchef.shop,inactievooramnesty.nl,economycarrentals.com,verpackungsregister.org,galenpharma.de,printful.com,versteigerungspool.de,jegy.bahart.hu,inbayreuth.de,centrotiziano.it,kovoinox.cz,viaggiareinpuglia.it,kundisch.de,act-europe.eu,fazua.com,intelligenceonline.fr,bazar.cz,vmock.com,oxfordproducts.com,kwik-fit.com,praca.by,advantageaustria.org,favoptic.se,headsetwinkel.nl,thejunctionmemphis.com,kkh.de,agramonia.com,ecosatmadrid.com,omoda.nl,omoda.be,omoda.de,omoda.at,omoda.be,la-ola.de,colegiocostaadeje.clickedu.eu,portofoonwinkel.nl,pluspagos.com,akbank.de,bundesimmobilien.de,eibach.de,rightdeal.sk,pen-and-sword.co.uk,hotcinema.co.il,santelys.fr,pampatype.com,bdz.bg,givery.cz,givery.sk,germanwines.de,escort-side.dk,mielitekomedia.fi,alvaromoreno.com,carflexi.com,nanolab.cz,sportschrank.de,tu-darmstadt.de,ivam.de,airastana.com,bodyselect.com,gauloises.de,starmoney.de,blackburndesign.com,konferencje.pl,guarconsa.com,raildude.com,aikikai.de,cteasy.com,goodloot.cz,biblesociety.bg,continental-aftermarket.com,trading-point.com,aiti.gov.bn,csoszplatan.hu,airteam.shop,airteam.eu,brikett-rekord.com,nuessing.de,zoxs.de,routershop.nl,wijcontrolerenjedata.nl,esthesia.cz,novoserve.com,tropicfeel.com,shooter-media-tv.de,hornerakusko.sk,hornirakousko.cz,pelix-media.de,regionedanubio.it,regiondunaj.cz,salzkammergut.at,oldstars.nl,qwic.de,qwic.eu,qwic.nl,cptm.sp.gov.br,file.com.tr,layerboots.com,kolegiata-sieradz.pl,sukia.com,goldman-sachs.it,henrybetwin.com,academyofbusiness.pl,dubplate.be,codewordagency.com,cashconverters.es,cashconverters.pt,earthinnovation.org,tarifasmasmovil.es,lalettrea.fr,actronics.no,journeyou.com,taxidoefkeries.com,faircore4eosc.eu,naturkraft.at,thenightleague.com,wissenschaft-shop.de,alpacaboerderij.be,telia.lt,think.ing.com,orangedigitalcenter.es,shoot-club.de,derkum-modellbau.com,modellbau-berlinski.de,libet.pl,errorfarealerts.com,vpiera.com,csobleasing.sk,sendiroo.fr,audis.it,agroservice.com.pl,mijazztel.com,osehero.pl,pranarom.fr,zoo-berlin.de,lufthansagroup.com,actronics-gmbh.de,imd-berlin.de,africaintelligence.com,hspv.nrw.de,sera.de,hotelius.com,estropical.com,todoviaje.es,cupohotel.com,castelatours.com,mapadinamics.com,istanbulplusriviera.com,grancanariareiser.no,safarati.com,escoper.com,locosxelmundo.com,ortolaviajes.com,travelbefore.it,welovegreece.com,interpass-viagens.pt,narila.com,hotelius.fr,forcinaviaggi.it,wtfares.com,schizophrenianet.eu,barracudashoes.it,dpi-immo.fr,smbp.fr,immorev.com,formatype.com,i2c-construction.com,pavesderue.com,lilienthal.berlin,ferntech.co.nz,nmsu.edu,scroller.de,kunstmuseum-stuttgart.de,araani.com,top4fans.com,apothekerkammer.at,ig-immobilien.com,vlgpeer.com,hrci.org,flz.de,yd4k.com,epd4k.com,gd4k.com,smsmiles.com,happysmilesmeridian.com,happysmilestupelo.com,happysmileshornlake.com,leoprinting.lu,leoprinting.be,leoprinting.fr,leoprinting.at,leoprinting.de,leoprinting.nl,konrad-adenauer.de,wiener-staatsoper.at,vaxserve.com,zora.bg,hutchinson.com,flip.hu,sharewise.com,coperama.es,lamusardine.com,victoryliner.com,unna.de##body,html:style(overflow: auto !important; position: initial !important;)
 ##.popup-cookieconsent-down
+mlbtraderumors.com,prohockeyrumors.com##.nav-arrow
 ###shopillaxcookielaw-wrapper
 ###COOKIE_NOTIF
 ##.smile-cookie-notification-container
@@ -215269,7 +215284,6 @@ astonmartinf1.com##.cookie-prompt
 aulart.com##.elementor-widget-wrap .elementor-inner-section.elementor-section-boxed
 astrooroscopo.it##.popup
 ##.partialSocialButtons
-bnnbloomberg.ca,cp24.com,ctvnews.ca,irishnews.com,thedailybeast.com##.b-share-bar
 pbs.org,restofworld.org##.inline-newsletter
 ###push-notification
 benvenuti.com##+js(set-cookie, CakeCookie[cookie_consent], 1)
@@ -216830,7 +216844,6 @@ streamate.com##.PayPalAgeGate-root-0-2-2
 khanacademy.org###donate-banner
 ##.share-toolbar-box
 teraz.sk##.articleActions
-mlbtraderumors.com##.nav-arrow
 ##.socialbar-mobile
 ogbongeblog.com##.wp-block-jetpack-send-a-message
 aceshowbiz.com##.stay-connected
@@ -216845,7 +216858,6 @@ caravan.kz##.PatternCurrentNewsHead__share
 thetoyinsider.com##.wds-block-newsletter
 ##.ca-consent-cookie-bar-wrap
 ###complianceCookie
-sportsnet.ca##.micro_xshare__KIfyn
 alcoholics-anonymous.org.uk,campingenfola.com,cryps.info###cook
 wweek.com##.b-text-button-cta
 giornaleradio.fm##.proradio-shareball
@@ -221141,6 +221153,7 @@ macleans.ca##.single-article-text > blockquote > p
 ##.CookiesNotification
 radioteka.cz###cs_stripe
 worldscreen.com##.widget_execphp.widget
+diastixo.gr##+js(set-cookie, the_cookie719, true)
 webpronews.com###sub-pop
 scribd.com##.modal_open:style(height: auto !important; overflow: auto !important;)
 gameswelt.de##.share__top
@@ -221837,7 +221850,6 @@ coig.com.pl,derma-line.waw.pl,digitalart.pl,grekop.pl,metmax.com.pl,mijo.pl,rajd
 faq.whatsapp.com,blog.whatsapp.com,www.whatsapp.com##+js(rc, hasCookieBanner, body, stay)
 ###twitter-feed
 ##.socialpopdust
-sportsnet.ca##.Feedback__cont
 ##.widget-gdpr-cookie-banner
 ||tinypass.com^$domain=artnews.com|bbc.com|bbcgoodfood.com|billboard.com|businessinsider.com.pl|deadline.com|nationalobserver.com|npr.org|outsideonline.com|prospectmagazine.co.uk|rawstory.com|refinery29.com|rollingstone.com|sifted.eu|stuff.co.nz|telegraph.co.uk|the42.ie|thedailybeast.com|theintercept.com|thelogic.co|thenation.com|variety.com|wwd.com
 teltarif.de##.sbm
@@ -228861,6 +228873,7 @@ emergingrisks.co.uk##.avia-post-nav
 qmee.com##.mobile-app-hidden
 proactua.com##proactua-cookie-consent
 advocate.com,metro.co.uk##.newsletter-overlay
+drive.com.au###drive-subscribe-newsletter
 ##.smt-cookie-note
 boomlive.in###button
 mbanc.com#@#.ccpa-banner
@@ -242299,6 +242312,7 @@ highsnobiety.com##.mpu___jBf9d
 ###mainContainerCookies
 prague-catering.cz##+js(set-cookie, euc, 1)
 geizhals.at,geizhals.de,geizhals.eu##+js(set-local-storage-item, dnt_message_shown, 1)
+www.yahoo.com##.bg-white.border-\[\#eceff2\]:has-text(Weekday Newsletter)
 artx.at##body,html:style(overflow: auto !important; position: initial !important;)
 macmagazine.com.br##.cs-site-subscribe
 /plugins/dpSocialShare/js/jquery.dpSocialShare.js
@@ -245797,6 +245811,7 @@ xbiz.com##.tool-list
 ##.cont-cookie
 ###cctoolRoot
 4cc.com.au,ansa.it,cryptopotato.com,dailyartmagazine.com,eff.org,ewn.co.za,hannity.com,jurist.org,lagaceta.com.ec,melmagazine.com,menselijklichaam.nl,miragenews.com,mobilesyrup.com,mole24.it,newhumanist.org.uk,sampdoria.it,thecookscook.com,upcomingvinyl.com,vivercomsaude.site##.share-links
+sportsnet.ca##.micro_social-icons__E_pIu
 ##.shre-icon
 matadornetwork.com##body:style(height: auto !important; overflow: auto !important)
 bitdegree.org,churchpop.com,conmebol.com,philadelphiaherald.com,reasonstobecheerful.world,thechainsaw.com##.subscribe-section
