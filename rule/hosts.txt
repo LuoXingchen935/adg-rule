@@ -1,4 +1,4 @@
-# Update time: 2026-01-13 00:27:01
+# Update time: 2026-01-13 09:42:21
 # Repo URL: https://github.com/fordes123/adg-rule
 
 0.0.0.0 bn4sch101120911.wns.windows.com
@@ -1970,7 +1970,6 @@
 127.0.0.1 apac-sg-ad-track.aralego.com
 127.0.0.1 centralads.simpli.fi
 127.0.0.1 cm.g.doubleclick.net
-127.0.0.1 clientmetrics-augmentum.kik.com
 127.0.0.1 global.adserver.yahoo.com
 127.0.0.1 api-telemetry.servers.getgo.com
 127.0.0.1 l0-secure.videohub.tv
@@ -8922,6 +8921,7 @@
 127.0.0.1 *.am15.net
 127.0.0.1 *.dmrtb.com
 127.0.0.1 *.gdt.qq.com
+127.0.0.1 *.duomeng.org
 127.0.0.1 *.adpro.cn
 127.0.0.1 *.tatagou.com.cn
 127.0.0.1 *.exdynsrv.com
@@ -10451,7 +10451,6 @@
 0.0.0.0 livep.l.aiseet.atianqi.com
 0.0.0.0 novelsns.html5.qq.com
 0.0.0.0 stats.feitianma.com
-0.0.0.0 app.xyjqy.com
 0.0.0.0 e.szqifu.com
 0.0.0.0 v2.reachmax.cn
 0.0.0.0 m.jd.watbe.top
@@ -12811,7 +12810,6 @@
 0.0.0.0 sdk.open.phone.igexin.com
 0.0.0.0 sync.1dmp.io
 0.0.0.0 z7.cnzz.com
-0.0.0.0 ex.umengcloud.com
 0.0.0.0 direct.adperium.com
 0.0.0.0 mhjk.1391.com
 0.0.0.0 clk.pdb.madserving.com
