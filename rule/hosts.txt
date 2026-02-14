@@ -1,4 +1,4 @@
-# Update time: 2026-02-14 16:32:22
+# Update time: 2026-02-15 00:29:27
 # Repo URL: https://github.com/fordes123/adg-rule
 
 127.0.0.1 app-lon06.marketo.com
@@ -1225,6 +1225,7 @@
 127.0.0.1 apac-sg-ad-track.aralego.com
 127.0.0.1 centralads.simpli.fi
 127.0.0.1 cm.g.doubleclick.net
+127.0.0.1 clientmetrics-augmentum.kik.com
 127.0.0.1 global.adserver.yahoo.com
 127.0.0.1 api-telemetry.servers.getgo.com
 127.0.0.1 l0-secure.videohub.tv
@@ -8605,6 +8606,7 @@
 0.0.0.0 livep.l.aiseet.atianqi.com
 0.0.0.0 novelsns.html5.qq.com
 0.0.0.0 stats.feitianma.com
+0.0.0.0 app.xyjqy.com
 0.0.0.0 e.szqifu.com
 0.0.0.0 v2.reachmax.cn
 0.0.0.0 m.jd.watbe.top
@@ -8765,6 +8767,7 @@
 0.0.0.0 s4.histats.com
 0.0.0.0 4171764.fls.doubleclick.net
 0.0.0.0 v.jumorecn.com.cn
+0.0.0.0 license.piriform.com
 0.0.0.0 analytics3.starschina.com
 0.0.0.0 addata.ku6.com
 0.0.0.0 t.hmwebs.top
@@ -10964,6 +10967,7 @@
 0.0.0.0 sdk.open.phone.igexin.com
 0.0.0.0 sync.1dmp.io
 0.0.0.0 z7.cnzz.com
+0.0.0.0 ex.umengcloud.com
 0.0.0.0 direct.adperium.com
 0.0.0.0 mhjk.1391.com
 0.0.0.0 clk.pdb.madserving.com
@@ -13637,6 +13641,7 @@
 0.0.0.0 log.tbs.qq.com
 0.0.0.0 dev.tg.wan.360.cn
 0.0.0.0 www.shouyoutan.com
+0.0.0.0 banneras.admaster.com.cn
 0.0.0.0 tracking06.ad4game.com
 0.0.0.0 vtyqy.admaster.com.cn
 0.0.0.0 hz.miercn.com
