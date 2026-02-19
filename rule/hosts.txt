@@ -1,4 +1,4 @@
-# Update time: 2026-02-19 01:03:19
+# Update time: 2026-02-19 10:08:49
 # Repo URL: https://github.com/fordes123/adg-rule
 
 0.0.0.0 bn4sch101120911.wns.windows.com
@@ -13444,6 +13444,7 @@
 127.0.0.1 exch.quantserve.com
 127.0.0.1 sync.adkernel.com
 127.0.0.1 qds0l.publishers.tremorhub.com
+127.0.0.1 pings.conviva.com
 127.0.0.1 gcd-s2s.appsflyer.com
 127.0.0.1 app.optinmonster.com
 127.0.0.1 youmi.net
