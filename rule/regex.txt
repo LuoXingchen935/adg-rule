@@ -1,4 +1,4 @@
-# Update time: 2026-03-14 10:01:28
+# Update time: 2026-03-14 16:35:54
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||sax*.sina.
@@ -212,14 +212,11 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
-||rgfftupf.
 ||orderana*.spankbang.com^
 ||adservice.google.
 ||trace-*.free-reels.com^
-||counter*.stat.ovh^
 ||collector-*.pxchk.net^
 |load.sst.
-||ads.livetv*.me^
 ||allsportsflix.
 ||log*-normal-*.tiktokv.us^
 ||iphone-caviar.ru*entranceId
@@ -296,7 +293,6 @@ analytics-*.aasaam.com
 ||track.zalando.
 ||mcs-*.tiktok.com^
 ||seller-log-collector.shopee.
-||advert*.livesportmedia.eu^
 ||subnewss*.net^
 ||t.delfi.
 ||hostingcloud.*.wasm^
@@ -327,7 +323,6 @@ analytics-*.aasaam.com
 ||mon-v*-boot.capcutapi.com^
 ||piwik.*.vn^
 ||letssex.
-||ad-host-backup-*.aliyuncs.com^
 ||sonar*.xy.fbcdn.net^
 ||cl*.k5a.io^
 ||mcs-*.lemon8-app.us^
@@ -352,7 +347,6 @@ analytics-*.aasaam.com
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
-||fxhpaoxqyajvmdg.
 ||servo-report.keepstreams.*^
 ||logreport-global-dual.cool*cloud.com^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
@@ -451,7 +445,6 @@ analytics-*.aasaam.com
 ||ssp*.rtb.beeline.ru^
 ||stats*.videonow.ru^
 ||pixel.archive.
-||reachableads-av.*.amazonaws.com^
 ||ad*.thisisgame.com^
 ||mon-va*.capcutapi.com^
 ||collect-v*.51.la^
@@ -483,27 +476,6 @@ analytics-*.aasaam.com
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
-||ads*.opensubtitles.org^
-||gamenguide.com*adbk
-rgmechanicsgames.com*VPN.exe
-||142.91.159.
-||fapnado.*.php|
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-Banner468x60
-||icast.
-||gg.
-||union.
-||adpic.
-||cnzz.
-||sax.sina.
-||biz5.
-||xmindchina.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
-@@||tongji.*kuwo.cn^
 ||host*.nti.nl^
 ||pangolin-sdk-toutiao*.com^
 ||ad-host-backup-*.s3.*.aliyuncs.com^
@@ -516,7 +488,6 @@ Banner468x60
 ||analytics-*-nfl.yinzcam.com^
 ||host*.carl-ras.dk^
 ||liveme-sensors-collect2-*.amazonaws.com^
-||ads*.dfiles.ru^
 ||stun.*.kugou.com^
 ||host*.ncoi.nl^
 ||hw-sh-pcdn-*.biliapi.net^
@@ -552,7 +523,6 @@ Banner468x60
 ||imp-*.jampp.com^
 ||iptracker-lb-*.amazonaws.com^
 ||mobileanalytics.*.amazonaws.com^
-||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
 ||ali-bj-pcdn-*.biliapi.net^
@@ -615,8 +585,6 @@ Banner468x60
 ||hstats*.hepsiburada.com^
 ||cza*.crazygames.com^
 ||zabdybod*.club^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||hads*s.com^
 ||geoloc*.geo20120530.com^
 ||fp-*it*.fengkongcloud.com^
@@ -680,11 +648,26 @@ Banner468x60
 ||flurry.agentportal-*.yahoodns.net^
 ||host*.rigbyandpeller.com^
 ||analytics.*.sky.com^
-<p><pre>
-<title>
-<html>
-<head>
-<body>
+@@||tongji.*kuwo.cn^
+||reachableads-av.*.amazonaws.com^
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||ads*.dfiles.eu^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||ad-host-backup-*.aliyuncs.com^
+||fapnado.*.php|
+||itechpost.com*adbk
+||rgfftupf.
+@@||cdn*.porn300.com^
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||ads*.dfiles.ru^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||142.91.159.
+||fxhpaoxqyajvmdg.
+Banner468x60
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||ub.galaxus.
@@ -699,4 +682,21 @@ Banner468x60
 ||analytics.ticketmaster.
 %2Fevent.gif%3F
 ||df.infra.shopee.
+<p><pre>
+<title>
+<html>
+<head>
+<body>
 page_view_count
+||icast.
+||gg.
+||union.
+||adpic.
+||cnzz.
+||sax.sina.
+||biz5.
+||xmindchina.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
