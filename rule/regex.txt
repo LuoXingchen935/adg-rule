@@ -1,4 +1,4 @@
-# Update time: 2026-03-24 00:55:56
+# Update time: 2026-03-24 10:05:33
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -83,6 +83,7 @@
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
+||widgets.*.webengage.com^
 ||adx.
 ||adx-
 ||adsfs.
@@ -148,7 +149,6 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-||widgets.*.webengage.com^
 ||da.hornbach.*^
 ||dm-*.toutiao.com^
 ||adsystem*.*^
@@ -203,18 +203,14 @@ advertisers.js|
 ||qchannel*.cn^
 ||tracker*.qcloud.com^
 ||adwords*.*^
-||icast.
-||gg.
-||union.
-||adpic.
-||cnzz.
-||sax.sina.
-||biz5.
-||xmindchina.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
+||ads*.opensubtitles.org^
+||gamenguide.com*adbk
+rgmechanicsgames.com*VPN.exe
+||142.91.159.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+Banner468x60
 ||tracking.cds.dmm.
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
@@ -223,7 +219,6 @@ analytics-*.aasaam.com
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
 ||rgfftupf.
-||adservice.google.
 ||trace-*.free-reels.com^
 ||counter*.stat.ovh^
 |load.sst.
@@ -278,7 +273,6 @@ analytics-*.aasaam.com
 ||rb*.design.ru^
 ||logs*.smithsonian.museum^
 ||bar*.shinobi.jp^
-||ecommerce-events*.adscale.com^
 ||counter*.freecounter.ovh^
 ||grs.dbankcloud.
 ||tracking-v*.a.run.app^
@@ -313,7 +307,6 @@ analytics-*.aasaam.com
 |piwik.
 ||letssex.
 ||ad-host-backup-*.aliyuncs.com^
-||sonar*.xy.fbcdn.net^
 ||cl*.k5a.io^
 ||analytics.ahrefs.
 ||s*.adduplex.com^
@@ -356,7 +349,6 @@ analytics-*.aasaam.com
 ||staging-*.ispot.tv^
 ||s*.skencituer.com^
 ||underclick.
-||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
 ||tracking.*.miui.com^
 ||cnt.hd21.
@@ -499,6 +491,7 @@ analytics-*.aasaam.com
 ||mon*-misc.fqnovel.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
+||ecommerce-events*.adscale.com^
 ||zazgiyoh*.xyz^
 ||stats*.credit-cooperatif.coop^
 ||ulog*.*^
@@ -527,6 +520,7 @@ analytics-*.aasaam.com
 ||mon-v*-boot.capcutapi.com^
 ||n*adserv.xyz^
 ||piwik.*.vn^
+||sonar*.xy.fbcdn.net^
 ||adsfilebssdlbig.*.kugou.com^
 ||mautic.*.vn^
 ||mcs-*.lemon8-app.us^
@@ -564,7 +558,6 @@ analytics-*.aasaam.com
 ||clog*.yuanfudao.com^
 ||htm*.hepsiburada.com^
 ||mapi-log.qoo*.jp^
-||w*.*skwai.com^
 ||logs.collector.*.cloud.solarwinds.com^
 ||analytics-*-nfl.yinzcam.com^
 ||sdk-*.moengage.com^
@@ -672,10 +665,17 @@ analytics-*.aasaam.com
 ||aj2*.bid^
 ||analytics*.prezly.com^
 ||collector*.ex.co^
+<p><pre>
+<title>
+<html>
+<head>
+<body>
+||bc.geocities.
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||ub.galaxus.
 ||sst.carwow.
+||adservice.google.
 %2Fopen.aspx%3F
 ||stats.zone-annuaire.
 ||df.infra.sz.shopee.
@@ -686,18 +686,17 @@ analytics-*.aasaam.com
 ||analytics.ticketmaster.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-<p><pre>
-<title>
-<html>
-<head>
-<body>
-||ads*.opensubtitles.org^
-||gamenguide.com*adbk
-rgmechanicsgames.com*VPN.exe
-||142.91.159.
-||fapnado.*.php|
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-Banner468x60
 page_view_count
+||icast.
+||gg.
+||union.
+||adpic.
+||cnzz.
+||sax.sina.
+||biz5.
+||xmindchina.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
 @@||tongji.*kuwo.cn^
