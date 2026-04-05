@@ -1,4 +1,4 @@
-# Update time: 2026-04-05 00:35:56
+# Update time: 2026-04-05 10:30:50
 # Repo URL: https://github.com/fordes123/adg-rule
 
 127.0.0.1 app-lon06.marketo.com
@@ -1225,6 +1225,7 @@
 127.0.0.1 apac-sg-ad-track.aralego.com
 127.0.0.1 centralads.simpli.fi
 127.0.0.1 cm.g.doubleclick.net
+127.0.0.1 clientmetrics-augmentum.kik.com
 127.0.0.1 global.adserver.yahoo.com
 127.0.0.1 api-telemetry.servers.getgo.com
 127.0.0.1 l0-secure.videohub.tv
@@ -8498,6 +8499,7 @@
 0.0.0.0 p8u.hinet.net
 0.0.0.0 ue.applovin.com
 0.0.0.0 oth.eve.mdt.qq.com
+0.0.0.0 gw.innotechx.com
 0.0.0.0 pilot-ad.flurry.com
 0.0.0.0 pub.funshion.com
 0.0.0.0 cms.quantserve.com
@@ -8651,6 +8653,7 @@
 0.0.0.0 s26.cnzz.com
 0.0.0.0 t3.58cdn.com.cn
 0.0.0.0 atm.yoyi.com.cn
+0.0.0.0 stats.propellerads.com
 0.0.0.0 du.jd.com
 0.0.0.0 5yrra.deshuangwang.cn
 0.0.0.0 jump.001union.com
@@ -10911,6 +10914,7 @@
 0.0.0.0 w.waacorp.com
 0.0.0.0 dl.mbsea.com
 0.0.0.0 umeng.com
+0.0.0.0 static.awempire.com
 0.0.0.0 app.3987.com
 0.0.0.0 tracking08.ad4game.com
 0.0.0.0 webd.home.news.cn
