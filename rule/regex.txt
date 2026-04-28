@@ -1,4 +1,4 @@
-# Update time: 2026-04-28 10:53:51
+# Update time: 2026-04-28 18:12:55
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -84,6 +84,7 @@
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
+||widgets.*.webengage.com^
 ||adx.
 ||adx-
 ||adsfs.
@@ -204,7 +205,6 @@ advertisers.js|
 ||qchannel*.cn^
 ||tracker*.qcloud.com^
 ||adwords*.*^
-||widgets.*.webengage.com^
 ||tracking.cds.dmm.
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
@@ -326,7 +326,6 @@ analytics-*.aasaam.com
 ||query*.petametrics.com^
 ||button.blogs.yandex.
 ||fxhpaoxqyajvmdg.
-||servo-report.keepstreams.*^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||rum*.a.trbcdn.net^
 ||analytics-api.dvdfab.
@@ -429,6 +428,31 @@ analytics-*.aasaam.com
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
+||ads*.opensubtitles.org^
+||gamenguide.com*adbk
+rgmechanicsgames.com*VPN.exe
+||158.247.208.
+||23.109.82.
+||142.91.159.
+|167.206.10.148^
+||fapnado.*.php|
+||23.109.87.
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+Banner468x60
+@@||tongji.*kuwo.cn^
+||icast.
+||gg.
+||union.
+||adpic.
+||cnzz.
+||sax.sina.
+||biz5.
+||xmindchina.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||increase-rev*.static-cloudflare.workers.dev^
@@ -551,6 +575,7 @@ analytics-*.aasaam.com
 ||flurry.agentportal-*.yahoodns.net^
 ||host*.rigbyandpeller.com^
 ||analytics.*.sky.com^
+||servo-report.keepstreams.*^
 ||pangolin-sdk-toutiao*.com^
 ||collector-*.luigisbox.com^
 ||logreport-global-dual.cool*cloud.com^
@@ -667,18 +692,7 @@ analytics-*.aasaam.com
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
 ||analytics*.prezly.com^
-||ads*.opensubtitles.org^
-||gamenguide.com*adbk
-rgmechanicsgames.com*VPN.exe
-||158.247.208.
-||23.109.82.
-||142.91.159.
-|167.206.10.148^
-||fapnado.*.php|
-||23.109.87.
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-Banner468x60
+page_view_count
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||ub.galaxus.
@@ -694,22 +708,8 @@ Banner468x60
 ||analytics.ticketmaster.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-@@||tongji.*kuwo.cn^
 <p><pre>
 <title>
 <html>
 <head>
 <body>
-page_view_count
-||icast.
-||gg.
-||union.
-||adpic.
-||cnzz.
-||sax.sina.
-||biz5.
-||xmindchina.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
