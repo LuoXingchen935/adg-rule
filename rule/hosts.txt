@@ -1,4 +1,4 @@
-# Update time: 2026-05-23 01:50:26
+# Update time: 2026-05-23 10:55:45
 # Repo URL: https://github.com/fordes123/adg-rule
 
 0.0.0.0 bn4sch101120911.wns.windows.com
@@ -1958,7 +1958,6 @@
 0.0.0.0 p8u.hinet.net
 0.0.0.0 ue.applovin.com
 0.0.0.0 oth.eve.mdt.qq.com
-0.0.0.0 gw.innotechx.com
 0.0.0.0 pilot-ad.flurry.com
 0.0.0.0 pub.funshion.com
 0.0.0.0 cms.quantserve.com
@@ -4372,7 +4371,6 @@
 0.0.0.0 w.waacorp.com
 0.0.0.0 dl.mbsea.com
 0.0.0.0 umeng.com
-0.0.0.0 static.awempire.com
 0.0.0.0 app.3987.com
 0.0.0.0 tracking08.ad4game.com
 0.0.0.0 webd.home.news.cn
