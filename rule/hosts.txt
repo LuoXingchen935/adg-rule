@@ -1,4 +1,4 @@
-# Update time: 2026-07-16 18:07:39
+# Update time: 2026-07-17 01:14:43
 # Repo URL: https://github.com/fordes123/adg-rule
 
 0.0.0.0 bn4sch101120911.wns.windows.com
@@ -8650,7 +8650,6 @@
 0.0.0.0 s26.cnzz.com
 0.0.0.0 t3.58cdn.com.cn
 0.0.0.0 atm.yoyi.com.cn
-0.0.0.0 stats.propellerads.com
 0.0.0.0 du.jd.com
 0.0.0.0 5yrra.deshuangwang.cn
 0.0.0.0 jump.001union.com
@@ -10911,7 +10910,6 @@
 0.0.0.0 w.waacorp.com
 0.0.0.0 dl.mbsea.com
 0.0.0.0 umeng.com
-0.0.0.0 static.awempire.com
 0.0.0.0 app.3987.com
 0.0.0.0 tracking08.ad4game.com
 0.0.0.0 webd.home.news.cn
@@ -11381,7 +11379,6 @@
 0.0.0.0 jebe.xnimg.cn
 0.0.0.0 ibafnw.cn
 0.0.0.0 s.goodkee.cn
-0.0.0.0 us.y.atwola.com
 0.0.0.0 ggdata1.cnr.cn
 0.0.0.0 j.biquge520.cc
 0.0.0.0 ark.cocounion.com
@@ -15675,7 +15672,6 @@
 127.0.0.1 cdn.pyadx.com
 127.0.0.1 xray.jebe.renren.com
 127.0.0.1 awake-stats.jpush.cn
-127.0.0.1 zs15.cnzz.com
 127.0.0.1 p.s.360.cn
 127.0.0.1 conversion.pro.cn
 127.0.0.1 adpublish.ydstatic.com
