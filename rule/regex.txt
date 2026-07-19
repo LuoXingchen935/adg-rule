@@ -1,4 +1,4 @@
-# Update time: 2026-07-19 10:40:24
+# Update time: 2026-07-19 17:51:03
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -55,7 +55,6 @@
 ||impservice*.youdao.com^
 ||fanpingbi*.gaokao.com^
 ||dn*.ixinwei.com^
-||a*.chajiaotong.com^
 ||bdlm*.hc360.com^
 ||ya*.dwstatic.com^
 ||ad*.on.cc^
@@ -72,7 +71,6 @@
 ||same*.stockstar.com^
 ||gcw*.2liang.cn^
 ||impservice*.yodao.com^
-||ac*.faxingchina.com^
 ||fpb1.chinacar.
 ||ax.*.ifeng.com^
 ||121.204.246.*.gif
@@ -215,7 +213,6 @@ analytics-*.aasaam.com
 ||adservice.google.
 ||trace-*.free-reels.com^
 ||counter*.stat.ovh^
-||collector-*.pxchk.net^
 |load.sst.
 ||ads.livetv*.me^
 ||allsportsflix.
@@ -327,7 +324,6 @@ analytics-*.aasaam.com
 ||button.blogs.yandex.
 ||buzzer.xhamster*
 ||fxhpaoxqyajvmdg.
-||servo-report.keepstreams.*^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||rum*.a.trbcdn.net^
 ||analytics-api.dvdfab.
@@ -438,6 +434,7 @@ analytics-*.aasaam.com
 ||orderana*.spankbang.com^
 ||sd.yhzzzs*.com^
 ||mcs-normal-*.capcutapi.com^
+||collector-*.pxchk.net^
 ||host*.carl-ras.dk^
 ||ads*.dfiles.ru^
 ||log*-normal-*.tiktokv.us^
@@ -554,6 +551,7 @@ analytics-*.aasaam.com
 ||flurry.agentportal-*.yahoodns.net^
 ||host*.rigbyandpeller.com^
 ||analytics.*.sky.com^
+||servo-report.keepstreams.*^
 ||pangolin-sdk-toutiao*.com^
 ||clickhouse-collector.*.prod.plat.agency^
 ||collector-*.luigisbox.com^
@@ -594,6 +592,7 @@ analytics-*.aasaam.com
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
+||a*.chajiaotong.com^
 ||gads*s.com^
 ||gscounters.*.gigya.com^
 ||fads*z.com^
@@ -610,6 +609,7 @@ analytics-*.aasaam.com
 ||adcounter*.uptolike.ru^
 ||metric*.rediff.com^
 ||xy-*pcdn.msstatic.com^
+||ac*.faxingchina.com^
 ||log*.aliyuncs.com^
 ||geoloc*.geovisite.ovh^
 ||fra-*.braze.eu^
@@ -672,6 +672,18 @@ analytics-*.aasaam.com
 ||analytics*.prezly.com^
 ||collector*.ex.co^
 @@||tongji.*kuwo.cn^
+||icast.
+||gg.
+||union.
+||adpic.
+||cnzz.
+||sax.sina.
+||biz5.
+||xmindchina.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||ub.galaxus.
@@ -687,6 +699,11 @@ analytics-*.aasaam.com
 ||analytics.ticketmaster.
 %2Fevent.gif%3F
 ||df.infra.shopee.
+<p><pre>
+<title>
+<html>
+<head>
+<body>
 ||ads*.opensubtitles.org^
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
@@ -701,20 +718,3 @@ rgmechanicsgames.com*VPN.exe
 Banner468x60
 follow-it-form-subscribe
 page_view_count
-||icast.
-||gg.
-||union.
-||adpic.
-||cnzz.
-||sax.sina.
-||biz5.
-||xmindchina.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
-<p><pre>
-<title>
-<html>
-<head>
-<body>
