@@ -1,4 +1,4 @@
-# Update time: 2026-08-04 10:28:43
+# Update time: 2026-08-04 18:38:12
 # Repo URL: https://github.com/fordes123/adg-rule
 
 127.0.0.1 app-lon06.marketo.com
@@ -15236,6 +15236,7 @@
 127.0.0.1 cdn.pyadx.com
 127.0.0.1 xray.jebe.renren.com
 127.0.0.1 awake-stats.jpush.cn
+127.0.0.1 zs15.cnzz.com
 127.0.0.1 p.s.360.cn
 127.0.0.1 conversion.pro.cn
 127.0.0.1 adpublish.ydstatic.com
