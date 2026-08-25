@@ -1,4 +1,4 @@
-# Update time: 2026-08-25 09:12:40
+# Update time: 2026-08-25 16:40:45
 # Repo URL: https://github.com/fordes123/adg-rule
 
 0.0.0.0 bn4sch101120911.wns.windows.com
@@ -1427,7 +1427,6 @@
 0.0.0.0 log.ad-locus.com
 0.0.0.0 data.linezing.com
 0.0.0.0 backup.lumion3d.com
-0.0.0.0 imgadpai.thepaper.cn
 0.0.0.0 i.ssix.io
 0.0.0.0 match.prod.bidr.io
 0.0.0.0 pmh.souid.com
