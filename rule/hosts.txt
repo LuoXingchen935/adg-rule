@@ -1,4 +1,4 @@
-# Update time: 2026-09-10 11:19:29
+# Update time: 2026-09-10 20:43:32
 # Repo URL: https://github.com/fordes123/adg-rule
 
 0.0.0.0 bn4sch101120911.wns.windows.com
@@ -4426,7 +4426,6 @@
 0.0.0.0 sdk.open.phone.igexin.com
 0.0.0.0 sync.1dmp.io
 0.0.0.0 z7.cnzz.com
-0.0.0.0 ex.umengcloud.com
 0.0.0.0 direct.adperium.com
 0.0.0.0 mhjk.1391.com
 0.0.0.0 clk.pdb.madserving.com
