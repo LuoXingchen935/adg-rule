@@ -1,4 +1,4 @@
-# Update time: 2026-09-26 11:46:35
+# Update time: 2026-09-26 20:41:18
 # Repo URL: https://github.com/fordes123/adg-rule
 
 127.0.0.1 app-lon06.marketo.com
@@ -1225,6 +1225,7 @@
 127.0.0.1 apac-sg-ad-track.aralego.com
 127.0.0.1 centralads.simpli.fi
 127.0.0.1 cm.g.doubleclick.net
+127.0.0.1 clientmetrics-augmentum.kik.com
 127.0.0.1 global.adserver.yahoo.com
 127.0.0.1 api-telemetry.servers.getgo.com
 127.0.0.1 l0-secure.videohub.tv
@@ -2355,6 +2356,7 @@
 127.0.0.1 webanalytics.localytics.com
 127.0.0.1 ipla.hit.stat24.com
 127.0.0.1 r.casalemedia.com.edgekey.net
+127.0.0.1 micpn.com
 127.0.0.1 us.criteo.net
 127.0.0.1 ginf.adfurikun.jp
 127.0.0.1 6384.eu-api.swrve.com
@@ -9900,7 +9902,6 @@
 0.0.0.0 p8u.hinet.net
 0.0.0.0 ue.applovin.com
 0.0.0.0 oth.eve.mdt.qq.com
-0.0.0.0 gw.innotechx.com
 0.0.0.0 pilot-ad.flurry.com
 0.0.0.0 pub.funshion.com
 0.0.0.0 cms.quantserve.com
@@ -10170,6 +10171,7 @@
 0.0.0.0 s4.histats.com
 0.0.0.0 4171764.fls.doubleclick.net
 0.0.0.0 v.jumorecn.com.cn
+0.0.0.0 license.piriform.com
 0.0.0.0 analytics3.starschina.com
 0.0.0.0 addata.ku6.com
 0.0.0.0 t.hmwebs.top
@@ -10956,7 +10958,6 @@
 0.0.0.0 interest.mix.sina.com.cn
 0.0.0.0 cz75pw.kl0ru78.xyz
 0.0.0.0 wxr.kebi1.top
-0.0.0.0 pp.lbsjrw.cn
 0.0.0.0 www.56yk.com
 0.0.0.0 api.iimedia.cn
 0.0.0.0 www.716703.com
@@ -12314,6 +12315,7 @@
 0.0.0.0 w.waacorp.com
 0.0.0.0 dl.mbsea.com
 0.0.0.0 umeng.com
+0.0.0.0 static.awempire.com
 0.0.0.0 app.3987.com
 0.0.0.0 tracking08.ad4game.com
 0.0.0.0 webd.home.news.cn
@@ -12369,6 +12371,7 @@
 0.0.0.0 sdk.open.phone.igexin.com
 0.0.0.0 sync.1dmp.io
 0.0.0.0 z7.cnzz.com
+0.0.0.0 ex.umengcloud.com
 0.0.0.0 direct.adperium.com
 0.0.0.0 mhjk.1391.com
 0.0.0.0 clk.pdb.madserving.com
@@ -15042,6 +15045,7 @@
 0.0.0.0 log.tbs.qq.com
 0.0.0.0 dev.tg.wan.360.cn
 0.0.0.0 www.shouyoutan.com
+0.0.0.0 banneras.admaster.com.cn
 0.0.0.0 tracking06.ad4game.com
 0.0.0.0 vtyqy.admaster.com.cn
 0.0.0.0 hz.miercn.com
