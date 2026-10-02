@@ -1,4 +1,4 @@
-# Update time: 2026-10-02 04:49:14
+# Update time: 2026-10-02 12:18:09
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -90,8 +90,6 @@
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
-||widgets.*.webengage.com^
-||chat*-ce.chatdealer.jp^
 ||adx.
 ||adx-
 ||adsfs.
@@ -214,13 +212,16 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
+||rgfftupf.
 ||orderana*.spankbang.com^
 ||adservice.google.
 ||mcs-normal-*.capcutapi.com^
 ||trace-*.free-reels.com^
+||counter*.stat.ovh^
 ||host*.carl-ras.dk^
 ||collector-*.pxchk.net^
 |load.sst.
+||ads.livetv*.me^
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||log*-normal-*.tiktokv.us^
@@ -360,6 +361,7 @@ analytics-*.aasaam.com
 ||datacollector-*.dt.hicloud.com^
 ||mon-v*-boot.capcutapi.com^
 ||letssex.
+||ad-host-backup-*.aliyuncs.com^
 ||sonar*.xy.fbcdn.net^
 ||cl*.k5a.io^
 ||mcs-*.lemon8-app.us^
@@ -394,6 +396,7 @@ analytics-*.aasaam.com
 ||button.blogs.yandex.
 ||buzzer.xhamster*
 ||attr-logs.*.amazonaws.com^
+||fxhpaoxqyajvmdg.
 ||flurry.agentportal-*.yahoodns.net^
 ||host*.rigbyandpeller.com^
 ||servo-report.keepstreams.*^
@@ -537,6 +540,7 @@ analytics-*.aasaam.com
 ||stats*.videonow.ru^
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
+||reachableads-av.*.amazonaws.com^
 ||ad*.thisisgame.com^
 ||mon-va*.capcutapi.com^
 ||q*-publick.club^
@@ -571,24 +575,6 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||touch.yesim.
 ||v*.sitecounter.site^
-||reachableads-av.*.amazonaws.com^
-||ads*.opensubtitles.org^
-rgmechanicsgames.com*VPN.exe
-||23.109.82.
-||ad-host-backup-*.aliyuncs.com^
-||fapnado.*.php|
-||itechpost.com*adbk
-||rgfftupf.
-@@||cdn*.porn300.com^
-||gamenguide.com*adbk
-||counter*.stat.ovh^
-||158.247.208.
-||ads.livetv*.me^
-||142.91.159.
-|167.206.10.148^
-||23.109.87.
-||fxhpaoxqyajvmdg.
-Banner468x60
 ||pangolin-sdk-toutiao*.com^
 ||collector-*.luigisbox.com^
 ||ping*.qq.com^
@@ -667,6 +653,7 @@ Banner468x60
 ||adsfilebssdlbig.*.kugou.com^
 ||mautic.*.vn^
 ||aj1*.xyz^
+||chat*-ce.chatdealer.jp^
 ||collector-*.px-cloud.net^
 ||log-*.previewnetworks.com^
 ||mads*z.com^
@@ -686,9 +673,8 @@ Banner468x60
 ||aj2*.bid^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
+||widgets.*.webengage.com^
 @@||tongji.*kuwo.cn^
-follow-it-form-subscribe
-page_view_count
 ||icast.
 ||gg.
 ||union.
@@ -701,6 +687,20 @@ page_view_count
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||ads*.opensubtitles.org^
+||gamenguide.com*adbk
+rgmechanicsgames.com*VPN.exe
+||158.247.208.
+||23.109.82.
+||142.91.159.
+|167.206.10.148^
+||fapnado.*.php|
+||23.109.87.
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+Banner468x60
+follow-it-form-subscribe
+page_view_count
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||ub.galaxus.
