@@ -1,4 +1,4 @@
-# Update time: 2026-10-09 05:03:07
+# Update time: 2026-10-09 12:48:10
 # Repo URL: https://github.com/fordes123/adg-rule
 
 0.0.0.0 bn4sch101120911.wns.windows.com
@@ -1572,6 +1572,7 @@
 127.0.0.1 apac-sg-ad-track.aralego.com
 127.0.0.1 centralads.simpli.fi
 127.0.0.1 cm.g.doubleclick.net
+127.0.0.1 clientmetrics-augmentum.kik.com
 127.0.0.1 global.adserver.yahoo.com
 127.0.0.1 api-telemetry.servers.getgo.com
 127.0.0.1 l0-secure.videohub.tv
@@ -2702,6 +2703,7 @@
 127.0.0.1 webanalytics.localytics.com
 127.0.0.1 ipla.hit.stat24.com
 127.0.0.1 r.casalemedia.com.edgekey.net
+127.0.0.1 micpn.com
 127.0.0.1 us.criteo.net
 127.0.0.1 ginf.adfurikun.jp
 127.0.0.1 6384.eu-api.swrve.com
@@ -6798,6 +6800,7 @@
 127.0.0.1 recv-bak-wd.gridsumdissector.com
 127.0.0.1 cdn.braze.eu
 127.0.0.1 fast.mtvn.demdex.net
+127.0.0.1 homedepot.tt.omtrdc.net
 127.0.0.1 a1264.casalemedia.com
 127.0.0.1 config.otherlevels.com
 127.0.0.1 id.sharedid.org
@@ -9367,6 +9370,7 @@
 0.0.0.0 log.ad-locus.com
 0.0.0.0 data.linezing.com
 0.0.0.0 backup.lumion3d.com
+0.0.0.0 imgadpai.thepaper.cn
 0.0.0.0 i.ssix.io
 0.0.0.0 match.prod.bidr.io
 0.0.0.0 pmh.souid.com
@@ -10005,6 +10009,7 @@
 0.0.0.0 livep.l.aiseet.atianqi.com
 0.0.0.0 novelsns.html5.qq.com
 0.0.0.0 stats.feitianma.com
+0.0.0.0 app.xyjqy.com
 0.0.0.0 e.szqifu.com
 0.0.0.0 v2.reachmax.cn
 0.0.0.0 m.jd.watbe.top
@@ -10049,6 +10054,7 @@
 0.0.0.0 s26.cnzz.com
 0.0.0.0 t3.58cdn.com.cn
 0.0.0.0 atm.yoyi.com.cn
+0.0.0.0 stats.propellerads.com
 0.0.0.0 du.jd.com
 0.0.0.0 5yrra.deshuangwang.cn
 0.0.0.0 jump.001union.com
@@ -12309,6 +12315,7 @@
 0.0.0.0 w.waacorp.com
 0.0.0.0 dl.mbsea.com
 0.0.0.0 umeng.com
+0.0.0.0 static.awempire.com
 0.0.0.0 app.3987.com
 0.0.0.0 tracking08.ad4game.com
 0.0.0.0 webd.home.news.cn
@@ -12364,6 +12371,7 @@
 0.0.0.0 sdk.open.phone.igexin.com
 0.0.0.0 sync.1dmp.io
 0.0.0.0 z7.cnzz.com
+0.0.0.0 ex.umengcloud.com
 0.0.0.0 direct.adperium.com
 0.0.0.0 mhjk.1391.com
 0.0.0.0 clk.pdb.madserving.com
@@ -12543,6 +12551,7 @@
 0.0.0.0 geo.gridsumdissector.com
 0.0.0.0 tips.gamevvip.com
 0.0.0.0 analytics.query.yahoo.com
+0.0.0.0 ads-a.juicyads.com
 0.0.0.0 adimg.mobile.sina.cn
 0.0.0.0 m.cuoss.com
 0.0.0.0 static.bmob.cn
@@ -12776,6 +12785,7 @@
 0.0.0.0 jebe.xnimg.cn
 0.0.0.0 ibafnw.cn
 0.0.0.0 s.goodkee.cn
+0.0.0.0 us.y.atwola.com
 0.0.0.0 ggdata1.cnr.cn
 0.0.0.0 j.biquge520.cc
 0.0.0.0 ark.cocounion.com
@@ -13571,6 +13581,7 @@
 0.0.0.0 adspaces.ero-advertising.com
 0.0.0.0 t.channeladvisor.com
 0.0.0.0 mp.sohu.com
+0.0.0.0 ads.feelingtouch.com
 0.0.0.0 aa1.pub.funshion.com
 0.0.0.0 stat.xywy.com
 0.0.0.0 cdn3.icast.cn
@@ -15034,6 +15045,7 @@
 0.0.0.0 log.tbs.qq.com
 0.0.0.0 dev.tg.wan.360.cn
 0.0.0.0 www.shouyoutan.com
+0.0.0.0 banneras.admaster.com.cn
 0.0.0.0 tracking06.ad4game.com
 0.0.0.0 vtyqy.admaster.com.cn
 0.0.0.0 hz.miercn.com
