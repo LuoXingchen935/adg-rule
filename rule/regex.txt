@@ -1,4 +1,4 @@
-# Update time: 2026-10-12 12:34:26
+# Update time: 2026-10-13 01:25:43
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -57,10 +57,12 @@
 ||a*.chajiaotong.com^
 ||bdlm*.hc360.com^
 ||ya*.dwstatic.com^
+||ad*.on.cc^
 ||fpb*.51edu.com^
 ||ja*.gamersky.com^
 ||static*.365inews.com^
 ||ysdm*.ys137.com.cn^
+||tw-726620180914.*.run.app^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||adi*.cnool.net^
 ||same*.stockstar.com^
@@ -71,6 +73,7 @@
 ||ax.*.ifeng.com^
 ||js*.abolezi.com^
 ||sam*.baby-kingdom.com^
+||zbb.bbb.*.pics^
 ||union*.365inews.com^
 ||adx.
 ||adx-
@@ -137,7 +140,6 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-||widgets.*.webengage.com^
 ||da.hornbach.*^
 ||dm-*.toutiao.com^
 ||adsystem*.*^
@@ -386,7 +388,6 @@ analytics-*.aasaam.com
 ||buzzer.xhamster*
 ||attr-logs.*.amazonaws.com^
 ||fxhpaoxqyajvmdg.
-||zbb.bbb.*.pics^
 ||flurry.agentportal-*.yahoodns.net^
 ||host*.rigbyandpeller.com^
 ||servo-report.keepstreams.*^
@@ -405,7 +406,6 @@ analytics-*.aasaam.com
 ||analytics-*-nfl.yinzcam.com^
 ||xlog*-*.tiktokv.com^
 ||sdk-*.moengage.com^
-||ad*.on.cc^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||stats.*.ronghub.com^
 ||rtlog*.tiktokv.us^
@@ -475,6 +475,7 @@ analytics-*.aasaam.com
 ||adimg*.search.naver.net^
 ||log*.zijieapi.com^
 ||icq-window.
+||sw.vidmoly.
 ||log*.aliyuncs.com^
 ||icqwindow.
 ||geoloc*.geovisite.ovh^
@@ -507,7 +508,6 @@ analytics-*.aasaam.com
 ||ulog.*.kwai-pro.com^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||appanalysis*.banggood.com^
-||tw-726620180914.*.run.app^
 ||rotaban.
 ||maas-*.phunware.com^
 ||applog*.matrix.easebar.com^
@@ -559,7 +559,6 @@ analytics-*.aasaam.com
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||stat.tiara.
-||quangcao-*.epicdn.me^
 ||rotator.
 ||pixel-*.convertagain.net^
 ||analytics*.prezly.com^
@@ -619,6 +618,7 @@ analytics-*.aasaam.com
 ||ulog*.*^
 ||mcdp-*.outbrain.com^
 ||prod.*.analytics.console.aws.a2z.com^
+||analytics.*.adjust.com^
 ||bjkedv*.xyz^
 ||matomo.*.vn^
 ||p26.gejulm*.com^
@@ -660,6 +660,7 @@ analytics-*.aasaam.com
 ||ad.*.360.cn^
 ||fads*s.com^
 ||log*-normal-lq.toutiaoapi.com^
+||quangcao-*.epicdn.me^
 ||aem-collector-*.kgslb.com^
 ||collector-*.protechts.net^
 ||analytics-ad-*.kgslb.com^
@@ -667,12 +668,6 @@ analytics-*.aasaam.com
 ||aj2*.bid^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
-@@||tongji.*kuwo.cn^
-<p><pre>
-<title>
-<html>
-<head>
-<body>
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||ubta.tracking.shopee.
@@ -689,20 +684,6 @@ analytics-*.aasaam.com
 ||analytics.ticketmaster.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-follow-it-form-subscribe
-page_view_count
-||ads*.opensubtitles.org^
-||gamenguide.com*adbk
-rgmechanicsgames.com*VPN.exe
-||158.247.208.
-||23.109.82.
-||142.91.159.
-|167.206.10.148^
-||fapnado.*.php|
-||23.109.87.
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-Banner468x60
 ||icast.
 ||gg.
 ||union.
@@ -715,4 +696,24 @@ Banner468x60
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||sw.vidmoly.
+@@||tongji.*kuwo.cn^
+||widgets.*.webengage.com^
+||ads*.opensubtitles.org^
+||gamenguide.com*adbk
+rgmechanicsgames.com*VPN.exe
+||158.247.208.
+||23.109.82.
+||142.91.159.
+|167.206.10.148^
+||fapnado.*.php|
+||23.109.87.
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+Banner468x60
+follow-it-form-subscribe
+page_view_count
+<p><pre>
+<title>
+<html>
+<head>
+<body>
