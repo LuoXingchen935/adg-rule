@@ -1,4 +1,4 @@
-# Update time: 2026-10-20 11:37:38
+# Update time: 2026-10-20 21:21:46
 # Repo URL: https://github.com/fordes123/adg-rule
 
 127.0.0.1 app-lon06.marketo.com
@@ -9371,6 +9371,7 @@
 0.0.0.0 log.ad-locus.com
 0.0.0.0 data.linezing.com
 0.0.0.0 backup.lumion3d.com
+0.0.0.0 imgadpai.thepaper.cn
 0.0.0.0 i.ssix.io
 0.0.0.0 match.prod.bidr.io
 0.0.0.0 pmh.souid.com
@@ -12291,6 +12292,7 @@
 0.0.0.0 d5nxst8fruw4z.cloudfront.net
 0.0.0.0 rcv.jesgoo.com
 0.0.0.0 static.zctx8.com
+0.0.0.0 cnf.adbana.com
 0.0.0.0 ck.houyi.baofeng.net
 0.0.0.0 asia.marketo.com
 0.0.0.0 pages.juxiao.mediav.com
