@@ -1,4 +1,4 @@
-# Update time: 2026-11-01 22:45:57
+# Update time: 2026-11-02 04:13:46
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -47,8 +47,6 @@
 ||banner.*.tccapis.com^
 ||cdn-adn-*.rayjump.com^
 ||adcs-*.myappsget.com^
-||widgets.*.webengage.com^
-||chat*-ce.chatdealer.jp^
 ||sax*.sina.
 ||bdcpro*.techweb.com.cn^
 ||uc*.atobo.com^
@@ -82,6 +80,8 @@
 ||zbb.bbb.*.pics^
 ||qpb*.sohu.com^
 ||union*.365inews.com^
+||widgets.*.webengage.com^
+||chat*-ce.chatdealer.jp^
 ||adx.
 ||adx-
 ||adsfs.
@@ -328,7 +328,6 @@ analytics-*.aasaam.com
 ||rusrestbest.
 ||install*.zonastat.com^
 ||v.newsportal*.ru^
-||get-me-wow.
 ||ubt.tracking.shopee.
 ||as*.prog.hu^
 ||cnt.tubeon.
@@ -352,6 +351,7 @@ analytics-*.aasaam.com
 |piwik.
 ||datacollector-*.dt.hicloud.com^
 ||mon-v*-boot.capcutapi.com^
+||piwik.*.vn^
 ||letssex.
 ||ad-host-backup-*.aliyuncs.com^
 ||sonar*.xy.fbcdn.net^
@@ -561,6 +561,7 @@ analytics-*.aasaam.com
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||stat.tiara.
+||quangcao-*.epicdn.me^
 ||rotator.
 ||pixel-*.convertagain.net^
 ||analytics*.prezly.com^
@@ -570,6 +571,19 @@ analytics-*.aasaam.com
 ||touch.yesim.
 ||v*.sitecounter.site^
 @@||tongji.*kuwo.cn^
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||23.109.82.
+||get-me-wow.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+||gamenguide.com*adbk
+||158.247.208.
+||142.91.159.
+|167.206.10.148^
+||23.109.87.
+Banner468x60
 ||icast.
 ||gg.
 ||union.
@@ -582,41 +596,6 @@ analytics-*.aasaam.com
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||ads*.opensubtitles.org^
-||gamenguide.com*adbk
-rgmechanicsgames.com*VPN.exe
-||158.247.208.
-||23.109.82.
-||142.91.159.
-|167.206.10.148^
-||fapnado.*.php|
-||23.109.87.
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-Banner468x60
-||stw.extreme-down.
-||matt.mercadolibre.
-||ubta.tracking.shopee.
-||ub.galaxus.
-||sst.carwow.
-%2Fopen.aspx%3F
-||stats.zone-annuaire.
-||df.infra.sz.shopee.
-%2Frw%2Fbeacon_
-||mr.allegro.
-||sta.zone-telechargement.
-||sta.wawacity.
-||aviasales.*-analytics.
-||analytics.ticketmaster.
-%2Fevent.gif%3F
-||df.infra.shopee.
-follow-it-form-subscribe
-page_view_count
-<p><pre>
-<title>
-<html>
-<head>
-<body>
 ||pangolin-sdk-toutiao*.com^
 ||collector-*.luigisbox.com^
 ||ping*.qq.com^
@@ -693,7 +672,6 @@ page_view_count
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
 ||n*adserv.xyz^
-||piwik.*.vn^
 ||adsfilebssdlbig.*.kugou.com^
 ||mautic.*.vn^
 ||aj1*.xyz^
@@ -708,7 +686,6 @@ page_view_count
 ||ad.*.360.cn^
 ||fads*s.com^
 ||log*-normal-lq.toutiaoapi.com^
-||quangcao-*.epicdn.me^
 ||aem-collector-*.kgslb.com^
 ||collector-*.protechts.net^
 ||analytics-ad-*.kgslb.com^
@@ -716,3 +693,26 @@ page_view_count
 ||aj2*.bid^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
+||stw.extreme-down.
+||matt.mercadolibre.
+||ubta.tracking.shopee.
+||ub.galaxus.
+||sst.carwow.
+%2Fopen.aspx%3F
+||stats.zone-annuaire.
+||df.infra.sz.shopee.
+%2Frw%2Fbeacon_
+||mr.allegro.
+||sta.zone-telechargement.
+||sta.wawacity.
+||aviasales.*-analytics.
+||analytics.ticketmaster.
+%2Fevent.gif%3F
+||df.infra.shopee.
+follow-it-form-subscribe
+page_view_count
+<p><pre>
+<title>
+<html>
+<head>
+<body>
