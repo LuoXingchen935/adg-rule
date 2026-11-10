@@ -1,4 +1,4 @@
-# Update time: 2026-11-10 14:07:03
+# Update time: 2026-11-11 00:07:10
 # Repo URL: https://github.com/fordes123/adg-rule
 
 127.0.0.1 app-lon06.marketo.com
@@ -8652,7 +8652,6 @@
 0.0.0.0 s26.cnzz.com
 0.0.0.0 t3.58cdn.com.cn
 0.0.0.0 atm.yoyi.com.cn
-0.0.0.0 stats.propellerads.com
 0.0.0.0 du.jd.com
 0.0.0.0 5yrra.deshuangwang.cn
 0.0.0.0 jump.001union.com
@@ -9556,7 +9555,6 @@
 0.0.0.0 interest.mix.sina.com.cn
 0.0.0.0 cz75pw.kl0ru78.xyz
 0.0.0.0 wxr.kebi1.top
-0.0.0.0 pp.lbsjrw.cn
 0.0.0.0 www.56yk.com
 0.0.0.0 api.iimedia.cn
 0.0.0.0 www.716703.com
@@ -11150,7 +11148,6 @@
 0.0.0.0 geo.gridsumdissector.com
 0.0.0.0 tips.gamevvip.com
 0.0.0.0 analytics.query.yahoo.com
-0.0.0.0 ads-a.juicyads.com
 0.0.0.0 adimg.mobile.sina.cn
 0.0.0.0 m.cuoss.com
 0.0.0.0 static.bmob.cn
@@ -11384,6 +11381,7 @@
 0.0.0.0 jebe.xnimg.cn
 0.0.0.0 ibafnw.cn
 0.0.0.0 s.goodkee.cn
+0.0.0.0 us.y.atwola.com
 0.0.0.0 ggdata1.cnr.cn
 0.0.0.0 j.biquge520.cc
 0.0.0.0 ark.cocounion.com
