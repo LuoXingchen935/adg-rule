@@ -1,4 +1,4 @@
-# Update time: 2026-11-15 04:26:57
+# Update time: 2026-11-15 13:00:40
 # Repo URL: https://github.com/fordes123/adg-rule
 
 ||ads-*-nfl.yinzcam.com^
@@ -80,6 +80,7 @@
 ||qpb*.sohu.com^
 ||union*.365inews.com^
 ||widgets.*.webengage.com^
+||chat*-ce.chatdealer.jp^
 ||adx.
 ||adx-
 ||adsfs.
@@ -194,6 +195,21 @@ advertisers.js|
 ||qchannel*.cn^
 ||tracker*.qcloud.com^
 ||adwords*.*^
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||23.109.82.
+||get-me-wow.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+||gamenguide.com*adbk
+||158.247.208.
+||util-*.simply-hentai.com^
+||142.91.159.
+||allsportsflix.
+|167.206.10.148^
+||23.109.87.
+Banner468x60
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
@@ -215,7 +231,6 @@ analytics-*.aasaam.com
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||log*-normal-*.tiktokv.us^
-||allsportsflix.
 ||hw-sh-pcdn-*.biliapi.net^
 ||prebid-*.rubiconproject.com^
 ||faro-collector-prod-*.grafana.net^
@@ -326,7 +341,6 @@ analytics-*.aasaam.com
 ||rusrestbest.
 ||install*.zonastat.com^
 ||v.newsportal*.ru^
-||get-me-wow.
 ||ubt.tracking.shopee.
 ||as*.prog.hu^
 ||cnt.tubeon.
@@ -358,7 +372,6 @@ analytics-*.aasaam.com
 ||analytics.ahrefs.
 ||discovery-ios-*.ertelecom.ru^
 ||s*.adduplex.com^
-||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||adserver1.
 ||collector-*.tvsquared.com^
@@ -567,6 +580,18 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||touch.yesim.
 ||v*.sitecounter.site^
+||icast.
+||gg.
+||union.
+||adpic.
+||cnzz.
+||sax.sina.
+||biz5.
+||xmindchina.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
 ||pangolin-sdk-toutiao*.com^
 ||collector-*.luigisbox.com^
 ||ping*.qq.com^
@@ -644,11 +669,9 @@ analytics-*.aasaam.com
 ||zaqlovh*.xyz^
 ||n*adserv.xyz^
 ||piwik.*.vn^
-||logger-*.dailymotion.com^
 ||adsfilebssdlbig.*.kugou.com^
 ||mautic.*.vn^
 ||aj1*.xyz^
-||chat*-ce.chatdealer.jp^
 ||collector-*.px-cloud.net^
 ||log-*.previewnetworks.com^
 ||mads*z.com^
@@ -668,33 +691,11 @@ analytics-*.aasaam.com
 ||aj2*.bid^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
-@@||tongji.*kuwo.cn^
-||icast.
-||gg.
-||union.
-||adpic.
-||cnzz.
-||sax.sina.
-||biz5.
-||xmindchina.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
-||ads*.opensubtitles.org^
-||gamenguide.com*adbk
-rgmechanicsgames.com*VPN.exe
-||158.247.208.
-||23.109.82.
-||142.91.159.
-|167.206.10.148^
-||fapnado.*.php|
-||23.109.87.
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-Banner468x60
-follow-it-form-subscribe
-page_view_count
+<p><pre>
+<title>
+<html>
+<head>
+<body>
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||ubta.tracking.shopee.
@@ -711,8 +712,6 @@ page_view_count
 ||analytics.ticketmaster.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-<p><pre>
-<title>
-<html>
-<head>
-<body>
+follow-it-form-subscribe
+page_view_count
+@@||tongji.*kuwo.cn^
